@@ -39,29 +39,22 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.lineageos.eleven"
+        applicationId 'com.lopez05656.eleven'
 
-        minSdkVersion 26
-        targetSdkVersion 29
+        minSdkVersion 24
+        targetSdkVersion 28
 
-        versionCode 3
-        versionName '3.0'
+        versionCode 503
+        versionName '5.3'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {
-        debug {
-            applicationIdSuffix ".dev"
-
-            debuggable true
-            minifyEnabled false
-            shrinkResources false
-            zipAlignEnabled false
-        }
         debugProguard {
-            applicationIdSuffix ".dev"
+            applicationIdSuffix ""
 
             debuggable true
             proguardFiles 'proguard.cfg', 'proguard-debug.cfg'
@@ -76,6 +69,8 @@ android {
             shrinkResources true
             zipAlignEnabled true
         }
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
     }
 
     dexOptions {
@@ -118,6 +113,7 @@ android {
             resources.srcDirs = ['res']
         }
     }
+    buildToolsVersion = '29.0.2'
 }
 
 dependencies {
@@ -126,6 +122,6 @@ dependencies {
     implementation 'androidx.core:core:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.palette:palette:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
 

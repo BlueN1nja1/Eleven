@@ -1,0 +1,4 @@
+#Thu Jan 30 17:23:33 EST 2020
+base.0=C\:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

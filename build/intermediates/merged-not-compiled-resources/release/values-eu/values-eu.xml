@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">Abesti <ns1:g example="1" id="songs_to_delete">%d</ns1:g>  ezabatu da.</item>
+        <item quantity="other"><ns1:g id="songs_to_delete">%d</ns1:g> abesti ezabatu dira.</item>
+    </plurals>
+    <plurals name="NNNtracksfromplaylist">
+        <item quantity="one">Abesti <ns1:g example="1" id="number">%d</ns1:g> zerrendatik kendu da.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> abesti kendu dira zerrendatik.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="one">Abesti <ns1:g example="1" id="number">%d</ns1:g> gehitu da gogokoetara.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> abesti bat gehitu dira gogokoetara.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">Abesti <ns1:g example="1" id="number">%d</ns1:g> gehitu da zerrendara.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> abesti gehitu dira zerrendara.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="one">Abesti <ns1:g example="1" id="number">%d</ns1:g> gehitu da ilarara.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> abesti gehitu dira ilarara.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">Album <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> album</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="one">Artista <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> artista</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="one">Genero <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> genero</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one"><ns1:g id="hours">%d</ns1:g>o</item>
+        <item quantity="other"><ns1:g id="hours">%d</ns1:g>o</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one"><ns1:g id="minutes">%d</ns1:g>m</item>
+        <item quantity="other"><ns1:g id="minutes">%d</ns1:g>m</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="one">Abesti <ns1:g id="count">%d</ns1:g></item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> abesti</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Joan orri nagusira"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Joan gora"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Aukera gehiago"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Eginda"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Ikusi guztiak"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Aukeratu aplikazio bat"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"DESAKTIBATU"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"AKTIBATU"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ktrl +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ezabatu"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"sartu"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funtzioa +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Maius +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"zuriunea"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menua +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Bilatu…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Garbitu kontsulta"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Bilaketa-kontsulta"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Bilatu"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Bidali kontsulta"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Ahozko bilaketa"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Partekatu honekin"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Partekatu <ns1:g id="APPLICATION_NAME">%s</ns1:g> aplikazioarekin"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Tolestu"</string>
+    <string name="accessibility_browse">Arakatu musika</string>
+    <string name="accessibility_next">Hurrengoa</string>
+    <string name="accessibility_pause">Pausatu</string>
+    <string name="accessibility_play">Erreproduzitu</string>
+    <string name="accessibility_prev">Aurrekoa</string>
+    <string name="accessibility_queue">Ireki ilara</string>
+    <string name="accessibility_repeat">Errepikatu</string>
+    <string name="accessibility_repeat_all">Errepikatu guztiak</string>
+    <string name="accessibility_repeat_one">Errepikatu bat</string>
+    <string name="accessibility_shuffle">Nahastu</string>
+    <string name="accessibility_shuffle_all">Nahastu guztiak</string>
+    <string name="add_to_playlist">Gehitu erreprodukzio zerrendara</string>
+    <string name="add_to_queue">Gehitu ilarara</string>
+    <string name="app_name">Musika</string>
+    <string name="app_widget_large">Musika: 4 \u00d7 2</string>
+    <string name="app_widget_large_alt">Musika: 4 \u00d7 2 (txandakatu)</string>
+    <string name="app_widget_recent">Musika: berriki entzundakoak</string>
+    <string name="app_widget_small">Musika: 4 \u00d7 1</string>
+    <string name="cancel">Utzi</string>
+    <string name="cannot_be_undone">Hau ezin da desegin</string>
+    <string name="channel_music">Musika erreprodukzioa</string>
+    <string name="clear">Garbitu</string>
+    <string name="clear_last_added">Garbitu gehitutako azkenak?</string>
+    <string name="clear_recent_title">Garbitu berriki entzundakoak?</string>
+    <string name="clear_top_tracks_title">Garbitu gehien entzundakoak?</string>
+    <string name="context_menu_change_image">Aldatu irudia</string>
+    <string name="context_menu_delete">Ezabatu</string>
+    <string name="context_menu_fetch_album_art">Eskuratu albumaren karatula</string>
+    <string name="context_menu_fetch_artist_image">Eskuratu artistaren argazkia</string>
+    <string name="context_menu_more_by_artist">Artistaren abestiak</string>
+    <string name="context_menu_play_album">Erreproduzitu albuma</string>
+    <string name="context_menu_play_next">Erreproduzitu hurrengoa</string>
+    <string name="context_menu_play_selection">Erreproduzitu</string>
+    <string name="context_menu_remove_from_playlist">Kendu erreprodukzio-zerrendatik</string>
+    <string name="context_menu_remove_from_recent">Kendu azkenetatik</string>
+    <string name="context_menu_rename_playlist">Aldatu izena</string>
+    <string name="context_menu_use_as_ringtone">Erabili dei doinu gisa</string>
+    <string name="create_playlist_prompt">Zerrendaren izena</string>
+    <string name="delete_dialog_title">Ezabatu <ns1:g example="album" id="item">%s</ns1:g>?</string>
+    <string name="delete_warning">Honek cachean gordetako irudi guztiak behin betiko ezabatuko ditu</string>
+    <string name="duration_format"><ns1:g id="hours">%1$s</ns1:g> <ns1:g id="minutes">%2$s</ns1:g></string>
+    <string name="empty_favorite">Gogoko gisa markatutako abestiak hemen agertuko dira.</string>
+    <string name="empty_generic_main">Ez da musikarik aurkitu</string>
+    <string name="empty_generic_secondary">Musika ordenagailutik gailura kopiatzeko erabili USB kablea.</string>
+    <string name="empty_last_added">Azken hilabetean gehituriko abestiak hemen agertuko dira.</string>
+    <string name="empty_last_added_main">Ez da abestirik gehitu berriki</string>
+    <string name="empty_music">Musika ordenagailutik gailura kopiatzeko erabili USB kablea.</string>
+    <string name="empty_playlist_main">Ez dago abestirik erreprodukzio-zerrendan</string>
+    <string name="empty_playlist_secondary">Abestiak erreprodukzio-zerrendara gehitzeko, sakatu abesti, album edo artista baten aukeren menuan eta hautatu \"Gehitu erreprodukzio-zerrendara\".</string>
+    <string name="empty_queue_main">Ez dago abestirik erreprodukzio-zerrendan</string>
+    <string name="empty_queue_secondary">Abestiak erreprodukzio-zerrendara gehitzeko, sakatu abesti, album edo artista bat eta hautatu \"Gehitu ilarara\".</string>
+    <string name="empty_recent">Berriki entzun dituzun abestiak hemen agertuko dira.</string>
+    <string name="empty_recent_main">Ez dago berriki entzundako abestirik</string>
+    <string name="empty_search">Ez da bilaketaren emaitzarik aurkitu</string>
+    <string name="empty_search_check">Egiaztatu ondo idatzi duzula edo saiatu beste hitz gako batekin.</string>
+    <string name="empty_top_tracks_main">Ez dago gehien entzundako abestirik</string>
+    <string name="empty_top_tracks_secondary">Sarri entzuten dituzun abestiak zerrenda honetara gehituko dira.</string>
+    <string name="error_playing_track">Ezin izan da %1$s. pista erreproduzitu</string>
+    <string name="footer_search_albums">Erakutsi album guztiak</string>
+    <string name="footer_search_artists">Erakutsi artista guztiak</string>
+    <string name="footer_search_playlists">Erakutsi erreprodukzio-zerrenda guztiak</string>
+    <string name="footer_search_songs">Erakutsi abesti guztiak</string>
+    <string name="google_search">Google bilaketa</string>
+    <string name="header_10_plus_songs">10+ abesti</string>
+    <string name="header_10_to_30_minutes">10 - 30 minutu</string>
+    <string name="header_1_song">Abesti 1</string>
+    <string name="header_1_to_2_minutes">1 - 2 minutu</string>
+    <string name="header_2_to_3_minutes">2 - 3 minutu</string>
+    <string name="header_2_to_4_songs">2 - 4 abesti</string>
+    <string name="header_30_to_60_minutes">30 - 60 minutu</string>
+    <string name="header_30_to_60_seconds">30 - 60 segundo</string>
+    <string name="header_3_to_4_minutes">3 - 4 minutu</string>
+    <string name="header_4_to_5_minutes">4 - 5 minutu</string>
+    <string name="header_5_plus_albums">5+ album</string>
+    <string name="header_5_to_10_minutes">5 - 10 minutu</string>
+    <string name="header_5_to_9_songs">5 - 9 abesti</string>
+    <string name="header_albums">Albumak</string>
+    <string name="header_all_songs">Abesti guztiak</string>
+    <string name="header_greater_than_60_minutes">60 minutu baino gehiago</string>
+    <string name="header_less_than_30s">30 segundo baino gutxiago</string>
+    <string name="header_other">"Beste batzuk"</string>
+    <string name="header_top_songs">Gehien entzundako abestiak</string>
+    <string name="header_unknown_year">Urte ezezaguna</string>
+    <string name="menu_clear_list">Garbitu zerrenda</string>
+    <string name="menu_clear_queue">Garbitu ilara</string>
+    <string name="menu_clear_recents">Garbitu azkenak</string>
+    <string name="menu_equalizer">Ekualizadorea</string>
+    <string name="menu_play_all">Erreproduzitu guztiak</string>
+    <string name="menu_save_queue">Gorde ilara erreprodukzio-zerrenda gisa</string>
+    <string name="menu_search">Bilatu</string>
+    <string name="menu_settings">Ezarpenak</string>
+    <string name="menu_shuffle_album">Nahastu albuma</string>
+    <string name="menu_shuffle_all">Nahastu guztiak</string>
+    <string name="menu_shuffle_artist">Nahastu artista</string>
+    <string name="menu_shuffle_item">Nahastu</string>
+    <string name="menu_shuffle_last_added">Nahastu berriki gehitutakoak</string>
+    <string name="menu_shuffle_playlist">Nahastu erreprodukzio-zerrenda</string>
+    <string name="menu_shuffle_recent">Nahastu berriki entzundakoak</string>
+    <string name="menu_shuffle_top_tracks">Nahastu gehien entzundakoak</string>
+    <string name="menu_sort_by">Ordenatu honela</string>
+    <string name="new_photo">Hautatu galeriako argazkia</string>
+    <string name="new_playlist">Zerrenda berria</string>
+    <string name="new_playlist_name_template"><ns1:g id="number">%d</ns1:g> zerrenda</string>
+    <string name="no_effects_for_you">Ezin izan da ekualizadorea ireki.</string>
+    <string name="old_photo">Erabili aurreko irudia</string>
+    <string name="overwrite">Gainidatzi</string>
+    <string name="page_albums">Albumak</string>
+    <string name="page_artists">Artistak</string>
+    <string name="page_genres">Generoak</string>
+    <string name="page_now_playing">Orain erreproduzitzen</string>
+    <string name="page_play_queue">Erreproduzitu ilara</string>
+    <string name="page_playlists">Zerrendak</string>
+    <string name="page_recent">Azkenak</string>
+    <string name="page_songs">Abestiak</string>
+    <string name="playlist_last_added">Berriki gehituak</string>
+    <string name="playlist_recently_played">Berriki erreproduzitua</string>
+    <string name="playlist_renamed">Erreprodukzio zerrendaren izena aldatu da</string>
+    <string name="playlist_top_tracks">Sarri entzundakoak</string>
+    <string name="remove_from_queue">Kendu Ilaratik</string>
+    <string name="remove_from_recent">Kendu azkenetatik</string>
+    <string name="save">Gorde</string>
+    <string name="searchHint">Bilatu musika</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Bilatu"</string>
+    <string name="search_title_albums">\"%s\" album guztiak</string>
+    <string name="search_title_artists">\"%s\" artista guztiak</string>
+    <string name="search_title_playlists">\"%s\" erreprodukzio-zerrenda guztiak</string>
+    <string name="search_title_songs">\"%s\" abesti guztiak</string>
+    <string name="set_as_ringtone">\'<ns1:g example="Alarm Bell" id="name">%s</ns1:g>\' dei doinu bezala ezarri da</string>
+    <string name="settings_data_category">Datuak</string>
+    <string name="settings_delete_cache_summary">Ezabatu cachean gordetako irudi guztiak</string>
+    <string name="settings_delete_cache_title">Ezabatu cachea</string>
+    <string name="settings_download_artist_images_title">Deskargatu falta diren artisten argazkiak</string>
+    <string name="settings_download_missing_artwork_title">Deskargatu falta diren karatulak</string>
+    <string name="settings_download_only_on_wifi_summary">Ez deskargatu datu mugikorren bidez operadorearen zordunketa murrizteko</string>
+    <string name="settings_download_only_on_wifi_title">Deskargatu Wi-Fi bidez soilik</string>
+    <string name="settings_general_category">Orokorra</string>
+    <string name="settings_lockscreen_album_art">Blokeo-pantailako karatulak</string>
+    <string name="settings_lockscreen_album_art_summary">Ordeztu blokeo-pantailako atzealdea karatulekin</string>
+    <string name="settings_shake_to_play">Astindu erreproduzitzeko</string>
+    <string name="settings_shake_to_play_summary">Astindu zure gailua hurrengo abestia erreproduzitzeko</string>
+    <string name="settings_show_lyrics_summary">str fitxategia duten abestientzat</string>
+    <string name="settings_show_lyrics_title">Erakutsi abestien letrak</string>
+    <string name="settings_show_music_visualization_title">Erakutsi musika irudikatzea</string>
+    <string name="settings_storage_category">Biltegiratzea</string>
+    <string name="settings_ui_category">Interfazea</string>
+    <string name="sort_order_entry_album">Albuma</string>
+    <string name="sort_order_entry_artist">Artista</string>
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_date_added">Gehitze data</string>
+    <string name="sort_order_entry_duration">Iraupena</string>
+    <string name="sort_order_entry_filename">Fitxategi izena</string>
+    <string name="sort_order_entry_number_of_albums">Album kopurua</string>
+    <string name="sort_order_entry_number_of_songs">Abesti kopurua</string>
+    <string name="sort_order_entry_track_list">Pista zerrenda</string>
+    <string name="sort_order_entry_year">Urtea</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="use_default">Erabili argazki lehenetsia</string>
+</resources>

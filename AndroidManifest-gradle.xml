@@ -17,8 +17,8 @@
  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.lineageos.eleven"
-    android:versionCode="3"
-    android:versionName="3.0">
+    android:versionCode="503"
+    android:versionName="5.3">
 
     <!-- Used for caching and creating new playlists -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -118,6 +118,7 @@
         <!-- Used to set options -->
         <activity
             android:name="org.lineageos.eleven.ui.activities.SettingsActivity"
+            android:theme="@style/MTSettings"
             android:label="@string/menu_settings"/>
         <!-- Audio Preview -->
         <activity

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> lugu kustutatud.</item>
+        <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> lugu kustutatud.</item>
+    </plurals>
+    <plurals name="NNNtracksfromplaylist">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> lugu eemaldatud esitlusloendist.</item>
+        <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> lugu eemaldatud esitlusloendist.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> lugu lisatud lemmikutesse.</item>
+        <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> lugu lisatud lemmikutesse.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> lugu lisatud esitlusloendisse.</item>
+        <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> lugu lisatud esitlusloendisse.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> lugu lisatud esitlusjärjekorda.</item>
+        <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> lugu lisatud esitlusjärjekorda.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> album</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> albumit</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> esitaja</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> esitajad</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> žanr</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> žanri</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one"><ns1:g id="hours">%d</ns1:g>h</item>
+        <item quantity="other"><ns1:g id="hours">%d</ns1:g>h</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one"><ns1:g id="minutes">%d</ns1:g>m</item>
+        <item quantity="other"><ns1:g id="minutes">%d</ns1:g>m</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> lugu</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> lugu</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Liigu avalehele"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Liigu üles"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Rohkem valikuid"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Kuva kõik"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Valige rakendus"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"VÄLJAS"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"SEES"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"kustuta"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"sisestusklahv"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funktsiooniklahv +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Tõstuklahv +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"tühik"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menüü +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Otsige …"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Päringu tühistamine"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Otsingupäring"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Otsing"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Päringu esitamine"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Häälotsing"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Jaga:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Jagamine rakendusega <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Ahendamine"</string>
+    <string name="accessibility_browse">Sirvi muusikat</string>
+    <string name="accessibility_next">Järgmine</string>
+    <string name="accessibility_pause">Paus</string>
+    <string name="accessibility_play">Esita</string>
+    <string name="accessibility_prev">Eelmine</string>
+    <string name="accessibility_queue">Ava järjekord</string>
+    <string name="accessibility_repeat">Korda</string>
+    <string name="accessibility_repeat_all">Korda kõiki</string>
+    <string name="accessibility_repeat_one">Korda ühte</string>
+    <string name="accessibility_shuffle">Juhuesitus</string>
+    <string name="accessibility_shuffle_all">Juhuesita kõik</string>
+    <string name="add_to_playlist">Lisa esitusloendisse</string>
+    <string name="add_to_queue">Lisa järjekorda</string>
+    <string name="app_name">Muusika</string>
+    <string name="app_widget_large">Muusika: 4 \u00d7 2</string>
+    <string name="app_widget_large_alt">Muusika: 4 \u00d7 2 (alternatiiv)</string>
+    <string name="app_widget_recent">Muusika: hiljuti kuulatud</string>
+    <string name="app_widget_small">Muusika: 4 \u00d7 1</string>
+    <string name="cancel">Tühista</string>
+    <string name="cannot_be_undone">Seda ei saa tagasi võtta</string>
+    <string name="channel_music">Muusika taasesitus</string>
+    <string name="clear">Eemalda</string>
+    <string name="clear_last_added">Eemaldada viimati lisatud?</string>
+    <string name="clear_recent_title">Eemaldada hiljuti mängitud?</string>
+    <string name="clear_top_tracks_title">Eemaldada top laulud?</string>
+    <string name="context_menu_change_image">Muuda pilti</string>
+    <string name="context_menu_delete">Kustuta</string>
+    <string name="context_menu_fetch_album_art">Lae albumipildid</string>
+    <string name="context_menu_fetch_artist_image">Lae artisti pilt</string>
+    <string name="context_menu_more_by_artist">Rohkem esitaja kohta</string>
+    <string name="context_menu_play_album">Esita album</string>
+    <string name="context_menu_play_next">Esita järgmine</string>
+    <string name="context_menu_play_selection">Esita</string>
+    <string name="context_menu_remove_from_playlist">Eemalda esitusloendist</string>
+    <string name="context_menu_remove_from_recent">Eemalda hiljutistest</string>
+    <string name="context_menu_rename_playlist">Nimeta ümber</string>
+    <string name="context_menu_use_as_ringtone">Kasuta telefoni helinana</string>
+    <string name="create_playlist_prompt">Esitusloendi nimi</string>
+    <string name="delete_dialog_title">Kustuta <ns1:g example="album" id="item">%s</ns1:g>?</string>
+    <string name="delete_warning">See toiming kustutab puhverdatud pildid alatiseks</string>
+    <string name="duration_format"><ns1:g id="hours">%1$s</ns1:g> <ns1:g id="minutes">%2$s</ns1:g></string>
+    <string name="empty_favorite">Lemmikuteks märgitud laulud kuvatakse siin.</string>
+    <string name="empty_generic_main">Muusikat ei leitud</string>
+    <string name="empty_generic_secondary">Et kopeerida muusikat arvutist seadmesse, kasuta USB-kaablit.</string>
+    <string name="empty_last_added">Viimase kuu jooksul lisatud laulud kuvatakse siin.</string>
+    <string name="empty_last_added_main">Hiljuti ei ole lisatud ühtegi laulu</string>
+    <string name="empty_music">Et kopeerida muusikat arvutist seadmesse, kasuta USB-kaablit.</string>
+    <string name="empty_playlist_main">Esitlusloendis puuduvad laulud</string>
+    <string name="empty_playlist_secondary">Lugude lisamiseks käesolevasse esitlusnimekirja, koputa laulu, albumi või artisti lisavalikute menüül ja vali \"Lisa esitlusloendisse\".</string>
+    <string name="empty_queue_main">Esitlusjärjekorras ei ole ühtegi laulu</string>
+    <string name="empty_queue_secondary">Lugude lisamiseks esitlusjärjekorda, koputa laulu, albumi või artisti lisavalikute menüül ja vali \"Lisa järjekorda\".</string>
+    <string name="empty_recent">Hiljuti kuulatud laulud kuvatakse siin.</string>
+    <string name="empty_recent_main">Puuduvad hiljutised laulud</string>
+    <string name="empty_search">Otsing ei andnud tulemusi</string>
+    <string name="empty_search_check">Palun kontrollige, kas teil on õige kirjaviis või proovige mõnda teist märksõna.</string>
+    <string name="empty_top_tracks_main">Ei ole top laule</string>
+    <string name="empty_top_tracks_secondary">Enim kuulatud laulid lisatakse siia loendisse.</string>
+    <string name="error_playing_track">Ei saa mängida laulu %1$s</string>
+    <string name="footer_search_albums">Kuva kõik albumid</string>
+    <string name="footer_search_artists">Kuva kõik esitajad</string>
+    <string name="footer_search_playlists">Kuva kõik esitusloendid</string>
+    <string name="footer_search_songs">Kuva kõik laulud</string>
+    <string name="google_search">Google\'i otsing</string>
+    <string name="header_10_plus_songs">10+ laulu</string>
+    <string name="header_10_to_30_minutes">10 - 30 minutit</string>
+    <string name="header_1_song">1 laul</string>
+    <string name="header_1_to_2_minutes">1 - 2 minutit</string>
+    <string name="header_2_to_3_minutes">2 - 3 minutit</string>
+    <string name="header_2_to_4_songs">2 - 4 laulu</string>
+    <string name="header_30_to_60_minutes">30 - 60 minutit</string>
+    <string name="header_30_to_60_seconds">30 - 60 sekundit</string>
+    <string name="header_3_to_4_minutes">3 - 4 minutit</string>
+    <string name="header_4_to_5_minutes">4 - 5 minutit</string>
+    <string name="header_5_plus_albums">5+ Albumit</string>
+    <string name="header_5_to_10_minutes">5 - 10 minutit</string>
+    <string name="header_5_to_9_songs">5 - 9 laulu</string>
+    <string name="header_albums">Albumid</string>
+    <string name="header_all_songs">Kõik laulud</string>
+    <string name="header_greater_than_60_minutes">Rohkem kui 60 minutit</string>
+    <string name="header_less_than_30s">Vähem kui 30 sekundit</string>
+    <string name="header_other">"Muud"</string>
+    <string name="header_top_songs">Top laulud</string>
+    <string name="header_unknown_year">Teadmata aasta</string>
+    <string name="menu_clear_list">Tühjenda loend</string>
+    <string name="menu_clear_queue">Kustuta järjekord</string>
+    <string name="menu_clear_recents">Kustuta hiljutised</string>
+    <string name="menu_equalizer">Ekvalaiser</string>
+    <string name="menu_play_all">Esita kõik</string>
+    <string name="menu_save_queue">Salvesta esitlusjärjekord esitlusloendisse</string>
+    <string name="menu_search">Otsing</string>
+    <string name="menu_settings">Seaded</string>
+    <string name="menu_shuffle_album">Juhuesita album</string>
+    <string name="menu_shuffle_all">Juhuesita kõik</string>
+    <string name="menu_shuffle_artist">Juhuesita esitaja</string>
+    <string name="menu_shuffle_item">Juhuesitus</string>
+    <string name="menu_shuffle_last_added">Juhuesita viimati lisatud</string>
+    <string name="menu_shuffle_playlist">juhuesitluse esitlusloend</string>
+    <string name="menu_shuffle_recent">Juhuesita viimati esitatud</string>
+    <string name="menu_shuffle_top_tracks">Juhuesita top muusikapala</string>
+    <string name="menu_sort_by">Sorteeri</string>
+    <string name="new_photo">Vali foto galeriist</string>
+    <string name="new_playlist">Uus esitusloend</string>
+    <string name="new_playlist_name_template">Esitusloend <ns1:g id="number">%d</ns1:g></string>
+    <string name="no_effects_for_you">Ekvalaiserit ei saanud avada.</string>
+    <string name="old_photo">Kasuta vana pilti</string>
+    <string name="overwrite">Kirjuta üle</string>
+    <string name="page_albums">Albumid</string>
+    <string name="page_artists">Esitajad</string>
+    <string name="page_genres">Žanrid</string>
+    <string name="page_now_playing">Nüüd esitamisel</string>
+    <string name="page_play_queue">Esitlusjärjekord</string>
+    <string name="page_playlists">Esitusloendid</string>
+    <string name="page_recent">Hiljutised</string>
+    <string name="page_songs">Laulud</string>
+    <string name="playlist_last_added">Viimati lisatud</string>
+    <string name="playlist_recently_played">Viimati esitatud</string>
+    <string name="playlist_renamed">Esitusloend ümbernimetatud</string>
+    <string name="playlist_top_tracks">Minu top lood</string>
+    <string name="remove_from_queue">Eemalda järjekorrast</string>
+    <string name="remove_from_recent">Eemalda hiljutistest</string>
+    <string name="save">Salvesta</string>
+    <string name="searchHint">Otsi muusikat</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Otsing"</string>
+    <string name="search_title_albums">Kõik \"%s\" albumid</string>
+    <string name="search_title_artists">Kõik \"%s\" esitajad</string>
+    <string name="search_title_playlists">Kõik \"%s\" esitusloendid</string>
+    <string name="search_title_songs">Kõik \"%s\" laulud</string>
+    <string name="set_as_ringtone">\'<ns1:g example="Alarm Bell" id="name">%s</ns1:g>\' sea telefoni helinaks</string>
+    <string name="settings_data_category">Andmed</string>
+    <string name="settings_delete_cache_summary">Eemalda kõik puhverdatud pildid</string>
+    <string name="settings_delete_cache_title">Kustuta vahemälu</string>
+    <string name="settings_download_artist_images_title">Lae puuduvad esitaja pildid</string>
+    <string name="settings_download_missing_artwork_title">Lae puuduv albumipilt</string>
+    <string name="settings_download_only_on_wifi_summary">Et vältida tasusid andmeside eest, ära lae üle mobiilisidevõrgu</string>
+    <string name="settings_download_only_on_wifi_title">Lae ainult üle Wi-Fi</string>
+    <string name="settings_general_category">Üldine</string>
+    <string name="settings_lockscreen_album_art">Lukustuskuva albumi tasutapilt</string>
+    <string name="settings_lockscreen_album_art_summary">Asenda lukustuskuva tasutapilt albumi tasutapildiga</string>
+    <string name="settings_shake_to_play">Raputa mängimiseks</string>
+    <string name="settings_shake_to_play_summary">Raputa seadet järgmiseks lauluks</string>
+    <string name="settings_show_lyrics_summary">Lauludele, millel on srt-fail</string>
+    <string name="settings_show_lyrics_title">Kuva laulusõnad</string>
+    <string name="settings_show_music_visualization_title">Näita muusika visualiseerimist</string>
+    <string name="settings_storage_category">Mälu</string>
+    <string name="settings_ui_category">Liides</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_artist">Esitaja</string>
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_date_added">Lisamise kuupäev</string>
+    <string name="sort_order_entry_duration">Kestus</string>
+    <string name="sort_order_entry_filename">Faili nimi</string>
+    <string name="sort_order_entry_number_of_albums">Albumite arv</string>
+    <string name="sort_order_entry_number_of_songs">Laulude arv</string>
+    <string name="sort_order_entry_track_list">Lugude nimekiri</string>
+    <string name="sort_order_entry_year">Aasta</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="use_default">Kasuta vaikimisi pilti</string>
+</resources>

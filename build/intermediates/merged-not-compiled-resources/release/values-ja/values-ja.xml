@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other"><ns1:g id="songs_to_delete">%d</ns1:g>曲を削除しました。</item>
+    </plurals>
+    <plurals name="NNNtracksfromplaylist">
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g>曲をプレイリストから削除しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g>曲をお気に入りに追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g>曲をプレイリストに追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g>曲をキューに追加しました。</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>枚のアルバム</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>人のアーティスト</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>個のジャンル</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other"><ns1:g id="hours">%d</ns1:g>時間</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other"><ns1:g id="minutes">%d</ns1:g>分</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other"><ns1:g id="count">%d</ns1:g>曲</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"完了"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"OFF"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ON"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"検索…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="accessibility_browse">音楽を参照</string>
+    <string name="accessibility_next">次へ</string>
+    <string name="accessibility_pause">一時停止</string>
+    <string name="accessibility_play">再生</string>
+    <string name="accessibility_prev">前へ</string>
+    <string name="accessibility_queue">キューを開く</string>
+    <string name="accessibility_repeat">リピート</string>
+    <string name="accessibility_repeat_all">すべてリピート</string>
+    <string name="accessibility_repeat_one">1曲リピート</string>
+    <string name="accessibility_shuffle">シャッフル</string>
+    <string name="accessibility_shuffle_all">すべてシャッフル</string>
+    <string name="add_to_playlist">プレイリストに追加</string>
+    <string name="add_to_queue">キューに追加</string>
+    <string name="app_name">音楽</string>
+    <string name="app_widget_large">音楽: 4 \u00d7 2</string>
+    <string name="app_widget_large_alt">音楽: 4 \u00d7 2（別バージョン）</string>
+    <string name="app_widget_recent">音楽: 最近聴いた曲</string>
+    <string name="app_widget_small">音楽: 4 \u00d7 1</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cannot_be_undone">この操作は元に戻せません</string>
+    <string name="channel_music">音楽の再生</string>
+    <string name="clear">消去</string>
+    <string name="clear_last_added">最近追加した曲を消去しますか？</string>
+    <string name="clear_recent_title">最近再生した曲を消去しますか？</string>
+    <string name="clear_top_tracks_title">トップトラックを消去しますか？</string>
+    <string name="context_menu_change_image">画像を変更</string>
+    <string name="context_menu_delete">削除</string>
+    <string name="context_menu_fetch_album_art">アルバムアートを取得</string>
+    <string name="context_menu_fetch_artist_image">アーティストの画像を取得</string>
+    <string name="context_menu_more_by_artist">アーティストの他の曲</string>
+    <string name="context_menu_play_album">アルバムを再生</string>
+    <string name="context_menu_play_next">次に再生</string>
+    <string name="context_menu_play_selection">再生</string>
+    <string name="context_menu_remove_from_playlist">プレイリストから削除</string>
+    <string name="context_menu_remove_from_recent">最近の曲から削除</string>
+    <string name="context_menu_rename_playlist">名前の変更</string>
+    <string name="context_menu_use_as_ringtone">着信音として使用</string>
+    <string name="create_playlist_prompt">プレイリスト名</string>
+    <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g>を削除しますか？</string>
+    <string name="delete_warning">キャッシュされた画像エントリーを完全に削除します</string>
+    <string name="duration_format"><ns1:g id="hours">%1$s</ns1:g><ns1:g id="minutes">%2$s</ns1:g></string>
+    <string name="empty_favorite">お気に入りに追加した曲がここに表示されます。</string>
+    <string name="empty_generic_main">音楽が見つかりませんでした</string>
+    <string name="empty_generic_secondary">パソコンから端末に音楽をコピーするには、USBケーブルを使用してください。</string>
+    <string name="empty_last_added">1ヶ月以内に追加した曲がここに表示されます。</string>
+    <string name="empty_last_added_main">最近追加した曲はありません</string>
+    <string name="empty_music">パソコンから端末に音楽をコピーするには、USBケーブルを使用してください。</string>
+    <string name="empty_playlist_main">プレイリストに曲がありません</string>
+    <string name="empty_playlist_secondary">このプレイリストに曲を追加するには、曲、アルバムまたはアーティストのオプションメニューをタップして[プレイリストに追加]を選択してください。</string>
+    <string name="empty_queue_main">再生キューに曲がありません</string>
+    <string name="empty_queue_secondary">再生キューに曲を追加するには、曲、アルバムまたはアーティストのオプションメニューをタップして[キューに追加]を選択してください。</string>
+    <string name="empty_recent">最近聴いた曲がここに表示されます。</string>
+    <string name="empty_recent_main">最近の曲はありません</string>
+    <string name="empty_search">検索結果が見つかりませんでした</string>
+    <string name="empty_search_check">検索語を正しく入力しているか確認してください。または別のキーワードを試してみてください。</string>
+    <string name="empty_top_tracks_main">トップトラックはありません</string>
+    <string name="empty_top_tracks_secondary">よく聴く曲がこのリストに追加されます。</string>
+    <string name="error_playing_track">トラック%1$sを再生できません</string>
+    <string name="footer_search_albums">すべてのアルバムを表示</string>
+    <string name="footer_search_artists">すべてのアーティストを表示</string>
+    <string name="footer_search_playlists">すべてのプレイリストを表示</string>
+    <string name="footer_search_songs">すべての曲を表示</string>
+    <string name="google_search">Google検索</string>
+    <string name="header_10_plus_songs">10曲以上</string>
+    <string name="header_10_to_30_minutes">10～30分</string>
+    <string name="header_1_song">1曲</string>
+    <string name="header_1_to_2_minutes">1～2分</string>
+    <string name="header_2_to_3_minutes">2～3分</string>
+    <string name="header_2_to_4_songs">2～4曲</string>
+    <string name="header_30_to_60_minutes">30～60分</string>
+    <string name="header_30_to_60_seconds">30～60秒</string>
+    <string name="header_3_to_4_minutes">3～4分</string>
+    <string name="header_4_to_5_minutes">4～5分</string>
+    <string name="header_5_plus_albums">5枚以上</string>
+    <string name="header_5_to_10_minutes">5～10分</string>
+    <string name="header_5_to_9_songs">5～9曲</string>
+    <string name="header_albums">アルバム</string>
+    <string name="header_all_songs">すべての曲</string>
+    <string name="header_greater_than_60_minutes">60分以上</string>
+    <string name="header_less_than_30s">30秒未満</string>
+    <string name="header_other">"その他"</string>
+    <string name="header_top_songs">トップ曲</string>
+    <string name="header_unknown_year">不明な年</string>
+    <string name="menu_clear_list">リストを消去</string>
+    <string name="menu_clear_queue">キューを消去</string>
+    <string name="menu_clear_recents">最近の曲を消去</string>
+    <string name="menu_equalizer">イコライザー</string>
+    <string name="menu_play_all">すべて再生</string>
+    <string name="menu_save_queue">プレイリストにキューを保存</string>
+    <string name="menu_search">検索</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_shuffle_album">アルバムでシャッフル</string>
+    <string name="menu_shuffle_all">すべてシャッフル</string>
+    <string name="menu_shuffle_artist">アーティストでシャッフル</string>
+    <string name="menu_shuffle_item">シャッフル</string>
+    <string name="menu_shuffle_last_added">最近追加した曲でシャッフル</string>
+    <string name="menu_shuffle_playlist">プレイリストでシャッフル</string>
+    <string name="menu_shuffle_recent">最近再生した曲でシャッフル</string>
+    <string name="menu_shuffle_top_tracks">トップトラックでシャッフル</string>
+    <string name="menu_sort_by">並べ替え</string>
+    <string name="new_photo">ギャラリーから写真を選択</string>
+    <string name="new_playlist">新しいプレイリスト</string>
+    <string name="new_playlist_name_template">プレイリスト<ns1:g id="number">%d</ns1:g></string>
+    <string name="no_effects_for_you">イコライザーを開けませんでした。</string>
+    <string name="old_photo">以前の写真を使用</string>
+    <string name="overwrite">上書き</string>
+    <string name="page_albums">アルバム</string>
+    <string name="page_artists">アーティスト</string>
+    <string name="page_genres">ジャンル</string>
+    <string name="page_now_playing">再生中 </string>
+    <string name="page_play_queue">再生キュー</string>
+    <string name="page_playlists">プレイリスト</string>
+    <string name="page_recent">最近の曲</string>
+    <string name="page_songs">曲</string>
+    <string name="playlist_last_added">最近追加した曲</string>
+    <string name="playlist_recently_played">最近再生した曲</string>
+    <string name="playlist_renamed">プレイリスト名を変更しました</string>
+    <string name="playlist_top_tracks">マイトップトラック</string>
+    <string name="remove_from_queue">キューから削除</string>
+    <string name="remove_from_recent">最近の曲から削除</string>
+    <string name="save">保存</string>
+    <string name="searchHint">音楽を検索</string>
+    <string msgid="730395136688082741" name="search_menu_title">"検索"</string>
+    <string name="search_title_albums">[%s]を含むすべてのアルバム</string>
+    <string name="search_title_artists">「%s」を含むすべてのアーティスト</string>
+    <string name="search_title_playlists">[%s]を含むすべてのプレイリスト</string>
+    <string name="search_title_songs">[%s]を含むすべての曲</string>
+    <string name="set_as_ringtone">[<ns1:g example="Alarm Bell" id="name">%s</ns1:g>]を着信音として設定しました</string>
+    <string name="settings_data_category">データ</string>
+    <string name="settings_delete_cache_summary">すべてのキャッシュされた画像を削除する</string>
+    <string name="settings_delete_cache_title">キャッシュを削除</string>
+    <string name="settings_download_artist_images_title">持っていないアーティストの画像をダウンロード</string>
+    <string name="settings_download_missing_artwork_title">持っていないアルバムアートをダウンロード</string>
+    <string name="settings_download_only_on_wifi_summary">パケット通信料を減らすために、モバイルネットワーク経由でダウンロードしない</string>
+    <string name="settings_download_only_on_wifi_title">Wi-Fi経由でのみダウンロード</string>
+    <string name="settings_general_category">全般</string>
+    <string name="settings_lockscreen_album_art">ロック画面のアルバムアート</string>
+    <string name="settings_lockscreen_album_art_summary">ロック画面の背景をアルバムアートで置き換える</string>
+    <string name="settings_shake_to_play">シェイクで再生</string>
+    <string name="settings_shake_to_play_summary">端末をシェイクして次の曲を再生する</string>
+    <string name="settings_show_lyrics_summary">srtファイルがある曲向け</string>
+    <string name="settings_show_lyrics_title">歌詞を表示</string>
+    <string name="settings_show_music_visualization_title">音楽の視覚エフェクトを表示</string>
+    <string name="settings_storage_category">ストレージ</string>
+    <string name="settings_ui_category">インターフェース</string>
+    <string name="sort_order_entry_album">アルバム</string>
+    <string name="sort_order_entry_artist">アーティスト</string>
+    <string name="sort_order_entry_az">昇順</string>
+    <string name="sort_order_entry_date_added">追加日</string>
+    <string name="sort_order_entry_duration">再生時間</string>
+    <string name="sort_order_entry_filename">ファイル名</string>
+    <string name="sort_order_entry_number_of_albums">アルバム数</string>
+    <string name="sort_order_entry_number_of_songs">曲数</string>
+    <string name="sort_order_entry_track_list">トラックリスト</string>
+    <string name="sort_order_entry_year">年</string>
+    <string name="sort_order_entry_za">降順</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="use_default">デフォルトの写真を使用</string>
+</resources>

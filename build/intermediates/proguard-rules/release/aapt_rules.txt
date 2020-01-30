@@ -1,0 +1,179 @@
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:59
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:59
+-keep class org.lineageos.eleven.ElevenApplication { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:211
+-keep class org.lineageos.eleven.MediaButtonIntentReceiver { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:224
+-keep class org.lineageos.eleven.MusicPlaybackService { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:185
+-keep class org.lineageos.eleven.appwidgets.AppWidgetLarge { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:198
+-keep class org.lineageos.eleven.appwidgets.AppWidgetLargeAlternate { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:172
+-keep class org.lineageos.eleven.appwidgets.AppWidgetSmall { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:218
+-keep class org.lineageos.eleven.locale.LocaleChangeReceiver { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:77
+-keep class org.lineageos.eleven.ui.activities.HomeActivity { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:108
+-keep class org.lineageos.eleven.ui.activities.SearchActivity { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:125
+-keep class org.lineageos.eleven.ui.activities.SettingsActivity { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\build\intermediates\merged_manifests\release\AndroidManifest.xml:130
+-keep class org.lineageos.eleven.ui.activities.preview.AudioPreviewActivity { <init>(); }
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\menu\search.xml:19
+-keep class android.widget.SearchView { <init>(android.content.Context); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_title_material.xml:57
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_playback_controls.xml:18
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\grid_items_normal.xml:18
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\artist_detail_album.xml:17
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\.gradle\caches\transforms-2\files-2.1\1d2e4afa222ca67c886f3e1d989f5e39\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\artist_detail_header.xml:24
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\fragment_music_browser_phone.xml:34
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_base_padding.xml:27
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_base.xml:26
+-keep class org.lineageos.eleven.dragdrop.DragSortListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\activity_base.xml:17
+-keep class org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\header_bar.xml:17
+-keep class org.lineageos.eleven.ui.HeaderBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\activity_base.xml:78
+-keep class org.lineageos.eleven.ui.fragments.AudioPlayerFragment { <init>(); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\activity_base.xml:110
+-keep class org.lineageos.eleven.ui.fragments.QueueFragment { <init>(); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\blur_scrim_image.xml:17
+-keep class org.lineageos.eleven.widgets.BlurScrimImage { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\playlist_detail_header.xml:20
+-keep class org.lineageos.eleven.widgets.LayoutSuppressingImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\loading_empty_container.xml:18
+-keep class org.lineageos.eleven.widgets.LoadingEmptyContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\no_results_message.xml:18
+-keep class org.lineageos.eleven.widgets.NoResultsContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\play_pause_progress_button.xml:25
+-keep class org.lineageos.eleven.widgets.PlayPauseButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\play_pause_progress_button.xml:17
+-keep class org.lineageos.eleven.widgets.PlayPauseProgressButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_item_top_tracks.xml:94
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_item_simple.xml:62
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_item_queue.xml:69
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_item_common.xml:55
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\grid_items_normal.xml:66
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\artist_detail_song.xml:32
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\artist_detail_album.xml:41
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\album_detail_song.xml:21
+-keep class org.lineageos.eleven.widgets.PopupMenuButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_playback_controls.xml:129
+-keep class org.lineageos.eleven.widgets.RepeatButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_playback_controls.xml:61
+-keep class org.lineageos.eleven.widgets.RepeatingImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_playback_controls.xml:80
+-keep class org.lineageos.eleven.widgets.ShuffleButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_album_flow.xml:18
+-keep class org.lineageos.eleven.widgets.SquareFrame { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\square_image_view.xml:23
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\list_item_search_history.xml:32
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\bottom_action_bar.xml:30
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\album_art_fragment.xml:21
+-keep class org.lineageos.eleven.widgets.SquareImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\square_image_view.xml:18
+-keep class org.lineageos.eleven.widgets.SquareView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_album_flow.xml:22
+-keep class org.lineageos.eleven.widgets.SquareViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\fragment_music_browser_phone.xml:27
+-keep class org.lineageos.eleven.widgets.ViewPagerTabs { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\lopza\Documents\GitHub\android_packages_apps_Eleven\res\layout\main_album_flow.xml:28
+-keep class org.lineageos.eleven.widgets.VisualizerView { <init>(android.content.Context, android.util.AttributeSet); }
+
