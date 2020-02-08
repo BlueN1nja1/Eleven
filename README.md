@@ -3,6 +3,6 @@
  
  Note: This app respects Dark Theme on Android 10 Q!
  
- Current Available Accent Colors: Pixel Blue, Eleven Pink (As of v.5.3.1)
+ Current Available Accent Colors: Pixel Blue, Eleven Pink, Android Green, Deep Purple
  
- Planned Accent Colors: Android Green, Coral Red, Banana Yellow, Cyan, Lavender Purple
+ Planned Accent Colors: Coral Red, Banana Yellow, Cyan
