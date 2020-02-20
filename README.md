@@ -6,3 +6,5 @@
  Current Available Accent Colors: Pixel Blue, Eleven Pink, Android Green, Deep Purple
  
  Planned Accent Colors: Coral Red, Banana Yellow, Cyan
+
+ Special Versions (For heavily skinned Devices that run Samsung's OneUI / Touchwiz, Xiaomi's MIUI, Huawei's EMUI, and Others): Coming Soon!
