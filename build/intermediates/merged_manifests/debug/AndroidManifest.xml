@@ -17,9 +17,9 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lopez05656.eleven"
+    package="org.lineageos.eleven"
     android:versionCode="503"
-    android:versionName="5.3" >
+    android:versionName="5.3.1" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -67,6 +67,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="@bool/config_largeHeap"
+        android:requestLegacyExternalStorage="true"
         android:taskAffinity="org.lineageos.eleven.task"
         android:theme="@style/Eleven.Theme" >
 
@@ -99,7 +100,7 @@
                 <data android:mimeType="vnd.android.cursor.dir/artists" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.lopez05656.eleven.AUDIO_PLAYER" />
+                <action android:name="org.lineageos.eleven.AUDIO_PLAYER" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

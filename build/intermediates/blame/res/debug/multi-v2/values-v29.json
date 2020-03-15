@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v29\\values-v29.xml",
+            "outputFile": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v29\\values-v29.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\res\\values-v29\\styles.xml",
+                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-v29\\styles.xml",
                     "from": {
                         "startLines": "79,39,84,183,173,178,162,64,18,51,193,73,92,103,125,99,109,120,129,116,57,202,152,62,67,143,134,200,198",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

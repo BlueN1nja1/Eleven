@@ -30461,7 +30461,6 @@ org.lineageos.eleven.R$style -> org.lineageos.eleven.R$style:
     int ListItemSecondaryText_Light_Single -> ListItemSecondaryText_Light_Single
     int ListItemSecondaryText_Single -> ListItemSecondaryText_Single
     int ListView -> ListView
-    int MDSettings -> MDSettings
     int MTSettings -> MTSettings
     int NotificationText -> NotificationText
     int Platform_AppCompat -> Platform_AppCompat

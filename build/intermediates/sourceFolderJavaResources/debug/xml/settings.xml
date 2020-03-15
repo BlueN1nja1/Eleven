@@ -77,7 +77,7 @@
         <!-- Eleven Edition -->
               <Preference
             android:key="ElEdition"
-            android:summary="Pixel Blue"
+            android:summary="Adaptive Accent"
             android:title="Eleven Edition" />
     </PreferenceCategory>
 </PreferenceScreen>

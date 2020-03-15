@@ -85,6 +85,7 @@
                 android:layout_toLeftOf="@id/ib_playpause"
                 android:ellipsize="end"
                 android:textSize="@dimen/preview_title_textSize"
+                android:textColor="@color/accent"
                 android:textStyle="bold"/>
 
             <TextView

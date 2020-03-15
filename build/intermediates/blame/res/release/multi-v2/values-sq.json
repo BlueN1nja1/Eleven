@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-sq\\strings.xml",
+                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven\\res\\values-sq\\strings.xml",
                     "from": {
                         "startLines": "57,58,59,31,19,69,70,71,68,44,98,46,56,55,54,48,49,97,89,88,91,90,51,86,80,83,75,76,84,81,74,77,78,87,79,85,26,27,82,73,72,30,28,29,50,42,47,53,45,22,21,25,24,20,23,41,60,32,43,92,94,93,96,95,65,64,63,66,67,62,61,36,35,33,40,39,38,37,34,52",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lopza\\.gradle\\caches\\transforms-2\\files-2.1\\2f63470fe81b218b6647cd9657e1d9bc\\res\\values-sq\\values-sq.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "153",
-                        "startColumns": "4",
-                        "startOffsets": "10625",
-                        "endColumns": "100",
-                        "endOffsets": "10721"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-sq\\plurals.xml",
+                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven\\res\\values-sq\\plurals.xml",
                     "from": {
                         "startLines": "59,47,55,43,51,23,19,31,35,39,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "endLines": "5,9,13,17,21,25,29,33,37,41,45",
                         "endColumns": "14,14,14,14,14,14,14,14,14,14,14",
                         "endOffsets": "347,631,945,1230,1490,1679,1871,2061,2238,2421,2608"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lopza\\.gradle\\caches\\transforms-2\\files-2.1\\2f63470fe81b218b6647cd9657e1d9bc\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "153",
+                        "startColumns": "4",
+                        "startOffsets": "10625",
+                        "endColumns": "100",
+                        "endOffsets": "10721"
                     }
                 }
             ]

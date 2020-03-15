@@ -39,17 +39,16 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lopez05656.eleven'
+        applicationId 'org.lineageos.eleven'
 
         minSdkVersion 24
         targetSdkVersion 28
 
         versionCode 503
-        versionName '5.3'
+        versionName '5.3.1'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
-        signingConfig signingConfigs.debug
     }
 
     buildTypes {

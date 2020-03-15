@@ -19,7 +19,7 @@
     <color name="primary">#ffffff</color>
     <color name="primary_dark">#ffffff</color>
     <color name="primary_light">#ffffff</color>
-    <color name="accent">#1a73e8</color>
+    <color name="accent">?android:colorAccent</color>
 
     <!-- Main colors -->
     <color name="black">#333333</color>
@@ -50,8 +50,8 @@
 
     <!-- Cards -->
     <color name="cards_bg_color">#ffffff</color>
-    <color name="cardOne">@color/black</color>
-    <color name="cardTwo">#ffffff</color>
+    <color name="cardOne">#000000</color>
+    <color name="cardTwo">#000000</color>
 
     <!-- Transparent colors -->
     <color name="transparent">#00000000</color>
@@ -65,7 +65,7 @@
     <color name="header_action_bar_color">@color/primary</color>
     <color name="header_action_bar_text_color">@color/black</color>
     <color name="header_action_bar_text_color_active">@color/accent</color>
-    <color name="bottom_action_bar_text_color">@color/black</color>
+    <color name="bottom_action_bar_text_color">@color/white</color>
 
     <!-- Background color used on some page headers -->
     <color name="page_header_background">@color/white</color>
@@ -155,7 +155,7 @@
     <color name="album_detail_song_count_and_year_text_color">@color/default_text_color</color>
     <color name="album_detail_genre_text_color">@color/default_text_color</color>
     <color name="album_detail_duration_text_color">@color/default_text_color</color>
-    <color name="app_msg_text_color">?android:textColorPrimaryInverse</color>
+    <color name="app_msg_text_color">@color/accent</color>
     <color name="artist_detail_album_title_text_color">@color/cardOne</color>
     <color name="artist_detail_album_year_text_color">@color/cardTwo</color>
     <color name="artist_detail_header_albums_label_text_color">@color/list_item_header_text_color</color>

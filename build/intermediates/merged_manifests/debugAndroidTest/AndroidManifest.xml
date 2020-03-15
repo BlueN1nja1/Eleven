@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lopez05656.eleven.test">
+    package="org.lineageos.eleven.test">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="28" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.lopez05656.eleven"
+                     android:targetPackage="org.lineageos.eleven"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.lopez05656.eleven"/>
+                     android:label="Tests for org.lineageos.eleven"/>
 </manifest>

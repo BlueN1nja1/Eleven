@@ -198,6 +198,9 @@
 
     <style name="ToolBarPopupTheme" parent="android:style/Theme.Material" />
 
-    <style name="MTSettings" parent="@style/Eleven.Theme"/>
+    <style name="MTSettings" parent="@style/Eleven.Theme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
 
 </resources>

@@ -114,7 +114,9 @@
         <item name="android:divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
-    <style name="MDSettings" parent="@style/Eleven.Theme"/>
+    <style name="MTSettings" parent="@style/Eleven.Theme">
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

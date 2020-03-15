@@ -4207,35 +4207,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background org.lineageos.eleven:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit org.lineageos.eleven:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked org.lineageos.eleven:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd org.lineageos.eleven:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions org.lineageos.eleven:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft org.lineageos.eleven:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight org.lineageos.eleven:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart org.lineageos.eleven:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation org.lineageos.eleven:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout org.lineageos.eleven:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions org.lineageos.eleven:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider org.lineageos.eleven:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation org.lineageos.eleven:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height org.lineageos.eleven:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll org.lineageos.eleven:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator org.lineageos.eleven:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout org.lineageos.eleven:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon org.lineageos.eleven:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle org.lineageos.eleven:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding org.lineageos.eleven:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo org.lineageos.eleven:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode org.lineageos.eleven:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme org.lineageos.eleven:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding org.lineageos.eleven:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle org.lineageos.eleven:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle org.lineageos.eleven:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle org.lineageos.eleven:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title org.lineageos.eleven:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle org.lineageos.eleven:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.lopez05656.eleven:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.lopez05656.eleven:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.lopez05656.eleven:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.lopez05656.eleven:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.lopez05656.eleven:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.lopez05656.eleven:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.lopez05656.eleven:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.lopez05656.eleven:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.lopez05656.eleven:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.lopez05656.eleven:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.lopez05656.eleven:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.lopez05656.eleven:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.lopez05656.eleven:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.lopez05656.eleven:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.lopez05656.eleven:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.lopez05656.eleven:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.lopez05656.eleven:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.lopez05656.eleven:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.lopez05656.eleven:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.lopez05656.eleven:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.lopez05656.eleven:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.lopez05656.eleven:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.lopez05656.eleven:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.lopez05656.eleven:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.lopez05656.eleven:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.lopez05656.eleven:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.lopez05656.eleven:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.lopez05656.eleven:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.lopez05656.eleven:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4278,7 +4278,7 @@ public final class R {
       0x7f03012b
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4286,11 +4286,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:background
+     * @attr name com.lopez05656.eleven:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4301,11 +4301,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:backgroundSplit
+     * @attr name com.lopez05656.eleven:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4316,11 +4316,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:backgroundStacked
+     * @attr name com.lopez05656.eleven:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4329,11 +4329,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetEnd
+     * @attr name com.lopez05656.eleven:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4342,11 +4342,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetEndWithActions
+     * @attr name com.lopez05656.eleven:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4355,11 +4355,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetLeft
+     * @attr name com.lopez05656.eleven:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4368,11 +4368,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetRight
+     * @attr name com.lopez05656.eleven:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4381,11 +4381,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetStart
+     * @attr name com.lopez05656.eleven:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4394,11 +4394,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetStartWithNavigation
+     * @attr name com.lopez05656.eleven:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4406,11 +4406,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:customNavigationLayout
+     * @attr name com.lopez05656.eleven:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4428,11 +4428,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:displayOptions
+     * @attr name com.lopez05656.eleven:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4440,11 +4440,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:divider
+     * @attr name com.lopez05656.eleven:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4453,11 +4453,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:elevation
+     * @attr name com.lopez05656.eleven:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4466,21 +4466,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:height
+     * @attr name com.lopez05656.eleven:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:hideOnContentScroll
+     * @attr name com.lopez05656.eleven:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4488,11 +4488,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:homeAsUpIndicator
+     * @attr name com.lopez05656.eleven:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4500,11 +4500,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:homeLayout
+     * @attr name com.lopez05656.eleven:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4512,11 +4512,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:icon
+     * @attr name com.lopez05656.eleven:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4524,11 +4524,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:indeterminateProgressStyle
+     * @attr name com.lopez05656.eleven:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4537,11 +4537,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:itemPadding
+     * @attr name com.lopez05656.eleven:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4549,11 +4549,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:logo
+     * @attr name com.lopez05656.eleven:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4567,11 +4567,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:navigationMode
+     * @attr name com.lopez05656.eleven:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4579,11 +4579,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:popupTheme
+     * @attr name com.lopez05656.eleven:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4592,11 +4592,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:progressBarPadding
+     * @attr name com.lopez05656.eleven:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4604,21 +4604,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:progressBarStyle
+     * @attr name com.lopez05656.eleven:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:subtitle
+     * @attr name com.lopez05656.eleven:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4626,21 +4626,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:subtitleTextStyle
+     * @attr name com.lopez05656.eleven:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:title
+     * @attr name com.lopez05656.eleven:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4648,7 +4648,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:titleTextStyle
+     * @attr name com.lopez05656.eleven:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4730,12 +4730,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background org.lineageos.eleven:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit org.lineageos.eleven:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout org.lineageos.eleven:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height org.lineageos.eleven:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle org.lineageos.eleven:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle org.lineageos.eleven:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.lopez05656.eleven:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.lopez05656.eleven:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.lopez05656.eleven:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.lopez05656.eleven:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.lopez05656.eleven:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.lopez05656.eleven:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4749,7 +4749,7 @@ public final class R {
       0x7f030106, 0x7f03012b
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4757,11 +4757,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:background
+     * @attr name com.lopez05656.eleven:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4772,11 +4772,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:backgroundSplit
+     * @attr name com.lopez05656.eleven:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4784,11 +4784,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:closeItemLayout
+     * @attr name com.lopez05656.eleven:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4797,11 +4797,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:height
+     * @attr name com.lopez05656.eleven:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4809,11 +4809,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:subtitleTextStyle
+     * @attr name com.lopez05656.eleven:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4821,7 +4821,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:titleTextStyle
+     * @attr name com.lopez05656.eleven:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4831,8 +4831,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable org.lineageos.eleven:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount org.lineageos.eleven:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.lopez05656.eleven:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.lopez05656.eleven:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4841,7 +4841,7 @@ public final class R {
       0x7f03008a, 0x7f0300aa
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4849,17 +4849,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:expandActivityOverflowButtonDrawable
+     * @attr name com.lopez05656.eleven:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:initialActivityCount
+     * @attr name com.lopez05656.eleven:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4870,13 +4870,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen org.lineageos.eleven:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout org.lineageos.eleven:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout org.lineageos.eleven:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout org.lineageos.eleven:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout org.lineageos.eleven:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle org.lineageos.eleven:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout org.lineageos.eleven:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.lopez05656.eleven:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.lopez05656.eleven:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.lopez05656.eleven:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.lopez05656.eleven:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.lopez05656.eleven:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.lopez05656.eleven:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.lopez05656.eleven:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -4904,7 +4904,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4913,11 +4913,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:buttonIconDimen
+     * @attr name com.lopez05656.eleven:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4925,11 +4925,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonPanelSideLayout
+     * @attr name com.lopez05656.eleven:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4937,11 +4937,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listItemLayout
+     * @attr name com.lopez05656.eleven:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4949,11 +4949,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listLayout
+     * @attr name com.lopez05656.eleven:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4961,21 +4961,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:multiChoiceItemLayout
+     * @attr name com.lopez05656.eleven:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:showTitle
+     * @attr name com.lopez05656.eleven:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4983,7 +4983,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:singleChoiceItemLayout
+     * @attr name com.lopez05656.eleven:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -5183,9 +5183,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat org.lineageos.eleven:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint org.lineageos.eleven:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode org.lineageos.eleven:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.lopez05656.eleven:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.lopez05656.eleven:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.lopez05656.eleven:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5211,7 +5211,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5219,22 +5219,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:srcCompat
+     * @attr name com.lopez05656.eleven:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:tint
+     * @attr name com.lopez05656.eleven:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5251,7 +5251,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:tintMode
+     * @attr name com.lopez05656.eleven:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5262,9 +5262,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark org.lineageos.eleven:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint org.lineageos.eleven:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode org.lineageos.eleven:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.lopez05656.eleven:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.lopez05656.eleven:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.lopez05656.eleven:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5287,7 +5287,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5295,22 +5295,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:tickMark
+     * @attr name com.lopez05656.eleven:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:tickMarkTint
+     * @attr name com.lopez05656.eleven:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5327,7 +5327,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:tickMarkTintMode
+     * @attr name com.lopez05656.eleven:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5467,26 +5467,26 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize org.lineageos.eleven:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize org.lineageos.eleven:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes org.lineageos.eleven:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity org.lineageos.eleven:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType org.lineageos.eleven:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat org.lineageos.eleven:drawableBottomCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat org.lineageos.eleven:drawableEndCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat org.lineageos.eleven:drawableLeftCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat org.lineageos.eleven:drawableRightCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat org.lineageos.eleven:drawableStartCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTint org.lineageos.eleven:drawableTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode org.lineageos.eleven:drawableTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat org.lineageos.eleven:drawableTopCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight org.lineageos.eleven:firstBaselineToTopHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily org.lineageos.eleven:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings org.lineageos.eleven:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight org.lineageos.eleven:lastBaselineToBottomHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight org.lineageos.eleven:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps org.lineageos.eleven:textAllCaps}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textLocale org.lineageos.eleven:textLocale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.lopez05656.eleven:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.lopez05656.eleven:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.lopez05656.eleven:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.lopez05656.eleven:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.lopez05656.eleven:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat com.lopez05656.eleven:drawableBottomCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat com.lopez05656.eleven:drawableEndCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.lopez05656.eleven:drawableLeftCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat com.lopez05656.eleven:drawableRightCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat com.lopez05656.eleven:drawableStartCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.lopez05656.eleven:drawableTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.lopez05656.eleven:drawableTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat com.lopez05656.eleven:drawableTopCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.lopez05656.eleven:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.lopez05656.eleven:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.lopez05656.eleven:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.lopez05656.eleven:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.lopez05656.eleven:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.lopez05656.eleven:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textLocale com.lopez05656.eleven:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -5531,7 +5531,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5540,11 +5540,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:autoSizeMaxTextSize
+     * @attr name com.lopez05656.eleven:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5553,11 +5553,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:autoSizeMinTextSize
+     * @attr name com.lopez05656.eleven:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5565,11 +5565,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:autoSizePresetSizes
+     * @attr name com.lopez05656.eleven:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5578,11 +5578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:autoSizeStepGranularity
+     * @attr name com.lopez05656.eleven:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5595,11 +5595,11 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:autoSizeTextType
+     * @attr name com.lopez05656.eleven:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableBottomCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableBottomCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5607,11 +5607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableBottomCompat
+     * @attr name com.lopez05656.eleven:drawableBottomCompat
      */
     public static final int AppCompatTextView_drawableBottomCompat=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableEndCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableEndCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5619,11 +5619,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableEndCompat
+     * @attr name com.lopez05656.eleven:drawableEndCompat
      */
     public static final int AppCompatTextView_drawableEndCompat=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableLeftCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableLeftCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5631,11 +5631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableLeftCompat
+     * @attr name com.lopez05656.eleven:drawableLeftCompat
      */
     public static final int AppCompatTextView_drawableLeftCompat=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableRightCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableRightCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5643,11 +5643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableRightCompat
+     * @attr name com.lopez05656.eleven:drawableRightCompat
      */
     public static final int AppCompatTextView_drawableRightCompat=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableStartCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableStartCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5655,22 +5655,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableStartCompat
+     * @attr name com.lopez05656.eleven:drawableStartCompat
      */
     public static final int AppCompatTextView_drawableStartCompat=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableTint}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableTint
+     * @attr name com.lopez05656.eleven:drawableTint
      */
     public static final int AppCompatTextView_drawableTint=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableTintMode}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5687,11 +5687,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:drawableTintMode
+     * @attr name com.lopez05656.eleven:drawableTintMode
      */
     public static final int AppCompatTextView_drawableTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableTopCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableTopCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5699,11 +5699,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:drawableTopCompat
+     * @attr name com.lopez05656.eleven:drawableTopCompat
      */
     public static final int AppCompatTextView_drawableTopCompat=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#firstBaselineToTopHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#firstBaselineToTopHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5712,31 +5712,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:firstBaselineToTopHeight
+     * @attr name com.lopez05656.eleven:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontFamily
+     * @attr name com.lopez05656.eleven:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=15;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontVariationSettings
+     * @attr name com.lopez05656.eleven:fontVariationSettings
      */
     public static final int AppCompatTextView_fontVariationSettings=16;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#lastBaselineToBottomHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#lastBaselineToBottomHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5745,11 +5745,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:lastBaselineToBottomHeight
+     * @attr name com.lopez05656.eleven:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=17;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#lineHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#lineHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5758,11 +5758,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:lineHeight
+     * @attr name com.lopez05656.eleven:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=18;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5772,17 +5772,17 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:textAllCaps
+     * @attr name com.lopez05656.eleven:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=19;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textLocale}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textLocale}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:textLocale
+     * @attr name com.lopez05656.eleven:textLocale
      */
     public static final int AppCompatTextView_textLocale=20;
     /**
@@ -5794,129 +5794,129 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider org.lineageos.eleven:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground org.lineageos.eleven:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme org.lineageos.eleven:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize org.lineageos.eleven:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle org.lineageos.eleven:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle org.lineageos.eleven:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle org.lineageos.eleven:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle org.lineageos.eleven:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle org.lineageos.eleven:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme org.lineageos.eleven:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme org.lineageos.eleven:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle org.lineageos.eleven:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle org.lineageos.eleven:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance org.lineageos.eleven:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor org.lineageos.eleven:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground org.lineageos.eleven:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle org.lineageos.eleven:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable org.lineageos.eleven:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable org.lineageos.eleven:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable org.lineageos.eleven:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable org.lineageos.eleven:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable org.lineageos.eleven:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle org.lineageos.eleven:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable org.lineageos.eleven:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable org.lineageos.eleven:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground org.lineageos.eleven:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle org.lineageos.eleven:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable org.lineageos.eleven:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle org.lineageos.eleven:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle org.lineageos.eleven:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle org.lineageos.eleven:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle org.lineageos.eleven:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons org.lineageos.eleven:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle org.lineageos.eleven:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme org.lineageos.eleven:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle org.lineageos.eleven:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle org.lineageos.eleven:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle org.lineageos.eleven:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle org.lineageos.eleven:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle org.lineageos.eleven:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle org.lineageos.eleven:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle org.lineageos.eleven:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle org.lineageos.eleven:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall org.lineageos.eleven:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle org.lineageos.eleven:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle org.lineageos.eleven:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent org.lineageos.eleven:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating org.lineageos.eleven:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal org.lineageos.eleven:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated org.lineageos.eleven:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight org.lineageos.eleven:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal org.lineageos.eleven:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError org.lineageos.eleven:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary org.lineageos.eleven:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark org.lineageos.eleven:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal org.lineageos.eleven:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground org.lineageos.eleven:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius org.lineageos.eleven:dialogCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding org.lineageos.eleven:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme org.lineageos.eleven:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal org.lineageos.eleven:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical org.lineageos.eleven:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle org.lineageos.eleven:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight org.lineageos.eleven:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground org.lineageos.eleven:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor org.lineageos.eleven:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle org.lineageos.eleven:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator org.lineageos.eleven:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle org.lineageos.eleven:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator org.lineageos.eleven:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated org.lineageos.eleven:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated org.lineageos.eleven:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog org.lineageos.eleven:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle org.lineageos.eleven:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle org.lineageos.eleven:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight org.lineageos.eleven:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge org.lineageos.eleven:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall org.lineageos.eleven:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd org.lineageos.eleven:listPreferredItemPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft org.lineageos.eleven:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight org.lineageos.eleven:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart org.lineageos.eleven:listPreferredItemPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground org.lineageos.eleven:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme org.lineageos.eleven:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth org.lineageos.eleven:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle org.lineageos.eleven:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle org.lineageos.eleven:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle org.lineageos.eleven:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle org.lineageos.eleven:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator org.lineageos.eleven:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall org.lineageos.eleven:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle org.lineageos.eleven:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle org.lineageos.eleven:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground org.lineageos.eleven:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless org.lineageos.eleven:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle org.lineageos.eleven:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle org.lineageos.eleven:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle org.lineageos.eleven:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu org.lineageos.eleven:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem org.lineageos.eleven:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary org.lineageos.eleven:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall org.lineageos.eleven:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader org.lineageos.eleven:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle org.lineageos.eleven:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle org.lineageos.eleven:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu org.lineageos.eleven:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem org.lineageos.eleven:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl org.lineageos.eleven:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle org.lineageos.eleven:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle org.lineageos.eleven:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor org.lineageos.eleven:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground org.lineageos.eleven:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass org.lineageos.eleven:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar org.lineageos.eleven:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay org.lineageos.eleven:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay org.lineageos.eleven:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor org.lineageos.eleven:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor org.lineageos.eleven:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor org.lineageos.eleven:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor org.lineageos.eleven:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor org.lineageos.eleven:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor org.lineageos.eleven:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle org.lineageos.eleven:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.lopez05656.eleven:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.lopez05656.eleven:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.lopez05656.eleven:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.lopez05656.eleven:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.lopez05656.eleven:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.lopez05656.eleven:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.lopez05656.eleven:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.lopez05656.eleven:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.lopez05656.eleven:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.lopez05656.eleven:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.lopez05656.eleven:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.lopez05656.eleven:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.lopez05656.eleven:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.lopez05656.eleven:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.lopez05656.eleven:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.lopez05656.eleven:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.lopez05656.eleven:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.lopez05656.eleven:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.lopez05656.eleven:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.lopez05656.eleven:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.lopez05656.eleven:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.lopez05656.eleven:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.lopez05656.eleven:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.lopez05656.eleven:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.lopez05656.eleven:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.lopez05656.eleven:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.lopez05656.eleven:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.lopez05656.eleven:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.lopez05656.eleven:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.lopez05656.eleven:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.lopez05656.eleven:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.lopez05656.eleven:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.lopez05656.eleven:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.lopez05656.eleven:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.lopez05656.eleven:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.lopez05656.eleven:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.lopez05656.eleven:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.lopez05656.eleven:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.lopez05656.eleven:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.lopez05656.eleven:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.lopez05656.eleven:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.lopez05656.eleven:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.lopez05656.eleven:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.lopez05656.eleven:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.lopez05656.eleven:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.lopez05656.eleven:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.lopez05656.eleven:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.lopez05656.eleven:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.lopez05656.eleven:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.lopez05656.eleven:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.lopez05656.eleven:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.lopez05656.eleven:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.lopez05656.eleven:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.lopez05656.eleven:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.lopez05656.eleven:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.lopez05656.eleven:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.lopez05656.eleven:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.lopez05656.eleven:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.lopez05656.eleven:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.lopez05656.eleven:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.lopez05656.eleven:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.lopez05656.eleven:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.lopez05656.eleven:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.lopez05656.eleven:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.lopez05656.eleven:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.lopez05656.eleven:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.lopez05656.eleven:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.lopez05656.eleven:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.lopez05656.eleven:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.lopez05656.eleven:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.lopez05656.eleven:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.lopez05656.eleven:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.lopez05656.eleven:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.lopez05656.eleven:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.lopez05656.eleven:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.lopez05656.eleven:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.lopez05656.eleven:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.lopez05656.eleven:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.lopez05656.eleven:listPreferredItemPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.lopez05656.eleven:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.lopez05656.eleven:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.lopez05656.eleven:listPreferredItemPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.lopez05656.eleven:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.lopez05656.eleven:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.lopez05656.eleven:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.lopez05656.eleven:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.lopez05656.eleven:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.lopez05656.eleven:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.lopez05656.eleven:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.lopez05656.eleven:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.lopez05656.eleven:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.lopez05656.eleven:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.lopez05656.eleven:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.lopez05656.eleven:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.lopez05656.eleven:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.lopez05656.eleven:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.lopez05656.eleven:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.lopez05656.eleven:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.lopez05656.eleven:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.lopez05656.eleven:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.lopez05656.eleven:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.lopez05656.eleven:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.lopez05656.eleven:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.lopez05656.eleven:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.lopez05656.eleven:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.lopez05656.eleven:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.lopez05656.eleven:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.lopez05656.eleven:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.lopez05656.eleven:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.lopez05656.eleven:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.lopez05656.eleven:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.lopez05656.eleven:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.lopez05656.eleven:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.lopez05656.eleven:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.lopez05656.eleven:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.lopez05656.eleven:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.lopez05656.eleven:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.lopez05656.eleven:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.lopez05656.eleven:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.lopez05656.eleven:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.lopez05656.eleven:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.lopez05656.eleven:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.lopez05656.eleven:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -6101,7 +6101,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6109,11 +6109,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarDivider
+     * @attr name com.lopez05656.eleven:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6121,11 +6121,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarItemBackground
+     * @attr name com.lopez05656.eleven:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6133,11 +6133,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarPopupTheme
+     * @attr name com.lopez05656.eleven:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6154,11 +6154,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:actionBarSize
+     * @attr name com.lopez05656.eleven:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6166,11 +6166,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarSplitStyle
+     * @attr name com.lopez05656.eleven:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6178,11 +6178,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarStyle
+     * @attr name com.lopez05656.eleven:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6190,11 +6190,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarTabBarStyle
+     * @attr name com.lopez05656.eleven:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6202,11 +6202,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarTabStyle
+     * @attr name com.lopez05656.eleven:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6214,11 +6214,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarTabTextStyle
+     * @attr name com.lopez05656.eleven:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6226,11 +6226,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarTheme
+     * @attr name com.lopez05656.eleven:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6238,11 +6238,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionBarWidgetTheme
+     * @attr name com.lopez05656.eleven:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6250,11 +6250,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionButtonStyle
+     * @attr name com.lopez05656.eleven:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6262,11 +6262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionDropDownStyle
+     * @attr name com.lopez05656.eleven:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6274,11 +6274,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionMenuTextAppearance
+     * @attr name com.lopez05656.eleven:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6289,11 +6289,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionMenuTextColor
+     * @attr name com.lopez05656.eleven:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6301,11 +6301,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeBackground
+     * @attr name com.lopez05656.eleven:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6313,11 +6313,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeCloseButtonStyle
+     * @attr name com.lopez05656.eleven:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6325,11 +6325,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeCloseDrawable
+     * @attr name com.lopez05656.eleven:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6337,11 +6337,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeCopyDrawable
+     * @attr name com.lopez05656.eleven:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6349,11 +6349,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeCutDrawable
+     * @attr name com.lopez05656.eleven:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6361,11 +6361,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeFindDrawable
+     * @attr name com.lopez05656.eleven:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6373,11 +6373,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModePasteDrawable
+     * @attr name com.lopez05656.eleven:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6385,11 +6385,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModePopupWindowStyle
+     * @attr name com.lopez05656.eleven:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6397,11 +6397,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeSelectAllDrawable
+     * @attr name com.lopez05656.eleven:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6409,11 +6409,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeShareDrawable
+     * @attr name com.lopez05656.eleven:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6421,11 +6421,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeSplitBackground
+     * @attr name com.lopez05656.eleven:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6433,11 +6433,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeStyle
+     * @attr name com.lopez05656.eleven:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6445,11 +6445,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionModeWebSearchDrawable
+     * @attr name com.lopez05656.eleven:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6457,11 +6457,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionOverflowButtonStyle
+     * @attr name com.lopez05656.eleven:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6469,11 +6469,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionOverflowMenuStyle
+     * @attr name com.lopez05656.eleven:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6481,11 +6481,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:activityChooserViewStyle
+     * @attr name com.lopez05656.eleven:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6493,21 +6493,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:alertDialogButtonGroupStyle
+     * @attr name com.lopez05656.eleven:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:alertDialogCenterButtons
+     * @attr name com.lopez05656.eleven:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6515,11 +6515,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:alertDialogStyle
+     * @attr name com.lopez05656.eleven:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6527,11 +6527,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:alertDialogTheme
+     * @attr name com.lopez05656.eleven:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6539,11 +6539,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:autoCompleteTextViewStyle
+     * @attr name com.lopez05656.eleven:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6551,11 +6551,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:borderlessButtonStyle
+     * @attr name com.lopez05656.eleven:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6563,11 +6563,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonBarButtonStyle
+     * @attr name com.lopez05656.eleven:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6575,11 +6575,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonBarNegativeButtonStyle
+     * @attr name com.lopez05656.eleven:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6587,11 +6587,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonBarNeutralButtonStyle
+     * @attr name com.lopez05656.eleven:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6599,11 +6599,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonBarPositiveButtonStyle
+     * @attr name com.lopez05656.eleven:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6611,11 +6611,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonBarStyle
+     * @attr name com.lopez05656.eleven:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6623,11 +6623,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonStyle
+     * @attr name com.lopez05656.eleven:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6635,11 +6635,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonStyleSmall
+     * @attr name com.lopez05656.eleven:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6647,11 +6647,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:checkboxStyle
+     * @attr name com.lopez05656.eleven:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6659,77 +6659,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:checkedTextViewStyle
+     * @attr name com.lopez05656.eleven:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorAccent
+     * @attr name com.lopez05656.eleven:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorBackgroundFloating
+     * @attr name com.lopez05656.eleven:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorButtonNormal
+     * @attr name com.lopez05656.eleven:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorControlActivated
+     * @attr name com.lopez05656.eleven:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorControlHighlight
+     * @attr name com.lopez05656.eleven:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorControlNormal
+     * @attr name com.lopez05656.eleven:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6740,44 +6740,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorError
+     * @attr name com.lopez05656.eleven:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorPrimary
+     * @attr name com.lopez05656.eleven:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorPrimaryDark
+     * @attr name com.lopez05656.eleven:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:colorSwitchThumbNormal
+     * @attr name com.lopez05656.eleven:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6785,11 +6785,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:controlBackground
+     * @attr name com.lopez05656.eleven:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dialogCornerRadius}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dialogCornerRadius}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6798,11 +6798,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:dialogCornerRadius
+     * @attr name com.lopez05656.eleven:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6811,11 +6811,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:dialogPreferredPadding
+     * @attr name com.lopez05656.eleven:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6823,11 +6823,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:dialogTheme
+     * @attr name com.lopez05656.eleven:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6835,11 +6835,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:dividerHorizontal
+     * @attr name com.lopez05656.eleven:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6847,11 +6847,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:dividerVertical
+     * @attr name com.lopez05656.eleven:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6859,11 +6859,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:dropDownListViewStyle
+     * @attr name com.lopez05656.eleven:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6872,11 +6872,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:dropdownListPreferredItemHeight
+     * @attr name com.lopez05656.eleven:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6884,11 +6884,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:editTextBackground
+     * @attr name com.lopez05656.eleven:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6899,11 +6899,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:editTextColor
+     * @attr name com.lopez05656.eleven:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6911,11 +6911,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:editTextStyle
+     * @attr name com.lopez05656.eleven:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6923,11 +6923,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:homeAsUpIndicator
+     * @attr name com.lopez05656.eleven:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6935,11 +6935,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:imageButtonStyle
+     * @attr name com.lopez05656.eleven:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6947,11 +6947,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listChoiceBackgroundIndicator
+     * @attr name com.lopez05656.eleven:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listChoiceIndicatorMultipleAnimated}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listChoiceIndicatorMultipleAnimated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6959,11 +6959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listChoiceIndicatorMultipleAnimated
+     * @attr name com.lopez05656.eleven:listChoiceIndicatorMultipleAnimated
      */
     public static final int AppCompatTheme_listChoiceIndicatorMultipleAnimated=72;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listChoiceIndicatorSingleAnimated}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listChoiceIndicatorSingleAnimated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6971,11 +6971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listChoiceIndicatorSingleAnimated
+     * @attr name com.lopez05656.eleven:listChoiceIndicatorSingleAnimated
      */
     public static final int AppCompatTheme_listChoiceIndicatorSingleAnimated=73;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6983,11 +6983,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listDividerAlertDialog
+     * @attr name com.lopez05656.eleven:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=74;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6995,11 +6995,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listMenuViewStyle
+     * @attr name com.lopez05656.eleven:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=75;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7007,11 +7007,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:listPopupWindowStyle
+     * @attr name com.lopez05656.eleven:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=76;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7020,11 +7020,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemHeight
+     * @attr name com.lopez05656.eleven:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=77;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7033,11 +7033,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemHeightLarge
+     * @attr name com.lopez05656.eleven:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=78;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7046,11 +7046,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemHeightSmall
+     * @attr name com.lopez05656.eleven:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=79;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemPaddingEnd}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7059,11 +7059,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemPaddingEnd
+     * @attr name com.lopez05656.eleven:listPreferredItemPaddingEnd
      */
     public static final int AppCompatTheme_listPreferredItemPaddingEnd=80;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7072,11 +7072,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemPaddingLeft
+     * @attr name com.lopez05656.eleven:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=81;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7085,11 +7085,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemPaddingRight
+     * @attr name com.lopez05656.eleven:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=82;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#listPreferredItemPaddingStart}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#listPreferredItemPaddingStart}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7098,11 +7098,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:listPreferredItemPaddingStart
+     * @attr name com.lopez05656.eleven:listPreferredItemPaddingStart
      */
     public static final int AppCompatTheme_listPreferredItemPaddingStart=83;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7110,11 +7110,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:panelBackground
+     * @attr name com.lopez05656.eleven:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=84;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7122,11 +7122,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:panelMenuListTheme
+     * @attr name com.lopez05656.eleven:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=85;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7135,11 +7135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:panelMenuListWidth
+     * @attr name com.lopez05656.eleven:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=86;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7147,11 +7147,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:popupMenuStyle
+     * @attr name com.lopez05656.eleven:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=87;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7159,11 +7159,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:popupWindowStyle
+     * @attr name com.lopez05656.eleven:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7171,11 +7171,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:radioButtonStyle
+     * @attr name com.lopez05656.eleven:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7183,11 +7183,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:ratingBarStyle
+     * @attr name com.lopez05656.eleven:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7195,11 +7195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:ratingBarStyleIndicator
+     * @attr name com.lopez05656.eleven:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=91;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7207,11 +7207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:ratingBarStyleSmall
+     * @attr name com.lopez05656.eleven:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=92;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7219,11 +7219,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:searchViewStyle
+     * @attr name com.lopez05656.eleven:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7231,11 +7231,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:seekBarStyle
+     * @attr name com.lopez05656.eleven:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7243,11 +7243,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:selectableItemBackground
+     * @attr name com.lopez05656.eleven:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=95;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7255,11 +7255,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:selectableItemBackgroundBorderless
+     * @attr name com.lopez05656.eleven:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=96;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7267,11 +7267,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:spinnerDropDownItemStyle
+     * @attr name com.lopez05656.eleven:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=97;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7279,11 +7279,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:spinnerStyle
+     * @attr name com.lopez05656.eleven:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=98;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7291,11 +7291,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:switchStyle
+     * @attr name com.lopez05656.eleven:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=99;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7303,11 +7303,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceLargePopupMenu
+     * @attr name com.lopez05656.eleven:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=100;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7315,11 +7315,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceListItem
+     * @attr name com.lopez05656.eleven:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=101;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7327,11 +7327,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceListItemSecondary
+     * @attr name com.lopez05656.eleven:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=102;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7339,11 +7339,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceListItemSmall
+     * @attr name com.lopez05656.eleven:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=103;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7351,11 +7351,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearancePopupMenuHeader
+     * @attr name com.lopez05656.eleven:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=104;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7363,11 +7363,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceSearchResultSubtitle
+     * @attr name com.lopez05656.eleven:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=105;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7375,11 +7375,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceSearchResultTitle
+     * @attr name com.lopez05656.eleven:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=106;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7387,11 +7387,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:textAppearanceSmallPopupMenu
+     * @attr name com.lopez05656.eleven:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=107;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7402,11 +7402,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:textColorAlertDialogListItem
+     * @attr name com.lopez05656.eleven:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=108;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7417,11 +7417,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:textColorSearchUrl
+     * @attr name com.lopez05656.eleven:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=109;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7429,11 +7429,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:toolbarNavigationButtonStyle
+     * @attr name com.lopez05656.eleven:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=110;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7441,11 +7441,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:toolbarStyle
+     * @attr name com.lopez05656.eleven:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=111;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7456,11 +7456,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:tooltipForegroundColor
+     * @attr name com.lopez05656.eleven:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=112;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7468,51 +7468,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:tooltipFrameBackground
+     * @attr name com.lopez05656.eleven:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=113;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:viewInflaterClass
+     * @attr name com.lopez05656.eleven:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=114;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:windowActionBar
+     * @attr name com.lopez05656.eleven:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=115;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:windowActionBarOverlay
+     * @attr name com.lopez05656.eleven:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=116;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:windowActionModeOverlay
+     * @attr name com.lopez05656.eleven:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=117;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7525,11 +7525,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name org.lineageos.eleven:windowFixedHeightMajor
+     * @attr name com.lopez05656.eleven:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=118;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7542,11 +7542,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name org.lineageos.eleven:windowFixedHeightMinor
+     * @attr name com.lopez05656.eleven:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=119;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7559,11 +7559,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name org.lineageos.eleven:windowFixedWidthMajor
+     * @attr name com.lopez05656.eleven:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=120;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7576,11 +7576,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name org.lineageos.eleven:windowFixedWidthMinor
+     * @attr name com.lopez05656.eleven:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=121;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7593,11 +7593,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name org.lineageos.eleven:windowMinWidthMajor
+     * @attr name com.lopez05656.eleven:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=122;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7610,17 +7610,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name org.lineageos.eleven:windowMinWidthMinor
+     * @attr name com.lopez05656.eleven:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=123;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:windowNoTitle
+     * @attr name com.lopez05656.eleven:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=124;
     /**
@@ -7630,7 +7630,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking org.lineageos.eleven:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.lopez05656.eleven:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -7638,13 +7638,13 @@ public final class R {
       0x7f030026
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:allowStacking
+     * @attr name com.lopez05656.eleven:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7656,17 +7656,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor org.lineageos.eleven:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius org.lineageos.eleven:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation org.lineageos.eleven:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation org.lineageos.eleven:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap org.lineageos.eleven:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding org.lineageos.eleven:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding org.lineageos.eleven:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom org.lineageos.eleven:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft org.lineageos.eleven:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight org.lineageos.eleven:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop org.lineageos.eleven:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.lopez05656.eleven:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.lopez05656.eleven:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.lopez05656.eleven:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.lopez05656.eleven:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.lopez05656.eleven:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.lopez05656.eleven:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.lopez05656.eleven:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.lopez05656.eleven:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.lopez05656.eleven:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.lopez05656.eleven:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.lopez05656.eleven:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -7715,18 +7715,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:cardBackgroundColor
+     * @attr name com.lopez05656.eleven:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7735,11 +7735,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:cardCornerRadius
+     * @attr name com.lopez05656.eleven:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7748,11 +7748,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:cardElevation
+     * @attr name com.lopez05656.eleven:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7761,31 +7761,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:cardMaxElevation
+     * @attr name com.lopez05656.eleven:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:cardPreventCornerOverlap
+     * @attr name com.lopez05656.eleven:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:cardUseCompatPadding
+     * @attr name com.lopez05656.eleven:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7794,11 +7794,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentPadding
+     * @attr name com.lopez05656.eleven:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7807,11 +7807,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentPaddingBottom
+     * @attr name com.lopez05656.eleven:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7820,11 +7820,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentPaddingLeft
+     * @attr name com.lopez05656.eleven:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7833,11 +7833,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentPaddingRight
+     * @attr name com.lopez05656.eleven:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7846,7 +7846,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentPaddingTop
+     * @attr name com.lopez05656.eleven:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -7858,7 +7858,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha org.lineageos.eleven:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.lopez05656.eleven:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7888,12 +7888,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name org.lineageos.eleven:alpha
+     * @attr name com.lopez05656.eleven:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -7904,9 +7904,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonCompat org.lineageos.eleven:buttonCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint org.lineageos.eleven:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode org.lineageos.eleven:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonCompat com.lopez05656.eleven:buttonCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.lopez05656.eleven:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.lopez05656.eleven:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonCompat
@@ -7929,7 +7929,7 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonCompat}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonCompat}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7937,22 +7937,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonCompat
+     * @attr name com.lopez05656.eleven:buttonCompat
      */
     public static final int CompoundButton_buttonCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:buttonTint
+     * @attr name com.lopez05656.eleven:buttonTint
      */
     public static final int CompoundButton_buttonTint=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7969,7 +7969,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:buttonTintMode
+     * @attr name com.lopez05656.eleven:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=3;
     /**
@@ -7979,8 +7979,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines org.lineageos.eleven:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground org.lineageos.eleven:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.lopez05656.eleven:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.lopez05656.eleven:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -7989,7 +7989,7 @@ public final class R {
       0x7f0300ae, 0x7f030100
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7997,11 +7997,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:keylines
+     * @attr name com.lopez05656.eleven:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8012,7 +8012,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:statusBarBackground
+     * @attr name com.lopez05656.eleven:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -8023,12 +8023,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor org.lineageos.eleven:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity org.lineageos.eleven:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior org.lineageos.eleven:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges org.lineageos.eleven:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge org.lineageos.eleven:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline org.lineageos.eleven:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.lopez05656.eleven:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.lopez05656.eleven:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.lopez05656.eleven:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.lopez05656.eleven:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.lopez05656.eleven:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.lopez05656.eleven:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -8072,7 +8072,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8080,11 +8080,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:layout_anchor
+     * @attr name com.lopez05656.eleven:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8109,21 +8109,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:layout_anchorGravity
+     * @attr name com.lopez05656.eleven:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:layout_behavior
+     * @attr name com.lopez05656.eleven:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8142,11 +8142,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:layout_dodgeInsetEdges
+     * @attr name com.lopez05656.eleven:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8164,16 +8164,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:layout_insetEdge
+     * @attr name com.lopez05656.eleven:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.lineageos.eleven:layout_keyline
+     * @attr name com.lopez05656.eleven:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -8183,14 +8183,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength org.lineageos.eleven:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength org.lineageos.eleven:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength org.lineageos.eleven:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color org.lineageos.eleven:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize org.lineageos.eleven:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars org.lineageos.eleven:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars org.lineageos.eleven:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness org.lineageos.eleven:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.lopez05656.eleven:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.lopez05656.eleven:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.lopez05656.eleven:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.lopez05656.eleven:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.lopez05656.eleven:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.lopez05656.eleven:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.lopez05656.eleven:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.lopez05656.eleven:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -8206,7 +8206,7 @@ public final class R {
       0x7f03007e, 0x7f03009e, 0x7f0300f9, 0x7f030119
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8215,11 +8215,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:arrowHeadLength
+     * @attr name com.lopez05656.eleven:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8228,11 +8228,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:arrowShaftLength
+     * @attr name com.lopez05656.eleven:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8241,22 +8241,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:barLength
+     * @attr name com.lopez05656.eleven:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:color
+     * @attr name com.lopez05656.eleven:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8265,11 +8265,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:drawableSize
+     * @attr name com.lopez05656.eleven:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8278,21 +8278,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:gapBetweenBars
+     * @attr name com.lopez05656.eleven:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:spinBars
+     * @attr name com.lopez05656.eleven:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8301,7 +8301,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:thickness
+     * @attr name com.lopez05656.eleven:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -8311,12 +8311,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority org.lineageos.eleven:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts org.lineageos.eleven:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy org.lineageos.eleven:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout org.lineageos.eleven:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage org.lineageos.eleven:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery org.lineageos.eleven:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.lopez05656.eleven:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.lopez05656.eleven:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.lopez05656.eleven:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.lopez05656.eleven:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.lopez05656.eleven:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.lopez05656.eleven:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -8330,17 +8330,17 @@ public final class R {
       0x7f030099, 0x7f03009a
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontProviderAuthority
+     * @attr name com.lopez05656.eleven:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8348,11 +8348,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:fontProviderCerts
+     * @attr name com.lopez05656.eleven:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8365,11 +8365,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:fontProviderFetchStrategy
+     * @attr name com.lopez05656.eleven:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8382,27 +8382,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:fontProviderFetchTimeout
+     * @attr name com.lopez05656.eleven:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontProviderPackage
+     * @attr name com.lopez05656.eleven:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontProviderQuery
+     * @attr name com.lopez05656.eleven:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -8417,11 +8417,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font org.lineageos.eleven:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle org.lineageos.eleven:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings org.lineageos.eleven:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight org.lineageos.eleven:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex org.lineageos.eleven:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.lopez05656.eleven:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.lopez05656.eleven:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.lopez05656.eleven:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.lopez05656.eleven:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.lopez05656.eleven:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -8497,7 +8497,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8505,11 +8505,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:font
+     * @attr name com.lopez05656.eleven:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8522,35 +8522,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:fontStyle
+     * @attr name com.lopez05656.eleven:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontVariationSettings
+     * @attr name com.lopez05656.eleven:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.lineageos.eleven:fontWeight
+     * @attr name com.lopez05656.eleven:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.lineageos.eleven:ttcIndex
+     * @attr name com.lopez05656.eleven:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -8789,10 +8789,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider org.lineageos.eleven:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding org.lineageos.eleven:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild org.lineageos.eleven:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers org.lineageos.eleven:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.lopez05656.eleven:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.lopez05656.eleven:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.lopez05656.eleven:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.lopez05656.eleven:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -8884,7 +8884,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8892,11 +8892,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:divider
+     * @attr name com.lopez05656.eleven:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8905,21 +8905,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:dividerPadding
+     * @attr name com.lopez05656.eleven:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:measureWithLargestChild
+     * @attr name com.lopez05656.eleven:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8934,7 +8934,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:showDividers
+     * @attr name com.lopez05656.eleven:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -9206,16 +9206,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout org.lineageos.eleven:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass org.lineageos.eleven:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass org.lineageos.eleven:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers org.lineageos.eleven:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription org.lineageos.eleven:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint org.lineageos.eleven:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode org.lineageos.eleven:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers org.lineageos.eleven:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction org.lineageos.eleven:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText org.lineageos.eleven:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.lopez05656.eleven:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.lopez05656.eleven:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.lopez05656.eleven:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.lopez05656.eleven:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.lopez05656.eleven:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.lopez05656.eleven:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.lopez05656.eleven:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.lopez05656.eleven:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.lopez05656.eleven:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.lopez05656.eleven:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -9392,7 +9392,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9400,31 +9400,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:actionLayout
+     * @attr name com.lopez05656.eleven:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:actionProviderClass
+     * @attr name com.lopez05656.eleven:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:actionViewClass
+     * @attr name com.lopez05656.eleven:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9441,32 +9441,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:alphabeticModifiers
+     * @attr name com.lopez05656.eleven:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:contentDescription
+     * @attr name com.lopez05656.eleven:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:iconTint
+     * @attr name com.lopez05656.eleven:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9483,11 +9483,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:iconTintMode
+     * @attr name com.lopez05656.eleven:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9504,11 +9504,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:numericModifiers
+     * @attr name com.lopez05656.eleven:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9524,17 +9524,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:showAsAction
+     * @attr name com.lopez05656.eleven:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:tooltipText
+     * @attr name com.lopez05656.eleven:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -9551,8 +9551,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing org.lineageos.eleven:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow org.lineageos.eleven:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.lopez05656.eleven:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.lopez05656.eleven:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -9657,17 +9657,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:preserveIconSpacing
+     * @attr name com.lopez05656.eleven:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9675,7 +9675,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:subMenuArrow
+     * @attr name com.lopez05656.eleven:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -9687,7 +9687,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor org.lineageos.eleven:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.lopez05656.eleven:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -9724,13 +9724,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:overlapAnchor
+     * @attr name com.lopez05656.eleven:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -9740,7 +9740,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor org.lineageos.eleven:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.lopez05656.eleven:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -9748,13 +9748,13 @@ public final class R {
       0x7f0300ff
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:state_above_anchor
+     * @attr name com.lopez05656.eleven:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -9764,8 +9764,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons org.lineageos.eleven:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle org.lineageos.eleven:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.lopez05656.eleven:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.lopez05656.eleven:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -9774,7 +9774,7 @@ public final class R {
       0x7f0300d4, 0x7f0300d7
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9783,11 +9783,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:paddingBottomNoButtons
+     * @attr name com.lopez05656.eleven:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9796,7 +9796,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:paddingTopNoTitle
+     * @attr name com.lopez05656.eleven:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -9809,15 +9809,15 @@ public final class R {
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_clipToPadding android:clipToPadding}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled org.lineageos.eleven:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable org.lineageos.eleven:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable org.lineageos.eleven:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable org.lineageos.eleven:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable org.lineageos.eleven:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager org.lineageos.eleven:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout org.lineageos.eleven:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount org.lineageos.eleven:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd org.lineageos.eleven:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.lopez05656.eleven:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.lopez05656.eleven:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.lopez05656.eleven:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.lopez05656.eleven:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.lopez05656.eleven:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.lopez05656.eleven:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.lopez05656.eleven:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.lopez05656.eleven:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.lopez05656.eleven:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_clipToPadding
@@ -9883,17 +9883,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:fastScrollEnabled
+     * @attr name com.lopez05656.eleven:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9901,11 +9901,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:fastScrollHorizontalThumbDrawable
+     * @attr name com.lopez05656.eleven:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9913,11 +9913,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:fastScrollHorizontalTrackDrawable
+     * @attr name com.lopez05656.eleven:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9925,11 +9925,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:fastScrollVerticalThumbDrawable
+     * @attr name com.lopez05656.eleven:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9937,46 +9937,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:fastScrollVerticalTrackDrawable
+     * @attr name com.lopez05656.eleven:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:layoutManager
+     * @attr name com.lopez05656.eleven:layoutManager
      */
     public static final int RecyclerView_layoutManager=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:reverseLayout
+     * @attr name com.lopez05656.eleven:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.lineageos.eleven:spanCount
+     * @attr name com.lopez05656.eleven:spanCount
      */
     public static final int RecyclerView_spanCount=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:stackFromEnd
+     * @attr name com.lopez05656.eleven:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=11;
     /**
@@ -9990,19 +9990,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon org.lineageos.eleven:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon org.lineageos.eleven:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint org.lineageos.eleven:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon org.lineageos.eleven:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault org.lineageos.eleven:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout org.lineageos.eleven:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground org.lineageos.eleven:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint org.lineageos.eleven:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon org.lineageos.eleven:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon org.lineageos.eleven:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground org.lineageos.eleven:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout org.lineageos.eleven:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon org.lineageos.eleven:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.lopez05656.eleven:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.lopez05656.eleven:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.lopez05656.eleven:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.lopez05656.eleven:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.lopez05656.eleven:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.lopez05656.eleven:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.lopez05656.eleven:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.lopez05656.eleven:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.lopez05656.eleven:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.lopez05656.eleven:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.lopez05656.eleven:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.lopez05656.eleven:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.lopez05656.eleven:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -10140,7 +10140,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10148,11 +10148,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:closeIcon
+     * @attr name com.lopez05656.eleven:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10160,21 +10160,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:commitIcon
+     * @attr name com.lopez05656.eleven:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:defaultQueryHint
+     * @attr name com.lopez05656.eleven:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10182,21 +10182,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:goIcon
+     * @attr name com.lopez05656.eleven:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:iconifiedByDefault
+     * @attr name com.lopez05656.eleven:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10204,11 +10204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:layout
+     * @attr name com.lopez05656.eleven:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10216,21 +10216,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:queryBackground
+     * @attr name com.lopez05656.eleven:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:queryHint
+     * @attr name com.lopez05656.eleven:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10238,11 +10238,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:searchHintIcon
+     * @attr name com.lopez05656.eleven:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10250,11 +10250,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:searchIcon
+     * @attr name com.lopez05656.eleven:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10262,11 +10262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:submitBackground
+     * @attr name com.lopez05656.eleven:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10274,11 +10274,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:suggestionRowLayout
+     * @attr name com.lopez05656.eleven:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10286,7 +10286,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:voiceIcon
+     * @attr name com.lopez05656.eleven:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -10296,18 +10296,18 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_anchorPoint org.lineageos.eleven:anchorPoint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_directOffset org.lineageos.eleven:directOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_dragView org.lineageos.eleven:dragView}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_dragViewClickable org.lineageos.eleven:dragViewClickable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_fadeColor org.lineageos.eleven:fadeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_flingVelocity org.lineageos.eleven:flingVelocity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_initialState org.lineageos.eleven:initialState}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_overlay org.lineageos.eleven:overlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_panelHeight org.lineageos.eleven:panelHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_paralaxOffset org.lineageos.eleven:paralaxOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_shadowHeight org.lineageos.eleven:shadowHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SlidingUpPanelLayout_slidePanelOffset org.lineageos.eleven:slidePanelOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_anchorPoint com.lopez05656.eleven:anchorPoint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_directOffset com.lopez05656.eleven:directOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_dragView com.lopez05656.eleven:dragView}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_dragViewClickable com.lopez05656.eleven:dragViewClickable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_fadeColor com.lopez05656.eleven:fadeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_flingVelocity com.lopez05656.eleven:flingVelocity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_initialState com.lopez05656.eleven:initialState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_overlay com.lopez05656.eleven:overlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_panelHeight com.lopez05656.eleven:panelHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_paralaxOffset com.lopez05656.eleven:paralaxOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_shadowHeight com.lopez05656.eleven:shadowHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SlidingUpPanelLayout_slidePanelOffset com.lopez05656.eleven:slidePanelOffset}</code></td><td></td></tr>
      * </table>
      * @see #SlidingUpPanelLayout_anchorPoint
      * @see #SlidingUpPanelLayout_directOffset
@@ -10328,26 +10328,26 @@ public final class R {
       0x7f0300d9, 0x7f0300dc, 0x7f0300f1, 0x7f0300f7
     };
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#anchorPoint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#anchorPoint}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name org.lineageos.eleven:anchorPoint
+     * @attr name com.lopez05656.eleven:anchorPoint
      */
     public static final int SlidingUpPanelLayout_anchorPoint=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#directOffset}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#directOffset}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:directOffset
+     * @attr name com.lopez05656.eleven:directOffset
      */
     public static final int SlidingUpPanelLayout_directOffset=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dragView}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dragView}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10355,41 +10355,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:dragView
+     * @attr name com.lopez05656.eleven:dragView
      */
     public static final int SlidingUpPanelLayout_dragView=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#dragViewClickable}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#dragViewClickable}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:dragViewClickable
+     * @attr name com.lopez05656.eleven:dragViewClickable
      */
     public static final int SlidingUpPanelLayout_dragViewClickable=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fadeColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fadeColor}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:fadeColor
+     * @attr name com.lopez05656.eleven:fadeColor
      */
     public static final int SlidingUpPanelLayout_fadeColor=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#flingVelocity}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#flingVelocity}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name org.lineageos.eleven:flingVelocity
+     * @attr name com.lopez05656.eleven:flingVelocity
      */
     public static final int SlidingUpPanelLayout_flingVelocity=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#initialState}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#initialState}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10404,21 +10404,21 @@ public final class R {
      * <tr><td>hidden</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:initialState
+     * @attr name com.lopez05656.eleven:initialState
      */
     public static final int SlidingUpPanelLayout_initialState=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#overlay}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#overlay}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:overlay
+     * @attr name com.lopez05656.eleven:overlay
      */
     public static final int SlidingUpPanelLayout_overlay=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#panelHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#panelHeight}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10427,11 +10427,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:panelHeight
+     * @attr name com.lopez05656.eleven:panelHeight
      */
     public static final int SlidingUpPanelLayout_panelHeight=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#paralaxOffset}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#paralaxOffset}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10440,11 +10440,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:paralaxOffset
+     * @attr name com.lopez05656.eleven:paralaxOffset
      */
     public static final int SlidingUpPanelLayout_paralaxOffset=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#shadowHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#shadowHeight}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10453,11 +10453,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:shadowHeight
+     * @attr name com.lopez05656.eleven:shadowHeight
      */
     public static final int SlidingUpPanelLayout_shadowHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#slidePanelOffset}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#slidePanelOffset}
      * attribute's value can be found in the {@link #SlidingUpPanelLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10466,7 +10466,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:slidePanelOffset
+     * @attr name com.lopez05656.eleven:slidePanelOffset
      */
     public static final int SlidingUpPanelLayout_slidePanelOffset=11;
     /**
@@ -10480,7 +10480,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme org.lineageos.eleven:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.lopez05656.eleven:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -10555,7 +10555,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10563,7 +10563,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:popupTheme
+     * @attr name com.lopez05656.eleven:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -10685,17 +10685,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText org.lineageos.eleven:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack org.lineageos.eleven:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth org.lineageos.eleven:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding org.lineageos.eleven:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance org.lineageos.eleven:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding org.lineageos.eleven:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint org.lineageos.eleven:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode org.lineageos.eleven:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track org.lineageos.eleven:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint org.lineageos.eleven:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode org.lineageos.eleven:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.lopez05656.eleven:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.lopez05656.eleven:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.lopez05656.eleven:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.lopez05656.eleven:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.lopez05656.eleven:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.lopez05656.eleven:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.lopez05656.eleven:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.lopez05656.eleven:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.lopez05656.eleven:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.lopez05656.eleven:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.lopez05656.eleven:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -10751,27 +10751,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:showText
+     * @attr name com.lopez05656.eleven:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:splitTrack
+     * @attr name com.lopez05656.eleven:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10780,11 +10780,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:switchMinWidth
+     * @attr name com.lopez05656.eleven:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10793,11 +10793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:switchPadding
+     * @attr name com.lopez05656.eleven:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10805,11 +10805,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:switchTextAppearance
+     * @attr name com.lopez05656.eleven:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10818,22 +10818,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:thumbTextPadding
+     * @attr name com.lopez05656.eleven:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:thumbTint
+     * @attr name com.lopez05656.eleven:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10850,11 +10850,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:thumbTintMode
+     * @attr name com.lopez05656.eleven:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10862,22 +10862,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:track
+     * @attr name com.lopez05656.eleven:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:trackTint
+     * @attr name com.lopez05656.eleven:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10894,7 +10894,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:trackTintMode
+     * @attr name com.lopez05656.eleven:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -10916,10 +10916,10 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textFontWeight android:textFontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily org.lineageos.eleven:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontVariationSettings org.lineageos.eleven:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps org.lineageos.eleven:textAllCaps}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textLocale org.lineageos.eleven:textLocale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.lopez05656.eleven:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.lopez05656.eleven:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.lopez05656.eleven:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textLocale com.lopez05656.eleven:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11097,27 +11097,27 @@ public final class R {
      */
     public static final int TextAppearance_android_textFontWeight=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontFamily
+     * @attr name com.lopez05656.eleven:fontFamily
      */
     public static final int TextAppearance_fontFamily=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:fontVariationSettings
+     * @attr name com.lopez05656.eleven:fontVariationSettings
      */
     public static final int TextAppearance_fontVariationSettings=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11127,17 +11127,17 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name org.lineageos.eleven:textAllCaps
+     * @attr name com.lopez05656.eleven:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#textLocale}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#textLocale}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:textLocale
+     * @attr name com.lopez05656.eleven:textLocale
      */
     public static final int TextAppearance_textLocale=15;
     /**
@@ -11149,34 +11149,34 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity org.lineageos.eleven:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription org.lineageos.eleven:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon org.lineageos.eleven:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd org.lineageos.eleven:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions org.lineageos.eleven:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft org.lineageos.eleven:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight org.lineageos.eleven:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart org.lineageos.eleven:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation org.lineageos.eleven:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo org.lineageos.eleven:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription org.lineageos.eleven:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight org.lineageos.eleven:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_menu org.lineageos.eleven:menu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription org.lineageos.eleven:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon org.lineageos.eleven:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme org.lineageos.eleven:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle org.lineageos.eleven:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance org.lineageos.eleven:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor org.lineageos.eleven:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title org.lineageos.eleven:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin org.lineageos.eleven:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom org.lineageos.eleven:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd org.lineageos.eleven:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart org.lineageos.eleven:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop org.lineageos.eleven:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins org.lineageos.eleven:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance org.lineageos.eleven:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor org.lineageos.eleven:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.lopez05656.eleven:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.lopez05656.eleven:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.lopez05656.eleven:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.lopez05656.eleven:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.lopez05656.eleven:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.lopez05656.eleven:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.lopez05656.eleven:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.lopez05656.eleven:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.lopez05656.eleven:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.lopez05656.eleven:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.lopez05656.eleven:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.lopez05656.eleven:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_menu com.lopez05656.eleven:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.lopez05656.eleven:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.lopez05656.eleven:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.lopez05656.eleven:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.lopez05656.eleven:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.lopez05656.eleven:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.lopez05656.eleven:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.lopez05656.eleven:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.lopez05656.eleven:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.lopez05656.eleven:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.lopez05656.eleven:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.lopez05656.eleven:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.lopez05656.eleven:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.lopez05656.eleven:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.lopez05656.eleven:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.lopez05656.eleven:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -11262,7 +11262,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11276,21 +11276,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:buttonGravity
+     * @attr name com.lopez05656.eleven:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:collapseContentDescription
+     * @attr name com.lopez05656.eleven:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11298,11 +11298,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:collapseIcon
+     * @attr name com.lopez05656.eleven:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11311,11 +11311,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetEnd
+     * @attr name com.lopez05656.eleven:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11324,11 +11324,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetEndWithActions
+     * @attr name com.lopez05656.eleven:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11337,11 +11337,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetLeft
+     * @attr name com.lopez05656.eleven:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11350,11 +11350,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetRight
+     * @attr name com.lopez05656.eleven:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11363,11 +11363,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetStart
+     * @attr name com.lopez05656.eleven:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11376,11 +11376,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:contentInsetStartWithNavigation
+     * @attr name com.lopez05656.eleven:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11388,21 +11388,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:logo
+     * @attr name com.lopez05656.eleven:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:logoDescription
+     * @attr name com.lopez05656.eleven:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11411,11 +11411,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:maxButtonHeight
+     * @attr name com.lopez05656.eleven:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#menu}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11423,21 +11423,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:menu
+     * @attr name com.lopez05656.eleven:menu
      */
     public static final int Toolbar_menu=14;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:navigationContentDescription
+     * @attr name com.lopez05656.eleven:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=15;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11445,11 +11445,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:navigationIcon
+     * @attr name com.lopez05656.eleven:navigationIcon
      */
     public static final int Toolbar_navigationIcon=16;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11457,21 +11457,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:popupTheme
+     * @attr name com.lopez05656.eleven:popupTheme
      */
     public static final int Toolbar_popupTheme=17;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:subtitle
+     * @attr name com.lopez05656.eleven:subtitle
      */
     public static final int Toolbar_subtitle=18;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11479,32 +11479,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:subtitleTextAppearance
+     * @attr name com.lopez05656.eleven:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:subtitleTextColor
+     * @attr name com.lopez05656.eleven:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=20;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name org.lineageos.eleven:title
+     * @attr name com.lopez05656.eleven:title
      */
     public static final int Toolbar_title=21;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11513,11 +11513,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:titleMargin
+     * @attr name com.lopez05656.eleven:titleMargin
      */
     public static final int Toolbar_titleMargin=22;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11526,11 +11526,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:titleMarginBottom
+     * @attr name com.lopez05656.eleven:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=23;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11539,11 +11539,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:titleMarginEnd
+     * @attr name com.lopez05656.eleven:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=24;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11552,11 +11552,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:titleMarginStart
+     * @attr name com.lopez05656.eleven:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=25;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11565,11 +11565,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:titleMarginTop
+     * @attr name com.lopez05656.eleven:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=26;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11578,11 +11578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:titleMargins
+     * @attr name com.lopez05656.eleven:titleMargins
      */
     public static final int Toolbar_titleMargins=27;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11590,18 +11590,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:titleTextAppearance
+     * @attr name com.lopez05656.eleven:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=28;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:titleTextColor
+     * @attr name com.lopez05656.eleven:titleTextColor
      */
     public static final int Toolbar_titleTextColor=29;
     /**
@@ -11613,9 +11613,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd org.lineageos.eleven:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart org.lineageos.eleven:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme org.lineageos.eleven:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.lopez05656.eleven:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.lopez05656.eleven:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.lopez05656.eleven:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -11658,7 +11658,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11667,11 +11667,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:paddingEnd
+     * @attr name com.lopez05656.eleven:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11680,11 +11680,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name org.lineageos.eleven:paddingStart
+     * @attr name com.lopez05656.eleven:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11692,7 +11692,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name org.lineageos.eleven:theme
+     * @attr name com.lopez05656.eleven:theme
      */
     public static final int View_theme=4;
     /**
@@ -11703,8 +11703,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint org.lineageos.eleven:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode org.lineageos.eleven:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.lopez05656.eleven:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.lopez05656.eleven:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11729,18 +11729,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name org.lineageos.eleven:backgroundTint
+     * @attr name com.lopez05656.eleven:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link org.lineageos.eleven.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.lopez05656.eleven.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11757,7 +11757,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name org.lineageos.eleven:backgroundTintMode
+     * @attr name com.lopez05656.eleven:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

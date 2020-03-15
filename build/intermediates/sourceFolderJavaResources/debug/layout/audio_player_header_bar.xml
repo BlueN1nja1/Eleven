@@ -78,7 +78,7 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:textAllCaps="true"
-                android:textColor="@color/header_action_bar_text_color"
+                android:textColor="@color/white"
                 android:textSize="@dimen/text_size_medium"
                 android:textStyle="bold" />
 
@@ -90,7 +90,7 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:textAllCaps="true"
-                android:textColor="@color/header_action_bar_text_color"
+                android:textColor="@color/white"
                 android:textSize="@dimen/text_size_micro" />
     </LinearLayout>
 </RelativeLayout>

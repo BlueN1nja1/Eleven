@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "outputFile": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lopza\\.gradle\\caches\\transforms-2\\files-2.1\\1d2e4afa222ca67c886f3e1d989f5e39\\res\\values-tr\\values-tr.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\res\\values-tr\\plurals.xml",
+                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-tr\\plurals.xml",
                     "from": {
                         "startLines": "59,47,55,43,51,23,19,31,35,39,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\res\\values-tr\\strings.xml",
+                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-tr\\strings.xml",
                     "from": {
                         "startLines": "105,97,96,95,98,104,101,102,103,99,100,48,49,19,126,127,128,125,68,77,174,70,76,75,74,94,88,89,90,86,85,84,83,93,91,87,92,72,73,78,173,133,142,143,141,140,130,136,137,144,145,135,134,131,132,138,139,146,165,164,167,166,80,161,155,158,150,151,159,156,149,152,153,162,154,160,28,30,157,148,163,29,147,43,45,44,47,41,46,32,31,36,34,37,33,40,35,39,38,42,79,66,71,129,82,69,22,21,25,26,27,24,20,23,63,64,107,65,51,50,67,168,170,169,172,171,106,110,112,111,116,115,114,113,117,123,124,121,122,120,119,118,109,108,55,54,52,58,57,62,61,60,59,56,53,81",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

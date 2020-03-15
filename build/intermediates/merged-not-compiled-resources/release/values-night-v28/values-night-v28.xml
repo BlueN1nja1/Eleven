@@ -46,7 +46,7 @@
         <item name="android:textColor">@color/bottom_action_bar_text_color</item>
     </style>
     <style name="DropDownListView" parent="@android:style/Widget.Material.ListView.DropDown"/>
-    <style name="Eleven.Theme" parent="@android:style/Theme.DeviceDefault">
+    <style name="Eleven.Theme" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
@@ -112,7 +112,10 @@
         <item name="android:divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
-    <style name="MTSettings" parent="@style/Eleven.Theme"/>
+    <style name="MTSettings" parent="@style/Eleven.Theme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

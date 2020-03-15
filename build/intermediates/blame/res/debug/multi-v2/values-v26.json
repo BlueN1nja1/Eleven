@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lopza\\.gradle\\caches\\transforms-2\\files-2.1\\1d2e4afa222ca67c886f3e1d989f5e39\\res\\values-v26\\values-v26.xml",

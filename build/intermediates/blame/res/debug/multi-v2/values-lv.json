@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+            "outputFile": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\res\\values-lv\\strings.xml",
+                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-lv\\strings.xml",
                     "from": {
                         "startLines": "103,95,94,93,96,102,99,100,101,97,98,47,48,19,120,121,122,119,67,76,69,75,74,73,92,86,87,88,84,83,82,91,89,85,90,71,72,77,167,127,136,137,135,134,124,130,131,138,139,129,128,125,126,132,133,140,159,158,161,160,79,155,149,152,144,145,153,150,143,146,147,156,148,154,28,30,151,142,157,29,141,43,45,44,46,41,32,31,36,34,37,33,40,35,39,38,42,78,65,70,123,81,68,22,21,25,26,27,24,20,23,62,63,105,64,50,49,66,162,164,163,166,165,104,108,110,109,114,113,112,111,115,118,117,116,107,106,54,53,51,57,56,61,60,59,58,55,52,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\res\\values-lv\\plurals.xml",
+                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-lv\\plurals.xml",
                     "from": {
                         "startLines": "69,54,64,49,59,24,19,34,39,44,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

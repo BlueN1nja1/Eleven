@@ -21249,7 +21249,6 @@ org.lineageos.eleven.R$style: int ListItemSecondaryText_Grid_Single
 org.lineageos.eleven.R$style: int ListItemSecondaryText_Light_Single
 org.lineageos.eleven.R$style: int ListItemSecondaryText_Single
 org.lineageos.eleven.R$style: int ListView
-org.lineageos.eleven.R$style: int MDSettings
 org.lineageos.eleven.R$style: int MTSettings
 org.lineageos.eleven.R$style: int NotificationText
 org.lineageos.eleven.R$style: int Platform_AppCompat

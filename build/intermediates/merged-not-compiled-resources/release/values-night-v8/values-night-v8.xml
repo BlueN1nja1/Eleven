@@ -22,7 +22,7 @@
         <item>@color/letter_tile_deep_orange_color_dark</item>
         <item>@color/letter_tile_brown_color_dark</item>
     </array>
-    <color name="accent">#ff8ab4f8</color>
+    <color name="accent">#8ab4f8</color>
     <color name="activity_album_detail_background_color">@color/background_color</color>
     <color name="activity_artist_detail_background_color">@color/background_color</color>
     <color name="activity_base_background_color">@color/background_color</color>
@@ -241,7 +241,10 @@
         <item name="android:divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
-    <style name="MTSettings" parent="@style/Eleven.Theme"/>
+    <style name="MTSettings" parent="@style/Eleven.Theme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

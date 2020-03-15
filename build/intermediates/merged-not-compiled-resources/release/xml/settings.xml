@@ -74,7 +74,9 @@
             android:key="delete_cache"
             android:summary="@string/settings_delete_cache_summary"
             android:title="@string/settings_delete_cache_title" />
-        <!-- Eleven Edition -->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Eleven Edition" >
+    <!-- Eleven Edition -->
               <Preference
             android:key="ElEdition"
             android:summary="Pixel Blue"

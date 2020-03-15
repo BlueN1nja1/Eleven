@@ -1,4 +1,4 @@
-com.lopez05656.eleven
+org.lineageos.eleven
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1841,7 +1841,6 @@ style ListItemSecondaryText_Grid_Single
 style ListItemSecondaryText_Light_Single
 style ListItemSecondaryText_Single
 style ListView
-style MDSettings
 style MTSettings
 style NotificationText
 style Platform_AppCompat

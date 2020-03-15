@@ -22,11 +22,11 @@
     <style name="Base.Theme.AppCompat" parent="Base.V28.Theme.AppCompat"/>
     <style name="Base.Theme.AppCompat.Light" parent="Base.V28.Theme.AppCompat.Light"/>
     <style name="Base.V28.Theme.AppCompat" parent="Base.V26.Theme.AppCompat">
-        <!-- We can use the platform styles on API 28+ -->
+        
         <item name="dialogCornerRadius">?android:attr/dialogCornerRadius</item>
     </style>
     <style name="Base.V28.Theme.AppCompat.Light" parent="Base.V26.Theme.AppCompat.Light">
-        <!-- We can use the platform styles on API 28+ -->
+        
         <item name="dialogCornerRadius">?android:attr/dialogCornerRadius</item>
     </style>
     <style name="BottomActionBarItem">
@@ -124,7 +124,10 @@
         <item name="android:divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
-    <style name="MDSettings" parent="@style/Eleven.Theme"/>
+    <style name="MTSettings" parent="@style/Eleven.Theme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

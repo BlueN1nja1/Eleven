@@ -84,6 +84,7 @@
                 android:gravity="top"
                 android:layout_toLeftOf="@id/ib_playpause"
                 android:ellipsize="end"
+                android:textColor="@color/accent"
                 android:textSize="@dimen/preview_title_textSize"
                 android:textStyle="bold"/>
 

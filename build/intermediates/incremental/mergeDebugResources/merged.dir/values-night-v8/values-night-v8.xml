@@ -22,7 +22,7 @@
         <item>@color/letter_tile_deep_orange_color_dark</item>
         <item>@color/letter_tile_brown_color_dark</item>
     </array>
-    <color name="accent">#ff8ab4f8</color>
+    <color name="accent">?android:colorAccent</color>
     <color name="activity_album_detail_background_color">@color/background_color</color>
     <color name="activity_artist_detail_background_color">@color/background_color</color>
     <color name="activity_base_background_color">@color/background_color</color>
@@ -30,7 +30,7 @@
     <color name="album_detail_genre_text_color">@color/default_text_color</color>
     <color name="album_detail_song_count_and_year_text_color">@color/default_text_color</color>
     <color name="album_detail_title_text_color">@color/default_text_color</color>
-    <color name="app_msg_text_color">?android:textColorPrimaryInverse</color>
+    <color name="app_msg_text_color">@color/accent</color>
     <color name="artist_detail_album_title_text_color">@color/cardOne</color>
     <color name="artist_detail_album_year_text_color">@color/cardTwo</color>
     <color name="artist_detail_header_albums_label_text_color">@color/list_item_header_text_color</color>
@@ -47,8 +47,8 @@
     <color name="bottom_action_bar_text_color">@color/white</color>
     <color name="brown">#a1887f</color>
     <color name="brown_dark">#8d6e63</color>
-    <color name="cardOne">@color/white</color>
-    <color name="cardTwo">#333333</color>
+    <color name="cardOne">#ffffff</color>
+    <color name="cardTwo">#ffffff</color>
     <color name="cards_bg_color">#333333</color>
     <color name="circular_progress_bar">@color/accent</color>
     <color name="circular_progress_bar_background">@color/grey</color>
@@ -68,8 +68,26 @@
     <color name="header_shadow_color">#ea212121</color>
     <color name="indigo">#673AB7</color>
     <color name="indigo_dark">#512DA8</color>
+    <color name="letter_tile_blue_color">@color/blue</color>
+    <color name="letter_tile_blue_color_dark">@color/blue_dark</color>
+    <color name="letter_tile_brown_color">@color/brown</color>
+    <color name="letter_tile_brown_color_dark">@color/brown_dark</color>
+    <color name="letter_tile_deep_orange_color">@color/orange</color>
+    <color name="letter_tile_deep_orange_color_dark">@color/orange_dark</color>
     <color name="letter_tile_default_color">@color/grey</color>
     <color name="letter_tile_font_color">@color/white</color>
+    <color name="letter_tile_grey_color">@color/grey</color>
+    <color name="letter_tile_grey_color_dark">@color/grey_dark</color>
+    <color name="letter_tile_indigo_color">@color/indigo</color>
+    <color name="letter_tile_indigo_color_dark">@color/indigo_dark</color>
+    <color name="letter_tile_light_green_color">@color/green</color>
+    <color name="letter_tile_light_green_color_dark">@color/green_dark</color>
+    <color name="letter_tile_purple_color">@color/purple</color>
+    <color name="letter_tile_purple_color_dark">@color/purple_dark</color>
+    <color name="letter_tile_red_color">@color/red</color>
+    <color name="letter_tile_red_color_dark">@color/red_dark</color>
+    <color name="letter_tile_teal_color">@color/teal</color>
+    <color name="letter_tile_teal_color_dark">@color/teal_dark</color>
     <color name="list_base_container_background_color">@color/black</color>
     <color name="list_item_background">#4cfafafa</color>
     <color name="list_item_divider_color">#4c212121</color>
@@ -90,7 +108,7 @@
     <color name="page_header_background">@color/black</color>
     <color name="position_number_color">@color/accent</color>
     <color name="primary">#ff000000</color>
-    <color name="primary_dark">#ff000000</color>
+    <color name="primary_dark">#000000</color>
     <color name="primary_light">#ff000000</color>
     <color name="purple">#9C27B0</color>
     <color name="purple_dark">#7B1FA2</color>
@@ -115,13 +133,13 @@
         <item name="android:background">@color/header_action_bar_color</item>
     </style>
     <style name="ActionBarWidgetTheme" parent="Eleven.Theme">
-        <!-- This is the color of the search text hint in the action bar -->
+        
         <item name="android:textColorHint">@color/search_hint_color</item>
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
         <item name="android:textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
         <item name="android:textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
-        <!-- Empty icon -->
+        
         <item name="android:icon">@android:color/transparent</item>
     </style>
     <style name="ActionOverFlowButton" parent="@android:style/Widget.Material.ActionButton.Overflow">

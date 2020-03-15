@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eo\\values-eo.xml",
+            "outputFile": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eo\\values-eo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lopza\\Downloads\\android_packages_apps_Eleven-lineage-17.1\\res\\values-eo\\strings.xml",
+                    "source": "C:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\res\\values-eo\\strings.xml",
                     "from": {
                         "startLines": "28,41,36,38,31,32,39,37,30,33,34,42,35,40,22,29,23,20,19,21,27,25,24,26",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

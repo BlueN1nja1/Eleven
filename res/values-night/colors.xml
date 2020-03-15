@@ -19,7 +19,7 @@
     <color name="primary">#ff000000</color>
     <color name="primary_dark">#000000</color>
     <color name="primary_light">#ff000000</color>
-    <color name="accent">#ff8ab4f8</color>
+    <color name="accent">#8ab4f8</color>
 
     <!-- Main colors -->
     <color name="black">#000000</color>
