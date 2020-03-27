@@ -1,4 +1,4 @@
-# LineageOS Eleven Music Player Material Theme
+# LineageOS Eleven Material Theme
  Material Theme for LineageOS Eleven (Designed for Pure Android / LineageOS Devices)
  
  Note: This app respects Dark Theme on Android 10 Queen Cake!
