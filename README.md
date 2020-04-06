@@ -1,5 +1,6 @@
-# LineageOS Eleven Material Theme
+# LineageOS Eleven Material Theme / App Port
  Material Theme for LineageOS Eleven (Designed for Pure Android / LineageOS Devices)
+ This app works from Android 8.x Oreo to Android 11 R so far
  
  Note: This app respects Dark Theme on Android 10 Queen Cake!
  
