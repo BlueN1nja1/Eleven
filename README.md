@@ -9,3 +9,5 @@
  Planned Accent Colors: Coral Red, Banana Yellow, Cyan
 
  Special Versions (For heavily skinned Devices that run Samsung's OneUI / Touchwiz, Xiaomi's MIUI, Huawei's EMUI, and Others): Coming Soon!
+ 
+ Screeenshots: Soon...
