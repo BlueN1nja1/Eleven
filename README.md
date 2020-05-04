@@ -8,6 +8,8 @@
  
  Planned Accent Colors: Coral Red, Banana Yellow, Cyan
 
- Special Versions (For heavily skinned Devices that run Samsung's OneUI / Touchwiz, Xiaomi's MIUI, Huawei's EMUI, and Others): Coming Soon!
- 
+ Special Versions 
+ (Heavily skinned Devices that run Samsung's OneUI / Touchwiz, Xiaomi's MIUI, Huawei's EMUI, and Others): Coming Soon!
+ (LineageOS 15.1+ Devices that have Eleven Pre-Installed): Coming Soon!
+
  Screeenshots: Soon...
