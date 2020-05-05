@@ -32,7 +32,6 @@
     <string name="empty_last_added">ئه‌و گۆرانیانه‌ی که‌ زیادکراون له‌ مانگی پێشوو لێره‌ نیشان ئه‌درێن.</string>
     <string name="empty_music">بۆ له‌به‌رگرتنه‌وه‌ی گۆرانی له‌ کۆمپیوته‌ر بۆ ئامێره‌که‌ت ، کێبڵی USB به‌کاربهێنه‌.</string>
     <string name="empty_recent">ئه‌و ئه‌لبومانه‌ی که‌ گوێت لێگرتوون لێره‌ نیشان ئه‌درێن ، گۆرانی لێبده‌.</string>
-    <string name="empty_search">هیچ ئه‌نجامێکی گه‌ڕان نه‌دۆزرایه‌وه‌</string>
     <string name="google_search">گه‌ڕانی گۆگڵ</string>
     <string name="header_albums">ئەلبوم</string>
     <string name="header_all_songs">هەموو گۆرانیەکان</string>
@@ -43,7 +42,6 @@
     <string name="menu_equalizer">یه‌کسانکه‌ری ده‌نگ</string>
     <string name="menu_play_all">لێدانی هه‌مووی</string>
     <string name="menu_save_queue">پاشەکەوتکردنی ریزی ڕێزکراو بۆ لێدان</string>
-    <string name="menu_search">گه‌ڕان</string>
     <string name="menu_settings">ڕێکخستن</string>
     <string name="menu_shuffle_album">ئەبلومی ڕیزکراو</string>
     <string name="menu_shuffle_all">هه‌ڕه‌مه‌کی</string>

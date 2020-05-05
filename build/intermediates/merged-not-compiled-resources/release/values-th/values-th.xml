@@ -97,6 +97,7 @@
     <string name="context_menu_remove_from_recent">ลบออกจากรายการล่าสุด</string>
     <string name="context_menu_rename_playlist">เปลี่ยนชื่อ</string>
     <string name="context_menu_use_as_ringtone">ใช้เป็นเสียงเรียกเข้า</string>
+    <string msgid="3209159573327985035" name="copy">"คัดลอก"</string>
     <string name="create_playlist_prompt">ชื่อรายการเพลง</string>
     <string name="delete_dialog_title">ลบ <ns1:g example="album" id="item">%s</ns1:g> หรือไม่</string>
     <string name="delete_warning">การกระทำนี้จะลบรูปภาพที่แคชอย่างถาวร</string>
@@ -113,11 +114,10 @@
     <string name="empty_queue_secondary">ในการเพิ่มเพลงไปยังรายการที่เล่น ให้แตะเมนูตัวเลือกบนเพลงหรือศิลปินและเลือก \"เพิ่มไปยังคิวเล่น\"</string>
     <string name="empty_recent">เพลงที่ฟังล่าสุดจะแสดงที่นี่</string>
     <string name="empty_recent_main">ไม่มีเพลงล่าสุด</string>
-    <string name="empty_search">ไม่พบผลการค้นหา</string>
-    <string name="empty_search_check">กรุณาตรวจสอบว่าการสะกดถูกต้องหรือลองคำอื่น</string>
     <string name="empty_top_tracks_main">ไม่มีเพลงยอดนิยม</string>
     <string name="empty_top_tracks_secondary">เพลงที่คุณฟังบ่อยสุดจะถูกเพิ่มไปยังรายการนี้</string>
     <string name="error_playing_track">ไม่สามารถเล่นเพลง %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"ขั้นสูง"</string>
     <string name="footer_search_albums">แสดงอัลบั้มทั้งหมด</string>
     <string name="footer_search_artists">แสดงศิลปินทั้งหมด</string>
     <string name="footer_search_playlists">แสดงรายการที่เล่นทั้งหมด</string>
@@ -149,7 +149,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">เล่นทั้งหมด</string>
     <string name="menu_save_queue">บันทึกคิวไปยังรายการที่จะเล่น</string>
-    <string name="menu_search">ค้นหา</string>
     <string name="menu_settings">การตั้งค่า</string>
     <string name="menu_shuffle_album">สลับอัลบั้ม</string>
     <string name="menu_shuffle_all">สลับทั้งหมด</string>
@@ -164,6 +163,7 @@
     <string name="new_playlist">รายการเพลงใหม่</string>
     <string name="new_playlist_name_template">รายการเพลง <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">ไม่สามารถเปิด equalizer ได้</string>
+    <string msgid="478774118347071097" name="not_set">"ไม่ได้ตั้งค่า"</string>
     <string name="old_photo">ใช้รูปเก่า</string>
     <string name="overwrite">เขียนทับ</string>
     <string name="page_albums">อัลบั้ม</string>
@@ -178,10 +178,10 @@
     <string name="playlist_recently_played">เพิ่งเล่น</string>
     <string name="playlist_renamed">เปลี่ยนชื่อรายการเพลง</string>
     <string name="playlist_top_tracks">แทร็คยอดนิยมของฉัน</string>
+    <string msgid="7961817945132860002" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
     <string name="remove_from_queue">ลบออกจากคิว</string>
     <string name="remove_from_recent">นำออกจากรายการล่าสุด</string>
     <string name="save">บันทึก</string>
-    <string name="searchHint">ค้นหาเพลง</string>
     <string msgid="730395136688082741" name="search_menu_title">"ค้นหา"</string>
     <string name="search_title_albums">อัลบั้ม \"%s\" ทั้งหมด</string>
     <string name="search_title_artists">ศิลปิน \"%s\" ทั้งหมด</string>
@@ -216,6 +216,9 @@
     <string name="sort_order_entry_track_list">รายการแทร็ค</string>
     <string name="sort_order_entry_year">ปี</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g> <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">เลือกรูปเริ่มต้น</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ปิด"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"เปิด"</string>
 </resources>

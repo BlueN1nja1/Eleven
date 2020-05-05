@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Törlés az előzményekből</string>
     <string name="context_menu_rename_playlist">Átnevezés</string>
     <string name="context_menu_use_as_ringtone">Beállítás csengőhangként</string>
+    <string msgid="3209159573327985035" name="copy">"Másolás"</string>
     <string name="create_playlist_prompt">Lejátszási lista neve</string>
     <string name="delete_dialog_title">Törli a következőt: <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Ezzel végleg törli a gyorsítótárazott képeket</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Zeneszámok hozzáadása a lejátszási sorhoz, koppintson a beállítások menü, dal, album vagy előadó lehetőségre, és válassza a \"Hozzáadás a lejátszólistához\" opciót.</string>
     <string name="empty_recent">Itt a nemrégiben hallgatott zenéi fognak megjelenni.</string>
     <string name="empty_recent_main">Nincsenek előzmények</string>
-    <string name="empty_search">Nincs találat</string>
-    <string name="empty_search_check">Ellenőrizze, hogy helyesen írta-e be, vagy próbálkozzon más kulcsszóval.</string>
     <string name="empty_top_tracks_main">Nincsenek kedvenc dalok</string>
     <string name="empty_top_tracks_secondary">Ezen a listán a legtöbbet hallgatott dalok fognak szerepelni.</string>
     <string name="error_playing_track">Nem lehet lejátszani a következőt: %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Speciális"</string>
     <string name="footer_search_albums">Összes album megjelenítése</string>
     <string name="footer_search_artists">Összes előadó megjelenítése</string>
     <string name="footer_search_playlists">Összes lejátszási lista megjelenítése</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Hangszínszabályzó</string>
     <string name="menu_play_all">Összes lejátszása</string>
     <string name="menu_save_queue">Várólista lista mentése</string>
-    <string name="menu_search">Keresés</string>
     <string name="menu_settings">Beállítások</string>
     <string name="menu_shuffle_album">Véletlen album</string>
     <string name="menu_shuffle_all">Véletlen sorrend</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Új lejátszási lista</string>
     <string name="new_playlist_name_template">Lejátszási lista: <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">A hangszínszabályzót nem lehet megnyitni.</string>
+    <string msgid="478774118347071097" name="not_set">"Nincs beállítva"</string>
     <string name="old_photo">Régi kép használata</string>
     <string name="overwrite">Felülír</string>
     <string name="page_albums">Albumok</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Nemrég Játszott</string>
     <string name="playlist_renamed">Lejátszási lista átnevezve</string>
     <string name="playlist_top_tracks">Kedvenceim</string>
+    <string msgid="7961817945132860002" name="preference_copied">"„<ns1:g id="SUMMARY">%1$s</ns1:g>” a vágólapra lett másolva."</string>
     <string name="remove_from_queue">Törlés a lejátszási sorból</string>
     <string name="remove_from_recent">Törlés az előzményekből</string>
     <string name="save">Mentés</string>
-    <string name="searchHint">Zene keresése</string>
     <string msgid="730395136688082741" name="search_menu_title">"Keresés"</string>
     <string name="search_title_albums">Összes \"%s\" album</string>
     <string name="search_title_artists">Összes \"%s\" előadó</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Dalok listája</string>
     <string name="sort_order_entry_year">Év</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Alapértelmezett kép használata</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"KI"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"BE"</string>
 </resources>

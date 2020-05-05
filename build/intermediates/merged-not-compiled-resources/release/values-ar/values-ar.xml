@@ -152,6 +152,7 @@
     <string name="context_menu_remove_from_recent">إزالة من الأغاني الأخيرة</string>
     <string name="context_menu_rename_playlist">إعادة تسمية</string>
     <string name="context_menu_use_as_ringtone">استخدام كنغمة رنين</string>
+    <string msgid="3209159573327985035" name="copy">"نسخ"</string>
     <string name="create_playlist_prompt">اسم قائمة التشغيل</string>
     <string name="delete_dialog_title">حذف <ns1:g example="album" id="item">%s</ns1:g>؟</string>
     <string name="delete_warning">سيؤدي هذا إلى حذف إدخالات الصورة المخزنة مؤقتاً بشكل دائم</string>
@@ -168,11 +169,10 @@
     <string name="empty_queue_secondary">لإضافة الأغاني إلى قائمة الانتظار، انقر فوق قائمة خيارات أي أغنية أو ألبوم أو الفنان وحدد \"إضافة إلى قائمة الانتظار\".</string>
     <string name="empty_recent">الأغاني التي استمعت إليها مؤخراً ستظهر هنا.</string>
     <string name="empty_recent_main">لا توجد أغاني حديثة.</string>
-    <string name="empty_search">لم يتم العثور على نتائج البحث</string>
-    <string name="empty_search_check">الرجاء التحقق من أن هجاء الكلمات صحيح أو حاول البحث باستخدام كمات دالة مختلفة.</string>
     <string name="empty_top_tracks_main">لا توجد أغاني أعلى </string>
     <string name="empty_top_tracks_secondary">ستُضاف الأغاني التي تسمعها كثيراً إلى هذه القائمة.</string>
     <string name="error_playing_track">تعذر تشغيل الأغنية%1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"إعدادات متقدمة"</string>
     <string name="footer_search_albums">إظهار جميع الألبومات</string>
     <string name="footer_search_artists">إظهار جميع الفنانين</string>
     <string name="footer_search_playlists">إظهار جميع قوائم التشغيل</string>
@@ -204,7 +204,6 @@
     <string name="menu_equalizer">المعادل</string>
     <string name="menu_play_all">تشغيل الكل</string>
     <string name="menu_save_queue">حفظ قائمة الانتظار إلى قائمة التشغيل</string>
-    <string name="menu_search">بحث</string>
     <string name="menu_settings">إعدادات</string>
     <string name="menu_shuffle_album">خلْط الألبوم</string>
     <string name="menu_shuffle_all">خلْط الكل</string>
@@ -219,6 +218,7 @@
     <string name="new_playlist">قائمة تشغيل جديدة</string>
     <string name="new_playlist_name_template">قائمة التشغيل <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">تعذر فتح المعادل.</string>
+    <string msgid="478774118347071097" name="not_set">"لم يتمّ تحديد قيمة."</string>
     <string name="old_photo">استخدام الصور القديمة</string>
     <string name="overwrite">استبدال</string>
     <string name="page_albums">ألبومات</string>
@@ -233,10 +233,10 @@
     <string name="playlist_recently_played">أغاني أذيعت مؤخراً</string>
     <string name="playlist_renamed">تمت إعادة تسميته قائمة التشغيل</string>
     <string name="playlist_top_tracks">الأغاني الأعلى لي</string>
+    <string msgid="7961817945132860002" name="preference_copied">"تم نسخ \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" إلى الحافظة."</string>
     <string name="remove_from_queue">إزالة من قائمة الانتظار</string>
     <string name="remove_from_recent">إزالة من الأغاني الأخيرة</string>
     <string name="save">حفظ</string>
-    <string name="searchHint">البحث عن موسيقى</string>
     <string msgid="730395136688082741" name="search_menu_title">"البحث"</string>
     <string name="search_title_albums">جميع ألبومات \"%s\"</string>
     <string name="search_title_artists">جميع الفنانين \"%s\"</string>
@@ -271,6 +271,9 @@
     <string name="sort_order_entry_track_list">قائمة الأغاني</string>
     <string name="sort_order_entry_year">السنة</string>
     <string name="sort_order_entry_za">من الياء إلى الألف</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>، <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">استخدام الصورة الافتراضية</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"إيقاف"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"تفعيل"</string>
 </resources>

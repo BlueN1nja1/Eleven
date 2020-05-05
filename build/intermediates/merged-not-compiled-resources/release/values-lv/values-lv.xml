@@ -117,6 +117,7 @@
     <string name="context_menu_remove_from_recent">Izņemt no nesenajiem</string>
     <string name="context_menu_rename_playlist">Pārsaukt</string>
     <string name="context_menu_use_as_ringtone">Izmantot kā zvana signālu</string>
+    <string msgid="3209159573327985035" name="copy">"Kopēt"</string>
     <string name="create_playlist_prompt">Atskaņošanas saraksta nosaukums</string>
     <string name="delete_dialog_title">Dzēst <ns1:g example="album" id="item"> %s </ns1:g>?</string>
     <string name="delete_warning">Kešoto attēlu ieraksti tiks dzēsti neatgriezeniski</string>
@@ -133,11 +134,10 @@
     <string name="empty_queue_secondary">Lai pievienotu dziesmas atskaņošanas rindai, piesitiet dziesmas, albuma vai izpildītāja izvēlnei un izvēlieties \"Pievienot rindai\".</string>
     <string name="empty_recent">Nesen klausītās dziesmas tiks parādītas šeit.</string>
     <string name="empty_recent_main">Nav neseno dziesmu</string>
-    <string name="empty_search">Nekas netika atrasts</string>
-    <string name="empty_search_check">Lūdzu, pārbaudiet vārda pareizrakstību vai izmantojiet citu atslēgvārdu.</string>
     <string name="empty_top_tracks_main">Nav labāko dziesmu</string>
     <string name="empty_top_tracks_secondary">Jūsu biežāk klausītās dziesmas tiks pievienotas šim sarakstam.</string>
     <string name="error_playing_track">Nevar atskaņot dziesmu %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Papildu iestatījumi"</string>
     <string name="footer_search_albums">Parādīt visus albumus</string>
     <string name="footer_search_artists">Parādīt visus māksliniekus</string>
     <string name="footer_search_playlists">Parādīt visus atskaņošanas sarakstus</string>
@@ -168,7 +168,6 @@
     <string name="menu_clear_recents">Notīrīt nesenos</string>
     <string name="menu_equalizer">Ekvalaizers</string>
     <string name="menu_play_all">Atskaņot visu</string>
-    <string name="menu_search">Meklēt</string>
     <string name="menu_settings">Iestatījumi</string>
     <string name="menu_shuffle_album">Jaukt albumu</string>
     <string name="menu_shuffle_all">Jaukt visu</string>
@@ -183,6 +182,7 @@
     <string name="new_playlist">Jauns atskaņošanas saraksts</string>
     <string name="new_playlist_name_template">Atskaņošanas sarakts <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Ekvalaizeru nevar atvērt.</string>
+    <string msgid="478774118347071097" name="not_set">"Nav iestatīts"</string>
     <string name="old_photo">Izmantot agrāko foto</string>
     <string name="overwrite">Pārrakstīt</string>
     <string name="page_albums">Albumi</string>
@@ -197,10 +197,10 @@
     <string name="playlist_recently_played">Nesen atskaņotais</string>
     <string name="playlist_renamed">Atskaņošanas saraksts ir pārsaukts</string>
     <string name="playlist_top_tracks">Manas top dziesmas</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Preference “<ns1:g id="SUMMARY">%1$s</ns1:g>” ir kopēta starpliktuvē."</string>
     <string name="remove_from_queue">Izņemt no rindas</string>
     <string name="remove_from_recent">Izņemt no nesenajiem</string>
     <string name="save">Saglabāt</string>
-    <string name="searchHint">Meklēt mūziku</string>
     <string msgid="730395136688082741" name="search_menu_title">"Meklēt"</string>
     <string name="search_title_albums">Visi \"%s\" albumi</string>
     <string name="search_title_artists">Visi \"%s\" mākslinieki</string>
@@ -231,6 +231,9 @@
     <string name="sort_order_entry_track_list">Dziesmu saraksts</string>
     <string name="sort_order_entry_year">Gads</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Izmantot noklusēto foto</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"IZSLĒGTS"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"IESLĒGTS"</string>
 </resources>

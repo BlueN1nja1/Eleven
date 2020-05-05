@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">Fjern fra siste</string>
     <string name="context_menu_rename_playlist">Gi nytt navn</string>
     <string name="context_menu_use_as_ringtone">Bruk som ringetone</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiér"</string>
     <string name="create_playlist_prompt">Navnet på spillelisten</string>
     <string name="delete_dialog_title">Slett <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Dette vil permanent slette allehurtigbufferbilder</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">For å legge til sanger i spillekøen, trykk på Alternativer-menyen på en sang, et album eller en artist og velg \"Legg til i kø\".</string>
     <string name="empty_recent">Sanger du har lyttet til sist vises her.</string>
     <string name="empty_recent_main">Ingen nye sanger</string>
-    <string name="empty_search">Ingen resultater funnet</string>
-    <string name="empty_search_check">Kontroller at du har riktig stavemåte eller prøv et annet nøkkelord.</string>
     <string name="empty_top_tracks_main">Ingen topp spor</string>
     <string name="empty_top_tracks_secondary">Sangene du hører på mest vil bli lagt til denne listen.</string>
     <string name="error_playing_track">Kan ikke spille spor %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avansert"</string>
     <string name="footer_search_albums">Vis alle album</string>
     <string name="footer_search_artists">Vis alle artister</string>
     <string name="footer_search_playlists">Vis alle spillelister</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Spill alle</string>
     <string name="menu_save_queue">Lagre kø til spillelisten</string>
-    <string name="menu_search">Søk</string>
     <string name="menu_settings">Innstillinger</string>
     <string name="menu_shuffle_album">Shuffle album</string>
     <string name="menu_shuffle_all">Shuffle alle</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">Ny spilleliste</string>
     <string name="new_playlist_name_template">Spilleliste <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Equalizeren kan ikke åpnes.</string>
+    <string msgid="478774118347071097" name="not_set">"Ikke angitt"</string>
     <string name="old_photo">Bruk gammelt bilde</string>
     <string name="overwrite">Overskriv</string>
     <string name="page_albums">Albumer</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">Nylig spilte</string>
     <string name="playlist_renamed">Spillelisten fikk et nytt navn</string>
     <string name="playlist_top_tracks">Mine topp spor</string>
+    <string msgid="7961817945132860002" name="preference_copied">"«<ns1:g id="SUMMARY">%1$s</ns1:g>» er kopiert til utklippstavlen."</string>
     <string name="remove_from_queue">Fjern fra køen</string>
     <string name="remove_from_recent">Fjern fra siste</string>
     <string name="save">Lagre</string>
-    <string name="searchHint">Søk musikk</string>
     <string msgid="730395136688082741" name="search_menu_title">"Søk"</string>
     <string name="search_title_albums">Alle \"%s\" albumer</string>
     <string name="search_title_artists">Alle \"%s\" artister</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">Sporliste</string>
     <string name="sort_order_entry_year">År</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Bruk standard bilde</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AV"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"PÅ"</string>
 </resources>

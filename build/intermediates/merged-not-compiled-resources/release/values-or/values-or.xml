@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">ସମ୍ପ୍ରତିରୁ ଅପସାରଣ କରନ୍ତୁ</string>
     <string name="context_menu_rename_playlist">ପୁନଃନାମ</string>
     <string name="context_menu_use_as_ringtone">ରିଂଗଟୋନ ଭାବେ ବ୍ୟବହାର</string>
+    <string msgid="3209159573327985035" name="copy">"କପି କରନ୍ତୁ"</string>
     <string name="create_playlist_prompt">ଚାଳନତାଲିକା ନାମ</string>
     <string name="delete_dialog_title">ଏହା ବିଲୋପ କରିବେ କି <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">ଏହା କ୍ୟାଚ୍‍ରେ ଥିବା ଚିତ୍ର ପ୍ରବେଶ ‍ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ କରିଦେବ</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">ଏହି ପ୍ଲେତାଲିକାରେ ଗୀତ ଯୋଗ କରିବା ପାଇଁ, ଗୀତ, ଆଲ୍‍ବମ୍‍ ବା କଳାକାରରେ ଥିବା ବିକଳ୍ପ ମେନ୍ୟୁରେ ଟ୍ୟାପ୍‍ କରନ୍ତୁ ଓ \"ପ୍ଲେତାଲିକାରେ ଯୋଗ କରନ୍ତୁ\"ରେ ଚୟନ କରନ୍ତୁ।</string>
     <string name="empty_recent">ସମ୍ପ୍ରତି ଆପଣ ଶୁଣୁଥିବା ଗୀତଗୁଡିକ ଏଠାରେ ପ୍ରଦର୍ଶନ କରିବା।</string>
     <string name="empty_recent_main">କୌଣସି ସମ୍ପ୍ରତି ଗୀତ ନାହିଁ</string>
-    <string name="empty_search">କୌଣସି ସନ୍ଧାନ ଫଳାଫଳ ମିଳିଲା ନାହିଁ</string>
-    <string name="empty_search_check">ଆପଣ ବନାନ ଠିକ୍‍ କରିଥିବା ଦୟାକରି ପରୀକ୍ଷିତ କରନ୍ତୁ ବା ଏକ ଭିନ୍ନ କିଓ୍ୱାର୍ଡ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string name="empty_top_tracks_main">କୌଣସି ଶୀ‍ର୍ଷ ଟ୍ରାକ୍‍ ନାହିଁ</string>
     <string name="empty_top_tracks_secondary">ଆପଣ ଅଧିକ ଥର ଶୁଣୁ୍ଥିବା ଗୀତଗୁଡିକ ଏହି ତାଲିକାରେ ଯୋଗ ହୋଇଯିବ।</string>
     <string name="error_playing_track">ଟ୍ରାକ୍‍ %1$s ପ୍ଲେ କରିବାରେ ଅ‍କ୍ଷମ</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"ଅଧିକ ଉନ୍ନତ"</string>
     <string name="footer_search_albums">ସମସ୍ତ ଆଲ୍‍ବମ୍‍ ଦେଖାନ୍ତୁ</string>
     <string name="footer_search_artists">ସମସ୍ତ କଳାକାର ଦେଖାନ୍ତୁ</string>
     <string name="footer_search_playlists">ସମସ୍ତ ପ୍ଲେତାଲିକା ପ୍ରଦର୍ଶନ କରନ୍ତୁ</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">ସମାନକାରୀ</string>
     <string name="menu_play_all">ସମସ୍ତ ଚାଳନ କରନ୍ତୁ</string>
     <string name="menu_save_queue">ଚାଳନତାଲିକାରେ ଧାଡି ସଂରକ୍ଷଣ କରନ୍ତୁ</string>
-    <string name="menu_search">ସନ୍ଧାନ</string>
     <string name="menu_settings">ସେଟିଂସ୍</string>
     <string name="menu_shuffle_album">ଆଲ୍‍ବମ୍‍ ସ୍ଥାନ ବଦଳ କରନ୍ତୁ</string>
     <string name="menu_shuffle_all">ସମସ୍ତ ସଫଲ୍ କରନ୍ତୁ</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">ନୂଆ ପ୍ଲେତାଲିକା</string>
     <string name="new_playlist_name_template">ଚାଳନତାଲିକା <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">ଇକ୍ୱାଲାଇଜର୍‍ ଖୋଲାଯାଇପାରିବ ନାହିଁ।</string>
+    <string msgid="478774118347071097" name="not_set">"ସେଟ୍ ହୋଇନାହିଁ"</string>
     <string name="old_photo">ପୁରୁଣା ଫଟୋ ବ୍ୟବହାର କରନ୍ତୁ</string>
     <string name="overwrite">ଅଧିଲିଖନ</string>
     <string name="page_albums">ଆଲବମଗୁଡିକ</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">ସମ୍ପ୍ରତି ପ୍ଲେ ହୋଇଥିବା</string>
     <string name="playlist_renamed">ପ୍ଲେତାଲିକା ପୁନଃନାମ ହୋଇଛି।</string>
     <string name="playlist_top_tracks">ମୋ ଶୀ‍ର୍ଷ ଟ୍ରାକ୍‍</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" କ୍ଲିପବୋର୍ଡକୁ କପି ହୋ‍ଇଗଲା।"</string>
     <string name="remove_from_queue">ଧାଡିରୁ  ଅପସାରଣ କରନ୍ତୁ</string>
     <string name="remove_from_recent">ସମ୍ପ୍ରତିରୁ ଅପସାରଣ କରନ୍ତୁ</string>
     <string name="save">ସଞ୍ଚୟ</string>
-    <string name="searchHint">ସଙ୍ଗୀତ ସନ୍ଧାନ କରନ୍ତୁ</string>
     <string msgid="730395136688082741" name="search_menu_title">"ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
     <string name="search_title_albums">ସମ୍ସ୍ତ \"%s\" ଆଲ୍‍ବମ୍‍</string>
     <string name="search_title_artists">ସମ୍ସ୍ତ \"%s\" କଳାକାର</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">ଟ୍ରାକ୍‍ ତାଲିକା</string>
     <string name="sort_order_entry_year">ବ‍ର୍ଷ</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">ଡିଫଲ୍ଟ ଫଟୋ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ଅଫ୍ ଅଛି"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ଅନ୍ ଅଛି"</string>
 </resources>

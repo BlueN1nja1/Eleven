@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Премахване от последно изпълнявани</string>
     <string name="context_menu_rename_playlist">Преименуване</string>
     <string name="context_menu_use_as_ringtone">Използвай като тон на звънене</string>
+    <string msgid="3209159573327985035" name="copy">"Копиране"</string>
     <string name="create_playlist_prompt">Име на списъка за изпълнение</string>
     <string name="delete_dialog_title">Изтриване на <ns1:g example="album" id="item">%s </ns1:g>?</string>
     <string name="delete_warning">Това завинаги ще изтрие записите в кеша</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">За да добавите песни към опашката за изпълнение, натиснете менюто опции по песен, албум или изпълнител и изберете \"Добави към опашката за изпълнение\".</string>
     <string name="empty_recent">Песните който сте слушали последно ще се покажат тук.</string>
     <string name="empty_recent_main">Няма скорошни песни</string>
-    <string name="empty_search">Няма резултати от търсенето</string>
-    <string name="empty_search_check">Проверете дали е изписана правилно или опитайте с друга ключова дума.</string>
     <string name="empty_top_tracks_main">Няма топ песни</string>
     <string name="empty_top_tracks_secondary">Песните, които слушате най-много ще бъдат добавени към този списък.</string>
     <string name="error_playing_track">Не може да изпълни песента %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Разширени"</string>
     <string name="footer_search_albums">Покажи всички албуми</string>
     <string name="footer_search_artists">Покажи всички изпълнители</string>
     <string name="footer_search_playlists">Покажи всички списъци за изпълнение</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Еквалайзер</string>
     <string name="menu_play_all">Възпроизвеждане на всички</string>
     <string name="menu_save_queue">Запазване на опашката за изпълнение в списъка за изпълнение</string>
-    <string name="menu_search">Търсене</string>
     <string name="menu_settings">Настройки</string>
     <string name="menu_shuffle_album">Разбъркване на албума</string>
     <string name="menu_shuffle_all">Разбъркване на всички</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Нов списък за изпълнение</string>
     <string name="new_playlist_name_template">Списък за изпълнение <ns1:g id="number">%d </ns1:g></string>
     <string name="no_effects_for_you">Еквалайзера не може да бъде отворен.</string>
+    <string msgid="478774118347071097" name="not_set">"Не е зададено"</string>
     <string name="old_photo">Използвай стара снимка</string>
     <string name="overwrite">Презаписване</string>
     <string name="page_albums">Албуми</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Последно изпълнени</string>
     <string name="playlist_renamed">Преименувай списъка за изпълнение</string>
     <string name="playlist_top_tracks">Моите топ песни</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Копирахте „<ns1:g id="SUMMARY">%1$s</ns1:g>“ в буферната памет."</string>
     <string name="remove_from_queue">Премахване от опашката за изпълнение</string>
     <string name="remove_from_recent">Премахване от последно изпълнявани</string>
     <string name="save">Запиши</string>
-    <string name="searchHint">Търсете музика</string>
     <string msgid="730395136688082741" name="search_menu_title">"Търсене"</string>
     <string name="search_title_albums">Всички албуми на \"%s\"</string>
     <string name="search_title_artists">Всички изпълнители на \"%s\"</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Списък с песни</string>
     <string name="sort_order_entry_year">Година</string>
     <string name="sort_order_entry_za">Я-А</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Използване снимка по подразбиране</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ИЗКЛ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ВКЛ."</string>
 </resources>

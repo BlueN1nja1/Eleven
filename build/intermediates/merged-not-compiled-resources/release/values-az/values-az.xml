@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Son çalınanlardan çıxart</string>
     <string name="context_menu_rename_playlist">Yenidən adlandır</string>
     <string name="context_menu_use_as_ringtone">Zəng səsi kimi istifadə et</string>
+    <string msgid="3209159573327985035" name="copy">"Kopyalayın"</string>
     <string name="create_playlist_prompt">Oynatma siyahısı adı</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g> silinsin?</string>
     <string name="delete_warning">Bu, gizli yaddaşda olan təsvirləri birdəfəlik siləcək</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Çalma Növbəsinə mahnı əlavə etmək üçün, seçimlərdən \"Növbəyə əlavə et\"i seçin.</string>
     <string name="empty_recent">Təzəlikcə dinlədiyiniz mahnılar burada görünəcək.</string>
     <string name="empty_recent_main">Son çalınan mahnı yoxdur</string>
-    <string name="empty_search">Axtarış nəticə vermədi</string>
-    <string name="empty_search_check">Zəhmət olmasa düzgün söz daxil etdiyinizi yoxlayın və ya fərqli bir söz sınayın.</string>
     <string name="empty_top_tracks_main">Top musiqilər yoxdur</string>
     <string name="empty_top_tracks_secondary">Çox vaxt dinlədiyiniz mahnılar bu siyahıya əlavə olunacaq.</string>
     <string name="error_playing_track">%1$s mahnısı oynadıla bilmir</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Qabaqcıl ayarlar"</string>
     <string name="footer_search_albums">Bütün albomları göstər</string>
     <string name="footer_search_artists">Bütün sənətkarları göstər</string>
     <string name="footer_search_playlists">Bütün siyahıları göstər</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Ekvalayzer</string>
     <string name="menu_play_all">Hamısını oynat</string>
     <string name="menu_save_queue">Növbəni oynatma siyahısında saxla</string>
-    <string name="menu_search">Axtar</string>
     <string name="menu_settings">Tənzimləmələr</string>
     <string name="menu_shuffle_album">Albomu qarışdır</string>
     <string name="menu_shuffle_all">Hamısını qarışdır</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Yeni oynatma siyahısı</string>
     <string name="new_playlist_name_template">Oynatma siyahısı <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Ekvalayzer açılmadı.</string>
+    <string msgid="478774118347071097" name="not_set">"Ayarlanmayıb"</string>
     <string name="old_photo">Köhnə fotodan istifadə et</string>
     <string name="overwrite">Üzərinə yaz</string>
     <string name="page_albums">Albomlar</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Son çalınan</string>
     <string name="playlist_renamed">Siyahı yenidən adlandırıldı</string>
     <string name="playlist_top_tracks">Top musiqilərim</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" buferə kopyalandı."</string>
     <string name="remove_from_queue">Növbədən çıxart</string>
     <string name="remove_from_recent">Son çalınanlardan çıxart</string>
     <string name="save">Saxla</string>
-    <string name="searchHint">Musiqi axtar</string>
     <string msgid="730395136688082741" name="search_menu_title">"Axtarın"</string>
     <string name="search_title_albums">Bütün \"%s\" albomları</string>
     <string name="search_title_artists">Bütün \"%s\" sənətkarları</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Musiqi siyahısı</string>
     <string name="sort_order_entry_year">İl</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">İlkin fotodan istifadə et</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DEAKTİV"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AKTİV"</string>
 </resources>

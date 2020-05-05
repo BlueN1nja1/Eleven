@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">Fjern fra seneste</string>
     <string name="context_menu_rename_playlist">Omdøb</string>
     <string name="context_menu_use_as_ringtone">Brug som ringetone</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiér"</string>
     <string name="create_playlist_prompt">Navn på afspilningsliste</string>
     <string name="delete_dialog_title">Slet <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Dette vil permanent slette de lagrede billedposter</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">Tryk på valgmulighedsmenuen, på en sang, et album, eller en kunstner, og vælg \"Føj til kø\", for at føje sange til din Afspilningskø.</string>
     <string name="empty_recent">Sange du har lyttet til på det seneste, vil blive vist her.</string>
     <string name="empty_recent_main">Ingen seneste sange</string>
-    <string name="empty_search">Ingen søgeresultater fundet</string>
-    <string name="empty_search_check">Kontrollér venligst at du har den korrekte stavemåde, eller prøv et andet nøgleord.</string>
     <string name="empty_top_tracks_main">Ingen top spor</string>
     <string name="empty_top_tracks_secondary">De sange, du lytter mest til, vil blive føjet til denne liste.</string>
     <string name="error_playing_track">Ude af stand til at afspille spor %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avanceret"</string>
     <string name="footer_search_albums">Vis alle album</string>
     <string name="footer_search_artists">Vis alle kunstnere</string>
     <string name="footer_search_playlists">Vis alle afspilningslister</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">Udligner</string>
     <string name="menu_play_all">Afspil alle</string>
     <string name="menu_save_queue">Gem kø til afspilningsliste</string>
-    <string name="menu_search">Søg</string>
     <string name="menu_settings">Indstillinger</string>
     <string name="menu_shuffle_album">Bland album</string>
     <string name="menu_shuffle_all">Bland alle</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">Ny afspilningsliste</string>
     <string name="new_playlist_name_template">Afspilningsliste <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Udligneren kunne ikke åbnes.</string>
+    <string msgid="478774118347071097" name="not_set">"Ikke angivet"</string>
     <string name="old_photo">Brug gammelt fotografi</string>
     <string name="overwrite">Overskriv</string>
     <string name="page_albums">Album</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">Senest afspillede</string>
     <string name="playlist_renamed">Afspilningsliste omdøbt</string>
     <string name="playlist_top_tracks">Mine top-spor</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" blev kopieret til udklipsholderen."</string>
     <string name="remove_from_queue">Fjern fra kø</string>
     <string name="remove_from_recent">Fjern fra seneste</string>
     <string name="save">Gem</string>
-    <string name="searchHint">Søg i musik</string>
     <string msgid="730395136688082741" name="search_menu_title">"Søg"</string>
     <string name="search_title_albums">Alle \"%s\" album</string>
     <string name="search_title_artists">Alle \"%s\" kunstnere</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">Sporliste</string>
     <string name="sort_order_entry_year">År</string>
     <string name="sort_order_entry_za">Å-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Brug standard-fotografi</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"FRA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"TIL"</string>
 </resources>

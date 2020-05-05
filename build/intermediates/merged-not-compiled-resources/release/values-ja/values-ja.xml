@@ -97,6 +97,7 @@
     <string name="context_menu_remove_from_recent">最近の曲から削除</string>
     <string name="context_menu_rename_playlist">名前の変更</string>
     <string name="context_menu_use_as_ringtone">着信音として使用</string>
+    <string msgid="3209159573327985035" name="copy">"コピー"</string>
     <string name="create_playlist_prompt">プレイリスト名</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g>を削除しますか？</string>
     <string name="delete_warning">キャッシュされた画像エントリーを完全に削除します</string>
@@ -113,11 +114,10 @@
     <string name="empty_queue_secondary">再生キューに曲を追加するには、曲、アルバムまたはアーティストのオプションメニューをタップして[キューに追加]を選択してください。</string>
     <string name="empty_recent">最近聴いた曲がここに表示されます。</string>
     <string name="empty_recent_main">最近の曲はありません</string>
-    <string name="empty_search">検索結果が見つかりませんでした</string>
-    <string name="empty_search_check">検索語を正しく入力しているか確認してください。または別のキーワードを試してみてください。</string>
     <string name="empty_top_tracks_main">トップトラックはありません</string>
     <string name="empty_top_tracks_secondary">よく聴く曲がこのリストに追加されます。</string>
     <string name="error_playing_track">トラック%1$sを再生できません</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"詳細設定"</string>
     <string name="footer_search_albums">すべてのアルバムを表示</string>
     <string name="footer_search_artists">すべてのアーティストを表示</string>
     <string name="footer_search_playlists">すべてのプレイリストを表示</string>
@@ -149,7 +149,6 @@
     <string name="menu_equalizer">イコライザー</string>
     <string name="menu_play_all">すべて再生</string>
     <string name="menu_save_queue">プレイリストにキューを保存</string>
-    <string name="menu_search">検索</string>
     <string name="menu_settings">設定</string>
     <string name="menu_shuffle_album">アルバムでシャッフル</string>
     <string name="menu_shuffle_all">すべてシャッフル</string>
@@ -164,6 +163,7 @@
     <string name="new_playlist">新しいプレイリスト</string>
     <string name="new_playlist_name_template">プレイリスト<ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">イコライザーを開けませんでした。</string>
+    <string msgid="478774118347071097" name="not_set">"未設定"</string>
     <string name="old_photo">以前の写真を使用</string>
     <string name="overwrite">上書き</string>
     <string name="page_albums">アルバム</string>
@@ -178,10 +178,10 @@
     <string name="playlist_recently_played">最近再生した曲</string>
     <string name="playlist_renamed">プレイリスト名を変更しました</string>
     <string name="playlist_top_tracks">マイトップトラック</string>
+    <string msgid="7961817945132860002" name="preference_copied">"「<ns1:g id="SUMMARY">%1$s</ns1:g>」をクリップボードにコピーしました。"</string>
     <string name="remove_from_queue">キューから削除</string>
     <string name="remove_from_recent">最近の曲から削除</string>
     <string name="save">保存</string>
-    <string name="searchHint">音楽を検索</string>
     <string msgid="730395136688082741" name="search_menu_title">"検索"</string>
     <string name="search_title_albums">[%s]を含むすべてのアルバム</string>
     <string name="search_title_artists">「%s」を含むすべてのアーティスト</string>
@@ -216,6 +216,9 @@
     <string name="sort_order_entry_track_list">トラックリスト</string>
     <string name="sort_order_entry_year">年</string>
     <string name="sort_order_entry_za">降順</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">デフォルトの写真を使用</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"OFF"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ON"</string>
 </resources>

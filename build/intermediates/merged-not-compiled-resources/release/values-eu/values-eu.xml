@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Kendu azkenetatik</string>
     <string name="context_menu_rename_playlist">Aldatu izena</string>
     <string name="context_menu_use_as_ringtone">Erabili dei doinu gisa</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiatu"</string>
     <string name="create_playlist_prompt">Zerrendaren izena</string>
     <string name="delete_dialog_title">Ezabatu <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Honek cachean gordetako irudi guztiak behin betiko ezabatuko ditu</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Abestiak erreprodukzio-zerrendara gehitzeko, sakatu abesti, album edo artista bat eta hautatu \"Gehitu ilarara\".</string>
     <string name="empty_recent">Berriki entzun dituzun abestiak hemen agertuko dira.</string>
     <string name="empty_recent_main">Ez dago berriki entzundako abestirik</string>
-    <string name="empty_search">Ez da bilaketaren emaitzarik aurkitu</string>
-    <string name="empty_search_check">Egiaztatu ondo idatzi duzula edo saiatu beste hitz gako batekin.</string>
     <string name="empty_top_tracks_main">Ez dago gehien entzundako abestirik</string>
     <string name="empty_top_tracks_secondary">Sarri entzuten dituzun abestiak zerrenda honetara gehituko dira.</string>
     <string name="error_playing_track">Ezin izan da %1$s. pista erreproduzitu</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Hobespen aurreratuak"</string>
     <string name="footer_search_albums">Erakutsi album guztiak</string>
     <string name="footer_search_artists">Erakutsi artista guztiak</string>
     <string name="footer_search_playlists">Erakutsi erreprodukzio-zerrenda guztiak</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Ekualizadorea</string>
     <string name="menu_play_all">Erreproduzitu guztiak</string>
     <string name="menu_save_queue">Gorde ilara erreprodukzio-zerrenda gisa</string>
-    <string name="menu_search">Bilatu</string>
     <string name="menu_settings">Ezarpenak</string>
     <string name="menu_shuffle_album">Nahastu albuma</string>
     <string name="menu_shuffle_all">Nahastu guztiak</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Zerrenda berria</string>
     <string name="new_playlist_name_template"><ns1:g id="number">%d</ns1:g> zerrenda</string>
     <string name="no_effects_for_you">Ezin izan da ekualizadorea ireki.</string>
+    <string msgid="478774118347071097" name="not_set">"Ez da ezarri"</string>
     <string name="old_photo">Erabili aurreko irudia</string>
     <string name="overwrite">Gainidatzi</string>
     <string name="page_albums">Albumak</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Berriki erreproduzitua</string>
     <string name="playlist_renamed">Erreprodukzio zerrendaren izena aldatu da</string>
     <string name="playlist_top_tracks">Sarri entzundakoak</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Arbelean kopiatu da \"<ns1:g id="SUMMARY">%1$s</ns1:g>\"."</string>
     <string name="remove_from_queue">Kendu Ilaratik</string>
     <string name="remove_from_recent">Kendu azkenetatik</string>
     <string name="save">Gorde</string>
-    <string name="searchHint">Bilatu musika</string>
     <string msgid="730395136688082741" name="search_menu_title">"Bilatu"</string>
     <string name="search_title_albums">\"%s\" album guztiak</string>
     <string name="search_title_artists">\"%s\" artista guztiak</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Pista zerrenda</string>
     <string name="sort_order_entry_year">Urtea</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Erabili argazki lehenetsia</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESAKTIBATUTA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AKTIBATUTA"</string>
 </resources>

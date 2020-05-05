@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">अलीकडील मधून काढा</string>
     <string name="context_menu_rename_playlist">पुनर्नामित करा</string>
     <string name="context_menu_use_as_ringtone">रींग टोन म्हणून वापरा</string>
+    <string msgid="3209159573327985035" name="copy">"कॉपी करा"</string>
     <string name="create_playlist_prompt">प्लेलिस्ट नाव</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g>हटवायचे?</string>
     <string name="delete_warning">यामुळे कॅशे केलेल्या प्रतिमा प्रविष्ठी कायमस्वरूपी हटवल्या जातील</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">प्ले रांगेमध्ये गाणी जोडण्यासाठी, गाणे, अल्बम किंवा कलाकारावरील पर्याय मेनू टॅप करा आणि \"प्ले रांगेमध्ये जोडा\" निवडा.</string>
     <string name="empty_recent">तुम्ही अलीकडेच ऐकलेली गाणी इथे दाखवली जातील.</string>
     <string name="empty_recent_main">हल्लीची गाणी नाहीत</string>
-    <string name="empty_search">शोध निकाल आढळले नाहीत</string>
-    <string name="empty_search_check">तुमचे स्पेलिंग अचूक असल्याचे कृपया तपासा किंवा भिन्न कळशब्द वापरून पाहा.</string>
     <string name="empty_top_tracks_main">सर्वोच्च ट्रॅक्स नाहीत</string>
     <string name="empty_top_tracks_secondary">तुम्ही जी गाणी सर्वाधिक ऐकता ती या यादीमध्ये जोडली जातील.</string>
     <string name="error_playing_track">ट्रॅक प्ले करण्यात अक्षम %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"प्रगत"</string>
     <string name="footer_search_albums">सर्व अल्बम्स दर्शवा</string>
     <string name="footer_search_artists">सर्व कलाकार दर्शवा</string>
     <string name="footer_search_playlists">सर्व प्लेलिस्ट दर्शवा</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">संतुलक</string>
     <string name="menu_play_all">सर्व प्ले करा</string>
     <string name="menu_save_queue">रांग प्लेलिस्टमध्ये जतन करा</string>
-    <string name="menu_search">शोधा</string>
     <string name="menu_settings">सेटिंग्ज</string>
     <string name="menu_shuffle_album">अल्बम शफल करा</string>
     <string name="menu_shuffle_all">सर्व शफल करा</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">नवीन प्लेलिस्ट</string>
     <string name="new_playlist_name_template">प्लेलिस्ट <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">इक्वेलायझर उघडता आला नाही.</string>
+    <string msgid="478774118347071097" name="not_set">"सेट केलेले नाही"</string>
     <string name="old_photo">जुना फोटो वापरा</string>
     <string name="overwrite">खोडून त्याजागी लिहा</string>
     <string name="page_albums">अल्बम्स</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">अलीकडेच प्ले केले</string>
     <string name="playlist_renamed">प्लेलिस्ट पुनर्नामित केली</string>
     <string name="playlist_top_tracks">माझे सर्वोच्च ट्रॅक्स</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" क्लिपबोर्डवर कॉपी केली."</string>
     <string name="remove_from_queue">रांगेतून काढा</string>
     <string name="remove_from_recent">अलीकडील मधून काढा</string>
     <string name="save">जतन करा</string>
-    <string name="searchHint">संगीत शोधा</string>
     <string msgid="730395136688082741" name="search_menu_title">"शोध"</string>
     <string name="search_title_albums">सर्व \"%s\" अल्बम्स</string>
     <string name="search_title_artists">सर्व \"%s\" कलाकार</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">ट्रॅक यादी</string>
     <string name="sort_order_entry_year">वर्ष</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"९९९+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"९९९+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">डिफॉल्ट फोटो वापरा</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"बंद"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"चालू"</string>
 </resources>

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,6 +33,8 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.Window;
 
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -50,9 +53,9 @@ import org.lineageos.eleven.ui.fragments.phone.MusicBrowserPhoneFragment;
 import org.lineageos.eleven.ui.fragments.profile.LastAddedFragment;
 import org.lineageos.eleven.ui.fragments.profile.TopTracksFragment;
 import org.lineageos.eleven.utils.ElevenUtils;
-import org.lineageos.eleven.utils.BitmapWithColors;
 import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.NavUtils;
+import org.lineageos.eleven.utils.colors.BitmapWithColors;
 
 import java.util.ArrayList;
 
@@ -232,7 +235,7 @@ public class HomeActivity extends SlidingPanelActivity implements
 
     private void updateVisualizerColor(int color) {
         if (color == Color.TRANSPARENT) {
-            color = getResources().getColor(R.color.visualizer_fill_color);
+            color = ContextCompat.getColor(this, R.color.visualizer_fill_color);
         }
 
         // check for null since updatestatusBarColor is a async task
@@ -299,7 +302,7 @@ public class HomeActivity extends SlidingPanelActivity implements
                     // this happens when they launch search which is its own activity and then
                     // browse through that back to home activity
                     mLoadedBaseFragment = true;
-                    getActionBar().setDisplayHomeAsUpEnabled(true);
+                    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                 }
                 // the current top fragment is about to be hidden by what we are replacing
                 // it with -- so tell that fragment not to make its action bar menu items visible
@@ -477,14 +480,14 @@ public class HomeActivity extends SlidingPanelActivity implements
             ISetupActionBar setupActionBar = (ISetupActionBar) topFragment;
             setupActionBar.setupActionBar();
 
-            getActionBar().setDisplayHomeAsUpEnabled(
+            getSupportActionBar().setDisplayHomeAsUpEnabled(
                     !(topFragment instanceof MusicBrowserPhoneFragment));
         }
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[],
-            int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[],
+            @NonNull int[] grantResults) {
         switch (requestCode) {
             case PERMISSION_REQUEST_STORAGE: {
                 if (checkPermissionGrantResults(grantResults)) {

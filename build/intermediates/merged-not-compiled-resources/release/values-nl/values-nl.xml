@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">Verwijderen uit recente</string>
     <string name="context_menu_rename_playlist">Naam wijzigen</string>
     <string name="context_menu_use_as_ringtone">Gebruiken als beltoon</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiëren"</string>
     <string name="create_playlist_prompt">Naam afspeellijst</string>
     <string name="delete_dialog_title">\'<ns1:g example="album" id="item">%s</ns1:g>\' verwijderen?</string>
     <string name="delete_warning">Hiermee worden alle opgeslagen afbeeldingen permanent verwijderd</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">Om nummers toe te voegen aan de wachtrij, tik op het menu van een nummer, album of artiest en selecteer \'Toevoegen aan wachtrij\'.</string>
     <string name="empty_recent">Nummers waar u recent naar hebt geluisterd worden hier getoond.</string>
     <string name="empty_recent_main">Geen recente nummers</string>
-    <string name="empty_search">Geen zoekresultaten gevonden</string>
-    <string name="empty_search_check">Controleer of u de juiste spelling gebruikt of probeer een ander trefwoord.</string>
     <string name="empty_top_tracks_main">Geen beste nummers</string>
     <string name="empty_top_tracks_secondary">Nummers waar u het meest naar luistert worden toegevoegd aan deze lijst.</string>
     <string name="error_playing_track">Kan nummer %1$s niet afspelen</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Geavanceerd"</string>
     <string name="footer_search_albums">Alle albums tonen</string>
     <string name="footer_search_artists">Alle artiesten tonen</string>
     <string name="footer_search_playlists">Alle afspeellijsten tonen</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Alles afspelen</string>
     <string name="menu_save_queue">Wachtrij opslaan als afspeellijst</string>
-    <string name="menu_search">Zoeken</string>
     <string name="menu_settings">Instellingen</string>
     <string name="menu_shuffle_album">Shuffle album</string>
     <string name="menu_shuffle_all">Shuffle alles</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">Nieuwe afspeellijst</string>
     <string name="new_playlist_name_template">Afspeellijst <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Kan equalizer niet openen.</string>
+    <string msgid="478774118347071097" name="not_set">"Niet ingesteld"</string>
     <string name="old_photo">Oude afbeelding</string>
     <string name="overwrite">Overschrijven</string>
     <string name="page_albums">Albums</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">Recent afgespeeld</string>
     <string name="playlist_renamed">Naam afspeellijst gewijzigd</string>
     <string name="playlist_top_tracks">Mijn beste nummers</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\'<ns1:g id="SUMMARY">%1$s</ns1:g>\' is gekopieerd naar het klembord."</string>
     <string name="remove_from_queue">Verwijderen uit wachtrij</string>
     <string name="remove_from_recent">Verwijderen uit recente</string>
     <string name="save">Opslaan</string>
-    <string name="searchHint">Muziek zoeken</string>
     <string msgid="730395136688082741" name="search_menu_title">"Zoeken"</string>
     <string name="search_title_albums">Alle \"%s\" albums</string>
     <string name="search_title_artists">Alle \"%s\" artiesten</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">Tracklist</string>
     <string name="sort_order_entry_year">Jaar</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Standaardafbeelding</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"UIT"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AAN"</string>
 </resources>

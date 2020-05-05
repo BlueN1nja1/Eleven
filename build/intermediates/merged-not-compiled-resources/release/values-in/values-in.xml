@@ -97,6 +97,7 @@
     <string name="context_menu_remove_from_recent">Hapus dari terakhir</string>
     <string name="context_menu_rename_playlist">Ubah nama</string>
     <string name="context_menu_use_as_ringtone">Gunakan sebagai nada dering</string>
+    <string msgid="3209159573327985035" name="copy">"Salin"</string>
     <string name="create_playlist_prompt">Nama daftar putar</string>
     <string name="delete_dialog_title">Hapus <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Ini akan menghapus cache gambar secara permanen</string>
@@ -113,11 +114,10 @@
     <string name="empty_queue_secondary">Untuk menambahkan lagu ke Antrean Putar Anda, tekan menu pilihan pada lagu, album, atau artis dan pilih \"Tambahkan ke antrean\".</string>
     <string name="empty_recent">Lagu yang Anda dengarkan baru-baru ini akan muncul di sini.</string>
     <string name="empty_recent_main">Tidak ada lagu terbaru</string>
-    <string name="empty_search">Hasil penelusuran tidak ditemukan</string>
-    <string name="empty_search_check">Periksa bahwa Anda memiliki ejaan yang benar atau coba kata kunci yang berbeda.</string>
     <string name="empty_top_tracks_main">Tidak ada lagu teratas</string>
     <string name="empty_top_tracks_secondary">Lagu yang paling sering Anda dengarkan akan ditambahkan ke daftar ini.</string>
     <string name="error_playing_track">Tidak dapat memutar trek %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Lanjutan"</string>
     <string name="footer_search_albums">Tampilkan semua album</string>
     <string name="footer_search_artists">Tampilkan semua artis</string>
     <string name="footer_search_playlists">Tampilkan semua daftar putar</string>
@@ -149,7 +149,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Putar semua</string>
     <string name="menu_save_queue">Simpan antrean ke daftar putar</string>
-    <string name="menu_search">Cari</string>
     <string name="menu_settings">Pengaturan</string>
     <string name="menu_shuffle_album">Putar acak album</string>
     <string name="menu_shuffle_all">Acak semua</string>
@@ -164,6 +163,7 @@
     <string name="new_playlist">Daftar putar baru</string>
     <string name="new_playlist_name_template">Daftar putar <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Equalizer tidak dapat dibuka.</string>
+    <string msgid="478774118347071097" name="not_set">"Belum disetel"</string>
     <string name="old_photo">Gunakan foto lama</string>
     <string name="overwrite">Timpa</string>
     <string name="page_albums">Album</string>
@@ -178,10 +178,10 @@
     <string name="playlist_recently_played">Terakhir diputar</string>
     <string name="playlist_renamed">Nama daftar putar diganti</string>
     <string name="playlist_top_tracks">Trek teratas saya</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" disalin ke papan klip."</string>
     <string name="remove_from_queue">Hapus dari antrean</string>
     <string name="remove_from_recent">Hapus dari yang terakhir</string>
     <string name="save">Simpan</string>
-    <string name="searchHint">Cari musik</string>
     <string msgid="730395136688082741" name="search_menu_title">"Telusuri"</string>
     <string name="search_title_albums">Semua \"%s\" album</string>
     <string name="search_title_artists">Semua \"%s\" artis</string>
@@ -216,6 +216,9 @@
     <string name="sort_order_entry_track_list">Daftar lagu</string>
     <string name="sort_order_entry_year">Tahun</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Gunakan foto bawaan</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"NONAKTIF"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AKTIF"</string>
 </resources>

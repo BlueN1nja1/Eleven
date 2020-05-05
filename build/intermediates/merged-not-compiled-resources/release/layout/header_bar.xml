@@ -37,10 +37,11 @@
 
     <TextView
         android:id="@+id/header_bar_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:ellipsize="end"
+        android:layout_gravity="center"
+    android:ellipsize="end"
         android:singleLine="true"
         android:textAllCaps="true"
         android:textColor="@color/header_action_bar_text_color"

@@ -97,8 +97,6 @@
     <string name="empty_queue_secondary">P\'amestar canciones a la cola, toca nel menú d\'opciones d\'una canción, álbum o artista y seleiciona \u00ABAmestar a la cola\u00BB.</string>
     <string name="empty_recent">Les canciones que sentisti hai poco van apaecer equí.</string>
     <string name="empty_recent_main">Nun hai canciones recientes</string>
-    <string name="empty_search">Nun s\'alcontraron resultaos de gueta</string>
-    <string name="empty_search_check">Comprueba que lo escribisti correutamente o intenta una pallabra clave diferente.</string>
     <string name="empty_top_tracks_main">Nun hai canciones más escuchaes</string>
     <string name="empty_top_tracks_secondary">Les canciones que más escuches van amestase a esta llista.</string>
     <string name="error_playing_track">Nun pue reproducise la pista %1$s</string>
@@ -133,7 +131,6 @@
     <string name="menu_equalizer">Ecualizador</string>
     <string name="menu_play_all">Reproducir too</string>
     <string name="menu_save_queue">Guardar cola a la llista de reproducción</string>
-    <string name="menu_search">Guetar</string>
     <string name="menu_settings">Axustes</string>
     <string name="menu_shuffle_album">Álbum al debalu</string>
     <string name="menu_shuffle_all">Too al debalu</string>
@@ -165,7 +162,6 @@
     <string name="remove_from_queue">Desaniciar de la cola</string>
     <string name="remove_from_recent">Desaniciar de reciente</string>
     <string name="save">Guardar</string>
-    <string name="searchHint">Guetar música</string>
     <string name="search_title_albums">Tolos álbumes de «%s»</string>
     <string name="search_title_artists">Tolos artistes de «%s»</string>
     <string name="search_title_playlists">Toles llistes de «%s»</string>

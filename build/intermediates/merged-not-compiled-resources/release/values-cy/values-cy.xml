@@ -141,8 +141,6 @@
     <string name="empty_queue_secondary">I ychwanegu traciau i dy Giw Chwarae, tapia\'r ddewislen dewisiadau ar drac, casgliad neu artist a dewis \"Ychwanegu i\'r ciw\".</string>
     <string name="empty_recent">Bydd traciau rwyt wedi gwrando arnynt yn ddiweddar yn ymddangos yma.</string>
     <string name="empty_recent_main">Dim traciau diweddar</string>
-    <string name="empty_search">Ni chanfuwyd unrhyw ganlyniadau</string>
-    <string name="empty_search_check">Gwiria dy fod wedi sillafu\'n gywir neu rho gynnig ar allweddair arall.</string>
     <string name="empty_top_tracks_main">Does dim traciau poblogaidd</string>
     <string name="empty_top_tracks_secondary">Caiff y traciau wyt yn eu chwarae amlaf eu hychwanegu i\'r rhestr hon.</string>
     <string name="error_playing_track">Methu â chwarae trac %1$s</string>
@@ -177,7 +175,6 @@
     <string name="menu_equalizer">Cydraddolydd</string>
     <string name="menu_play_all">Chwarae\'r cwbl</string>
     <string name="menu_save_queue">Cadw\'r ciw i\'r rhestr chwarae</string>
-    <string name="menu_search">Chwilio</string>
     <string name="menu_settings">Gosodiadau</string>
     <string name="menu_shuffle_album">Cymysgu\'r casgliad</string>
     <string name="menu_shuffle_all">Cymysgu\'r cwbl</string>
@@ -209,7 +206,6 @@
     <string name="remove_from_queue">Tynnu o\'r ciw</string>
     <string name="remove_from_recent">Tynnu o\'r traciau diweddar</string>
     <string name="save">Cadw</string>
-    <string name="searchHint">Chwilio traciau</string>
     <string name="search_title_albums">Pob \"%s\" casgliad</string>
     <string name="search_title_artists">Pob artist \"%s\"</string>
     <string name="search_title_playlists">Pob rhestr chwarae \"%s\"</string>

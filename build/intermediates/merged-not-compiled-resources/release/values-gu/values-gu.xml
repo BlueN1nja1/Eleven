@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">રિસન્ટમાંથી કાઢી નાંખો</string>
     <string name="context_menu_rename_playlist">નામ બદલો</string>
     <string name="context_menu_use_as_ringtone">રીંગટોન તરીકે વાપરો</string>
+    <string msgid="3209159573327985035" name="copy">"કૉપિ કરો"</string>
     <string name="create_playlist_prompt">પ્લેસૂચિ નામ</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g> હટાવીએ?</string>
     <string name="delete_warning">આનાથી કૅશ કરેલ ઇમેજ એન્ટ્રીઓ કાયમી ભૂંસાઇ જશે</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">તમારી પ્લે હરોળમાં ગીતો ઉમેરવા, ગીત, આલ્બમ અથવા આર્ટિસ્ટ પરના વિકલ્પ મેન્યૂ પર ટૅપ કરો અને \"હરોળમાં ઍડ કરો\" પસંદ કરો.</string>
     <string name="empty_recent">તમે તાજેતરમાં સાંભળેલ ગીતો અહીં દેખાશે.</string>
     <string name="empty_recent_main">કોઇ તાજેતરનાં ગીતો નહીં</string>
-    <string name="empty_search">કોઇ સર્ચ પરિણામો મળ્યાં નહીં</string>
-    <string name="empty_search_check">કૃપા કરી ચકાસો કે તમારી જોડણી સાચી છે અથવા અલગ કીવર્ડ અજમાવો.</string>
     <string name="empty_top_tracks_main">કોઇ ટોપ ટ્રૅક્સ નહીં</string>
     <string name="empty_top_tracks_secondary">તમે સૌથી વધારે સાંભળો છો તે ગીતો આ સૂચીમાં ઉમેરાશે.</string>
     <string name="error_playing_track">ટ્રૅક %1$s પ્લે થઈ શકતો નથી</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"વિગતવાર"</string>
     <string name="footer_search_albums">તમામ આલ્બમો દર્શાવો</string>
     <string name="footer_search_artists">તમામ આર્ટિસ્ટો દર્શાવો</string>
     <string name="footer_search_playlists">તમામ પ્લેલિસ્ટો દર્શાવો</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">ઇક્વીલાઇઝર</string>
     <string name="menu_play_all">તમામ પ્લે કરો</string>
     <string name="menu_save_queue">હરોળને પ્લેલિસ્ટમાં સેવ કરો</string>
-    <string name="menu_search">શોધ</string>
     <string name="menu_settings">સેટિંગ્સ</string>
     <string name="menu_shuffle_album">આલ્બમ શફલ કરો</string>
     <string name="menu_shuffle_all">બધાને પીસો</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">નવું પ્લેલિસ્ટ</string>
     <string name="new_playlist_name_template">પ્લેલિસ્ટ <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">ઇક્વલાઇઝર ખોલી શકાયું નહીં.</string>
+    <string msgid="478774118347071097" name="not_set">"સેટ કર્યું નથી"</string>
     <string name="old_photo">જૂનો ફોટો વાપરો</string>
     <string name="overwrite">ઓવરરાઇટ</string>
     <string name="page_albums">આલબ્મ્સ</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">તાજેતરમાં પ્લે કરેલ</string>
     <string name="playlist_renamed">પ્લેલિસ્ટનું પુન:નામકરણ કર્યું</string>
     <string name="playlist_top_tracks">મારા ટોપ ટ્રૅક્સ</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\"ને ક્લિપ બોર્ડ પર કૉપિ કર્યો."</string>
     <string name="remove_from_queue">હરોળમાંથી કાઢી નાંખો</string>
     <string name="remove_from_recent">રિસન્ટમાંથી કાઢી નાંખો</string>
     <string name="save">સાચવો</string>
-    <string name="searchHint">મ્યુઝિક સર્ચ કરો</string>
     <string msgid="730395136688082741" name="search_menu_title">"શોધો"</string>
     <string name="search_title_albums">તમામ \"%s\" આલ્બમો</string>
     <string name="search_title_artists">તમામ \"%s\" આર્ટિસ્ટો</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">ટ્રૅક સૂચી</string>
     <string name="sort_order_entry_year">વર્ષ</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">ડિફૉલ્ટ ફોટો વાપરો</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"બંધ કરો"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ચાલુ કરો"</string>
 </resources>

@@ -27,7 +27,34 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Deila með"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Deila með <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Minnka"</string>
+    <string name="context_menu_fetch_album_art">Sækja umslagsmyndir</string>
+    <string name="context_menu_fetch_artist_image">Sækja mynd af flytjanda</string>
+    <string msgid="3209159573327985035" name="copy">"Afrita"</string>
+    <string name="delete_warning">Þetta mun eyða endanlega myndafærslum í skyndiminni</string>
+    <string name="empty_playlist_secondary">Til að bæta lögum á þennan spilunarlista, ýttu þá á valmyndina á lagi, hljómplötu eða flytjanda og veldu \"Bæta á spilunarlista\".</string>
+    <string name="empty_queue_secondary">Til að bæta lögum í spilunarbiðröðina þína, ýttu þá á valmyndina á lagi, hljómplötu eða flytjanda og veldu \"Bæta í biðröð\".</string>
+    <string name="error_playing_track">Get ekki spilað lagið %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Ítarlegt"</string>
+    <string name="footer_search_albums">Birta allar hljómplötur</string>
+    <string name="footer_search_artists">Birta alla flytjendur</string>
+    <string name="header_5_plus_albums">5+ hljómplötur</string>
+    <string name="header_albums">Hljómplötur</string>
     <string name="no_effects_for_you">Ekki var hægt að opna tónjafnarann.</string>
+    <string msgid="478774118347071097" name="not_set">"Ekki stillt"</string>
+    <string name="page_albums">Hljómplötur</string>
+    <string msgid="7961817945132860002" name="preference_copied">"„<ns1:g id="SUMMARY">%1$s</ns1:g>“ afritað á klippiborðið."</string>
     <string msgid="730395136688082741" name="search_menu_title">"Leit"</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="search_title_albums">Allar \"%s\" hljómplötur</string>
+    <string name="search_title_artists">Allir \"%s\" flytjendur</string>
+    <string name="settings_delete_cache_summary">Fjarlægja allar myndir úr skyndiminni</string>
+    <string name="settings_download_artist_images_title">Sækja myndir af flytjendum sem vantar</string>
+    <string name="settings_download_missing_artwork_title">Sækja umslagsmyndir sem vantar</string>
+    <string name="settings_download_only_on_wifi_summary">Til að minnka kostnað vegna gagnamagns, ekki sækja meðan verið er á farsímanetum</string>
+    <string name="settings_download_only_on_wifi_title">Aðeins hlaða niður á Wi-Fi neti</string>
+    <string name="settings_lockscreen_album_art">Umslagsmynd á læsiskjá</string>
+    <string name="settings_lockscreen_album_art_summary">Setja umslagsmyndir í staðinn fyrir bakgrunn á læsiskjá</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"SLÖKKT"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"KVEIKT"</string>
 </resources>

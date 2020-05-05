@@ -51,7 +51,7 @@ public class SearchHistory {
     }
 
     /**
-     * @param context The {@link android.content.Context} to use
+     * @param context The {@link Context} to use
      * @return A new instance of this class.
      */
     public static final synchronized SearchHistory getInstance(final Context context) {

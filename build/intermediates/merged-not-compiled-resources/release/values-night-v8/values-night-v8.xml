@@ -30,6 +30,7 @@
     <color name="album_detail_genre_text_color">@color/default_text_color</color>
     <color name="album_detail_song_count_and_year_text_color">@color/default_text_color</color>
     <color name="album_detail_title_text_color">@color/default_text_color</color>
+    <color name="alert">@color/red</color>
     <color name="app_msg_text_color">@color/accent</color>
     <color name="artist_detail_album_title_text_color">@color/cardOne</color>
     <color name="artist_detail_album_year_text_color">@color/cardTwo</color>
@@ -38,6 +39,9 @@
     <color name="artist_detail_header_songs_label_text_color">@color/list_item_header_text_color</color>
     <color name="audio_player_current_time_color">@color/accent</color>
     <color name="audio_player_lyrics_text_color">@color/accent</color>
+    <color name="audio_player_seeker_progress_background_color">@color/white</color>
+    <color name="audio_player_seeker_progress_color">@color/accent</color>
+    <color name="audio_player_seeker_thumb_color">@color/accent</color>
     <color name="audio_player_text_color">@color/default_text_color_light</color>
     <color name="audio_player_total_time_color">@color/accent</color>
     <color name="background_color">@color/black</color>
@@ -52,6 +56,7 @@
     <color name="cards_bg_color">#333333</color>
     <color name="circular_progress_bar">@color/accent</color>
     <color name="circular_progress_bar_background">@color/grey</color>
+    <color name="confirm">@color/orange</color>
     <color name="default_text_color">@color/white</color>
     <color name="default_text_color_light">@color/white</color>
     <color name="duration_text_color">@color/accent</color>
@@ -68,6 +73,7 @@
     <color name="header_shadow_color">#ea212121</color>
     <color name="indigo">#673AB7</color>
     <color name="indigo_dark">#512DA8</color>
+    <color name="info">@color/green</color>
     <color name="letter_tile_blue_color">@color/blue</color>
     <color name="letter_tile_blue_color_dark">@color/blue_dark</color>
     <color name="letter_tile_brown_color">@color/brown</color>
@@ -129,20 +135,23 @@
     <color name="white">#ffffff</color>
     <color name="widget_background_color">@color/black</color>
     <color name="widget_text">@color/accent</color>
-    <style name="ActionBar" parent="@android:style/Widget.Material.ActionBar">
+    <style name="ActionBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
         <item name="android:background">@color/header_action_bar_color</item>
     </style>
-    <style name="ActionBarWidgetTheme" parent="Eleven.Theme">
+    <style name="ActionBarTitle" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:fontFamily">?android:fontFamily</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionBarWidgetTheme" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
         <!-- This is the color of the search text hint in the action bar -->
         <item name="android:textColorHint">@color/search_hint_color</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
-        <item name="android:textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
-        <item name="android:textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
-        <!-- Empty icon -->
-        <item name="android:icon">@android:color/transparent</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
     </style>
-    <style name="ActionOverFlowButton" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    <style name="ActionOverFlowButton" parent="@style/Widget.AppCompat.ActionButton">
         <item name="android:src">@drawable/menu_button_light</item>
         <item name="android:minWidth">0dip</item>
         <item name="android:paddingLeft">8dip</item>
@@ -174,31 +183,39 @@
         <item name="android:singleLine">true</item>
         <item name="android:textColor">@color/bottom_action_bar_text_color</item>
     </style>
-    <style name="DropDownListView" parent="@android:style/Widget.Material.ListView.DropDown"/>
-    <style name="Eleven.Theme" parent="@android:style/Theme.Material">
+    <style name="DropDownListView" parent="@style/Widget.AppCompat.ListView.DropDown"/>
+    <style name="Eleven.Theme" parent="@style/Theme.MaterialComponents.DayNight">
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
-        <item name="android:textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
-        <item name="android:textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
         <item name="android:listViewStyle">@style/ListView</item>
-        <item name="android:actionBarStyle">@style/ActionBar</item>
-        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:colorAccent">@color/accent</item>
-        <item name="android:statusBarColor">@color/black</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="Eleven.Theme.ActionBar.Overlay" parent="@style/Eleven.Theme">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
-    <style name="HeaderTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
+    <style name="Eleven.Theme.PopupMenuOverlapAnchor">
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+    <style name="HeaderTabTextStyle" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
         <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:fontFamily">?android:fontFamily</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
     <style name="LargePopupMenu" parent="@android:style/TextAppearance.Widget.PopupMenu.Large">
@@ -237,13 +254,27 @@
     <style name="ListItemSecondaryText.Single" parent="ListItemSecondaryText">
         <item name="android:singleLine">true</item>
     </style>
-    <style name="ListView" parent="@android:style/Widget.Material.ListView">
-        <item name="android:divider">@color/list_item_divider_color</item>
+    <style name="ListView" parent="@style/Widget.AppCompat.ListView">
+        <item name="divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
-    <style name="MTSettings" parent="@style/Eleven.Theme">
+    <style name="MTSettings" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:colorSecondary">@color/black</item>
         <item name="android:colorAccent">@color/accent</item>
+    </style>
+    <style name="MTSettingsR" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSecondary">@color/accent</item>
     </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
@@ -253,7 +284,7 @@
         <item name="android:singleLine">true</item>
         <item name="android:textColor">#212121</item>
     </style>
-    <style name="PopupMenu" parent="@android:style/Widget.Material.PopupMenu"/>
+    <style name="PopupMenu" parent="@style/Widget.MaterialComponents.PopupMenu"/>
     <style name="SmallPopupMenu" parent="@android:style/TextAppearance.Widget.PopupMenu.Small">
         <item name="android:textColor">@color/menu_text_color</item>
         <item name="android:textSize">@dimen/text_size_medium</item>
@@ -265,14 +296,30 @@
     <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
     <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
     <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
-    <style name="Theme.AudioPreview" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="Theme.AudioPreview" parent="@style/Theme.MaterialComponents.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <style name="Theme.Transparent" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
+    <style name="Theme.Transparent" parent="@style/Theme.MaterialComponents.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -281,6 +328,15 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
-    <style name="ToolBarPopupTheme" parent="android:style/Theme.Material"/>
-    <style name="ToolBarTheme" parent="android:style/ThemeOverlay.Material.ActionBar"/>
+    <style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog"/>
+    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.DayNight"/>
+    <style name="ToolBarTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:fontFamily">?android:fontFamily</item>
+    </style>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
 </resources>

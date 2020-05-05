@@ -75,6 +75,7 @@
     <string name="context_menu_remove_from_recent">Выдаліць з апошніх</string>
     <string name="context_menu_rename_playlist">Пераназваць</string>
     <string name="context_menu_use_as_ringtone">Выкарыстаць як рынгтон</string>
+    <string msgid="3209159573327985035" name="copy">"Капіраваць"</string>
     <string name="create_playlist_prompt">Назва плэйліста</string>
     <string name="delete_dialog_title">Выдаліць <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Кэшаваныя выявы будуць выдалены</string>
@@ -91,11 +92,10 @@
     <string name="empty_queue_secondary">Каб дадаць трэкі ў чаргу прайгравання, націсніце на меню опцый трэка, альбома ці выканаўца і выберыце \"Дадаць у чаргу\".</string>
     <string name="empty_recent">Трэкі, якія вы слухалі нядаўна, будуць знаходзіцца тут.</string>
     <string name="empty_recent_main">Няма нядаўніх трэкаў</string>
-    <string name="empty_search">Пошук не даў вынікаў</string>
-    <string name="empty_search_check">Праверце правільнасць уводу ці паспрабуйце пошук па іншым ключавым слове.</string>
     <string name="empty_top_tracks_main">Няма топ-трэкаў</string>
     <string name="empty_top_tracks_secondary">Трэкі, якія вы слухаеце найчасцей, будуць дададзены ў гэты спіс.</string>
     <string name="error_playing_track">Немагчыма прайграць трэк %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Пашыраныя налады"</string>
     <string name="footer_search_albums">Паказаць усе альбомы</string>
     <string name="footer_search_artists">Паказаць усіх выканаўцаў</string>
     <string name="footer_search_playlists">Паказаць усе плэйлісты</string>
@@ -127,7 +127,6 @@
     <string name="menu_equalizer">Эквалайзер</string>
     <string name="menu_play_all">Граць усё</string>
     <string name="menu_save_queue">Захаваць у плэйліст</string>
-    <string name="menu_search">Пошук</string>
     <string name="menu_settings">Налады</string>
     <string name="menu_shuffle_album">Перамяшаць альбом</string>
     <string name="menu_shuffle_all">Перамяшаць усё</string>
@@ -142,6 +141,7 @@
     <string name="new_playlist">Новы плэйліст</string>
     <string name="new_playlist_name_template">Плэйліст <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Эквалайзер не можа быць адчынены.</string>
+    <string msgid="478774118347071097" name="not_set">"Не зададзена"</string>
     <string name="old_photo">Зыходная выява\"</string>
     <string name="overwrite">Замяніць</string>
     <string name="page_albums">Альбомы</string>
@@ -156,10 +156,10 @@
     <string name="playlist_recently_played">Апошнія граныя</string>
     <string name="playlist_renamed">Плэйліст пераназваны</string>
     <string name="playlist_top_tracks">Мае топ-трэкі</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\": скапіравана ў буфер абмену."</string>
     <string name="remove_from_queue">Выдаліць з чаргі</string>
     <string name="remove_from_recent">Выдаліць з апошніх</string>
     <string name="save">Захаваць</string>
-    <string name="searchHint">Пошук музыкі</string>
     <string msgid="730395136688082741" name="search_menu_title">"Пошук"</string>
     <string name="search_title_albums">Усе альбомы \"%s\"</string>
     <string name="search_title_artists">Усе выканаўцы \"%s\"</string>
@@ -194,6 +194,9 @@
     <string name="sort_order_entry_track_list">Трэк-лісту</string>
     <string name="sort_order_entry_year">Году</string>
     <string name="sort_order_entry_za">Алфавіту ў зваротным парадку</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Відарыс па змаўчанні</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"УКЛ."</string>
 </resources>

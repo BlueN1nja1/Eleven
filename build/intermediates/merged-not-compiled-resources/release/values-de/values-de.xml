@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Aus \"Kürzlich gehört\" entfernen</string>
     <string name="context_menu_rename_playlist">Umbenennen</string>
     <string name="context_menu_use_as_ringtone">Als Klingelton verwenden</string>
+    <string msgid="3209159573327985035" name="copy">"Kopieren"</string>
     <string name="create_playlist_prompt">Name der Wiedergabeliste</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g> löschen?</string>
     <string name="delete_warning">Alle zwischengespeicherten Bilder werden hiermit endgültig gelöscht.</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Um Titel zur Warteschlange hinzuzufügen, wählen Sie im Optionsmenü eines Titels, Albums oder Interpreten \"Zur Warteschlange hinzufügen\".</string>
     <string name="empty_recent">Zuletzt gehörte Titel werden hier angezeigt.</string>
     <string name="empty_recent_main">Keine kürzlich gespielten Titel</string>
-    <string name="empty_search">Keine Suchergebnisse gefunden</string>
-    <string name="empty_search_check">Bitte vergewissern Sie sich, dass die Schreibweise korrekt ist, oder versuchen Sie es mit einem anderen Stichwort.</string>
     <string name="empty_top_tracks_main">Keine Toptitel</string>
     <string name="empty_top_tracks_secondary">Meistgespielte Titel werden dieser Liste hinzugefügt.</string>
     <string name="error_playing_track">Der Titel \"%1$s\" konnte nicht abgespielt werden.</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Erweitert"</string>
     <string name="footer_search_albums">Alle Alben anzeigen</string>
     <string name="footer_search_artists">Alle Interpreten anzeigen</string>
     <string name="footer_search_playlists">Alle Wiedergabelisten anzeigen</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Alle wiedergeben</string>
     <string name="menu_save_queue">Warteschlange als Wiedergabeliste speichern</string>
-    <string name="menu_search">Suche</string>
     <string name="menu_settings">Einstellungen</string>
     <string name="menu_shuffle_album">Album zufällig wiedergeben</string>
     <string name="menu_shuffle_all">Alles zufällig wiedergeben</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Neue Wiedergabeliste</string>
     <string name="new_playlist_name_template">Wiedergabeliste <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Der Equalizer konnte nicht geöffnet werden.</string>
+    <string msgid="478774118347071097" name="not_set">"Nicht festgelegt"</string>
     <string name="old_photo">Altes Foto verwenden</string>
     <string name="overwrite">Überschreiben</string>
     <string name="page_albums">Alben</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Kürzlich gespielt</string>
     <string name="playlist_renamed">Wiedergabeliste umbenannt</string>
     <string name="playlist_top_tracks">Meine Toptitel</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" in Zwischenablage kopiert."</string>
     <string name="remove_from_queue">Aus Warteschlange entfernen</string>
     <string name="remove_from_recent">Aus \"Kürzlich gehört\" entfernen</string>
     <string name="save">Speichern</string>
-    <string name="searchHint">Musik suchen</string>
     <string msgid="730395136688082741" name="search_menu_title">"Suche"</string>
     <string name="search_title_albums">Alle \"%s\" Alben</string>
     <string name="search_title_artists">Alle \"%s\" Interpreten</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Titelliste</string>
     <string name="sort_order_entry_year">Jahr</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Standardfoto verwenden</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AUS"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AN"</string>
 </resources>

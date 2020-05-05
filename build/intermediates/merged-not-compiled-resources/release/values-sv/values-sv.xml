@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">Ta bort från Nya</string>
     <string name="context_menu_rename_playlist">Byt namn</string>
     <string name="context_menu_use_as_ringtone">Använd som ringsignal</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiera"</string>
     <string name="create_playlist_prompt">Namn på spellista</string>
     <string name="delete_dialog_title">Ta bort <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Detta kommer ta bort cachade bilder permanent</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">För att lägga till sånger till din spelkö, tryck på alternativmenyn på en låt, album eller artist och välj \"Lägg till i spellista\".</string>
     <string name="empty_recent">Låtar du lyssnat på nyligen kommer visas här.</string>
     <string name="empty_recent_main">Inga senaste låtar</string>
-    <string name="empty_search">Inga sökresultat hittades</string>
-    <string name="empty_search_check">Kontrollera att du har den korrekta stavningen eller prova ett annat nyckelord.</string>
     <string name="empty_top_tracks_main">Ingen topplista</string>
     <string name="empty_top_tracks_secondary">Låtar som du lyssnar på mest kommer läggas till denna lista.</string>
     <string name="error_playing_track">Kunde inte spela spår %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avancerat"</string>
     <string name="footer_search_albums">Visa alla album</string>
     <string name="footer_search_artists">Visa alla artister</string>
     <string name="footer_search_playlists">Visa alla spellistor</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Spela alla</string>
     <string name="menu_save_queue">Spara kö till spellistan</string>
-    <string name="menu_search">Sök</string>
     <string name="menu_settings">Inställningar</string>
     <string name="menu_shuffle_album">Slumpa album</string>
     <string name="menu_shuffle_all">Blanda alla</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">Ny spellista</string>
     <string name="new_playlist_name_template">Spellista <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Equalizern kunde inte öppnas.</string>
+    <string msgid="478774118347071097" name="not_set">"Inte angett"</string>
     <string name="old_photo">Använd gammalt foto</string>
     <string name="overwrite">Skriv över</string>
     <string name="page_albums">Album</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">Senast spelade</string>
     <string name="playlist_renamed">Spellistan omdöpt</string>
     <string name="playlist_top_tracks">Min topplista</string>
+    <string msgid="7961817945132860002" name="preference_copied">"<ns1:g id="SUMMARY">%1$s</ns1:g> har kopierats till Urklipp."</string>
     <string name="remove_from_queue">Ta bort från kö</string>
     <string name="remove_from_recent">Ta bort från Nya</string>
     <string name="save">Spara</string>
-    <string name="searchHint">Sök musik</string>
     <string msgid="730395136688082741" name="search_menu_title">"Sök"</string>
     <string name="search_title_albums">Alla \"%s\" album</string>
     <string name="search_title_artists">Alla \"%s\" artister</string>
@@ -226,6 +226,9 @@
     <string name="sort_order_entry_track_list">Låtlista</string>
     <string name="sort_order_entry_year">År</string>
     <string name="sort_order_entry_za">Ö-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Använd standardfoto</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AV"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"PÅ"</string>
 </resources>

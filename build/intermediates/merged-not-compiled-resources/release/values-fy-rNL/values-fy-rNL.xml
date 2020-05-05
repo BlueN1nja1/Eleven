@@ -97,8 +97,6 @@
     <string name="empty_queue_secondary">Om nûmers oan dizze wachtrige ta te foegjen, tik op it menu fan in nûmer, album of artyst en selektearje ‘Tafoegje oan wachtrige’.</string>
     <string name="empty_recent">Nûmers dêr\'t jo resint nei lústere hawwe wurde hjir toand.</string>
     <string name="empty_recent_main">Gjin resinte nûmers</string>
-    <string name="empty_search">Gjin sykresultaten fûn</string>
-    <string name="empty_search_check">Kontrolearje oft jo de krekte stavering brûke of probearje in oar trefwurd.</string>
     <string name="empty_top_tracks_main">Gjin bêste nûmers</string>
     <string name="empty_top_tracks_secondary">Nûmers dêr\'t jo it meast nei lústerje wurde oan dizze list tafoege.</string>
     <string name="error_playing_track">Kin nûmer %1$s net ôfspylje</string>
@@ -133,7 +131,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Alles ôfspylje</string>
     <string name="menu_save_queue">Wachtrige bewarje as ôfspyllist</string>
-    <string name="menu_search">Sykje</string>
     <string name="menu_settings">Ynstellingen</string>
     <string name="menu_shuffle_album">Albums mjokselje</string>
     <string name="menu_shuffle_all">Alles mjokselje</string>
@@ -165,7 +162,6 @@
     <string name="remove_from_queue">Fuortsmite út wachtrige</string>
     <string name="remove_from_recent">Fuortsmite út resint</string>
     <string name="save">Bewarje</string>
-    <string name="searchHint">Muzyk sykje</string>
     <string name="search_title_albums">Alle ‘%s’ albums</string>
     <string name="search_title_artists">Alle ‘%s’ artysten</string>
     <string name="search_title_playlists">Alle ‘%s’ ôfspyllisten</string>

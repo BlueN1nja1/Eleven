@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Remover das recentes</string>
     <string name="context_menu_rename_playlist">Mudar nome</string>
     <string name="context_menu_use_as_ringtone">Usar como toque</string>
+    <string msgid="3209159573327985035" name="copy">"Copiar"</string>
     <string name="create_playlist_prompt">Nome da lista de reprodução</string>
     <string name="delete_dialog_title">Remover <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Isto vai remover permanentemente as imagens em cache</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Para adicionar músicas à sua fila de reprodução, toque no menu de opções numa música, álbum ou artista e selecione \"Adicionar à fila\".</string>
     <string name="empty_recent">Músicas que ouviu recentemente vão ser mostradas aqui.</string>
     <string name="empty_recent_main">Não há músicas recentes</string>
-    <string name="empty_search">Nenhum resultado encontrado</string>
-    <string name="empty_search_check">Por favor, verifique se está escrito corretamente ou tente uma palavra diferente.</string>
     <string name="empty_top_tracks_main">O Top de Músicas não existe</string>
     <string name="empty_top_tracks_secondary">As músicas que mais ouvir serão adicionadas a esta lista.</string>
     <string name="error_playing_track">Incapaz de reproduzir a música %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avançadas"</string>
     <string name="footer_search_albums">Mostrar todos os álbuns</string>
     <string name="footer_search_artists">Mostrar todos os artistas</string>
     <string name="footer_search_playlists">Mostrar todas as listas de reprodução</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Equalizador</string>
     <string name="menu_play_all">Reproduzir todas</string>
     <string name="menu_save_queue">Guardar a fila na lista de reprodução</string>
-    <string name="menu_search">Procurar</string>
     <string name="menu_settings">Definições</string>
     <string name="menu_shuffle_album">Reproduzir álbum aleatoriamente</string>
     <string name="menu_shuffle_all">Reproduzir todas aleatoriamente</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Nova lista de reprodução</string>
     <string name="new_playlist_name_template">Lista de reprodução <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">O equalizador não pôde ser aberto.</string>
+    <string msgid="478774118347071097" name="not_set">"Não definido"</string>
     <string name="old_photo">Usar foto antiga</string>
     <string name="overwrite">Substituir</string>
     <string name="page_albums">Álbuns</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Tocadas recentemente</string>
     <string name="playlist_renamed">Mudado o nome da lista de reprodução</string>
     <string name="playlist_top_tracks">O meu Top de músicas</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
     <string name="remove_from_queue">Remover da fila</string>
     <string name="remove_from_recent">Remover das recentes</string>
     <string name="save">Guardar</string>
-    <string name="searchHint">Pesquisar músicas</string>
     <string msgid="730395136688082741" name="search_menu_title">"Pesquisar"</string>
     <string name="search_title_albums">Todos os álbuns \"%s\"</string>
     <string name="search_title_artists">Todos os artistas \"%s\"</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Lista de músicas</string>
     <string name="sort_order_entry_year">Ano</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Usar foto padrão</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESATIVADO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ATIVADO"</string>
 </resources>

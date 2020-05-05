@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Treu dels recents</string>
     <string name="context_menu_rename_playlist">Reanomena</string>
     <string name="context_menu_use_as_ringtone">Utilitza com a to de trucada</string>
+    <string msgid="3209159573327985035" name="copy">"Copia"</string>
     <string name="create_playlist_prompt">Nom de la llista de reproducció</string>
     <string name="delete_dialog_title">Vols esborrar <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Això esborrarà permanentment les imatges de la memòria cau</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Per afegir cançons a la cua de reproducció, pica al menú opcions en una cançó, àlbum o artista i selecciona \"Afegeix a la cua\".</string>
     <string name="empty_recent">Les cançons que has escoltat recentment apareixeran aquí.</string>
     <string name="empty_recent_main">Cap cançó recent</string>
-    <string name="empty_search">No s\'han trobat resultats</string>
-    <string name="empty_search_check">Si us plau comprova que tingui l\'ortografia correcta o prova una altra paraula.</string>
     <string name="empty_top_tracks_main">No hi ha temes més escoltats</string>
     <string name="empty_top_tracks_secondary">Les cançons que més escoltes s\'afegiran a aquesta llista.</string>
     <string name="error_playing_track">No s\'ha pogut reproduir la pista %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Opcions avançades"</string>
     <string name="footer_search_albums">Mostra tots els àlbums</string>
     <string name="footer_search_artists">Mostra tots els artistes</string>
     <string name="footer_search_playlists">Mostra totes les llistes de reproducció</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Equalitzador</string>
     <string name="menu_play_all">Reprodueix tot</string>
     <string name="menu_save_queue">Desa-ho en cua a la llista de reproducció</string>
-    <string name="menu_search">Cerca</string>
     <string name="menu_settings">Configuració</string>
     <string name="menu_shuffle_album">Barreja l\'àlbum</string>
     <string name="menu_shuffle_all">Barreja-ho tot</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Nova llista de reproducció</string>
     <string name="new_playlist_name_template">Llista de reproducció <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">L\'equalitzador no s\'ha pogut obrir.</string>
+    <string msgid="478774118347071097" name="not_set">"Sense definir"</string>
     <string name="old_photo">Utilitza la foto antiga</string>
     <string name="overwrite">Sobreescriu</string>
     <string name="page_albums">Àlbums</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Reproduïdes recentment</string>
     <string name="playlist_renamed">Llista de reproducció reanomenada</string>
     <string name="playlist_top_tracks">Els meus temes més escoltats</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" s\'ha copiat al porta-retalls"</string>
     <string name="remove_from_queue">Treu de la cua</string>
     <string name="remove_from_recent">Treu dels recents</string>
     <string name="save">Desa</string>
-    <string name="searchHint">Cerca Música</string>
     <string msgid="730395136688082741" name="search_menu_title">"Cerca"</string>
     <string name="search_title_albums">Tots els àlbums de \"%s\"</string>
     <string name="search_title_artists">Tots els artistes de \"%s\"</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Llista de pistes</string>
     <string name="sort_order_entry_year">Any</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Utilitza la foto predefinida</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DESACTIVAT"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ACTIVAT"</string>
 </resources>

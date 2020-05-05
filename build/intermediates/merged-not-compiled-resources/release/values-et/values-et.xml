@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Eemalda hiljutistest</string>
     <string name="context_menu_rename_playlist">Nimeta ümber</string>
     <string name="context_menu_use_as_ringtone">Kasuta telefoni helinana</string>
+    <string msgid="3209159573327985035" name="copy">"Kopeerimine"</string>
     <string name="create_playlist_prompt">Esitusloendi nimi</string>
     <string name="delete_dialog_title">Kustuta <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">See toiming kustutab puhverdatud pildid alatiseks</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Lugude lisamiseks esitlusjärjekorda, koputa laulu, albumi või artisti lisavalikute menüül ja vali \"Lisa järjekorda\".</string>
     <string name="empty_recent">Hiljuti kuulatud laulud kuvatakse siin.</string>
     <string name="empty_recent_main">Puuduvad hiljutised laulud</string>
-    <string name="empty_search">Otsing ei andnud tulemusi</string>
-    <string name="empty_search_check">Palun kontrollige, kas teil on õige kirjaviis või proovige mõnda teist märksõna.</string>
     <string name="empty_top_tracks_main">Ei ole top laule</string>
     <string name="empty_top_tracks_secondary">Enim kuulatud laulid lisatakse siia loendisse.</string>
     <string name="error_playing_track">Ei saa mängida laulu %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Täpsemad"</string>
     <string name="footer_search_albums">Kuva kõik albumid</string>
     <string name="footer_search_artists">Kuva kõik esitajad</string>
     <string name="footer_search_playlists">Kuva kõik esitusloendid</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Ekvalaiser</string>
     <string name="menu_play_all">Esita kõik</string>
     <string name="menu_save_queue">Salvesta esitlusjärjekord esitlusloendisse</string>
-    <string name="menu_search">Otsing</string>
     <string name="menu_settings">Seaded</string>
     <string name="menu_shuffle_album">Juhuesita album</string>
     <string name="menu_shuffle_all">Juhuesita kõik</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Uus esitusloend</string>
     <string name="new_playlist_name_template">Esitusloend <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Ekvalaiserit ei saanud avada.</string>
+    <string msgid="478774118347071097" name="not_set">"Määramata"</string>
     <string name="old_photo">Kasuta vana pilti</string>
     <string name="overwrite">Kirjuta üle</string>
     <string name="page_albums">Albumid</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Viimati esitatud</string>
     <string name="playlist_renamed">Esitusloend ümbernimetatud</string>
     <string name="playlist_top_tracks">Minu top lood</string>
+    <string msgid="7961817945132860002" name="preference_copied">"„<ns1:g id="SUMMARY">%1$s</ns1:g>” on lõikelauale kopeeritud."</string>
     <string name="remove_from_queue">Eemalda järjekorrast</string>
     <string name="remove_from_recent">Eemalda hiljutistest</string>
     <string name="save">Salvesta</string>
-    <string name="searchHint">Otsi muusikat</string>
     <string msgid="730395136688082741" name="search_menu_title">"Otsing"</string>
     <string name="search_title_albums">Kõik \"%s\" albumid</string>
     <string name="search_title_artists">Kõik \"%s\" esitajad</string>
@@ -216,6 +216,7 @@
     <string name="settings_show_music_visualization_title">Näita muusika visualiseerimist</string>
     <string name="settings_storage_category">Mälu</string>
     <string name="settings_ui_category">Liides</string>
+    <string name="settings_use_blur_title">Tausta hägustamine</string>
     <string name="sort_order_entry_album">Album</string>
     <string name="sort_order_entry_artist">Esitaja</string>
     <string name="sort_order_entry_az">A-Z</string>
@@ -227,6 +228,9 @@
     <string name="sort_order_entry_track_list">Lugude nimekiri</string>
     <string name="sort_order_entry_year">Aasta</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Kasuta vaikimisi pilti</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"VÄLJAS"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"SEES"</string>
 </resources>

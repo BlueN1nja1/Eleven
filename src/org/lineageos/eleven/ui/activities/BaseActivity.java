@@ -1,19 +1,23 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Licensed under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with the
- * License. You may obtain a copy of the License at
- * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
- * or agreed to in writing, software distributed under the License is
- * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Copyright (C) 2019 The LineageOS Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 
 package org.lineageos.eleven.ui.activities;
 
-import android.app.ActionBar;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -32,11 +36,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
-import org.lineageos.eleven.IElevenService;
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.MusicStateListener;
 import org.lineageos.eleven.R;
@@ -47,12 +53,10 @@ import org.lineageos.eleven.utils.Lists;
 import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.MusicUtils.ServiceToken;
 import org.lineageos.eleven.utils.NavUtils;
-import org.lineageos.eleven.widgets.PlayPauseProgressButton;
+import org.lineageos.eleven.widgets.PlayPauseButtonContainer;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
-
-import static org.lineageos.eleven.utils.MusicUtils.mService;
 
 /**
  * A base {@link FragmentActivity} used to update the bottom bar and
@@ -62,7 +66,7 @@ import static org.lineageos.eleven.utils.MusicUtils.mService;
  *
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
-public abstract class BaseActivity extends FragmentActivity implements ServiceConnection,
+public abstract class BaseActivity extends AppCompatActivity implements ServiceConnection,
         MusicStateListener, ICacheListener {
 
     /**
@@ -82,7 +86,7 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
     /**
      * Play pause progress button
      */
-    private PlayPauseProgressButton mPlayPauseProgressButton;
+    private PlayPauseButtonContainer mPlayPauseButtonContainer;
 
     /**
      * Track name (BAB)
@@ -116,9 +120,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
         // Control the media volume
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
-        // Bind Eleven's service
-        mToken = MusicUtils.bindToService(this, this);
-
         // Initialize the broadcast receiver
         mPlaybackStatus = new PlaybackStatus(this);
 
@@ -133,14 +134,14 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
         // Set the layout
         setContentView(setContentView());
 
-        mToolBar = (Toolbar) findViewById(R.id.toolbar);
-        setActionBar(mToolBar);
+        mToolBar = findViewById(R.id.toolbar);
+        setSupportActionBar(mToolBar);
 
         setActionBarTitle(getString(R.string.app_name));
 
         // set the background on the root view
         getWindow().getDecorView().getRootView().setBackgroundColor(
-                getResources().getColor(R.color.background_color));
+                ContextCompat.getColor(this, R.color.background_color));
         // Initialze the bottom action bar
         initBottomActionBar();
 
@@ -153,7 +154,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     @Override
     public void onServiceConnected(final ComponentName name, final IBinder service) {
-        mService = IElevenService.Stub.asInterface(service);
         // Set the playback drawables
         updatePlaybackControls();
         // Current info
@@ -167,7 +167,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     @Override
     public void onServiceDisconnected(final ComponentName name) {
-        mService = null;
     }
 
     /**
@@ -175,8 +174,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
-        // Search view
-        getMenuInflater().inflate(R.menu.search_btn, menu);
         // Settings
         getMenuInflater().inflate(R.menu.activity_base, menu);
 
@@ -192,10 +189,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
             case R.id.menu_settings:
                 // Settings
                 NavUtils.openSettings(this);
-                return true;
-
-            case R.id.menu_search:
-                NavUtils.openSearch(BaseActivity.this, "");
                 return true;
 
             default:
@@ -222,6 +215,10 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
     @Override
     protected void onStart() {
         super.onStart();
+
+        // Bind Eleven's service
+        mToken = MusicUtils.bindToService(this, this);
+
         final IntentFilter filter = new IntentFilter();
         // Play and pause changes
         filter.addAction(MusicPlaybackService.PLAYSTATE_CHANGED);
@@ -234,8 +231,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
         // If there is an error playing a track
         filter.addAction(MusicPlaybackService.TRACK_ERROR);
         registerReceiver(mPlaybackStatus, filter);
-
-        mPlayPauseProgressButton.resume();
     }
 
     /**
@@ -245,7 +240,16 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
     protected void onStop() {
         super.onStop();
 
-        mPlayPauseProgressButton.pause();
+        // Unbind from the service
+        MusicUtils.unbindFromService(mToken);
+        mToken = null;
+
+        // Unregister the receiver
+        try {
+            unregisterReceiver(mPlaybackStatus);
+        } catch (final Throwable e) {
+            //$FALL-THROUGH$
+        }
     }
 
     /**
@@ -254,18 +258,6 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        // Unbind from the service
-        if (mToken != null) {
-            MusicUtils.unbindFromService(mToken);
-            mToken = null;
-        }
-
-        // Unregister the receiver
-        try {
-            unregisterReceiver(mPlaybackStatus);
-        } catch (final Throwable e) {
-            //$FALL-THROUGH$
-        }
 
         // Remove any music status listeners
         mMusicStateListener.clear();
@@ -282,15 +274,18 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
         setActionBarTitle(title);
 
         if (mActionBarBackground == null) {
-            final int actionBarColor = getResources().getColor(R.color.header_action_bar_color);
+            final int actionBarColor = ContextCompat.getColor(this,
+                    R.color.header_action_bar_color);
             mActionBarBackground = new ColorDrawable(actionBarColor);
-            mToolBar.setBackgroundDrawable(mActionBarBackground);
+            mToolBar.setBackground(mActionBarBackground);
         }
     }
 
     public void setActionBarTitle(String title) {
-        ActionBar actionBar = getActionBar();
-        actionBar.setTitle(title);
+        final ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setTitle(title);
+        }
     }
 
     public void setActionBarAlpha(int alpha) {
@@ -313,15 +308,15 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     protected void initBottomActionBar() {
         // Play and pause button
-        mPlayPauseProgressButton = (PlayPauseProgressButton)findViewById(R.id.playPauseProgressButton);
-        mPlayPauseProgressButton.enableAndShow();
+        mPlayPauseButtonContainer = findViewById(R.id.playPauseProgressButton);
+        mPlayPauseButtonContainer.enableAndShow();
 
         // Track name
-        mTrackName = (TextView)findViewById(R.id.bottom_action_bar_line_one);
+        mTrackName = findViewById(R.id.bottom_action_bar_line_one);
         // Artist name
-        mArtistName = (TextView)findViewById(R.id.bottom_action_bar_line_two);
+        mArtistName = findViewById(R.id.bottom_action_bar_line_two);
         // Album art
-        mAlbumArt = (ImageView)findViewById(R.id.bottom_action_bar_album_art);
+        mAlbumArt = findViewById(R.id.bottom_action_bar_album_art);
         // Open to the currently playing album profile
         mAlbumArt.setOnClickListener(mOpenCurrentAlbumProfile);
     }
@@ -347,7 +342,7 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     private void updatePlaybackControls() {
         // Set the play and pause image
-        mPlayPauseProgressButton.getPlayPauseButton().updateState();
+        mPlayPauseButtonContainer.updateState();
     }
 
     /**
@@ -400,8 +395,7 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
                         baseActivity.onMetaChanged();
                         break;
                     case MusicPlaybackService.PLAYSTATE_CHANGED:
-                        // Set the play and pause image
-                        baseActivity.mPlayPauseProgressButton.getPlayPauseButton().updateState();
+                        baseActivity.mPlayPauseButtonContainer.updateState();
                         break;
                     case MusicPlaybackService.REFRESH:
                         baseActivity.restartLoader();

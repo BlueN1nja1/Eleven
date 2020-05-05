@@ -102,6 +102,7 @@
     <string name="app_widget_small">Музика: 4 \u00d7 1</string>
     <string name="cancel">Откажи</string>
     <string name="cannot_be_undone">Ова акција не може бити поништена</string>
+    <string name="channel_music">Пуштање музике</string>
     <string name="clear">Очисти</string>
     <string name="clear_last_added">Очисти последње додато?</string>
     <string name="clear_recent_title">Очисти недавно пуштано?</string>
@@ -118,6 +119,7 @@
     <string name="context_menu_remove_from_recent">Уклони из недавних</string>
     <string name="context_menu_rename_playlist">Преименуј</string>
     <string name="context_menu_use_as_ringtone">Користи као тон звона</string>
+    <string msgid="3209159573327985035" name="copy">"Копирај"</string>
     <string name="create_playlist_prompt">Име плејлисте</string>
     <string name="delete_dialog_title">Избриши <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Ова акција ће трајно уклонити кеширане слике</string>
@@ -134,11 +136,10 @@
     <string name="empty_queue_secondary">Да додаш песме у редослед за пуштање, додирни опциони мени на песми, албуму или уметнику и изабери \"Додај у редослед\".</string>
     <string name="empty_recent">Песме које си недавно слушао ће бити приказане овде.</string>
     <string name="empty_recent_main">Нема недавних песама</string>
-    <string name="empty_search">Нема пронађених резултата</string>
-    <string name="empty_search_check">Провери да ли си исправно изговорио или пробај другу кључну реч.</string>
     <string name="empty_top_tracks_main">Нема најбољих песама</string>
     <string name="empty_top_tracks_secondary">Песме које највише слушаш ће бити додате на ову листу.</string>
     <string name="error_playing_track">Немогу да пустим нумеру %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Напредно"</string>
     <string name="footer_search_albums">Прикажи све албуме</string>
     <string name="footer_search_artists">Прикажи све уметнике</string>
     <string name="footer_search_playlists">Прикажи све плејлисте</string>
@@ -170,7 +171,6 @@
     <string name="menu_equalizer">Еквилајзер</string>
     <string name="menu_play_all">Пусти све</string>
     <string name="menu_save_queue">Сачувај редослед као плејлисту</string>
-    <string name="menu_search">Претражи</string>
     <string name="menu_settings">Подешавања</string>
     <string name="menu_shuffle_album">Насумично албум</string>
     <string name="menu_shuffle_all">Насумично све</string>
@@ -185,6 +185,7 @@
     <string name="new_playlist">Нова плејлиста</string>
     <string name="new_playlist_name_template">Плејлиста <ns1:g id="број">%d</ns1:g></string>
     <string name="no_effects_for_you">Еквилајзер не може бити отворен.</string>
+    <string msgid="478774118347071097" name="not_set">"Није подешено"</string>
     <string name="old_photo">Користи стару слику</string>
     <string name="overwrite">Препиши</string>
     <string name="page_albums">Албуми</string>
@@ -199,10 +200,10 @@
     <string name="playlist_recently_played">Недавно пуштано</string>
     <string name="playlist_renamed">Плејлиста преименована</string>
     <string name="playlist_top_tracks">Моје најбоље траке</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Резиме „<ns1:g id="SUMMARY">%1$s</ns1:g>“ је копиран у привремену меморију."</string>
     <string name="remove_from_queue">Уклони из редоследа</string>
     <string name="remove_from_recent">Уклони из недавних</string>
     <string name="save">Сачувај</string>
-    <string name="searchHint">Претражи музику</string>
     <string msgid="730395136688082741" name="search_menu_title">"Претражите"</string>
     <string name="search_title_albums">Сви \"%s\" албуми</string>
     <string name="search_title_artists">Сви \"%s\" уметници</string>
@@ -237,6 +238,9 @@
     <string name="sort_order_entry_track_list">Листа песама</string>
     <string name="sort_order_entry_year">Година</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Користи подразумевану слику</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ИСКЉУЧЕНО"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"УКЉУЧЕНО"</string>
 </resources>

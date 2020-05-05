@@ -119,6 +119,7 @@
     <string name="context_menu_remove_from_recent">Elimină din recente</string>
     <string name="context_menu_rename_playlist">Redenumire</string>
     <string name="context_menu_use_as_ringtone">Folosește ca ton de apel</string>
+    <string msgid="3209159573327985035" name="copy">"Copiați"</string>
     <string name="create_playlist_prompt">Numele listei de redare</string>
     <string name="delete_dialog_title">Șterge <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Aceasta va șterge permanent imaginile păstrate în cache</string>
@@ -135,11 +136,10 @@
     <string name="empty_queue_secondary">Pentru a adăuga melodii în coada de redare, atingeți meniul de opțiuni pe un cântec, album sau artist și selectați \"Adăugați la coadă\".</string>
     <string name="empty_recent">Melodiile redate recent vor fi afișate aici.</string>
     <string name="empty_recent_main">Nicio melodie recentă</string>
-    <string name="empty_search">Nu am găsit rezultate la căutare</string>
-    <string name="empty_search_check">Vă rugăm să verificați că aveți ortografia corectă sau încercați un cuvânt cheie diferit.</string>
     <string name="empty_top_tracks_main">Nicio melodie de top</string>
     <string name="empty_top_tracks_secondary">Melodiile ascultate cel mai des vor fi adăugate la această listă.</string>
     <string name="error_playing_track">Melodia %1$s nu poate fi redată</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Avansat"</string>
     <string name="footer_search_albums">Arată toate albumele</string>
     <string name="footer_search_artists">Arată toți artiștii</string>
     <string name="footer_search_playlists">Arată toate listele de redare</string>
@@ -171,7 +171,6 @@
     <string name="menu_equalizer">Egalizator</string>
     <string name="menu_play_all">Redă tot</string>
     <string name="menu_save_queue">Salvați lista pentru redare</string>
-    <string name="menu_search">Căutare</string>
     <string name="menu_settings">Setări</string>
     <string name="menu_shuffle_album">Amestecă albumul</string>
     <string name="menu_shuffle_all">Amestecă toate</string>
@@ -186,6 +185,7 @@
     <string name="new_playlist">Listă redare nouă</string>
     <string name="new_playlist_name_template">Listă de redare <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Egalizatorul nu a putut fi deschis.</string>
+    <string msgid="478774118347071097" name="not_set">"Nesetată"</string>
     <string name="old_photo">Utilizare foto veche</string>
     <string name="overwrite">Suprascrie</string>
     <string name="page_albums">Albume</string>
@@ -200,10 +200,10 @@
     <string name="playlist_recently_played">Redate recent</string>
     <string name="playlist_renamed">Listă de redare redenumită</string>
     <string name="playlist_top_tracks">Piesele mele de top</string>
+    <string msgid="7961817945132860002" name="preference_copied">"„<ns1:g id="SUMMARY">%1$s</ns1:g>” a fost copiat în clipboard."</string>
     <string name="remove_from_queue">Elimină din coadă</string>
     <string name="remove_from_recent">Elimină din recente</string>
     <string name="save">Salvare</string>
-    <string name="searchHint">Căutare muzică</string>
     <string msgid="730395136688082741" name="search_menu_title">"Căutați"</string>
     <string name="search_title_albums">Toate \"%s\" albumele</string>
     <string name="search_title_artists">Toți \"%s\" artiștii</string>
@@ -227,6 +227,7 @@
     <string name="settings_show_music_visualization_title">Arată vizualizarea muzicală</string>
     <string name="settings_storage_category">Stocare</string>
     <string name="settings_ui_category">Interfața</string>
+    <string name="settings_use_blur_title">Estompare fundal</string>
     <string name="sort_order_entry_album">Album</string>
     <string name="sort_order_entry_artist">Artist</string>
     <string name="sort_order_entry_az">A-Z</string>
@@ -238,6 +239,9 @@
     <string name="sort_order_entry_track_list">Lista de melodii</string>
     <string name="sort_order_entry_year">An</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Utilizare foto implicită</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"DEZACTIVAT"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ACTIVAT"</string>
 </resources>

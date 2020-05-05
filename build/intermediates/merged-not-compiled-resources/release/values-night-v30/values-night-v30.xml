@@ -1,19 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ActionBar" parent="@android:style/Widget.Material.ActionBar">
+    <array name="letter_tile_colors">
+        <item>@color/letter_tile_purple_color</item>
+        <item>@color/letter_tile_blue_color</item>
+        <item>@color/letter_tile_indigo_color</item>
+        <item>@color/letter_tile_teal_color</item>
+        <item>@color/letter_tile_light_green_color</item>
+        <item>@color/letter_tile_red_color</item>
+        <item>@color/letter_tile_grey_color</item>
+        <item>@color/letter_tile_deep_orange_color</item>
+        <item>@color/letter_tile_brown_color</item>
+    </array>
+    <array name="letter_tile_vibrant_dark_colors">
+        <item>@color/letter_tile_purple_color_dark</item>
+        <item>@color/letter_tile_blue_color_dark</item>
+        <item>@color/letter_tile_indigo_color_dark</item>
+        <item>@color/letter_tile_teal_color_dark</item>
+        <item>@color/letter_tile_light_green_color_dark</item>
+        <item>@color/letter_tile_red_color_dark</item>
+        <item>@color/letter_tile_grey_color_dark</item>
+        <item>@color/letter_tile_deep_orange_color_dark</item>
+        <item>@color/letter_tile_brown_color_dark</item>
+    </array>
+    <color name="accent">#8ab4f8</color>
+    <color name="activity_album_detail_background_color">@color/background_color</color>
+    <color name="activity_artist_detail_background_color">@color/background_color</color>
+    <color name="activity_base_background_color">@color/background_color</color>
+    <color name="album_detail_duration_text_color">@color/default_text_color</color>
+    <color name="album_detail_genre_text_color">@color/default_text_color</color>
+    <color name="album_detail_song_count_and_year_text_color">@color/default_text_color</color>
+    <color name="album_detail_title_text_color">@color/default_text_color</color>
+    <color name="alert">@color/red</color>
+    <color name="app_msg_text_color">@color/accent</color>
+    <color name="artist_detail_album_title_text_color">@color/cardOne</color>
+    <color name="artist_detail_album_year_text_color">@color/cardTwo</color>
+    <color name="artist_detail_header_albums_label_text_color">@color/list_item_header_text_color</color>
+    <color name="artist_detail_header_background_color">@color/background_color</color>
+    <color name="artist_detail_header_songs_label_text_color">@color/list_item_header_text_color</color>
+    <color name="audio_player_current_time_color">@color/accent</color>
+    <color name="audio_player_lyrics_text_color">@color/accent</color>
+    <color name="audio_player_seeker_progress_background_color">@color/white</color>
+    <color name="audio_player_seeker_progress_color">@color/accent</color>
+    <color name="audio_player_seeker_thumb_color">@color/accent</color>
+    <color name="audio_player_text_color">@color/default_text_color_light</color>
+    <color name="audio_player_total_time_color">@color/accent</color>
+    <color name="background_color">@color/black</color>
+    <color name="black">#000000</color>
+    <color name="blue">#ff8ab4f8</color>
+    <color name="blue_dark">#039be5</color>
+    <color name="bottom_action_bar_text_color">@color/white</color>
+    <color name="brown">#a1887f</color>
+    <color name="brown_dark">#8d6e63</color>
+    <color name="cardOne">#ffffff</color>
+    <color name="cardTwo">#ffffff</color>
+    <color name="cards_bg_color">#333333</color>
+    <color name="circular_progress_bar">@color/accent</color>
+    <color name="circular_progress_bar_background">@color/grey</color>
+    <color name="confirm">@color/orange</color>
+    <color name="default_text_color">@color/white</color>
+    <color name="default_text_color_light">@color/white</color>
+    <color name="duration_text_color">@color/accent</color>
+    <color name="green">#64ffda</color>
+    <color name="green_dark">#388E3C</color>
+    <color name="grey">#9e9e9e</color>
+    <color name="grey_dark">#616161</color>
+    <color name="grid_items_normal_line_one">@color/cardOne</color>
+    <color name="grid_items_normal_line_two">@color/cardTwo</color>
+    <color name="grid_list_item_text_color">@color/white</color>
+    <color name="header_action_bar_color">@color/primary</color>
+    <color name="header_action_bar_text_color">@color/white</color>
+    <color name="header_action_bar_text_color_active">@color/accent</color>
+    <color name="header_shadow_color">#ea212121</color>
+    <color name="indigo">#673AB7</color>
+    <color name="indigo_dark">#512DA8</color>
+    <color name="info">@color/green</color>
+    <color name="letter_tile_blue_color">@color/blue</color>
+    <color name="letter_tile_blue_color_dark">@color/blue_dark</color>
+    <color name="letter_tile_brown_color">@color/brown</color>
+    <color name="letter_tile_brown_color_dark">@color/brown_dark</color>
+    <color name="letter_tile_deep_orange_color">@color/orange</color>
+    <color name="letter_tile_deep_orange_color_dark">@color/orange_dark</color>
+    <color name="letter_tile_default_color">@color/grey</color>
+    <color name="letter_tile_font_color">@color/white</color>
+    <color name="letter_tile_grey_color">@color/grey</color>
+    <color name="letter_tile_grey_color_dark">@color/grey_dark</color>
+    <color name="letter_tile_indigo_color">@color/indigo</color>
+    <color name="letter_tile_indigo_color_dark">@color/indigo_dark</color>
+    <color name="letter_tile_light_green_color">@color/green</color>
+    <color name="letter_tile_light_green_color_dark">@color/green_dark</color>
+    <color name="letter_tile_purple_color">@color/purple</color>
+    <color name="letter_tile_purple_color_dark">@color/purple_dark</color>
+    <color name="letter_tile_red_color">@color/red</color>
+    <color name="letter_tile_red_color_dark">@color/red_dark</color>
+    <color name="letter_tile_teal_color">@color/teal</color>
+    <color name="letter_tile_teal_color_dark">@color/teal_dark</color>
+    <color name="list_base_container_background_color">@color/black</color>
+    <color name="list_item_background">#4cfafafa</color>
+    <color name="list_item_divider_color">#4c212121</color>
+    <color name="list_item_divider_color_light">#34fafafa</color>
+    <color name="list_item_header_text_color">@color/white</color>
+    <color name="list_item_search_footer_text_color">@color/accent</color>
+    <color name="list_item_text_color">@color/default_text_color</color>
+    <color name="list_item_text_color_light">@color/default_text_color_light</color>
+    <color name="lyrics_background_color">#b2212121</color>
+    <color name="menu_divider_color">@color/transparent</color>
+    <color name="menu_text_color">@color/white</color>
+    <color name="no_results">@color/red</color>
+    <color name="no_results_light">@color/red</color>
+    <color name="now_playing_divider">@color/transparent</color>
+    <color name="number_of_songs_text_color">@color/accent</color>
+    <color name="orange">#FF7F50</color>
+    <color name="orange_dark">#F57C00</color>
+    <color name="page_header_background">@color/black</color>
+    <color name="position_number_color">@color/accent</color>
+    <color name="primary">#ff000000</color>
+    <color name="primary_dark">#000000</color>
+    <color name="primary_light">#ff000000</color>
+    <color name="purple">#9C27B0</color>
+    <color name="purple_dark">#7B1FA2</color>
+    <color name="red">#DB7093</color>
+    <color name="red_dark">#D32F2F</color>
+    <color name="search_hint_color">@color/accent</color>
+    <color name="semitransparent_black">#222222</color>
+    <color name="tab_accent_color">@color/accent</color>
+    <color name="tab_ripple_color">@color/accent</color>
+    <color name="tab_selected_underline_color">@color/accent</color>
+    <color name="teal">#30D5c8</color>
+    <color name="teal_dark">#4db6ac</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#99212121</color>
+    <color name="transparent_blue">#993F51B5</color>
+    <color name="transparent_white">#99fafafa</color>
+    <color name="visualizer_fill_color">#bffafafa</color>
+    <color name="white">#ffffff</color>
+    <color name="widget_background_color">@color/black</color>
+    <color name="widget_text">@color/accent</color>
+    <style name="ActionBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
         <item name="android:background">@color/header_action_bar_color</item>
     </style>
-    <style name="ActionBarWidgetTheme" parent="Eleven.Theme">
+    <style name="ActionBarWidgetTheme" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
         <!-- This is the color of the search text hint in the action bar -->
         <item name="android:textColorHint">@color/search_hint_color</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
-        <item name="android:textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
-        <item name="android:textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
-        <!-- Empty icon -->
-        <item name="android:icon">@android:color/transparent</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
     </style>
-    <style name="ActionOverFlowButton" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    <style name="ActionOverFlowButton" parent="@style/Widget.AppCompat.ActionButton">
         <item name="android:src">@drawable/menu_button_light</item>
         <item name="android:minWidth">0dip</item>
         <item name="android:paddingLeft">8dip</item>
@@ -45,30 +178,37 @@
         <item name="android:singleLine">true</item>
         <item name="android:textColor">@color/bottom_action_bar_text_color</item>
     </style>
-    <style name="DropDownListView" parent="@android:style/Widget.Material.ListView.DropDown"/>
-    <style name="Eleven.Theme" parent="@android:style/Theme.DeviceDefault.Settings">
+    <style name="DropDownListView" parent="@style/Widget.AppCompat.ListView.DropDown"/>
+    <style name="Eleven.Theme" parent="@style/Theme.MaterialComponents.DayNight">
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
-        <item name="android:textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
-        <item name="android:textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
         <item name="android:listViewStyle">@style/ListView</item>
-        <item name="android:actionBarStyle">@style/ActionBar</item>
-        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:colorAccent">@color/accent</item>
-        <item name="android:statusBarColor">@color/black</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">@color/black</item>
     </style>
     <style name="Eleven.Theme.ActionBar.Overlay" parent="@style/Eleven.Theme">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
-    <style name="HeaderTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
+    <style name="Eleven.Theme.PopupMenuOverlapAnchor">
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+    <style name="HeaderTabTextStyle" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
@@ -108,12 +248,9 @@
     <style name="ListItemSecondaryText.Single" parent="ListItemSecondaryText">
         <item name="android:singleLine">true</item>
     </style>
-    <style name="ListView" parent="@android:style/Widget.Material.ListView">
-        <item name="android:divider">@color/list_item_divider_color</item>
+    <style name="ListView" parent="@style/Widget.AppCompat.ListView">
+        <item name="divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
-    </style>
-    <style name="MTSettings" parent="android:style/Theme.DeviceDefault.Settings">
-        <item name="android:colorAccent">@color/accent</item>
     </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
@@ -123,19 +260,19 @@
         <item name="android:singleLine">true</item>
         <item name="android:textColor">#212121</item>
     </style>
-    <style name="PopupMenu" parent="@android:style/Widget.Material.PopupMenu"/>
+    <style name="PopupMenu" parent="@style/Widget.MaterialComponents.PopupMenu"/>
     <style name="SmallPopupMenu" parent="@android:style/TextAppearance.Widget.PopupMenu.Small">
         <item name="android:textColor">@color/menu_text_color</item>
         <item name="android:textSize">@dimen/text_size_medium</item>
     </style>
-    <style name="Theme.AudioPreview" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="Theme.AudioPreview" parent="@style/Theme.MaterialComponents.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <style name="Theme.Transparent" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="Theme.Transparent" parent="@style/Theme.MaterialComponents.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -143,6 +280,6 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <style name="ToolBarPopupTheme" parent="android:style/Theme.Material"/>
-    <style name="ToolBarTheme" parent="android:style/ThemeOverlay.Material.ActionBar"/>
+    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.DayNight"/>
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar"/>
 </resources>

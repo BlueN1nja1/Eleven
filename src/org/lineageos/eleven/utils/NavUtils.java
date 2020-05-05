@@ -14,7 +14,6 @@
 package org.lineageos.eleven.utils;
 
 import android.app.Activity;
-import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -26,7 +25,6 @@ import android.widget.Toast;
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.ui.activities.HomeActivity;
-import org.lineageos.eleven.ui.activities.SearchActivity;
 import org.lineageos.eleven.ui.activities.SettingsActivity;
 
 /**
@@ -157,20 +155,6 @@ public final class NavUtils {
     }
 
     /**
-     * Opens to {@link org.lineageos.eleven.ui.activities.SearchActivity}.
-     *
-     * @param activity The {@link Activity} to use.
-     * @param query The search query.
-     */
-    public static void openSearch(final Activity activity, final String query) {
-        final Bundle bundle = new Bundle();
-        final Intent intent = new Intent(activity, SearchActivity.class);
-        intent.putExtra(SearchManager.QUERY, query);
-        intent.putExtras(bundle);
-        activity.startActivity(intent);
-    }
-
-    /**
      * Opens to {@link org.lineageos.eleven.ui.activities.HomeActivity}.
      *
      * @param activity The {@link Activity} to use.
@@ -182,4 +166,23 @@ public final class NavUtils {
         intent.putExtra(HomeActivity.EXTRA_BROWSE_PAGE_IDX, browseIndex);
         activity.startActivity(intent);
     }
+
+/** Added the bracket below temporarily until I can bring back the search activity **/
 }
+
+    /**
+     * Opens to {@link org.lineageos.eleven.ui.activities.SearchActivity}.
+     *
+     * @param activity The {@link Activity} to use.
+     * @param query The search query.
+     */
+  /**   Will come back to later! Currently too buggy to reimplement right now... (Will reimplement when I have time)
+   * public static void openSearch(final Activity activity, final String query) {
+        final Bundle bundle = new Bundle();
+        final Intent intent = new Intent(activity, SearchActivity.class);
+        intent.putExtra(SearchManager.QUERY, query);
+        intent.putExtras(bundle);
+        activity.startActivity(intent);
+    }
+}
+   **/

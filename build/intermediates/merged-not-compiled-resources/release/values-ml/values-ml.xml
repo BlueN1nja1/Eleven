@@ -107,6 +107,7 @@
     <string name="context_menu_remove_from_recent">സമീപകാലത്തുള്ളവയില്‍ നിന്ന് നീക്കം ചെയ്യുക</string>
     <string name="context_menu_rename_playlist">പേരുമാറ്റുക</string>
     <string name="context_menu_use_as_ringtone">റിംഗ്‌ടോൺ ആയി ഉപയോഗിക്കുക</string>
+    <string msgid="3209159573327985035" name="copy">"പകർത്തുക"</string>
     <string name="create_playlist_prompt">പ്ലേലിസ്റ്റിന്റെ പേര്</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g>ഇല്ലാതാക്കണോ??</string>
     <string name="delete_warning">ഈ കാഷെ ചെയ്ത ഇമേജ് എൻട്രികൾ ശാശ്വതമായി ഇല്ലാതാക്കുന്നതാണ്</string>
@@ -123,11 +124,10 @@
     <string name="empty_queue_secondary">ഈ പ്ലേ ക്യൂവില്‍ ഗാനങ്ങള്‍ ചേർക്കാൻ, ഒരു ഗാനം, ആൽബം അല്ലെങ്കിൽ ആർട്ടിസ്റ്റിന്റെ ഐച്ഛികങ്ങള്‍ മെനുവില്‍ അമര്‍ത്തി "ക്യൂവില്‍ ചേര്‍ക്കുക\" തിരഞ്ഞെടുക്കുക.</string>
     <string name="empty_recent">നിങ്ങൾ അടുത്തിടെ കേട്ട ഗാനങ്ങൾ ഇവിടെ കാണിക്കുന്നതാണ്.</string>
     <string name="empty_recent_main">സമീപകാലത്തുള്ള ഗാനങ്ങൾ ഇല്ല</string>
-    <string name="empty_search">തിരയൽ ഫലങ്ങൾ ഒന്നും കണ്ടെത്തിയില്ല</string>
-    <string name="empty_search_check">ശരിയായ സ്പെല്ലിംഗ് നിങ്ങള്‍ക്കുണ്ടോയെന്ന്‍ പരിശോധിക്കുക. അല്ലെങ്കിൽ മറ്റൊരു കീവേഡ് ശ്രമിക്കുക.</string>
     <string name="empty_top_tracks_main">മുന്‍നിര ട്രാക്കുകൾ ഇല്ല</string>
     <string name="empty_top_tracks_secondary">നിങ്ങൾ ഏറ്റവും കൂടുതല്‍ കേൾക്കുന്ന പാട്ടുകൾ ഈ ലിസ്റ്റിൽ ചേർക്കുന്നതാണ്.</string>
     <string name="error_playing_track">ട്രാക്ക് %1$s പ്ലേ ചെയ്യാൻ കഴിയുന്നില്ല</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"വിപുലമായത്"</string>
     <string name="footer_search_albums">എല്ലാ ആൽബങ്ങളും കാണിക്കുക</string>
     <string name="footer_search_artists">എല്ലാ ആര്‍ട്ടിസ്റ്റുകളെയും കാണിക്കുക</string>
     <string name="footer_search_playlists">എല്ലാ പ്ലേലിസ്റ്റുകളും കാണിക്കുക</string>
@@ -159,7 +159,6 @@
     <string name="menu_equalizer">ഇക്വലൈസർ</string>
     <string name="menu_play_all">എല്ലാം പ്ലേ ചെയ്യുക</string>
     <string name="menu_save_queue">പ്ലേലിസ്റ്റിലേക്ക് ക്യൂ സംരക്ഷിക്കുക</string>
-    <string name="menu_search">തിരയുക</string>
     <string name="menu_settings">ക്രമീകരണം</string>
     <string name="menu_shuffle_album">ആൽബം ഷഫിൾ ചെയ്യുക</string>
     <string name="menu_shuffle_all">എല്ലാം ഷഫിൾ ചെയ്യുക</string>
@@ -174,6 +173,7 @@
     <string name="new_playlist">പുതിയ പ്ലേലിസ്റ്റ്</string>
     <string name="new_playlist_name_template">പ്ലേലിസ്റ്റ് <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">ഈക്വലൈസര്‍ തുറക്കാൻ കഴിഞ്ഞില്ല.</string>
+    <string msgid="478774118347071097" name="not_set">"സജ്ജീകരിച്ചിട്ടില്ല"</string>
     <string name="old_photo">പഴയ ഫോട്ടോ ഉപയോഗിക്കുക</string>
     <string name="overwrite">പുനരാലേഖനം ചെയ്യുക</string>
     <string name="page_albums">ആൽബങ്ങൾ</string>
@@ -188,10 +188,10 @@
     <string name="playlist_recently_played">സമീപകാലത്ത് പ്ലേ ചെയ്തത്</string>
     <string name="playlist_renamed">പ്ലേലിസ്റ്റിന്റെ പേര് മാറ്റി</string>
     <string name="playlist_top_tracks">എന്റെ മുന്‍നിര ട്രാക്കുകൾ</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ക്ലിപ്‌ബോർഡിലേക്ക് പകർത്തി."</string>
     <string name="remove_from_queue">ക്യൂവിൽ നിന്ന് നീക്കം ചെയ്യുക</string>
     <string name="remove_from_recent">സമീപകാലത്തുള്ളവയില്‍ നിന്ന് നീക്കം ചെയ്യുക</string>
     <string name="save">സംരക്ഷിക്കുക</string>
-    <string name="searchHint">സംഗീതം തിരയുക</string>
     <string msgid="730395136688082741" name="search_menu_title">"തിരയുക"</string>
     <string name="search_title_albums">\"%s\" ആൽബങ്ങൾ എല്ലാം</string>
     <string name="search_title_artists">\"%s\" ആര്‍ട്ടിസ്റ്റുകള്‍ എല്ലാം</string>
@@ -206,8 +206,6 @@
     <string name="settings_download_only_on_wifi_summary">കാരിയർ നിരക്കുകൾ കുറയ്ക്കുന്നതിന്, മൊബൈൽ നെറ്റ്‌വർക്കുകൾ മുഖേന ഡൗൺലോഡ് ചെയ്യരുത്</string>
     <string name="settings_download_only_on_wifi_title">Wi-Fi വഴി മാത്രം ഡൗൺലോഡ് ചെയ്യുക</string>
     <string name="settings_general_category">പൊതുവായത്</string>
-    <string name="settings_lockscreen_album_art">ലോക്ക് സ്ക്രീനിലേക്ക് ആൽബം ആർട്ട്</string>
-    <string name="settings_lockscreen_album_art_summary">ആൽബം ആർട്ട് ഉപയോഗിച്ച് ലോക്ക് സ്ക്രീൻ പശ്ചാത്തലം പകരംവയ്ക്കുക</string>
     <string name="settings_shake_to_play">പ്ലേ ചെയ്യാന്‍ കുലുക്കുക</string>
     <string name="settings_shake_to_play_summary">അടുത്ത ഗാനം പ്ലേ ചെയ്യാന്‍ നിങ്ങളുടെ ഉപകരണം കുലുക്കുക</string>
     <string name="settings_show_lyrics_summary">srt ഫയൽ ഉള്ള ഗാനങ്ങള്‍ക്ക് വേണ്ടിയുള്ളത്</string>
@@ -226,6 +224,9 @@
     <string name="sort_order_entry_track_list">ട്രാക്ക് ലിസ്റ്റ്</string>
     <string name="sort_order_entry_year">വര്‍ഷം</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">ഡിഫോള്‍ട്ട് ഫോട്ടോ ഉപയോഗിക്കുക</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ഓഫാണ്"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ഓൺ"</string>
 </resources>

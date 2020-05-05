@@ -85,6 +85,7 @@
     <string name="context_menu_remove_from_playlist">從播放清單中移除</string>
     <string name="context_menu_remove_from_recent">從最近播放中移除</string>
     <string name="context_menu_rename_playlist">重新命名</string>
+    <string msgid="3209159573327985035" name="copy">"複製"</string>
     <string name="create_playlist_prompt">播放清單名稱</string>
     <string name="delete_dialog_title">刪除 <ns1:g example="album" id="item">%s</ns1:g>？</string>
     <string name="delete_warning">這將永久刪除快取圖像項</string>
@@ -101,11 +102,10 @@
     <string name="empty_queue_secondary">要向您的播放佇列新增歌曲，請按下選單中的歌曲、專輯或演出者，並在選擇「新增至佇列」。</string>
     <string name="empty_recent">您最近聽過的歌曲將在這裏顯示。</string>
     <string name="empty_recent_main">無最近播放的歌曲</string>
-    <string name="empty_search">未找到搜尋結果</string>
-    <string name="empty_search_check">請檢查拼寫是否正確，或嘗試其他關鍵字。</string>
     <string name="empty_top_tracks_main">沒有熱門曲目</string>
     <string name="empty_top_tracks_secondary">您聽過次數最多的歌曲將新增至此清單。</string>
     <string name="error_playing_track">無法播放曲目 %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"進階"</string>
     <string name="footer_search_albums">顯示所有專輯</string>
     <string name="footer_search_artists">顯示所有演出者</string>
     <string name="footer_search_playlists">顯示所有播放清單</string>
@@ -135,7 +135,6 @@
     <string name="menu_clear_recents">清除最近播放</string>
     <string name="menu_equalizer">等化器</string>
     <string name="menu_play_all">播放所有歌曲</string>
-    <string name="menu_search">搜尋</string>
     <string name="menu_settings">設定</string>
     <string name="menu_shuffle_album">隨機播放專輯</string>
     <string name="menu_shuffle_all">隨機播放所有歌曲</string>
@@ -150,6 +149,7 @@
     <string name="new_playlist">新的播放清單</string>
     <string name="new_playlist_name_template">播放清單 <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">無法打開等化器。</string>
+    <string msgid="478774118347071097" name="not_set">"未設定"</string>
     <string name="old_photo">使用舊圖片</string>
     <string name="overwrite">覆寫</string>
     <string name="page_genres">內容類型</string>
@@ -162,9 +162,9 @@
     <string name="playlist_recently_played">最近播放</string>
     <string name="playlist_renamed">已重新命名播放清單</string>
     <string name="playlist_top_tracks">我的熱門曲目</string>
+    <string msgid="7961817945132860002" name="preference_copied">"「<ns1:g id="SUMMARY">%1$s</ns1:g>」已複製到剪貼簿。"</string>
     <string name="remove_from_queue">從佇列中移除</string>
     <string name="remove_from_recent">從最近播放中移除</string>
-    <string name="searchHint">搜尋音樂</string>
     <string msgid="730395136688082741" name="search_menu_title">"搜尋"</string>
     <string name="search_title_albums">所有「%s」專輯</string>
     <string name="search_title_artists">所有「%s」演出者</string>
@@ -177,8 +177,6 @@
     <string name="settings_download_missing_artwork_title">下載缺少的專輯封面</string>
     <string name="settings_download_only_on_wifi_title">僅透過 Wi-Fi 下載</string>
     <string name="settings_general_category">一般</string>
-    <string name="settings_lockscreen_album_art">鎖屏專輯圖片</string>
-    <string name="settings_lockscreen_album_art_summary">將鎖屏背景替換成專輯圖片</string>
     <string name="settings_shake_to_play">搖動即可播放</string>
     <string name="settings_shake_to_play_summary">搖動您的裝置即可播放下一首歌曲</string>
     <string name="settings_show_lyrics_summary">針對有 srt 檔的歌曲</string>
@@ -196,6 +194,9 @@
     <string name="sort_order_entry_track_list">曲目清單</string>
     <string name="sort_order_entry_year">年份</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">使用預設相片</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"關閉"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"開啟"</string>
 </resources>

@@ -130,6 +130,7 @@
     <string name="context_menu_remove_from_recent">Odebrat z nedávných</string>
     <string name="context_menu_rename_playlist">Přejmenovat</string>
     <string name="context_menu_use_as_ringtone">Použít jako zvuk vyzvánění</string>
+    <string msgid="3209159573327985035" name="copy">"Kopírovat"</string>
     <string name="create_playlist_prompt">Název seznamu skladeb</string>
     <string name="delete_dialog_title">Odstranit <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Tímto trvale odstraníte stáhnuté obrázky</string>
@@ -146,11 +147,10 @@
     <string name="empty_queue_secondary">Chcete-li přidat skladby do fronty, otevřete nabídku dotykem na skladbě, albu či umělci a zvolte „Přidat do fronty“.</string>
     <string name="empty_recent">Zde budou zobrazeny všechny nedávno přehrávané skladby.</string>
     <string name="empty_recent_main">Žádné naposledy přehrávané</string>
-    <string name="empty_search">Nenalezeny žádné výsledky</string>
-    <string name="empty_search_check">Zkontrolujte, zda jste výraz napsali správně nebo zkuste jiné klíčové slovo.</string>
     <string name="empty_top_tracks_main">Žádné nejlepší skladby</string>
     <string name="empty_top_tracks_secondary">Zde budou zobrazeny všechny nejčastěji přehrávané skladby.</string>
     <string name="error_playing_track">Nelze přehrát skladbu %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Rozšířená nastavení"</string>
     <string name="footer_search_albums">Zobrazit všechna alba</string>
     <string name="footer_search_artists">Zobrazit všechny umělce</string>
     <string name="footer_search_playlists">Zobrazit všechny seznamy skladeb</string>
@@ -182,7 +182,6 @@
     <string name="menu_equalizer">Ekvalizér</string>
     <string name="menu_play_all">Přehrát vše</string>
     <string name="menu_save_queue">Uložit frontu do seznamu skladeb</string>
-    <string name="menu_search">Vyhledat</string>
     <string name="menu_settings">Nastavení</string>
     <string name="menu_shuffle_album">Náhodně v rámci alba</string>
     <string name="menu_shuffle_all">Vše náhodně</string>
@@ -197,6 +196,7 @@
     <string name="new_playlist">Nový seznam skladeb</string>
     <string name="new_playlist_name_template">Seznam <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Nelze otevřít ekvalizér.</string>
+    <string msgid="478774118347071097" name="not_set">"Nenastaveno"</string>
     <string name="old_photo">Použít starý obrázek</string>
     <string name="overwrite">Přepsat</string>
     <string name="page_albums">Alba</string>
@@ -211,10 +211,10 @@
     <string name="playlist_recently_played">Nedávno hraných</string>
     <string name="playlist_renamed">Seznam skladeb přejmenován</string>
     <string name="playlist_top_tracks">Mé nejlepší skladby</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Položka <ns1:g id="SUMMARY">%1$s</ns1:g> byla zkopírována do schránky."</string>
     <string name="remove_from_queue">Odebrat z fronty</string>
     <string name="remove_from_recent">Odebrat z nedávných</string>
     <string name="save">Uložit</string>
-    <string name="searchHint">Vyhledávání hudby</string>
     <string msgid="730395136688082741" name="search_menu_title">"Hledat"</string>
     <string name="search_title_albums">Vše v albu „%s“</string>
     <string name="search_title_artists">Vše od umělce „%s“</string>
@@ -249,6 +249,9 @@
     <string name="sort_order_entry_track_list">Seznamu stop</string>
     <string name="sort_order_entry_year">Roku</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Použít výchozí obrázek</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"Vypnutí"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ZAP"</string>
 </resources>

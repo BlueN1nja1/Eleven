@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Son çalınanlardan çıkar</string>
     <string name="context_menu_rename_playlist">Yeniden adlandır</string>
     <string name="context_menu_use_as_ringtone">Zil sesi olarak kullan</string>
+    <string msgid="3209159573327985035" name="copy">"Kopyala"</string>
     <string name="create_playlist_prompt">Çalma listesi adı</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g> silinsin mi?</string>
     <string name="delete_warning">Bu, önbelleğe alınmış resimleri kalıcı olarak silecek</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Çalma Kuyruğuna şarkı eklemek için şarkı, albüm veya sanatçı üzerindeki seçenekler menüsüne tıklayın ve \"Kuyruğa ekle\"yi seçin.</string>
     <string name="empty_recent">Son zamanlarda dinlediğiniz şarkılar burada gösterilecek.</string>
     <string name="empty_recent_main">Son çalınan şarkı yok</string>
-    <string name="empty_search">Arama sonucu bulunamadı</string>
-    <string name="empty_search_check">Lütfen doğru kelime girdiğinizi kontrol edin ya da farklı bir kelime deneyin.</string>
     <string name="empty_top_tracks_main">Üst şarkı yok</string>
     <string name="empty_top_tracks_secondary">En çok dinlediğiniz şarkılar bu listeye eklenecek.</string>
     <string name="error_playing_track">%1$s parçası oynatılamıyor</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Gelişmiş"</string>
     <string name="footer_search_albums">Tüm albümleri göster</string>
     <string name="footer_search_artists">Tüm sanatçıları göster</string>
     <string name="footer_search_playlists">Tüm listeleri göster</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Ekolayzer</string>
     <string name="menu_play_all">Tümünü çal</string>
     <string name="menu_save_queue">Kuyruğu çalma listesine kaydet</string>
-    <string name="menu_search">Ara</string>
     <string name="menu_settings">Ayarlar</string>
     <string name="menu_shuffle_album">Albümü karıştır</string>
     <string name="menu_shuffle_all">Tümünü karıştır</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Yeni çalma listesi</string>
     <string name="new_playlist_name_template">Çalma listesi <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Ekolayzer açılamadı.</string>
+    <string msgid="478774118347071097" name="not_set">"Ayarlanmadı"</string>
     <string name="old_photo">Eski fotoğrafı kullan</string>
     <string name="overwrite">Üzerine yaz</string>
     <string name="page_albums">Albümler</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Son çalınanlar</string>
     <string name="playlist_renamed">Çalma listesi yeniden adlandırıldı</string>
     <string name="playlist_top_tracks">Üst parçalarım</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" panoya kopyalandı."</string>
     <string name="remove_from_queue">Kuyruktan çıkar</string>
     <string name="remove_from_recent">Sonkilerden kaldır</string>
     <string name="save">Kaydet</string>
-    <string name="searchHint">Müzik ara</string>
     <string msgid="730395136688082741" name="search_menu_title">"Ara"</string>
     <string name="search_title_albums">Tüm \"%s\" albümleri</string>
     <string name="search_title_artists">Tüm \"%s\" sanatçıları</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Parça listesi</string>
     <string name="sort_order_entry_year">Yıl</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Varsayılan fotoğrafı kullan</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"KAPALI"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AÇIK"</string>
 </resources>

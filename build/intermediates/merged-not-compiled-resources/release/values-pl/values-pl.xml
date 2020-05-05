@@ -130,6 +130,7 @@
     <string name="context_menu_remove_from_recent">Usuń z ostatnio słuchanych</string>
     <string name="context_menu_rename_playlist">Zmień nazwę</string>
     <string name="context_menu_use_as_ringtone">Ustaw jako dzwonek</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiuj"</string>
     <string name="create_playlist_prompt">Nazwa playlisty</string>
     <string name="delete_dialog_title">Usunąć <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Grafiki z pamięci podręcznej zostaną trwale usunięte</string>
@@ -146,11 +147,10 @@
     <string name="empty_queue_secondary">Aby dodać utwory do Kolejki Odtwarzania, użyj przycisku opcji na utworze, albumie lub artyście i wybierz \"Dodaj do kolejki\".</string>
     <string name="empty_recent">Ostatnio przesłuchane albumy pojawią się tutaj. Zobaczysz je po odtworzeniu kilku utworów.</string>
     <string name="empty_recent_main">Brak ostatnio słuchanych utworów</string>
-    <string name="empty_search">Nie znaleziono pasujących wyników</string>
-    <string name="empty_search_check">Proszę sprawdzić, czy masz poprawną pisownię lub spróbuj innego słowa kluczowego.</string>
     <string name="empty_top_tracks_main">Brak najlepiej ocenianych utworów</string>
     <string name="empty_top_tracks_secondary">Utwory, które słuchasz najczęściej zostaną dodane do tej listy.</string>
     <string name="error_playing_track">Nie można otworzyć utworu %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Zaawansowane"</string>
     <string name="footer_search_albums">Pokaż wszystkie albumy</string>
     <string name="footer_search_artists">Pokaż wszystkich artystów</string>
     <string name="footer_search_playlists">Pokaż wszystkie playlisty</string>
@@ -182,7 +182,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Odtwórz wszystko</string>
     <string name="menu_save_queue">Zapisz kolejkę odtwarzania jako listę odtwarzania</string>
-    <string name="menu_search">Szukaj</string>
     <string name="menu_settings">Ustawienia</string>
     <string name="menu_shuffle_album">Losuj album</string>
     <string name="menu_shuffle_all">Losuj wszystko</string>
@@ -197,6 +196,7 @@
     <string name="new_playlist">Nowa playlista</string>
     <string name="new_playlist_name_template">Playlista <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Equalizer nie może zostać uruchomiony.</string>
+    <string msgid="478774118347071097" name="not_set">"Nie ustawiono"</string>
     <string name="old_photo">Użyj starego zdjęcia</string>
     <string name="overwrite">Nadpisz</string>
     <string name="page_albums">Albumy</string>
@@ -211,10 +211,10 @@
     <string name="playlist_recently_played">Ostatnio odtwarzane</string>
     <string name="playlist_renamed">Zmieniono nazwę playlisty</string>
     <string name="playlist_top_tracks">Moje najlepsze utwory</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Skopiowano „<ns1:g id="SUMMARY">%1$s</ns1:g>” do schowka."</string>
     <string name="remove_from_queue">Usuń z kolejki</string>
     <string name="remove_from_recent">Usuń z ostatnio słuchanych</string>
     <string name="save">Zapisz</string>
-    <string name="searchHint">Szukaj Muzyki</string>
     <string msgid="730395136688082741" name="search_menu_title">"Szukaj"</string>
     <string name="search_title_albums">Wszystkie albumy \"%s\"</string>
     <string name="search_title_artists">Wszyscy artyści \"%s\"</string>
@@ -249,6 +249,9 @@
     <string name="sort_order_entry_track_list">Lista utworów</string>
     <string name="sort_order_entry_year">Rok</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Użyj domyślnego zdjęcia</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"WYŁ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"WŁ."</string>
 </resources>

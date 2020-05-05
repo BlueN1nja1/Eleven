@@ -12,9 +12,11 @@ LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, res)
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.appcompat_appcompat \
     androidx.cardview_cardview \
+    androidx-constraintlayout_constraintlayout \
     androidx.core_core \
     androidx.legacy_legacy-support-v4 \
     androidx.palette_palette \
+    androidx.preference_preference \
     androidx.recyclerview_recyclerview
 
 LOCAL_USE_AAPT2 := true
@@ -29,11 +31,7 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_JNI_SHARED_LIBRARIES := librsjni
 
 LOCAL_PROGUARD_FLAGS := -include $(LOCAL_PATH)/proguard.cfg
-ifeq ($(TARGET_BUILD_VARIANT),user)
-    LOCAL_PROGUARD_ENABLED := obfuscation
-else
-    LOCAL_PROGUARD_ENABLED := disabled
-endif
+LOCAL_PROGUARD_ENABLED := disabled
 
 include $(BUILD_PACKAGE)
 

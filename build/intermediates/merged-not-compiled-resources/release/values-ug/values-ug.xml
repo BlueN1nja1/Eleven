@@ -52,8 +52,6 @@
     <string name="empty_queue_secondary">قويۇش سېپىگە ناخشا قوشۇش ئۈچۈن، تىزىملىكتىكى ناخشا، پىلاستنكا ياكى ئارتىسنى تاللاڭ، ھەمدە \"سەپكە ناخشا قوشۇش\"نى تاللاڭ.</string>
     <string name="empty_recent">بۇ يەردە سىز يېقىندا قويغان مۇزىكىلار كۆرۈنىدۇ.</string>
     <string name="empty_recent_main">يېقىنقى مۇزىكا يوق</string>
-    <string name="empty_search">ئىزدەش نەتىجىسى تېپىلمىدى</string>
-    <string name="empty_search_check">ئىملايىڭىز توغرىمۇ تەكشۈرۈڭ، ياكى باشقا ھالىقىلىق سۆزنى ئىزدەڭ.</string>
     <string name="empty_top_tracks_main">ئالىقىشلانغان ناخشا يوق</string>
     <string name="empty_top_tracks_secondary">سىز يېقىندا ئاڭلىغان ناخشا بۇ تىزىملىككە قوشۇلىدۇ.</string>
     <string name="error_playing_track">ئاۋاز رېلىسى %1$s نى قويالمىدى</string>
@@ -88,7 +86,6 @@
     <string name="menu_equalizer">تەڭشىگۈچ</string>
     <string name="menu_play_all">ھەممىنى قويۇش</string>
     <string name="menu_save_queue">سەپنى قويۇش تىزىملىكىگە قوشۇش</string>
-    <string name="menu_search">ئىزدە</string>
     <string name="menu_settings">تەڭشەكلەر</string>
     <string name="menu_shuffle_album">تەرتىپسىز ناخشا توپلىمى</string>
     <string name="menu_shuffle_all">ھەممىنى تەرتىپسىز چال</string>
@@ -120,7 +117,6 @@
     <string name="remove_from_queue">ئۆچرەتتىن چىقىرىۋېتىش</string>
     <string name="remove_from_recent">يېقىنقىدىن چىقىرىۋېتىش</string>
     <string name="save">ساقلاش</string>
-    <string name="searchHint">مۇزىكا ئىزدەش</string>
     <string name="search_title_albums">بارلىق \"%s\" پىلاستىنكا</string>
     <string name="search_title_artists">بارلىق \"%s\" ئارتىس</string>
     <string name="search_title_playlists">بارلىق \"%s\" قويۇش تېزىملىكى</string>

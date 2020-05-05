@@ -99,6 +99,7 @@
     <string name="context_menu_remove_from_recent">শেহতীয়াৰ পৰা আঁতৰাওক</string>
     <string name="context_menu_rename_playlist">পুনঃনামাকৰণ</string>
     <string name="context_menu_use_as_ringtone">ৰিংটোন হিচাপে ব্যৱহাৰ কৰক</string>
+    <string msgid="3209159573327985035" name="copy">"প্ৰতিলিপি কৰক"</string>
     <string name="create_playlist_prompt">প্লেলিষ্টৰ নাম</string>
     <string name="delete_dialog_title">মচি দিব নে <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">ই কেশ্বড প্ৰতিচ্ছবি এণ্ট্ৰিবোৰ স্থায়ীভাবে আঁতৰাব</string>
@@ -115,11 +116,10 @@
     <string name="empty_queue_secondary">আপোনাৰ এই প্লে কিউলৈ গীত যোগ কৰিবলৈ, এটা গীত, এলবাম বা শিল্পীৰ ওপৰত বিকল্প মেনু টেপ কৰক আৰু \"Add to queue\" চয়ন কৰক।</string>
     <string name="empty_recent">আপুনি শেহতীয়াকৈ শুনা গীতবোৰ ইয়াত প্ৰদৰ্শিত হ\'ব।</string>
     <string name="empty_recent_main">কোনো শেহতীয়া গীত নাই</string>
-    <string name="empty_search">কোনো অনুসন্ধান ফলাফল পোৱা নগ\'ল</string>
-    <string name="empty_search_check">অনুগ্ৰহ কৰি পৰীক্ষা কৰক যে আপুনি সঠিক বানান দিছে বা আন এটা কীৱৰ্ড চেষ্টা কৰক</string>
     <string name="empty_top_tracks_main">কোনো শীৰ্ষ ট্ৰেক নাই</string>
     <string name="empty_top_tracks_secondary">আপুনি প্ৰায়েই শুনা গীতবোৰ ইয়াত দেখুওৱা হ\'ব।</string>
     <string name="error_playing_track">ট্ৰেক %1$s টো প্লে কৰিবলৈ অক্ষম</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"উন্নত"</string>
     <string name="footer_search_albums">সকলো এলবাম প্ৰদৰ্শন কৰক</string>
     <string name="footer_search_artists">সকলো শিল্পী প্ৰদৰ্শন কৰক</string>
     <string name="footer_search_playlists">সকলো প্লে-সূচী প্ৰদৰ্শন কৰক</string>
@@ -151,7 +151,6 @@
     <string name="menu_equalizer">ইকুইলাইজাৰ</string>
     <string name="menu_play_all">আটাইবোৰ প্লে’ কৰক</string>
     <string name="menu_save_queue">প্লে-সূচীলৈ কিউ সংৰক্ষণ কৰক</string>
-    <string name="menu_search">বিচাৰক</string>
     <string name="menu_settings">ছেটিংছ</string>
     <string name="menu_shuffle_album">এলবাম সানমিহলি কৰক</string>
     <string name="menu_shuffle_all">আটাইবোৰ সানমিহলি কৰক</string>
@@ -166,6 +165,7 @@
     <string name="new_playlist">নতুন প্লে-সূচী</string>
     <string name="new_playlist_name_template">প্লে-সূচী <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">ইকুইলাইজাৰ খুলিব পৰা নগ\'ল</string>
+    <string msgid="478774118347071097" name="not_set">"ছেট কৰা হোৱা নাই"</string>
     <string name="old_photo">পুৰণি ফটো ব্যৱহাৰ কৰক</string>
     <string name="overwrite">অভাৰৰাইট</string>
     <string name="page_albums">এলবামসমূহ</string>
@@ -180,10 +180,10 @@
     <string name="playlist_recently_played">শেহতীয়াকৈ প্লে কৰা</string>
     <string name="playlist_renamed">প্লে-সূচী পুনৰ নামাকৰণ কৰা হৈছে</string>
     <string name="playlist_top_tracks">মোৰ শীৰ্ষ ট্ৰেকবোৰ</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ক্লিপব’ৰ্ডত প্ৰতিলিপি কৰা হ’ল"</string>
     <string name="remove_from_queue">কিউৰ পৰা আঁতৰাওক</string>
     <string name="remove_from_recent">শেহতীয়াৰ পৰা আঁতৰাওক</string>
     <string name="save">ছেভ কৰা</string>
-    <string name="searchHint">সংগীত বিচাৰক</string>
     <string msgid="730395136688082741" name="search_menu_title">"সন্ধান"</string>
     <string name="search_title_albums">সকলো \"%s\" এলবাম</string>
     <string name="search_title_artists">সকলো \"%s\" শিল্পী</string>
@@ -218,6 +218,9 @@
     <string name="sort_order_entry_track_list">ট্ৰেক সূচী</string>
     <string name="sort_order_entry_year">বছৰ</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">ডিফ\'ল্ট ফটো ব্যৱহাৰ কৰক</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"অফ অৱস্থাত আছে"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"অন কৰক"</string>
 </resources>

@@ -24,7 +24,7 @@
 
     <LinearLayout
         android:id="@+id/grp_container_view"
-        android:background="@color/white"
+        android:background="?android:colorBackground"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="@dimen/preview_layout_height"
@@ -71,7 +71,7 @@
                 android:enabled="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:src="@drawable/btn_playback_play"/>
 
@@ -85,7 +85,6 @@
                 android:layout_toLeftOf="@id/ib_playpause"
                 android:ellipsize="end"
                 android:textSize="@dimen/preview_title_textSize"
-                android:textColor="@color/accent"
                 android:textStyle="bold"/>
 
             <TextView

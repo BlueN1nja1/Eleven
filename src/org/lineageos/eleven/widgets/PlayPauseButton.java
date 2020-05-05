@@ -18,9 +18,9 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
-import android.view.ViewAnimationUtils;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
+import android.view.ViewAnimationUtils;
 import android.widget.ImageButton;
 
 import org.lineageos.eleven.R;
@@ -32,7 +32,7 @@ import org.lineageos.eleven.utils.MusicUtils;
  *
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
-public class PlayPauseButton extends ImageButton implements OnClickListener, OnLongClickListener {
+public class PlayPauseButton extends androidx.appcompat.widget.AppCompatImageButton implements OnClickListener, OnLongClickListener {
 
     /**
      * Play button theme resource

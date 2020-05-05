@@ -1,7 +1,7 @@
-#Fri Feb 07 23:14:43 EST 2020
-base.0=C\:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Mon May 04 21:06:14 EDT 2020
+base.0=C\:\\Users\\Marcos\\Downloads\\ElevenMT\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\lopza\\Documents\\GitHub\\android_packages_apps_Eleven\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.1=C\:\\Users\\Marcos\\Downloads\\ElevenMT\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

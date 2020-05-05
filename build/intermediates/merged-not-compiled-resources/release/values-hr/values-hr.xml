@@ -118,6 +118,7 @@
     <string name="context_menu_remove_from_recent">Ukloni iz nedavnih</string>
     <string name="context_menu_rename_playlist">Preimenuj</string>
     <string name="context_menu_use_as_ringtone">Koristi kao melodiju zvona</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiraj"</string>
     <string name="create_playlist_prompt">Ime playliste</string>
     <string name="delete_dialog_title">Izbriši <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Ovo će trajno izbrisati podatke spremljenih slika</string>
@@ -134,11 +135,10 @@
     <string name="empty_queue_secondary">Za dodavanje pjesmi u red za reprodukciju, dodirnite opcije pjesme,albuma ili autora i odaberite \"Dodaj u red\"</string>
     <string name="empty_recent">Pjesme koje ste slušali će se pojaviti ovdje.</string>
     <string name="empty_recent_main">Nema nedavnih pjesama</string>
-    <string name="empty_search">Nema rezultata pretraživanja</string>
-    <string name="empty_search_check">Provjerite imate li ispravan pravopis ili pokušajte drugu ključnu riječ.</string>
     <string name="empty_top_tracks_main">Nema najsviranijih pjesama</string>
     <string name="empty_top_tracks_secondary">Pjesme koje najviše slušate će biti dodane na popis</string>
     <string name="error_playing_track">Nije moguće reproducirati pjesmu %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Napredno"</string>
     <string name="footer_search_albums">Pokaži sve albume</string>
     <string name="footer_search_artists">Pokaži sve autore</string>
     <string name="footer_search_playlists">Pokaži sve popise</string>
@@ -170,7 +170,6 @@
     <string name="menu_equalizer">Ekvalizer</string>
     <string name="menu_play_all">Sviraj sve</string>
     <string name="menu_save_queue">Spremi red čekanja u playlistu</string>
-    <string name="menu_search">Pretraga</string>
     <string name="menu_settings">Postavke</string>
     <string name="menu_shuffle_album">Miješanje albuma</string>
     <string name="menu_shuffle_all">Miješaj sve</string>
@@ -185,6 +184,7 @@
     <string name="new_playlist">Nova playlista</string>
     <string name="new_playlist_name_template">Playlista <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Ekvalizer se ne može otvoriti.</string>
+    <string msgid="478774118347071097" name="not_set">"Nije postavljeno"</string>
     <string name="old_photo">Koristi staru sliku</string>
     <string name="overwrite">Prepiši</string>
     <string name="page_albums">Albumi</string>
@@ -199,10 +199,10 @@
     <string name="playlist_recently_played">Nedavno svirano</string>
     <string name="playlist_renamed">Playlista preimenovana</string>
     <string name="playlist_top_tracks">Moje top pjesme</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Sažetak \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" kopiran je u međuspremnik."</string>
     <string name="remove_from_queue">Ukloni iz reda</string>
     <string name="remove_from_recent">Ukloni iz nedavnih</string>
     <string name="save">Spremi</string>
-    <string name="searchHint">Pretraživanje glazbe</string>
     <string msgid="730395136688082741" name="search_menu_title">"Pretraži"</string>
     <string name="search_title_albums">Svi \"%s\" albuma</string>
     <string name="search_title_artists">Sve \"%s\" umjetnika</string>
@@ -237,6 +237,9 @@
     <string name="sort_order_entry_track_list">Popis pjesama</string>
     <string name="sort_order_entry_year">Godina</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Koristi zadanu sliku</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ISKLJUČENO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"UKLJUČENO"</string>
 </resources>

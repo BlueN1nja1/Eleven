@@ -44,33 +44,33 @@
         <item quantity="one"><ns1:g id="count">%d</ns1:g> song</item>
         <item quantity="other"><ns1:g id="count">%d</ns1:g> songs</item>
     </plurals>
-    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigate home"</string>
-    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigate up"</string>
-    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"More options"</string>
-    <string msgid="4076576682505996667" name="abc_action_mode_done">"Done"</string>
-    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"See all"</string>
-    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Choose an app"</string>
-    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
-    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
-    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
-    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
-    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
-    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
-    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
-    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
-    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
-    <string msgid="7723749260725869598" name="abc_search_hint">"Search…"</string>
-    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Clear query"</string>
-    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Search query"</string>
-    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Search"</string>
-    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Submit query"</string>
-    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Voice search"</string>
-    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Share with"</string>
-    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Share with <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
-    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Collapse"</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navigate home"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navigate up"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"More options"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Done"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"See all"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Choose an app"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"OFF"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ON"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Search…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Clear query"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Search query"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Search"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Submit query"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Voice search"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Share with"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Share with <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Collapse"</string>
     <string name="accessibility_browse">Browse music</string>
     <string name="accessibility_next">Next</string>
     <string name="accessibility_pause">Pause</string>
@@ -124,11 +124,10 @@
     <string name="empty_queue_secondary">To add songs to your Play Queue, tap the options menu on a song, album, or artist and select \"Add to queue\".</string>
     <string name="empty_recent">Songs you have listened to recently will show up here.</string>
     <string name="empty_recent_main">No recent songs</string>
-    <string name="empty_search">No search results found</string>
-    <string name="empty_search_check">Please check that you have the correct spelling or try a different keyword.</string>
     <string name="empty_top_tracks_main">No top tracks</string>
     <string name="empty_top_tracks_secondary">The songs you listen to most will be added to this list.</string>
     <string name="error_playing_track">Unable to play track %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Advanced"</string>
     <string name="footer_search_albums">Show all albums</string>
     <string name="footer_search_artists">Show all artists</string>
     <string name="footer_search_playlists">Show all playlists</string>
@@ -160,7 +159,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Play all</string>
     <string name="menu_save_queue">Save queue to playlist</string>
-    <string name="menu_search">Search</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_shuffle_album">Shuffle album</string>
     <string name="menu_shuffle_all">Shuffle all</string>
@@ -192,8 +190,7 @@
     <string name="remove_from_queue">Remove from queue</string>
     <string name="remove_from_recent">Remove from recent</string>
     <string name="save">Save</string>
-    <string name="searchHint">Search music</string>
-    <string msgid="146198913615257606" name="search_menu_title">"Search"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Search"</string>
     <string name="search_title_albums">All \"%s\" albums</string>
     <string name="search_title_artists">All \"%s\" artists</string>
     <string name="search_title_playlists">All \"%s\" playlists</string>
@@ -227,6 +224,9 @@
     <string name="sort_order_entry_track_list">Track list</string>
     <string name="sort_order_entry_year">Year</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Use default photo</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"OFF"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ON"</string>
 </resources>

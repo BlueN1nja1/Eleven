@@ -108,6 +108,7 @@
     <string name="context_menu_remove_from_recent">Poista äskettäin kuunnelluista</string>
     <string name="context_menu_rename_playlist">Nimeä uudelleen</string>
     <string name="context_menu_use_as_ringtone">Käytä soittoäänenä</string>
+    <string msgid="3209159573327985035" name="copy">"Kopioi"</string>
     <string name="create_playlist_prompt">Soittolistan nimi</string>
     <string name="delete_dialog_title">Poistetaanko <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Kaikki välimuistissa olevat kuvat poistetaan pysyvästi</string>
@@ -124,11 +125,10 @@
     <string name="empty_queue_secondary">Lisätäksesi kappaleita jonoon, avaa valikko kappaleen, albumin tai esittäjän kohdalla ja valitse \"Lisää jonoon\".</string>
     <string name="empty_recent">Kuuntelemasi albumit näkyvät tässä.</string>
     <string name="empty_recent_main">Ei äskettäin kuunneltuja</string>
-    <string name="empty_search">Hakutuloksia ei löytynyt</string>
-    <string name="empty_search_check">Tarkista oikeinkirjoitus tai kokeile eri hakusanaa.</string>
     <string name="empty_top_tracks_main">Ei suosituimpia kappaleita</string>
     <string name="empty_top_tracks_secondary">Kappaleet joita kuuntelet eniten, lisätään tähän listaan.</string>
     <string name="error_playing_track">Ei voi toistaa kappaletta \"%1$s\"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Lisäasetukset"</string>
     <string name="footer_search_albums">Näytä kaikki albumit</string>
     <string name="footer_search_artists">Näytä kaikki esittäjät</string>
     <string name="footer_search_playlists">Näytä kaikki soittolistat</string>
@@ -160,7 +160,6 @@
     <string name="menu_equalizer">Taajuuskorjain</string>
     <string name="menu_play_all">Toista kaikki</string>
     <string name="menu_save_queue">Tallenna jono soittolistalle</string>
-    <string name="menu_search">Haku</string>
     <string name="menu_settings">Asetukset</string>
     <string name="menu_shuffle_album">Sekoita albumi</string>
     <string name="menu_shuffle_all">Sekoita kaikki</string>
@@ -175,6 +174,7 @@
     <string name="new_playlist">Uusi soittolista</string>
     <string name="new_playlist_name_template">Soittolista <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Taajuuskorjainta ei voitu avata.</string>
+    <string msgid="478774118347071097" name="not_set">"Ei asetettu"</string>
     <string name="old_photo">Käytä vanhaa valokuvaa</string>
     <string name="overwrite">Korvaa</string>
     <string name="page_albums">Albumit</string>
@@ -189,10 +189,10 @@
     <string name="playlist_recently_played">Äskettäin kuunnellut</string>
     <string name="playlist_renamed">Soittolista nimetty uudelleen</string>
     <string name="playlist_top_tracks">Suosikkikappaleeni</string>
+    <string msgid="7961817945132860002" name="preference_copied">"<ns1:g id="SUMMARY">%1$s</ns1:g> kopioitiin leikepöydälle."</string>
     <string name="remove_from_queue">Poista jonosta</string>
     <string name="remove_from_recent">Poista äskettäin kuunnelluista</string>
     <string name="save">Tallenna</string>
-    <string name="searchHint">Etsi musiikkia</string>
     <string msgid="730395136688082741" name="search_menu_title">"Haku"</string>
     <string name="search_title_albums">Kaikki \"%s\" albumia</string>
     <string name="search_title_artists">Kaikki \"%s\" esittäjää</string>
@@ -227,6 +227,9 @@
     <string name="sort_order_entry_track_list">Kappalelista</string>
     <string name="sort_order_entry_year">Vuosi</string>
     <string name="sort_order_entry_za">Ö-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Käytä oletusvalokuvaa</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"POIS KÄYTÖSTÄ"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"KÄYTÖSSÄ"</string>
 </resources>

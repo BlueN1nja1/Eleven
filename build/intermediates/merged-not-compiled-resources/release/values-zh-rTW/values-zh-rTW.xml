@@ -97,6 +97,7 @@
     <string name="context_menu_remove_from_recent">從最近移除</string>
     <string name="context_menu_rename_playlist">重新命名</string>
     <string name="context_menu_use_as_ringtone">設定為鈴聲</string>
+    <string msgid="3209159573327985035" name="copy">"複製"</string>
     <string name="create_playlist_prompt">播放清單名稱</string>
     <string name="delete_dialog_title">刪除 「<ns1:g example="album" id="item">%s</ns1:g>」？</string>
     <string name="delete_warning">這將永久刪除已快取的影像</string>
@@ -113,11 +114,10 @@
     <string name="empty_queue_secondary">要新增樂曲至播放佇列，請輕觸樂曲、專輯或演出者，並在功能選單中選擇 [新增至佇列] 。</string>
     <string name="empty_recent">最近聽過的樂曲將會顯示在這裡。</string>
     <string name="empty_recent_main">沒有最近播放的樂曲</string>
-    <string name="empty_search">未發現搜尋結果</string>
-    <string name="empty_search_check">請檢查拼寫是否正確，或嘗試其他關鍵字。</string>
     <string name="empty_top_tracks_main">沒有熱門曲目</string>
     <string name="empty_top_tracks_secondary">您最常聽的樂曲將新增至此清單。</string>
     <string name="error_playing_track">無法播放曲目 %1$s</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"進階"</string>
     <string name="footer_search_albums">顯示所有專輯</string>
     <string name="footer_search_artists">顯示所有演出者</string>
     <string name="footer_search_playlists">顯示所有播放清單</string>
@@ -149,7 +149,6 @@
     <string name="menu_equalizer">等化器</string>
     <string name="menu_play_all">全部播放</string>
     <string name="menu_save_queue">將佇列儲存至播放清單</string>
-    <string name="menu_search">搜尋</string>
     <string name="menu_settings">設定</string>
     <string name="menu_shuffle_album">隨機播放專輯</string>
     <string name="menu_shuffle_all">隨機播放所有樂曲</string>
@@ -164,6 +163,7 @@
     <string name="new_playlist">新增播放清單</string>
     <string name="new_playlist_name_template">播放清單<ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">無法開啟等化器。</string>
+    <string msgid="478774118347071097" name="not_set">"未設定"</string>
     <string name="old_photo">使用舊的相片</string>
     <string name="overwrite">覆蓋</string>
     <string name="page_albums">專輯</string>
@@ -178,10 +178,10 @@
     <string name="playlist_recently_played">最近播放</string>
     <string name="playlist_renamed">已重新命名播放清單</string>
     <string name="playlist_top_tracks">我的熱門曲目</string>
+    <string msgid="7961817945132860002" name="preference_copied">"已將「<ns1:g id="SUMMARY">%1$s</ns1:g>」複製到剪貼簿。"</string>
     <string name="remove_from_queue">從佇列移除</string>
     <string name="remove_from_recent">從最近播放清單移除</string>
     <string name="save">儲存</string>
-    <string name="searchHint">搜尋音樂</string>
     <string msgid="730395136688082741" name="search_menu_title">"搜尋"</string>
     <string name="search_title_albums">所有含「%s」 的專輯</string>
     <string name="search_title_artists">所有含「%s」的演出者</string>
@@ -216,6 +216,9 @@
     <string name="sort_order_entry_track_list">曲目清單</string>
     <string name="sort_order_entry_year">年份</string>
     <string name="sort_order_entry_za">遞減排序</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">使用預設相片</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"關閉"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"開啟"</string>
 </resources>

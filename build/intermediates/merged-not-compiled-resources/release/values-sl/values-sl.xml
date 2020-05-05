@@ -130,6 +130,7 @@
     <string name="context_menu_remove_from_recent">Odstrani iz nedavnih</string>
     <string name="context_menu_rename_playlist">Preimenuj</string>
     <string name="context_menu_use_as_ringtone">Uporabi kot melodijo zvonjenja</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiraj"</string>
     <string name="create_playlist_prompt">Ime seznama predvajanja</string>
     <string name="delete_dialog_title">Izbriši <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">To bo trajno izbrisalo vnose predpomnjenih slik</string>
@@ -146,11 +147,10 @@
     <string name="empty_queue_secondary">Za dodajanje skladb v čakalno vrsto predvajanja tapnite meni možnosti na skladbi, albumu ali izvajalcu in izberite »Dodaj v čakalno vrsto«.</string>
     <string name="empty_recent">Skladbe, ki ste jih nedavno poslušali, bodo prikazane tukaj.</string>
     <string name="empty_recent_main">Ni nedavnih skladb</string>
-    <string name="empty_search">Rezultatov iskanja ni bilo najdenih</string>
-    <string name="empty_search_check">Preverite svoje črkovanje ali poskusite z drugo tipkovnico.</string>
     <string name="empty_top_tracks_main">Ni največkrat predvajanih</string>
     <string name="empty_top_tracks_secondary">Skladbe, ki ste jih največkrat poslušali, bodo dodane na ta seznam.</string>
     <string name="error_playing_track">Skladbe %1$s ni mogoče predvajati</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Dodatno"</string>
     <string name="footer_search_albums">Prikaži vse albume</string>
     <string name="footer_search_artists">Prikaži vse izvajalce</string>
     <string name="footer_search_playlists">Prikaži vse sezname predvajanja</string>
@@ -182,7 +182,6 @@
     <string name="menu_equalizer">Izenačevalnik</string>
     <string name="menu_play_all">Predvajaj vse</string>
     <string name="menu_save_queue">Shrani čakalno vrsto na seznam predvajanja</string>
-    <string name="menu_search">Išči</string>
     <string name="menu_settings">Nastavitve</string>
     <string name="menu_shuffle_album">Premešaj album</string>
     <string name="menu_shuffle_all">Premešaj vse</string>
@@ -197,6 +196,7 @@
     <string name="new_playlist">Nov seznam predvajanja</string>
     <string name="new_playlist_name_template">Seznam predvajanja <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">Izenačevalnika ni mogoče odpreti.</string>
+    <string msgid="478774118347071097" name="not_set">"Ni nastavljeno"</string>
     <string name="old_photo">Uporabi staro fotografijo</string>
     <string name="overwrite">Prepiši</string>
     <string name="page_albums">Albumi</string>
@@ -211,10 +211,10 @@
     <string name="playlist_recently_played">Nazadnje predvajano</string>
     <string name="playlist_renamed">Seznam predvajanja preimenovan</string>
     <string name="playlist_top_tracks">Moje največkrat predvajane</string>
+    <string msgid="7961817945132860002" name="preference_copied">"»<ns1:g id="SUMMARY">%1$s</ns1:g>« je bilo kopirano v odložišče."</string>
     <string name="remove_from_queue">Odstrani iz čakalne vrste</string>
     <string name="remove_from_recent">Odstrani iz nedavnih</string>
     <string name="save">Shrani</string>
-    <string name="searchHint">Išči po glasbi</string>
     <string msgid="730395136688082741" name="search_menu_title">"Iskanje"</string>
     <string name="search_title_albums">Vseh \"%s\" albumov</string>
     <string name="search_title_artists">Vseh \"%s\" izvajalcev</string>
@@ -249,6 +249,9 @@
     <string name="sort_order_entry_track_list">Seznam skladb</string>
     <string name="sort_order_entry_year">Leto</string>
     <string name="sort_order_entry_za">Ž-A</string>
-    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Uporabi privzeto fotografijo</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"IZKLOPLJENO"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"VKLOPLJENO"</string>
 </resources>

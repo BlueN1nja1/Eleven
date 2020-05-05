@@ -43,7 +43,6 @@ import org.lineageos.eleven.utils.NavUtils;
 public class HeaderBar extends LinearLayout {
 
     private ImageView mMenuButton;
-    private ImageView mSearchButton;
     private ImageView mBackButton;
     private TextView mTitleText;
     private PopupMenu mPopupMenu;
@@ -69,18 +68,17 @@ public class HeaderBar extends LinearLayout {
             }
         });
 
-        mSearchButton = (ImageView)findViewById(R.id.header_bar_search_button);
-        mSearchButton.setOnClickListener(new View.OnClickListener() {
-        @Override
-            public void onClick(View v) {
-                NavUtils.openSearch(mFragment.getActivity(), "");
-            }
-        });
-
-
         mBackButton = (ImageView)findViewById(R.id.header_bar_up);
 
         mTitleText = (TextView)findViewById(R.id.header_bar_title);
+    }
+
+    public void hideBackButton() {
+        mBackButton.setVisibility(View.GONE);
+    }
+
+    public void showBackButton() {
+        mBackButton.setVisibility(View.VISIBLE);
     }
 
     /**

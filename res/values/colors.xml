@@ -22,7 +22,7 @@
     <color name="accent">#1a73e8</color>
 
     <!-- Main colors -->
-    <color name="black">#333333</color>
+    <color name="black">#ff000000</color>
     <color name="semitransparent_black">#ffffff</color>
     <color name="white">#ffffff</color>
     <color name="grey">#9e9e9e</color>
@@ -101,7 +101,6 @@
     <!-- Color for the Progress bar -->
     <color name="circular_progress_bar_background">@color/grey</color>
     <color name="circular_progress_bar">@color/accent</color>
-
     <!-- search no results text color -->
     <color name="no_results">@color/red</color>
     <color name="no_results_light">@color/red</color>
@@ -168,4 +167,9 @@
     <color name="audio_player_total_time_color">@color/accent</color>
     <color name="number_of_songs_text_color">@color/accent</color>
     <color name="duration_text_color">@color/accent</color>
+
+    <!-- audio player main controls -->
+    <color name="audio_player_seeker_progress_color">@color/accent</color>
+    <color name="audio_player_seeker_progress_background_color">@color/black</color>
+    <color name="audio_player_seeker_thumb_color">@color/accent</color>
 </resources>

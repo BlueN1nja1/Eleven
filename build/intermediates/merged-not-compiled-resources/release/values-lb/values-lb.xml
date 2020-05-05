@@ -96,8 +96,6 @@
     <string name="empty_queue_secondary">Fir Lidder an d\'Waardeschlaang ze setzen, dréck den Optiounsmenü bei engem Lidd, Album oder Interpret, a wiel \"An d\'Waardeschlaang setzen\" aus.</string>
     <string name="empty_recent">Lidder, déi s du viru kuerzem gelauschtert hues, ginn hei ugewisen.</string>
     <string name="empty_recent_main">Keng rezent Lidder</string>
-    <string name="empty_search">Keng Sichresultater fonnt</string>
-    <string name="empty_search_check">Iwwerpréif w.e.g., datt s du déi korrekt Schreifweis benotzt hues, oder probéier en anert Stéchwuert.</string>
     <string name="empty_top_tracks_main">Keng Top-Lidder</string>
     <string name="empty_top_tracks_secondary">D\'Lidder, déi s du am meeschte lauschters, ginn hei ugewisen.</string>
     <string name="error_playing_track">Lidd %1$s kann net ofgespillt ginn</string>
@@ -132,7 +130,6 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">All ofspillen</string>
     <string name="menu_save_queue">Waardeschläif an eng Ofspilllëscht späicheren</string>
-    <string name="menu_search">Sichen</string>
     <string name="menu_settings">Astellungen</string>
     <string name="menu_shuffle_album">Album mëschen</string>
     <string name="menu_shuffle_all">All zoufälleg ofspillen</string>
@@ -164,7 +161,6 @@
     <string name="remove_from_queue">Aus der Waardeschlaang läschen</string>
     <string name="remove_from_recent">Aus der \"Viru kuerzem gelauschtert\"-Lëscht läschen</string>
     <string name="save">Späicheren</string>
-    <string name="searchHint">Musek sichen</string>
     <string name="search_title_albums">All \"%s\" Alben</string>
     <string name="search_title_artists">All \"%s\" Interpreten</string>
     <string name="search_title_playlists">All \"%s\" Ofspilllëschten</string>

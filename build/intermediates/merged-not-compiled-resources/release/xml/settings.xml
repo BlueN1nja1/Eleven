@@ -2,6 +2,7 @@
 <!--
   Copyright (C) 2012 Andrew Neal
   Copyright (C) 2014 The CyanogenMod Project
+  Copyright (C) 2017-2020 The LineageOS Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -45,13 +46,18 @@
             android:key="music_visualization"
             android:title="@string/settings_show_music_visualization_title" />
 
+        <!-- Use blur -->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="use_blur"
+            android:title="@string/settings_use_blur_title" />
+
         <!-- Show Lyrics -->
         <SwitchPreference
             android:defaultValue="true"
             android:key="show_lyrics"
             android:title="@string/settings_show_lyrics_title"
             android:summary="@string/settings_show_lyrics_summary"/>
-
         <!-- Shake to switch songs -->
         <SwitchPreference
             android:defaultValue="false"
@@ -59,14 +65,9 @@
             android:title="@string/settings_shake_to_play"
             android:summary="@string/settings_shake_to_play_summary"/>
 
-        <!-- Show album art on lockscreen -->
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="lockscreen_album_art"
-            android:title="@string/settings_lockscreen_album_art"
-            android:summary="@string/settings_lockscreen_album_art_summary"/>
     </PreferenceCategory>
-    <!-- Storage catetory -->
+
+    <!-- Storage category -->
     <PreferenceCategory android:title="@string/settings_storage_category" >
 
         <!-- Delete cache -->
@@ -76,10 +77,19 @@
             android:title="@string/settings_delete_cache_title" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Eleven Edition" >
-    <!-- Eleven Edition -->
-              <Preference
+        <!-- Eleven Edition -->
+        <Preference
             android:key="ElEdition"
             android:summary="Pixel Blue"
             android:title="Eleven Edition" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Experimental - Proceed with Caution!" >
+    <!-- Experimental! -->
+        <!-- Show album art on lockscreen -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="lockscreen_album_art"
+            android:title="@string/settings_lockscreen_album_art"
+            android:summary="@string/settings_lockscreen_album_art_summary"/>
     </PreferenceCategory>
 </PreferenceScreen>
