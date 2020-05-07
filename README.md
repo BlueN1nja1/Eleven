@@ -6,7 +6,7 @@
  
  Current Available Accent Colors: Pixel Blue, Eleven Pink, Android Green, Deep Purple
  
- Planned Accent Colors: Coral Red, Banana Yellow, Aquamarine
+ Planned Accent Colors: Coral Red, Banana Yellow, Cyan
 
  Special Versions:
  
