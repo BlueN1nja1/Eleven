@@ -9,9 +9,7 @@
  Planned Accent Colors: None at the Moment...
 
  Special Versions:
- 
- Heavily skinned Devices that run Samsung's OneUI / Touchwiz, Xiaomi's MIUI, Huawei's EMUI, etc: Available as a Pre-Release.
- 
+  
  LineageOS 15.1+ Devices / Custom ROMS that have Eleven Pre-Installed (14.1 and below does not apply): Coming Soon!
 
  Screeenshots: Soon...
