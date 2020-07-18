@@ -4,7 +4,11 @@
  
  Note: This app respects Dark Theme on Android 10 Queen Cake!
  
- Current Available Accent Colors: Pixel Blue, Eleven Pink, Android Green, Deep Purple, Coral Red, Banana Yellow, Cyan
+ Current Available Accent Colors: Pixel Blue
+ -------------------------------------------------------------------------
+ Only Available in 5.1.x Preview Versions as of right now:
+ Eleven Pink, Android Green, Deep Purple, Coral Red, Banana Yellow, Cyan
+ -------------------------------------------------------------------------
  
  Planned Accent Colors: None at the Moment...
 
