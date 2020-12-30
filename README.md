@@ -14,6 +14,6 @@
 
  Special Versions:
   
- LineageOS 15.1+ Devices / Custom ROMS that have Eleven Pre-Installed (14.1 and below does not apply): Coming Soon!
+ LineageOS 15.1+ Devices / Custom Roms that have Eleven Pre-Installed (14.1 and below does not apply): Coming Soon!
 
  Screeenshots: Soon...
