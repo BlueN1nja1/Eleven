@@ -1,4 +1,4 @@
-#Mon May 04 21:09:48 EDT 2020
-base.0=C\:\\Users\\Marcos\\Downloads\\ElevenMT\\build\\intermediates\\dex\\release\\shrunkDex\\classes.dex
+#Wed Dec 30 14:33:17 EST 2020
+base.0=C\:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\build\\intermediates\\transforms\\r8\\release\\0\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

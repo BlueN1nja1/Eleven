@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Marcos\\Downloads\\ElevenMT\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sc-rIT\\values-sc-rIT.xml",
+            "outputFile": "C:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sc-rIT\\values-sc-rIT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marcos\\Downloads\\ElevenMT\\res\\values-sc-rIT\\strings.xml",
+                    "source": "C:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\res\\values-sc-rIT\\strings.xml",
                     "from": {
-                        "startLines": "18,24,26,27,37,32,33,38,31,34,35,36,39,30,40,19,25,23,28,29,20,22,21",
+                        "startLines": "19,25,27,28,38,33,34,39,32,35,36,37,40,31,41,20,26,24,29,30,21,23,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "781,1101,1194,1236,1881,1559,1623,1949,1490,1687,1751,1815,2017,1416,2095,825,1144,1062,1296,1353,884,999,944",
+                        "startOffsets": "832,1152,1245,1287,1932,1610,1674,2000,1541,1738,1802,1866,2068,1467,2146,876,1195,1113,1347,1404,935,1050,995",
                         "endColumns": "43,42,41,59,67,63,63,67,68,63,63,65,77,73,48,58,49,38,56,62,59,62,54",
-                        "endOffsets": "820,1139,1231,1291,1944,1618,1682,2012,1554,1746,1810,1876,2090,1485,2139,879,1189,1096,1348,1411,939,1057,994"
+                        "endOffsets": "871,1190,1282,1342,1995,1669,1733,2063,1605,1797,1861,1927,2141,1536,2190,930,1240,1147,1399,1462,990,1108,1045"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",

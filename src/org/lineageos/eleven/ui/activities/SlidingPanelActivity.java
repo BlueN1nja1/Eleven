@@ -194,8 +194,7 @@ public abstract class SlidingPanelActivity extends BaseActivity {
         super.onPause();
     }
 
-    @Override
-    protected void onResume() {
+    @Override protected void onResume() {
         super.onResume();
 
         // recreate activity if blur preference has changed to apply changes

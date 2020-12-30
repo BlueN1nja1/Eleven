@@ -22,8 +22,8 @@
     android:layout_height="?android:attr/actionBarSize"
     android:background="@android:color/transparent"
     android:elevation="@dimen/action_bar_elevation"
-    android:theme="@style/ToolBarThemeMP"
-    app:popupTheme="@style/ToolBarPopupThemeMP"
+    android:theme="@style/ToolBarTheme"
+    app:popupTheme="@style/ToolBarPopupTheme"
     tools:background="@color/blue_dark">
 
     <LinearLayout
@@ -40,7 +40,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:gravity="center"
             android:maxLines="1"
             android:textAllCaps="true"
             android:textColor="@color/white"
@@ -54,7 +53,6 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:gravity="center"
             android:paddingBottom="2dp"
             android:textAllCaps="true"
             android:textColor="@color/white"

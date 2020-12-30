@@ -31,42 +31,42 @@
     <color name="album_detail_song_count_and_year_text_color">@color/default_text_color</color>
     <color name="album_detail_title_text_color">@color/default_text_color</color>
     <color name="alert">@color/red</color>
-    <color name="app_msg_text_color">@color/accent</color>
+    <color name="app_msg_text_color">?android:textColorPrimaryInverse</color>
     <color name="artist_detail_album_title_text_color">@color/cardOne</color>
     <color name="artist_detail_album_year_text_color">@color/cardTwo</color>
     <color name="artist_detail_header_albums_label_text_color">@color/list_item_header_text_color</color>
     <color name="artist_detail_header_background_color">@color/background_color</color>
     <color name="artist_detail_header_songs_label_text_color">@color/list_item_header_text_color</color>
-    <color name="audio_player_current_time_color">@color/accent</color>
-    <color name="audio_player_lyrics_text_color">@color/accent</color>
+    <color name="audio_player_current_time_color">@color/white</color>
+    <color name="audio_player_lyrics_text_color">@color/white</color>
     <color name="audio_player_seeker_progress_background_color">@color/white</color>
-    <color name="audio_player_seeker_progress_color">@color/accent</color>
-    <color name="audio_player_seeker_thumb_color">@color/accent</color>
+    <color name="audio_player_seeker_progress_color">@color/white</color>
+    <color name="audio_player_seeker_thumb_color">@color/white</color>
     <color name="audio_player_text_color">@color/default_text_color_light</color>
-    <color name="audio_player_total_time_color">@color/accent</color>
+    <color name="audio_player_total_time_color">@color/white</color>
     <color name="background_color">@color/black</color>
-    <color name="black">#000000</color>
-    <color name="blue">#ff8ab4f8</color>
-    <color name="blue_dark">#039be5</color>
-    <color name="bottom_action_bar_text_color">@color/white</color>
-    <color name="brown">#a1887f</color>
-    <color name="brown_dark">#8d6e63</color>
-    <color name="cardOne">#ffffff</color>
-    <color name="cardTwo">#ffffff</color>
-    <color name="cards_bg_color">#333333</color>
-    <color name="circular_progress_bar">@color/accent</color>
-    <color name="circular_progress_bar_background">@color/grey</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#3F51B5</color>
+    <color name="blue_dark">#303F9F</color>
+    <color name="bottom_action_bar_text_color">@color/default_text_color_light</color>
+    <color name="brown">#795548</color>
+    <color name="brown_dark">#5D4037</color>
+    <color name="cardOne">@color/white</color>
+    <color name="cardTwo">@color/white</color>
+    <color name="cards_bg_color">#222222</color>
+    <color name="circular_progress_bar">@color/white</color>
+    <color name="circular_progress_bar_background">#40ffffff</color>
     <color name="confirm">@color/orange</color>
     <color name="default_text_color">@color/white</color>
     <color name="default_text_color_light">@color/white</color>
     <color name="duration_text_color">@color/accent</color>
-    <color name="green">#64ffda</color>
+    <color name="green">#4CAF50</color>
     <color name="green_dark">#388E3C</color>
     <color name="grey">#9e9e9e</color>
     <color name="grey_dark">#616161</color>
     <color name="grid_items_normal_line_one">@color/cardOne</color>
     <color name="grid_items_normal_line_two">@color/cardTwo</color>
-    <color name="grid_list_item_text_color">@color/white</color>
+    <color name="grid_list_item_text_color">#b3212121</color>
     <color name="header_action_bar_color">@color/primary</color>
     <color name="header_action_bar_text_color">@color/white</color>
     <color name="header_action_bar_text_color_active">@color/accent</color>
@@ -95,7 +95,7 @@
     <color name="letter_tile_teal_color">@color/teal</color>
     <color name="letter_tile_teal_color_dark">@color/teal_dark</color>
     <color name="list_base_container_background_color">@color/black</color>
-    <color name="list_item_background">#4cfafafa</color>
+    <color name="list_item_background">#ff000000</color>
     <color name="list_item_divider_color">#4c212121</color>
     <color name="list_item_divider_color_light">#34fafafa</color>
     <color name="list_item_header_text_color">@color/white</color>
@@ -109,24 +109,24 @@
     <color name="no_results_light">@color/red</color>
     <color name="now_playing_divider">@color/transparent</color>
     <color name="number_of_songs_text_color">@color/accent</color>
-    <color name="orange">#FF7F50</color>
+    <color name="orange">#FF5722</color>
     <color name="orange_dark">#F57C00</color>
     <color name="page_header_background">@color/black</color>
-    <color name="position_number_color">@color/accent</color>
-    <color name="primary">#ff000000</color>
+    <color name="position_number_color">@color/white</color>
+    <color name="primary">#000000</color>
     <color name="primary_dark">#000000</color>
-    <color name="primary_light">#ff000000</color>
+    <color name="primary_light">#000000</color>
     <color name="purple">#9C27B0</color>
     <color name="purple_dark">#7B1FA2</color>
-    <color name="red">#DB7093</color>
+    <color name="red">#F44336</color>
     <color name="red_dark">#D32F2F</color>
     <color name="search_hint_color">@color/accent</color>
-    <color name="semitransparent_black">#222222</color>
+    <color name="semitransparent_black">#a0333333</color>
     <color name="tab_accent_color">@color/accent</color>
     <color name="tab_ripple_color">@color/accent</color>
     <color name="tab_selected_underline_color">@color/accent</color>
-    <color name="teal">#30D5c8</color>
-    <color name="teal_dark">#4db6ac</color>
+    <color name="teal">#009688</color>
+    <color name="teal_dark">#00796B</color>
     <color name="transparent">#00000000</color>
     <color name="transparent_black">#99212121</color>
     <color name="transparent_blue">#993F51B5</color>
@@ -135,16 +135,11 @@
     <color name="white">#ffffff</color>
     <color name="widget_background_color">@color/black</color>
     <color name="widget_text">@color/accent</color>
-    <style name="ActionBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+    <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar">
         <item name="android:background">@color/header_action_bar_color</item>
     </style>
-    <style name="ActionBarTitle" parent="@android:style/TextAppearance.DeviceDefault">
-        <item name="colorControlNormal">@color/white</item>
-        <item name="android:fontFamily">?android:fontFamily</item>
-        <item name="android:textColor">@color/white</item>
-    </style>
-    <style name="ActionBarWidgetTheme" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
-        <!-- This is the color of the search text hint in the action bar -->
+    <style name="ActionBarWidgetTheme" parent="@style/Theme.MaterialComponents">
+        
         <item name="android:textColorHint">@color/search_hint_color</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>
@@ -184,12 +179,10 @@
         <item name="android:textColor">@color/bottom_action_bar_text_color</item>
     </style>
     <style name="DropDownListView" parent="@style/Widget.AppCompat.ListView.DropDown"/>
-    <style name="Eleven.Theme" parent="@style/Theme.MaterialComponents.DayNight">
+    <style name="Eleven.Theme" parent="@style/Theme.MaterialComponents.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>
-        <item name="android:colorControlActivated">@color/white</item>
-        <item name="android:textColorSecondary">@color/white</item>
         <item name="textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
         <item name="android:listViewStyle">@style/ListView</item>
@@ -201,8 +194,6 @@
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
-        <item name="android:statusBarColor">@color/black</item>
-        <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="Eleven.Theme.ActionBar.Overlay" parent="@style/Eleven.Theme">
         <item name="windowNoTitle">true</item>
@@ -213,9 +204,8 @@
         <item name="android:dropDownVerticalOffset">0dp</item>
         <item name="android:dropDownHorizontalOffset">0dp</item>
     </style>
-    <style name="HeaderTabTextStyle" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
+    <style name="HeaderTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
-        <item name="android:fontFamily">?android:fontFamily</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
     <style name="LargePopupMenu" parent="@android:style/TextAppearance.Widget.PopupMenu.Large">
@@ -258,24 +248,6 @@
         <item name="divider">@color/list_item_divider_color</item>
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
-    <style name="MTSettings" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:colorPrimary">@color/black</item>
-        <item name="android:colorControlActivated">@color/white</item>
-        <item name="android:textColorSecondary">@color/white</item>
-        <item name="android:background">@color/black</item>
-        <item name="android:colorSecondary">@color/black</item>
-        <item name="android:colorAccent">@color/accent</item>
-    </style>
-    <style name="MTSettingsR" parent="Theme.MaterialComponents.DayNight">
-        <item name="android:colorControlNormal">@color/white</item>
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:textColorSecondary">@color/white</item>
-        <item name="colorAccent">@color/accent</item>
-        <item name="colorPrimary">@color/black</item>
-        <item name="android:colorBackground">@color/black</item>
-        <item name="colorSecondary">@color/accent</item>
-    </style>
     <style name="NotificationText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -284,7 +256,7 @@
         <item name="android:singleLine">true</item>
         <item name="android:textColor">#212121</item>
     </style>
-    <style name="PopupMenu" parent="@style/Widget.MaterialComponents.PopupMenu"/>
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.PopupMenu"/>
     <style name="SmallPopupMenu" parent="@android:style/TextAppearance.Widget.PopupMenu.Small">
         <item name="android:textColor">@color/menu_text_color</item>
         <item name="android:textSize">@dimen/text_size_medium</item>
@@ -296,30 +268,14 @@
     <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
     <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
     <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
-    <style name="Theme.AudioPreview" parent="@style/Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.AudioPreview" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/>
-    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/>
-    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/>
-    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/>
-    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/>
-    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/>
-    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/>
-    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
-    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
-    <style name="Theme.Transparent" parent="@style/Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.Transparent" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -327,16 +283,6 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
-    <style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog"/>
-    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.DayNight"/>
-    <style name="ToolBarTheme" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:fontFamily">?android:fontFamily</item>
-    </style>
-    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
-    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
-    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>
-    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/>
-    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
-    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
+    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents"/>
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar"/>
 </resources>

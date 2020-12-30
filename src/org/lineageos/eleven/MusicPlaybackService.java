@@ -51,7 +51,6 @@ import android.media.session.MediaSession;
 import android.media.session.PlaybackState;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
@@ -59,6 +58,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.PowerManager;
 import android.os.SystemClock;
+import android.provider.BaseColumns;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Audio.AlbumColumns;
 import android.provider.MediaStore.Audio.AudioColumns;
@@ -68,7 +68,6 @@ import android.util.LongSparseArray;
 import android.view.KeyEvent;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 
 import org.lineageos.eleven.Config.IdType;
 import org.lineageos.eleven.appwidgets.AppWidgetLarge;
@@ -80,11 +79,11 @@ import org.lineageos.eleven.provider.MusicPlaybackState;
 import org.lineageos.eleven.provider.RecentStore;
 import org.lineageos.eleven.provider.SongPlayCount;
 import org.lineageos.eleven.service.MusicPlaybackTrack;
+import org.lineageos.eleven.utils.colors.BitmapWithColors;
 import org.lineageos.eleven.utils.Lists;
 import org.lineageos.eleven.utils.PreferenceUtils;
 import org.lineageos.eleven.utils.ShakeDetector;
 import org.lineageos.eleven.utils.SrtManager;
-import org.lineageos.eleven.utils.colors.BitmapWithColors;
 
 import java.io.File;
 import java.io.IOException;
@@ -351,7 +350,7 @@ public class MusicPlaybackService extends Service
      * The columns used to retrieve any info from the current track
      */
     private static final String[] PROJECTION = new String[] {
-            "audio._id AS _id", MediaStore.Audio.Media.ARTIST, MediaStore.Audio.Media.ALBUM,
+            BaseColumns._ID, MediaStore.Audio.Media.ARTIST, MediaStore.Audio.Media.ALBUM,
             MediaStore.Audio.Media.TITLE, MediaStore.Audio.Media.DATA,
             MediaStore.Audio.Media.MIME_TYPE, MediaStore.Audio.Media.ALBUM_ID,
             MediaStore.Audio.Media.ARTIST_ID
@@ -459,6 +458,8 @@ public class MusicPlaybackService extends Service
     private int mNotifyMode = NOTIFY_MODE_NONE;
     private long mNotificationPostTime = 0;
 
+    private static final int NOTIFICATION_ID = 0x1337;
+
     private static final int NOTIFY_MODE_NONE = 0;
     private static final int NOTIFY_MODE_FOREGROUND = 1;
     private static final int NOTIFY_MODE_BACKGROUND = 2;
@@ -537,12 +538,6 @@ public class MusicPlaybackService extends Service
      * Shake detector class used for shake to switch song feature
      */
     private ShakeDetector mShakeDetector;
-
-    /**
-     * Switch for displaying album art on lockscreen
-     */
-    private boolean mShowAlbumArtOnLockscreen;
-
 
     private boolean mReadGranted = false;
 
@@ -644,13 +639,11 @@ public class MusicPlaybackService extends Service
         // Use the remote control APIs to set the playback state
         setUpMediaSession();
 
-
         // Initialize the preferences
         mPreferences = getSharedPreferences("Service", 0);
         mCardId = getCardId();
-        mShowAlbumArtOnLockscreen = mPreferences.getBoolean(
-                PreferenceUtils.SHOW_ALBUM_ART_ON_LOCKSCREEN, true);
-        setShakeToPlayEnabled(mPreferences.getBoolean(PreferenceUtils.SHAKE_TO_PLAY, false));
+
+        setShakeToPlayEnabled(PreferenceUtils.getInstance(this).getShakeToPlay());
 
         mRepeatMode = mPreferences.getInt("repeatmode", REPEAT_NONE);
         mShuffleMode = mPreferences.getInt("shufflemode", SHUFFLE_NONE);
@@ -919,20 +912,19 @@ public class MusicPlaybackService extends Service
             newNotifyMode = NOTIFY_MODE_NONE;
         }
 
-        int notificationId = hashCode();
         if (mNotifyMode != newNotifyMode) {
             if (mNotifyMode == NOTIFY_MODE_FOREGROUND) {
                 stopForeground(newNotifyMode == NOTIFY_MODE_NONE);
             } else if (newNotifyMode == NOTIFY_MODE_NONE) {
-                mNotificationManager.cancel(notificationId);
+                mNotificationManager.cancel(NOTIFICATION_ID);
                 mNotificationPostTime = 0;
             }
         }
 
         if (newNotifyMode == NOTIFY_MODE_FOREGROUND) {
-            startForeground(notificationId, buildNotification());
+            startForeground(NOTIFICATION_ID, buildNotification());
         } else if (newNotifyMode == NOTIFY_MODE_BACKGROUND) {
-            mNotificationManager.notify(notificationId, buildNotification());
+            mNotificationManager.notify(NOTIFICATION_ID, buildNotification());
         }
 
         mNotifyMode = newNotifyMode;
@@ -940,7 +932,7 @@ public class MusicPlaybackService extends Service
 
     private void cancelNotification() {
         stopForeground(true);
-        mNotificationManager.cancel(hashCode());
+        mNotificationManager.cancel(NOTIFICATION_ID);
         mNotificationPostTime = 0;
         mNotifyMode = NOTIFY_MODE_NONE;
     }
@@ -1187,7 +1179,7 @@ public class MusicPlaybackService extends Service
     }
 
     private Cursor openCursorAndGoToFirst(Uri uri, String[] projection,
-                                          String selection, String[] selectionArgs) {
+            String selection, String[] selectionArgs) {
         Cursor c = getContentResolver().query(uri, projection,
                 selection, selectionArgs, null, null);
         if (c == null) {
@@ -1198,7 +1190,7 @@ public class MusicPlaybackService extends Service
             return null;
         }
         return c;
-    }
+     }
 
     private synchronized void closeCursor() {
         if (mCursor != null) {
@@ -1241,7 +1233,7 @@ public class MusicPlaybackService extends Service
             while (true) {
                 if (mCursor != null
                         && openFile(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI + "/"
-                        + mCursor.getLong(IDCOLIDX))) {
+                                + mCursor.getLong(IDCOLIDX))) {
                     break;
                 }
 
@@ -1346,7 +1338,7 @@ public class MusicPlaybackService extends Service
             // return no more tracks
             if (minNumPlays > 0 && numTracksWithMinNumPlays == numTracks
                     && mRepeatMode != REPEAT_ALL && !force) {
-                return -1;
+                    return -1;
             }
 
             // else pick a track from the least number of played tracks
@@ -1411,7 +1403,7 @@ public class MusicPlaybackService extends Service
         try {
             cursor = getContentResolver().query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI,
                     new String[] {
-                            MediaStore.Audio.Media._ID
+                        MediaStore.Audio.Media._ID
                     }, MediaStore.Audio.Media.IS_MUSIC + "=1", null, null);
             if (cursor == null || cursor.getCount() == 0) {
                 return false;
@@ -1589,8 +1581,7 @@ public class MusicPlaybackService extends Service
                     .putLong(MediaMetadata.METADATA_KEY_TRACK_NUMBER, getQueuePosition() + 1)
                     .putLong(MediaMetadata.METADATA_KEY_NUM_TRACKS, getQueue().length)
                     .putString(MediaMetadata.METADATA_KEY_GENRE, getGenreName())
-                    .putBitmap(MediaMetadata.METADATA_KEY_ALBUM_ART,
-                    mShowAlbumArtOnLockscreen ? albumArt : null)
+                    .putBitmap(MediaMetadata.METADATA_KEY_ALBUM_ART, albumArt)
                     .build());
 
             if (what.equals(QUEUE_CHANGED)) {
@@ -1612,8 +1603,6 @@ public class MusicPlaybackService extends Service
         mQueueUpdateTask.execute();
     }
 
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
     private Notification buildNotification() {
         final String albumName = getAlbumName();
         final String artistName = getArtistName();
@@ -1807,14 +1796,14 @@ public class MusicPlaybackService extends Service
                 }
 
                 if (id != -1 && path.startsWith(
-                        MediaStore.Audio.Media.EXTERNAL_CONTENT_URI.toString())) {
+                                    MediaStore.Audio.Media.EXTERNAL_CONTENT_URI.toString())) {
                     updateCursor(uri);
 
                 } else if (id != -1 && path.startsWith(
-                        MediaStore.Files.getContentUri("external").toString())) {
+                                    MediaStore.Files.getContentUri("external").toString())) {
                     updateCursor(id);
 
-                    // handle downloaded media files
+                // handle downloaded media files
                 } else if ( path.startsWith("content://downloads/") ) {
 
                     // extract MediaProvider(MP) uri , if available
@@ -1846,7 +1835,7 @@ public class MusicPlaybackService extends Service
                     if (mCursor != null && shouldAddToPlaylist) {
                         mPlaylist.clear();
                         mPlaylist.add(new MusicPlaybackTrack(
-                                mCursor.getLong(IDCOLIDX), -1, IdType.NA, -1));
+                                                mCursor.getLong(IDCOLIDX), -1, IdType.NA, -1));
                         // propagate the change in playlist state
                         notifyChange(QUEUE_CHANGED);
                         mPlayPos = 0;
@@ -2136,7 +2125,7 @@ public class MusicPlaybackService extends Service
                 try {
                     if (genreCursor.moveToFirst()) {
                         return genreCursor.getString(
-                                genreCursor.getColumnIndexOrThrow(MediaStore.Audio.Genres.NAME));
+                            genreCursor.getColumnIndexOrThrow(MediaStore.Audio.Genres.NAME));
                     }
                 } finally {
                     genreCursor.close();
@@ -2890,14 +2879,6 @@ public class MusicPlaybackService extends Service
     }
 
     /**
-     * Called to set visibility of album art on lockscreen
-     */
-    public void setLockscreenAlbumArt(boolean enabled) {
-        mShowAlbumArtOnLockscreen = enabled;
-        notifyChange(META_CHANGED);
-    }
-
-    /**
      * Called to set the status of shake to play feature
      */
     public void setShakeToPlayEnabled(boolean enabled) {
@@ -2911,7 +2892,6 @@ public class MusicPlaybackService extends Service
                     gotoNext(true);
                 });
             }
-
             // if song is already playing, start listening immediately
             if (isPlaying()) {
                 startShakeDetector();
@@ -3687,7 +3667,7 @@ public class MusicPlaybackService extends Service
             return mService.get().getTrack(index);
         }
 
-        /**
+                /**
          * {@inheritDoc}
          */
         @Override
@@ -3823,22 +3803,14 @@ public class MusicPlaybackService extends Service
             mService.get().setShakeToPlayEnabled(enabled);
         }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void setLockscreenAlbumArt(boolean enabled) {
-            mService.get().setLockscreenAlbumArt(enabled);
-        }
-
     }
 
-        private class QueueUpdateTask extends AsyncTask<Void, Void, List<MediaSession.QueueItem>> {
-            private long[] mQueue;
+    private class QueueUpdateTask extends AsyncTask<Void, Void, List<MediaSession.QueueItem>> {
+        private final long[] mQueue;
 
-            public QueueUpdateTask(long[] queue) {
-                mQueue = queue != null ? Arrays.copyOf(queue, queue.length) : null;
-            }
+        public QueueUpdateTask(long[] queue) {
+            mQueue = queue != null ? Arrays.copyOf(queue, queue.length) : null;
+        }
 
         @Override
         protected List<MediaSession.QueueItem> doInBackground(Void... params) {

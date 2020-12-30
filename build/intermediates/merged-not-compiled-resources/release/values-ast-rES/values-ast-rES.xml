@@ -175,8 +175,6 @@
     <string name="settings_download_only_on_wifi_summary">P\'amenorgar los cargos de la operadora, nun baxar conteníu en rede móviles</string>
     <string name="settings_download_only_on_wifi_title">Baxar namái per Wi-fi</string>
     <string name="settings_general_category">Xeneral</string>
-    <string name="settings_lockscreen_album_art">Portada en pantalla de bloquéu</string>
-    <string name="settings_lockscreen_album_art_summary">Trocar la pantalla de bloquéu cola imaxe del álbum</string>
     <string name="settings_shake_to_play">Xiringar pa reproducir</string>
     <string name="settings_shake_to_play_summary">Xiringa\'l preséu pa reproducir la siguiente canción</string>
     <string name="settings_show_lyrics_summary">Pa canciones que tengan un ficheru srt</string>

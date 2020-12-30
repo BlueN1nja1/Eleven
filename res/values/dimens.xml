@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012 Andrew Neal
      Copyright (C) 2014 The CyanogenMod Project
+     Copyright (C) 2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -113,7 +114,6 @@
 
     <!-- Audio player Buttons (play/pause/shuffle/repeat/next/previous)-->
     <dimen name="audio_player_controls_end_button_width">36.0dip</dimen>
-    <dimen name="audio_player_controls_end_button_half_width">16.0dip</dimen>
     <dimen name="audio_player_controls_end_button_height">36.0dip</dimen>
     <dimen name="audio_player_controls_end_button_margin">18.0dip</dimen>
     <dimen name="audio_player_controls_main_button_width">100.0dip</dimen>
@@ -168,7 +168,7 @@
     <dimen name="color_scheme_dialog_row_padding">8.0dip</dimen>
 
     <!-- Sliding Panel -->
-    <dimen name="sliding_panel_indicator_height">20.0dip</dimen>
+    <dimen name="sliding_panel_indicator_height">60.0dip</dimen>
     <dimen name="sliding_panel_shadow_height">0.0dip</dimen>
 
     <!-- Header Bar -->

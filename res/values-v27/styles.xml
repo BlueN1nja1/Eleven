@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012 Andrew Neal
      Copyright (C) 2014 The CyanogenMod Project
+     Copyright (C) 2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme" parent="@style/Theme.MaterialComponents.DayNight">
+    <style name="Eleven.Theme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>
@@ -31,19 +32,31 @@
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
-        <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarColor">@color/white</item>
-        <item name="android:statusBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
     </style>
 
-    <style name="ActionBarWidgetTheme" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
+    <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">@font/gsansmedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="ActionBarWidgetTheme" parent="@style/Theme.MaterialComponents.Light">
         <!-- This is the color of the search text hint in the action bar -->
         <item name="android:textColorHint">@color/search_hint_color</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>
         <item name="textAppearanceSmallPopupMenu">@style/SmallPopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/LargePopupMenu</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/gsansmedium</item>
     </style>
 
     <!-- Make the action bar not take up space -->
@@ -58,7 +71,7 @@
         <item name="android:dividerHeight">@dimen/divider_height</item>
     </style>
 
-    <style name="PopupMenu" parent="@style/Widget.MaterialComponents.PopupMenu"/>
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.PopupMenu"/>
 
     <style name="DropDownListView" parent="@style/Widget.AppCompat.ListView.DropDown"/>
 
@@ -75,8 +88,9 @@
     </style>
 
     <!-- Sets the action bar title text style -->
-    <style name="ActionBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+    <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar">
         <item name="android:background">@color/header_action_bar_color</item>
+        <item name="android:textColorPrimary">@color/black</item>
     </style>
 
     <!-- Sets the action bar menu icon -->
@@ -130,7 +144,7 @@
     </style>
 
     <!-- Shortcut Activity theme -->
-    <style name="Theme.Transparent" parent="@style/Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.Transparent" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -139,7 +153,7 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <style name="Theme.AudioPreview" parent="@style/Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.AudioPreview" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -189,21 +203,21 @@
         <item name="android:scaleType">centerInside</item>
     </style>
 
-    <style name="HeaderTabTextStyle" parent="@style/Widget.MaterialComponents.ActionBar.Solid">
+    <style name="HeaderTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
 
-    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.Toolbar.Primary">
-        <item name="android:fontFamily">?android:fontFamily</item>
-    </style>
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar" />
 
-    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.DayNight" />
+    <style name="ToolBarPopupTheme" parent="@style/Theme.AppCompat.Light" />
 
     <style name="Eleven.Theme.PopupMenuOverlapAnchor">
         <item name="android:overlapAnchor">true</item>
         <item name="android:dropDownVerticalOffset">0dp</item>
         <item name="android:dropDownHorizontalOffset">0dp</item>
     </style>
-
+    <style name="MTSettingsR" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/gsansmedium</item>
+    </style>
 </resources>

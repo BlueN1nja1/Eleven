@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Marcos\\Downloads\\ElevenMT\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marcos\\.gradle\\caches\\transforms-2\\files-2.1\\9386a365afdf01d648926909b929d0c2\\appcompat-1.2.0-beta01\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Marcos\\.gradle\\caches\\transforms-2\\files-2.1\\0cf0ce774afedddbfc813f566e3b2f9e\\appcompat-1.0.2\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

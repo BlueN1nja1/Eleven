@@ -44,34 +44,36 @@
         <item quantity="one"><ns1:g id="count">%d</ns1:g> këngë</item>
         <item quantity="other"><ns1:g id="count">%d</ns1:g> këngë</item>
     </plurals>
-    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Orientohu për në shtëpi"</string>
-    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Ngjitu lart"</string>
-    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Opsione të tjera"</string>
-    <string msgid="2571498368472823490" name="abc_action_mode_done">"U krye"</string>
-    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Shfaq çdo gjë"</string>
-    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Zgjidh një aplikacion"</string>
-    <string msgid="3403923230105792483" name="abc_capital_off">"JOAKTIV"</string>
-    <string msgid="7831734969929204599" name="abc_capital_on">"AKTIV"</string>
-    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
-    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
-    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funksioni+"</string>
-    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
-    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
-    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"hapësirë"</string>
-    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menyja+"</string>
-    <string msgid="940844115270746197" name="abc_search_hint">"Kërko…"</string>
-    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Pastro pyetjen"</string>
-    <string msgid="908784302972860853" name="abc_searchview_description_query">"Kërko pyetjen"</string>
-    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Kërko"</string>
-    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Dërgo pyetjen"</string>
-    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Kërkim me zë"</string>
-    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Ndaje me"</string>
-    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Ndaje me <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
-    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Palos"</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Orientohu për në shtëpi"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Ngjitu lart"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Opsione të tjera"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"U krye!"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Shikoji të gjitha"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Zgjidh një aplikacion"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"JOAKTIV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AKTIV"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funksioni+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"hapësirë"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menyja+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Kërko..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Pastro pyetjen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Kërko pyetjen"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Kërko"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Dërgo pyetjen"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Kërkim me zë"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Shpërnda publikisht me"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Ndaje me <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Shpalos"</string>
+    <string name="accessibility_next">Tjetra</string>
     <string name="accessibility_pause">Vë në pauzë</string>
+    <string name="accessibility_prev">E mëparshmja</string>
     <string name="accessibility_repeat">Përsërit</string>
     <string name="accessibility_repeat_all">Përsëriti të gjitha</string>
     <string name="add_to_queue">Shto në radhë</string>
@@ -85,8 +87,8 @@
     <string name="clear">Hiq</string>
     <string name="context_menu_change_image">Ndërro imazhin</string>
     <string name="context_menu_delete">Fshi</string>
+    <string name="context_menu_play_selection">Luaj</string>
     <string name="context_menu_rename_playlist">Riemërto</string>
-    <string msgid="3209159573327985035" name="copy">"Kopjo"</string>
     <string name="create_playlist_prompt">Emri i listës së këngëve</string>
     <string name="delete_dialog_title">Dëshiron ta fshish <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="duration_format"><ns1:g id="hours">%1$s</ns1:g> <ns1:g id="minutes">%2$s</ns1:g></string>
@@ -115,11 +117,11 @@
     <string name="header_less_than_30s">Më pak se 30 sekonda</string>
     <string name="header_unknown_year">Viti i panjohur</string>
     <string name="menu_clear_list">Hiqe listën</string>
+    <string name="menu_play_all">Luaji të gjitha</string>
     <string name="menu_sort_by">Rendit sipas</string>
     <string name="new_photo">Zgjidh një foto nga Galeria</string>
     <string name="new_playlist">Listë e re</string>
     <string name="new_playlist_name_template">Lista <ns1:g id="number">%d</ns1:g></string>
-    <string msgid="478774118347071097" name="not_set">"Nuk është caktuar"</string>
     <string name="old_photo">Përdor foto të vjetër</string>
     <string name="overwrite">Mbishkruaj</string>
     <string name="page_albums">Albumet</string>
@@ -130,30 +132,30 @@
     <string name="page_songs">Këngët</string>
     <string name="playlist_last_added">Shtuar së fundmi</string>
     <string name="playlist_renamed">Lista u riemërtua</string>
-    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" u kopjua në kujtesën e fragmenteve"</string>
     <string name="remove_from_queue">Hiq nga radha</string>
     <string name="save">Ruaj</string>
-    <string msgid="730395136688082741" name="search_menu_title">"Kërko"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Kërko"</string>
     <string name="search_title_albums">Të gjithë albumet \"%s\"</string>
     <string name="search_title_artists">Të gjithë artistët \"%s\"</string>
     <string name="search_title_playlists">Të gjitha listat e këngëve \"%s\"</string>
     <string name="search_title_songs">Të gjitha këngët \"%s\"</string>
+    <string name="settings_delete_cache_summary">Hiqi të gjitha imazhet e ruajtura</string>
     <string name="settings_download_missing_artwork_title">Shkarko kopertinën e munguar të albumit</string>
     <string name="settings_download_only_on_wifi_summary">Për të reduktuar pagesat ndaj operatorit, mos shkarkoni mbi rrjetet celulare</string>
     <string name="settings_download_only_on_wifi_title">Shkarko vetëm me Wi-Fi</string>
-    <string name="settings_lockscreen_album_art">Kopertina e albumit në ekranin bllokues</string>
-    <string name="settings_lockscreen_album_art_summary">Zëvendëso sfondin e ekranit bllokues me kopertinat e albumeve</string>
     <string name="settings_storage_category">Memoria</string>
     <string name="settings_ui_category">Ndërfaqe</string>
+    <string name="settings_use_blur_title">Zbeh sfondin</string>
     <string name="sort_order_entry_album">Albumi</string>
     <string name="sort_order_entry_artist">Artisti</string>
     <string name="sort_order_entry_az">A-ZH</string>
+    <string name="sort_order_entry_duration">Kohëzgjatja</string>
     <string name="sort_order_entry_filename">Emri i skedarit</string>
     <string name="sort_order_entry_number_of_albums">Numri i albumeve</string>
     <string name="sort_order_entry_number_of_songs">Numri i këngëve</string>
     <string name="sort_order_entry_year">Viti</string>
     <string name="sort_order_entry_za">ZH-A</string>
-    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Përdor foton e paracaktuar</string>
     <string msgid="5138405918326871307" name="v7_preference_off">"JOAKTIV"</string>

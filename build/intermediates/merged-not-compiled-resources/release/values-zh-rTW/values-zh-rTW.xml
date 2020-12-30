@@ -33,33 +33,33 @@
     <plurals name="Nsongs">
         <item quantity="other"><ns1:g id="count">%d</ns1:g> 首樂曲</item>
     </plurals>
-    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"瀏覽首頁"</string>
-    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"向上瀏覽"</string>
-    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"更多選項"</string>
-    <string msgid="2571498368472823490" name="abc_action_mode_done">"完成"</string>
-    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"查看全部"</string>
-    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
-    <string msgid="3403923230105792483" name="abc_capital_off">"關閉"</string>
-    <string msgid="7831734969929204599" name="abc_capital_on">"開啟"</string>
-    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
-    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
-    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
-    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
-    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn +"</string>
-    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
-    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string>
-    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"空格鍵"</string>
-    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
-    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu +"</string>
-    <string msgid="940844115270746197" name="abc_search_hint">"搜尋…"</string>
-    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"清除查詢"</string>
-    <string msgid="908784302972860853" name="abc_searchview_description_query">"搜尋查詢"</string>
-    <string msgid="5466662225065974044" name="abc_searchview_description_search">"搜尋"</string>
-    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"提交查詢"</string>
-    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"語音搜尋"</string>
-    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"分享對象"</string>
-    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
-    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"收合"</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
     <string name="accessibility_browse">瀏覽音樂</string>
     <string name="accessibility_next">下一首</string>
     <string name="accessibility_pause">暫停</string>
@@ -97,7 +97,6 @@
     <string name="context_menu_remove_from_recent">從最近移除</string>
     <string name="context_menu_rename_playlist">重新命名</string>
     <string name="context_menu_use_as_ringtone">設定為鈴聲</string>
-    <string msgid="3209159573327985035" name="copy">"複製"</string>
     <string name="create_playlist_prompt">播放清單名稱</string>
     <string name="delete_dialog_title">刪除 「<ns1:g example="album" id="item">%s</ns1:g>」？</string>
     <string name="delete_warning">這將永久刪除已快取的影像</string>
@@ -163,7 +162,6 @@
     <string name="new_playlist">新增播放清單</string>
     <string name="new_playlist_name_template">播放清單<ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">無法開啟等化器。</string>
-    <string msgid="478774118347071097" name="not_set">"未設定"</string>
     <string name="old_photo">使用舊的相片</string>
     <string name="overwrite">覆蓋</string>
     <string name="page_albums">專輯</string>
@@ -178,11 +176,10 @@
     <string name="playlist_recently_played">最近播放</string>
     <string name="playlist_renamed">已重新命名播放清單</string>
     <string name="playlist_top_tracks">我的熱門曲目</string>
-    <string msgid="7961817945132860002" name="preference_copied">"已將「<ns1:g id="SUMMARY">%1$s</ns1:g>」複製到剪貼簿。"</string>
     <string name="remove_from_queue">從佇列移除</string>
     <string name="remove_from_recent">從最近播放清單移除</string>
     <string name="save">儲存</string>
-    <string msgid="730395136688082741" name="search_menu_title">"搜尋"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
     <string name="search_title_albums">所有含「%s」 的專輯</string>
     <string name="search_title_artists">所有含「%s」的演出者</string>
     <string name="search_title_playlists">所有含「%s」的播放清單</string>
@@ -196,8 +193,6 @@
     <string name="settings_download_only_on_wifi_summary">如要節省傳輸費用，請不要透過行動網路下載</string>
     <string name="settings_download_only_on_wifi_title">僅透過 Wi-Fi 下載</string>
     <string name="settings_general_category">一般</string>
-    <string name="settings_lockscreen_album_art">鎖定畫面時的專輯封面</string>
-    <string name="settings_lockscreen_album_art_summary">鎖定畫面背景替換為專輯封面</string>
     <string name="settings_shake_to_play">搖動播放</string>
     <string name="settings_shake_to_play_summary">搖動您的裝置即可播放下一首樂曲</string>
     <string name="settings_show_lyrics_summary">有 srt 檔的樂曲</string>
@@ -216,8 +211,8 @@
     <string name="sort_order_entry_track_list">曲目清單</string>
     <string name="sort_order_entry_year">年份</string>
     <string name="sort_order_entry_za">遞減排序</string>
-    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>，<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">使用預設相片</string>
     <string msgid="5138405918326871307" name="v7_preference_off">"關閉"</string>
     <string msgid="27351710992731591" name="v7_preference_on">"開啟"</string>

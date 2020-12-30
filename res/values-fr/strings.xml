@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
+     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -115,12 +116,11 @@
     <string name="settings_download_artist_images_title">Télécharger les images d\'artistes manquantes</string>
     <string name="settings_general_category">Général</string>
     <string name="settings_show_music_visualization_title">Voir les animations musicales</string>
+    <string name="settings_use_blur_title">Floutage arrière-plan</string>
     <string name="settings_show_lyrics_title">Afficher les paroles</string>
     <string name="settings_show_lyrics_summary">Pour les titres ayant un fichier srt</string>
     <string name="settings_shake_to_play">Secouer pour lire</string>
     <string name="settings_shake_to_play_summary">Secouer votre appareil pour écouter le titre suivant</string>
-    <string name="settings_lockscreen_album_art">Pochettes d\'album sur l\'écran de verrouillage</string>
-    <string name="settings_lockscreen_album_art_summary">Remplacer le fond d\'écran de verrouillage par des pochettes d\'album</string>
     <string name="app_widget_small">Musique : 4 \u00d7 1</string>
     <string name="app_widget_large">Musique : 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Musique : 4 \u00d7 2 (alterné)</string>

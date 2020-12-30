@@ -13,25 +13,30 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_alignParentTop="true"
+    android:layout_height="55dp"
+    android:textAlignment="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/settingstoolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/white"
-        >
+        android:layout_height="match_parent"
+        android:minHeight="?actionBarSize"
+        app:titleTextColor="@color/black">
+
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/toolbar_title2"
+            style="@style/MTSettingsR"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:gravity="center"
-            tools:text="@string/menu_settings"
-            android:id="@+id/toolbar_text"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
-    </android.support.v7.widget.Toolbar>
-</RelativeLayout>
+            android:layout_gravity="center"
+            android:fontFamily="@font/gsansmedium"
+            android:text="@string/menu_settings"
+            android:textColor="@color/black" />
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

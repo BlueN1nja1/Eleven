@@ -44,33 +44,33 @@
         <item quantity="one"><ns1:g id="count">%d</ns1:g> పాట</item>
         <item quantity="other"><ns1:g id="count">%d</ns1:g> పాటలు</item>
     </plurals>
-    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేస్తుంది"</string>
-    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేస్తుంది"</string>
-    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
-    <string msgid="2571498368472823490" name="abc_action_mode_done">"పూర్తయింది"</string>
-    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"అన్నీ చూడండి"</string>
-    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"యాప్‌ను ఎంచుకోండి"</string>
-    <string msgid="3403923230105792483" name="abc_capital_off">"ఆఫ్"</string>
-    <string msgid="7831734969929204599" name="abc_capital_on">"ఆన్"</string>
-    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
-    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
-    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
-    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
-    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
-    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"స్పేస్"</string>
-    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
-    <string msgid="940844115270746197" name="abc_search_hint">"వెతకండి…"</string>
-    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ప్రశ్నను తీసివేస్తుంది"</string>
-    <string msgid="908784302972860853" name="abc_searchview_description_query">"శోధన ప్రశ్న"</string>
-    <string msgid="5466662225065974044" name="abc_searchview_description_search">"శోధన"</string>
-    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ప్రశ్నని సమర్పిస్తుంది"</string>
-    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"వాయిస్ శోధన"</string>
-    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"వీరితో షేర్ చేస్తుంది"</string>
-    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>తో షేర్ చేస్తుంది"</string>
-    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"కుదిస్తుంది"</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేయండి"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేయండి"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"పూర్తయింది"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"అన్నీ చూడండి"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"అనువర్తనాన్ని ఎంచుకోండి"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ఆఫ్ చేయి"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ఆన్ చేయి"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"స్పేస్"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"వెతుకు..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ప్రశ్నను క్లియర్ చేయి"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ప్రశ్న శోధించండి"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"వెతుకు"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ప్రశ్నని సమర్పించు"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"వాయిస్ శోధన"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"వీరితో భాగస్వామ్యం చేయి"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>తో భాగస్వామ్యం చేయండి"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"కుదించండి"</string>
     <string name="accessibility_browse">సంగీతాన్ని బ్రౌజ్ చేయుము</string>
     <string name="accessibility_next">తదుపరి</string>
     <string name="accessibility_pause">పాజ్ చేయి</string>
@@ -107,7 +107,6 @@
     <string name="context_menu_remove_from_recent">ఇటీవలి వాటి నుండి తొలగించుము</string>
     <string name="context_menu_rename_playlist">పేరు మార్చు</string>
     <string name="context_menu_use_as_ringtone">రింగ్‌టోన్ ఉపయోగించు</string>
-    <string msgid="3209159573327985035" name="copy">"కాపీ చేయి"</string>
     <string name="create_playlist_prompt">ప్లేజాబితా పేరు</string>
     <string name="delete_dialog_title"><ns1:g example="album" id="item">%s</ns1:g>ను తొలగించాలా?</string>
     <string name="delete_warning">ఇది శాశ్వతంగా క్యాష్ చేసిన చిత్రాల ఎంట్రీలను తొలిగిస్తుంది</string>
@@ -127,7 +126,7 @@
     <string name="empty_top_tracks_main">ఉత్తమ ట్రాకులు ఏమీ లేవు</string>
     <string name="empty_top_tracks_secondary">మీరు ఎక్కువగా వినే పాటలు జాబితాకు జోడించబడతాయి.</string>
     <string name="error_playing_track">ట్రాక్ %1$s ను ప్లే చేయడం సాధ్యపడలేదు</string>
-    <string msgid="1234962710353108940" name="expand_button_title">"అధునాతనం"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"అధునాతన"</string>
     <string name="footer_search_albums">అన్ని ఆల్బములను చూపుము</string>
     <string name="footer_search_artists">అందరు కళాకారులను చూపుము</string>
     <string name="footer_search_playlists">అన్ని ప్లేజాబితాలను చూపుము</string>
@@ -173,7 +172,6 @@
     <string name="new_playlist">క్రొత్త ప్లేజాబితా</string>
     <string name="new_playlist_name_template">ప్లేజాబితా <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">ఈక్వలైజరును తెరవడం సాధ్యపడలేదు.</string>
-    <string msgid="478774118347071097" name="not_set">"సెట్ చేయలేదు"</string>
     <string name="old_photo">పాత ఫోటోను ఉపయోగించుము</string>
     <string name="overwrite">భర్తీ చేయి</string>
     <string name="page_albums">ఆల్బమ్‌లు</string>
@@ -188,11 +186,10 @@
     <string name="playlist_recently_played">ఇటీవల ప్లే చేయబడిన</string>
     <string name="playlist_renamed">ప్లేజాబితా పేరు మార్చబడింది</string>
     <string name="playlist_top_tracks">నా యొక్క ఉత్తమ ట్రాకులు</string>
-    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" క్లిప్‌బోర్డ్‌కి కాపీ చేయబడింది."</string>
     <string name="remove_from_queue">నిరీక్షణ క్రమం నుండి తొలిగించుము</string>
     <string name="remove_from_recent">ఇటీవలి వాటి నుండి తొలగించుము</string>
     <string name="save">సేవ్ చేయి</string>
-    <string msgid="730395136688082741" name="search_menu_title">"శోధన"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"వెతుకు"</string>
     <string name="search_title_albums">అన్ని \"%s\" ఆల్బములు</string>
     <string name="search_title_artists">అందరు \"%s\" కళాకారులు</string>
     <string name="search_title_playlists">అన్ని \"%s\" ప్లేజాబితాలు</string>
@@ -206,8 +203,6 @@
     <string name="settings_download_only_on_wifi_summary">కారియర్ ఛార్జీలను తగ్గించేందుకు, మొబైల్ నెట్వర్కుల ద్వారా డౌన్లోడ్ చేయవద్దు</string>
     <string name="settings_download_only_on_wifi_title">Wi-Fi ద్వారా మాత్రమే డౌన్లోడ్ చేయుము</string>
     <string name="settings_general_category">సాధారణం</string>
-    <string name="settings_lockscreen_album_art">లాక్‌స్కీన్ ఆల్బమ్ ఆర్ట్</string>
-    <string name="settings_lockscreen_album_art_summary">లాక్‌స్కీన్ నేపధ్యాన్ని ఆల్బమ్ ఆర్టుతో భర్తీ చేయండి</string>
     <string name="settings_shake_to_play">ప్లే చేసేందుకు కదపండి</string>
     <string name="settings_shake_to_play_summary">తరువాతి పాటను ప్లే చేసేందుకు మీ పరికరాన్ని కదపండి</string>
     <string name="settings_show_lyrics_summary">srt ఫైల్ కలిగిన పాటల కొరకు</string>
@@ -226,7 +221,7 @@
     <string name="sort_order_entry_track_list">ట్రాక్ జాబితా</string>
     <string name="sort_order_entry_year">సంవత్సరం</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">స్వయంసిద్ధ ఫోటోను ఉపయోగించుము</string>
     <string msgid="5138405918326871307" name="v7_preference_off">"ఆఫ్ చేయండి"</string>

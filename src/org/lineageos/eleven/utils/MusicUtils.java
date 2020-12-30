@@ -76,6 +76,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+import java.util.WeakHashMap;
 
 /**
  * A collection of helpers directly related to music or Eleven's service.
@@ -196,7 +197,7 @@ public final class MusicUtils {
         }
     }
 
-    public static IElevenService getService() {
+    private static IElevenService getService() {
         for (WeakReference<ServiceToken> ref : sKnownTokens) {
             ServiceToken token = ref.get();
             IElevenService service = token != null ? token.mBinder.mServiceConnection : null;
@@ -221,7 +222,7 @@ public final class MusicUtils {
      *         albums, songs, genres, and playlists.
      */
     public static String makeLabel(final Context context, final int pluralInt,
-                                   final int number) {
+            final int number) {
         return context.getResources().getQuantityString(pluralInt, number, number);
     }
 
@@ -282,7 +283,7 @@ public final class MusicUtils {
      * @return the combined string
      */
     public static String makeCombinedString(final Context context, final String first,
-                                            final String second) {
+                                                  final String second) {
         final String formatter = context.getResources().getString(R.string.combine_two_strings);
         return String.format(formatter, first, second);
     }
@@ -376,19 +377,6 @@ public final class MusicUtils {
             }
         } catch (final RemoteException exc) {
             Log.e(TAG, "cycleRepeat()", exc);
-        }
-    }
-    /**
-     * Set show album art on lockscreen
-     */
-    public static void setShowAlbumArtOnLockscreen(final boolean enabled) {
-        try {
-            IElevenService service = getService();
-            if (service != null) {
-                service.setLockscreenAlbumArt(enabled);
-            }
-        } catch (final RemoteException exc) {
-            Log.e(TAG, "setLockscreenAlbumArt(" + enabled + ")", exc);
         }
     }
 
@@ -1037,7 +1025,7 @@ public final class MusicUtils {
             if (cursor != null) {
                 cursor.moveToFirst();
                 if (!cursor.isAfterLast()) {
-                    return cursor.getInt(0);
+                    return cursor.getLong(0);
                 }
             }
         }
@@ -1053,7 +1041,7 @@ public final class MusicUtils {
      * @return The ID for an album.
      */
     public static long getIdForAlbum(final Context context, final String albumName,
-                                     final String artistName) {
+            final String artistName) {
         try (Cursor cursor = context.getContentResolver().query(
                 MediaStore.Audio.Albums.EXTERNAL_CONTENT_URI, new String[]{BaseColumns._ID},
                 AlbumColumns.ALBUM + "=? AND " + AlbumColumns.ARTIST + "=?", new String[]{
@@ -1194,7 +1182,7 @@ public final class MusicUtils {
      * @param playlistId The id of the playlist being removed from.
      */
     public static void removeFromPlaylist(final Context context, final long id,
-                                          final long playlistId) {
+            final long playlistId) {
         final Uri uri = MediaStore.Audio.Playlists.Members.getContentUri("external", playlistId);
         final ContentResolver resolver = context.getContentResolver();
         resolver.delete(uri, Playlists.Members.AUDIO_ID + " = ? ", new String[] {

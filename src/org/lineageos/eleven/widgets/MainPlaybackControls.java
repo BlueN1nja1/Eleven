@@ -52,12 +52,12 @@ public class MainPlaybackControls extends FrameLayout {
     }
 
     public MainPlaybackControls(@NonNull Context context, @Nullable AttributeSet attrs,
-                                int defStyleAttr) {
+            int defStyleAttr) {
         this(context, attrs, defStyleAttr, 0);
     }
 
     public MainPlaybackControls(@NonNull Context context, @Nullable AttributeSet attrs,
-                                int defStyleAttr, int defStyleRes) {
+            int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         LayoutInflater.from(context).inflate(R.layout.main_playback_controls, this, true);

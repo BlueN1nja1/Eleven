@@ -24,7 +24,7 @@
 
     <LinearLayout
         android:id="@+id/grp_container_view"
-        android:background="?android:colorBackground"
+        android:background="@color/widget_background_color"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="@dimen/preview_layout_height"
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/btn_playback_play"/>
+                android:src="@drawable/btn_playback_play_alt"/>
 
             <TextView
                 android:id="@+id/tv_title"
@@ -82,6 +82,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:gravity="top"
+                android:textColor="@color/accent"
                 android:layout_toLeftOf="@id/ib_playpause"
                 android:ellipsize="end"
                 android:textSize="@dimen/preview_title_textSize"
@@ -96,6 +97,7 @@
                 android:layout_toLeftOf="@id/ib_playpause"
                 android:ellipsize="end"
                 android:textSize="@dimen/preview_artist_textSize"
+                android:textColor="@color/accent"
                 android:textStyle="italic"/>
 
         </RelativeLayout>

@@ -175,8 +175,6 @@
     <string name="settings_download_only_on_wifi_summary">Om gegevensgebrûk te ferminderjen, net downloade fia mobile gegevensferbining</string>
     <string name="settings_download_only_on_wifi_title">Allinnich fia wifi</string>
     <string name="settings_general_category">Algemien</string>
-    <string name="settings_lockscreen_album_art">Albumhoes op beskoattelingsskerm</string>
-    <string name="settings_lockscreen_album_art_summary">Eftergrûn beskoattelingsskerm ferfange troch albumhoes</string>
     <string name="settings_shake_to_play">Skodzje foar ôfspyljen</string>
     <string name="settings_shake_to_play_summary">Skodzje jo apparaat om it folgjende nûmer ôf te spyljen</string>
     <string name="settings_show_lyrics_summary">Foar nûmers mei in srt-bestân</string>
@@ -184,6 +182,7 @@
     <string name="settings_show_music_visualization_title">Muzykfisualisaasjes toane</string>
     <string name="settings_storage_category">Unthâld</string>
     <string name="settings_ui_category">Uterlik</string>
+    <string name="settings_use_blur_title">Eftergrûn ferfaagje</string>
     <string name="sort_order_entry_album">Album</string>
     <string name="sort_order_entry_artist">Artyst</string>
     <string name="sort_order_entry_az">A-Z</string>

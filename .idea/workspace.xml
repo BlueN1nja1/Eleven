@@ -2,50 +2,26 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_3_xl" />
+      </config>
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02fe3ee4-5e53-4a65-862b-2aeadc0535e1" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="bea98dfd-ea07-4c72-9daf-46fa0271e9d2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="My_Current_Phone_Pixel_3_XL_" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-        <option value="Class" />
-        <option value="Interface" />
-        <option value="resourceFile" />
-      </list>
-    </option>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="C:\Users\Marcos\Downloads\SANS Key.jks" />
@@ -53,68 +29,47 @@
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
-  <component name="ProjectId" id="1bHiDJnsNSlSK4yQ0LZABviInzX" />
+  <component name="ProjectId" id="1mML0fEWSlDQHPwNdRDAs3uLbNS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ApkExportedModule" value="ElevenMT" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="8BGY0ZBFX" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-01T03:34:48.119Z" />
-    <property name="ExportApk.ApkPath" value="C:\Users\Marcos\Downloads\ElevenMT" />
+    <property name="ApkExportedModule" value="android_packages_apps_Eleven-lineage-18.1" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/slidinguppanel/SlidingUpPanelLayout.java_SELECTED" value="SlidingUpPanelLayout" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/ui/HeaderBar.java_SELECTED" value="HeaderBar" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/MainPlaybackControls.java_SELECTED" value="MainPlaybackControls" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButton.java_SELECTED" value="PlayPauseButton" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButtonContainer.java_SELECTED" value="PlayPauseButtonContainer" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/res/values" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/res/layout-night" />
-    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/slidinguppanel/SlidingUpPanelLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/ui/HeaderBar.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/MainPlaybackControls.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButton.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButtonContainer.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Build Variants" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-17.1\res\layout" />
-      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-17.1\res\values" />
-      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-17.1\res\values-zh-rCN" />
-    </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="org.lineageos.eleven" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Marcos\Downloads\ElevenMT\res\layout-night" />
-      <recent name="C:\Users\Marcos\Downloads\ElevenMT\res\layout" />
-      <recent name="C:\Users\Marcos\Downloads\ElevenMT\res\layout-land" />
-      <recent name="C:\Users\Marcos\Downloads\ElevenMT\src\org\lineageos\eleven" />
-      <recent name="C:\Users\Marcos\Downloads\ElevenMT\src\org\lineageos\eleven\widgets" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.lineageos.eleven.ui.activities" />
-      <recent name="org.lineageos.eleven.utils" />
-      <recent name="org.lineageos.eleven.provider" />
-      <recent name="org.lineageos.eleven.slidinguppanel" />
-      <recent name="org.lineageos.eleven.widgets" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.lineageos.eleven.ui.activities" />
+      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res\layout-night" />
+      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res\layout" />
+      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res" />
+      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res\drawable" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Android App.android_packages_apps_Eleven-lineage-17.1">
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -122,64 +77,14 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
-      <module name="ElevenMT" />
+    <configuration name="android_packages_apps_Eleven-lineage-18.1" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="android_packages_apps_Eleven-lineage-18.1" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="specific_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="org.lineageos.eleven.ui.activities.BaseActivity" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElevenMT" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="ElevenMT" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -215,204 +120,82 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
-      <module name="ElevenMT" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="specific_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="org.lineageos.eleven.ui.activities.HomeActivity" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="ElevenMT" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="specific_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="org.lineageos.eleven.ui.activities.SearchActivity" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="android_packages_apps_Eleven-lineage-17.1" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="ElevenMT" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="org.lineageos.eleven.ui.activities.BaseActivity" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Android App.android_packages_apps_Eleven-lineage-17.1" />
-      <item itemvalue="Android App.ElevenMT" />
-      <item itemvalue="Android App.BaseActivity" />
-      <item itemvalue="Android App.HomeActivity" />
-      <item itemvalue="Android App.SearchActivity" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Android App.SearchActivity" />
-        <item itemvalue="Android App.BaseActivity" />
-        <item itemvalue="Android App.HomeActivity" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02fe3ee4-5e53-4a65-862b-2aeadc0535e1" name="Default Changelist" comment="" />
-      <created>1588295298783</created>
+      <changelist id="bea98dfd-ea07-4c72-9daf-46fa0271e9d2" name="Default Changelist" comment="" />
+      <created>1609298291932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588295298783</updated>
+      <updated>1609298291932</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="345" key="#android_packages_apps_Eleven-lineage-17.1" timestamp="1588389572053">
+    <state x="797" y="446" key="#PSD" timestamp="1609349634041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="999" y="345" key="#android_packages_apps_Eleven-lineage-17.1/0.0.2560.1400@0.0.2560.1400" timestamp="1588389572053" />
-    <state x="976" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1588389545509">
+    <state x="797" y="446" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1609349634041" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1609346922507">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="523" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588389545509" />
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1609346922507" />
+    <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.0.center" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.0.left" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.0.right" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.1.bottom" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.1.center" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.1.left" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state width="2517" height="394" key="GridCell.Tab.1.right" timestamp="1609307246293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="394" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
+    <state x="988" y="417" width="629" height="566" key="find.popup" timestamp="1609355047309">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="417" width="629" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1609355047309" />
+    <state x="898" y="439" key="psd.add.library.dependency.panel.dimension" timestamp="1609298504890">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="898" y="439" key="psd.add.library.dependency.panel.dimension/0.0.2560.1400@0.0.2560.1400" timestamp="1609298504890" />
   </component>
 </project>

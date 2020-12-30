@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012 Andrew Neal
      Copyright (C) 2014 The CyanogenMod Project
-     Copyright (C) 2019 The LineageOS Project
+     Copyright (C) 2019-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,13 +18,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
-    android:versionCode="504"
-    android:versionName="5.4.0"
+    android:versionCode="550"
+    android:versionName="5.5.0 Open Beta 1"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="28" />
+        android:minSdkVersion="26"
+        android:targetSdkVersion="30" />
 
     <original-package android:name="com.cyanogenmod.eleven" />
 
@@ -32,8 +32,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- Used to check for a network connection -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- Used to download images -->
-    <uses-permission android:name="android.permission.INTERNET" />
     <!-- Used to keep the service running when the phone sleeps -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- The main service uses a sticky broadcast -->
@@ -63,6 +61,7 @@
         android:name="org.lineageos.eleven.ElevenApplication"
         android:allowBackup="true"
         android:allowTaskReparenting="true"
+        android:requestLegacyExternalStorage="true"
         android:hardwareAccelerated="@bool/config_hardwareAccelerated"
         android:appCategory="audio"
         android:icon="@mipmap/ic_launcher"
@@ -106,7 +105,7 @@
         <activity
             android:name="org.lineageos.eleven.ui.activities.SettingsActivity"
             android:label="@string/menu_settings"
-            android:theme="@style/MTSettings"/>
+            android:theme="@style/Eleven.Theme.ActionBar.Overlay"/>
         <!-- Audio Preview -->
         <activity
             android:name=".ui.activities.preview.AudioPreviewActivity"

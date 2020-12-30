@@ -130,8 +130,6 @@
     <string name="settings_download_only_on_wifi_summary">مۇلازىمەت تەمىنلىگۈچىنىڭ خىراجىتىنى ئازايتىش ئۈچۈن، كۆچمە تورنىڭ سانلىق مەلۇمات چۈشۈرۈشىنى ئىشلەتمەيدۇ</string>
     <string name="settings_download_only_on_wifi_title">پەقەت Wi-Fi تورىدىلا چۈشۈرۈش</string>
     <string name="settings_general_category">ئادەتتىكى</string>
-    <string name="settings_lockscreen_album_art">پىلاستىنكا سىرتقى يۈزىنى قۇلۇپلاڭ</string>
-    <string name="settings_lockscreen_album_art_summary">قۇلۇپ تەگلىكىنى پىلاستىنكا سىرتقى يۈزىگە ئالماشتۇرۇڭ</string>
     <string name="settings_shake_to_play">سىلكىپ قويۇش</string>
     <string name="settings_shake_to_play_summary">تېلېفوننى سىلكىپ كىيىنكى ناخشىنى قويۇڭ</string>
     <string name="settings_show_lyrics_summary">بىر srt ھۆججەت ناخشىغا ماس كىلىدۇ</string>

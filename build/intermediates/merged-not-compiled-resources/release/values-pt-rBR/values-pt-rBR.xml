@@ -44,33 +44,33 @@
         <item quantity="one"><ns1:g id="count">%d</ns1:g> música</item>
         <item quantity="other"><ns1:g id="count">%d</ns1:g> músicas</item>
     </plurals>
-    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
-    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navegar para cima"</string>
-    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Mais opções"</string>
-    <string msgid="2571498368472823490" name="abc_action_mode_done">"Concluído"</string>
-    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
-    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
-    <string msgid="3403923230105792483" name="abc_capital_off">"DESATIVADO"</string>
-    <string msgid="7831734969929204599" name="abc_capital_on">"ATIVADO"</string>
-    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
-    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
-    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
-    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
-    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
-    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"espaço"</string>
-    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
-    <string msgid="940844115270746197" name="abc_search_hint">"Pesquisar…"</string>
-    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Limpar consulta"</string>
-    <string msgid="908784302972860853" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
-    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Pesquisar"</string>
-    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Enviar consulta"</string>
-    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
-    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
-    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
-    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
     <string name="accessibility_browse">Buscar nas músicas</string>
     <string name="accessibility_next">Próxima</string>
     <string name="accessibility_pause">Pausar</string>
@@ -108,7 +108,6 @@
     <string name="context_menu_remove_from_recent">Remover das recentes</string>
     <string name="context_menu_rename_playlist">Renomear</string>
     <string name="context_menu_use_as_ringtone">Usar como toque</string>
-    <string msgid="3209159573327985035" name="copy">"Copiar"</string>
     <string name="create_playlist_prompt">Nome da lista de reprodução</string>
     <string name="delete_dialog_title">Apagar <ns1:g example="album" id="item">%s</ns1:g>?</string>
     <string name="delete_warning">Isso vai apagar permanentemente o cache de imagens</string>
@@ -174,7 +173,6 @@
     <string name="new_playlist">Nova lista de reprodução</string>
     <string name="new_playlist_name_template">Lista de reprodução <ns1:g id="number">%d</ns1:g></string>
     <string name="no_effects_for_you">O equalizador não pôde ser aberto.</string>
-    <string msgid="478774118347071097" name="not_set">"Não definido"</string>
     <string name="old_photo">Usar foto antiga</string>
     <string name="overwrite">Substituir</string>
     <string name="page_albums">Álbuns</string>
@@ -189,11 +187,10 @@
     <string name="playlist_recently_played">Tocadas recentemente</string>
     <string name="playlist_renamed">Lista de reprodução renomeada</string>
     <string name="playlist_top_tracks">Minhas mais tocadas</string>
-    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
     <string name="remove_from_queue">Remover da fila</string>
     <string name="remove_from_recent">Remover das recentes</string>
     <string name="save">Salvar</string>
-    <string msgid="730395136688082741" name="search_menu_title">"Pesquisar"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
     <string name="search_title_albums">Todos os álbuns com \"%s\"</string>
     <string name="search_title_artists">Todos os artistas com \"%s\"</string>
     <string name="search_title_playlists">Todas as listas de reprodução com \"%s\"</string>
@@ -207,8 +204,6 @@
     <string name="settings_download_only_on_wifi_summary">Não baixar pela rede móvel para reduzir cobranças da operadora</string>
     <string name="settings_download_only_on_wifi_title">Baixar somente via Wi-Fi</string>
     <string name="settings_general_category">Geral</string>
-    <string name="settings_lockscreen_album_art">Arte do álbum na tela de bloqueio</string>
-    <string name="settings_lockscreen_album_art_summary">Substitui o fundo da tela de bloqueio pela arte do álbum</string>
     <string name="settings_shake_to_play">Agite para tocar</string>
     <string name="settings_shake_to_play_summary">Agite seu dispositivo para tocar a próxima música</string>
     <string name="settings_show_lyrics_summary">Para as músicas que tenham um arquivo srt</string>
@@ -216,6 +211,7 @@
     <string name="settings_show_music_visualization_title">Mostrar visualização de música</string>
     <string name="settings_storage_category">Armazenamento</string>
     <string name="settings_ui_category">Interface</string>
+    <string name="settings_use_blur_title">Desfocar fundo</string>
     <string name="sort_order_entry_album">Álbum</string>
     <string name="sort_order_entry_artist">Artista</string>
     <string name="sort_order_entry_az">A-Z</string>
@@ -227,7 +223,7 @@
     <string name="sort_order_entry_track_list">Lista de faixas</string>
     <string name="sort_order_entry_year">Ano</string>
     <string name="sort_order_entry_za">Z-A</string>
-    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="use_default">Usar foto padrão</string>
     <string msgid="5138405918326871307" name="v7_preference_off">"DESATIVADO"</string>

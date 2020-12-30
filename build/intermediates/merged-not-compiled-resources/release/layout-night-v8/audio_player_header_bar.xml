@@ -40,7 +40,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:gravity="center"
             android:maxLines="1"
             android:textAllCaps="true"
             android:textColor="@color/header_action_bar_text_color"
@@ -54,23 +53,10 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:gravity="center"
             android:paddingBottom="2dp"
             android:textAllCaps="true"
             android:textColor="@color/header_action_bar_text_color"
             android:textSize="@dimen/text_size_micro"
             tools:text="Name of Artist" />
-
-        <ImageView
-            android:id="@+id/header_bar_search_button"
-            android:layout_width="@dimen/header_bar_custom_button_width"
-            android:layout_height="0dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="0"
-            android:background="@drawable/selectable_background"
-            android:src="@drawable/ic_action_searchmptop"
-            android:scaleType="centerInside" />
-
-
     </LinearLayout>
 </androidx.appcompat.widget.Toolbar>

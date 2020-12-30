@@ -174,8 +174,6 @@
     <string name="settings_download_only_on_wifi_summary">Fir Providerkäschten ze reduzéieren, net iwwer mobil Netzwierker eroflueden</string>
     <string name="settings_download_only_on_wifi_title">Just iwwer WLAN eroflueden</string>
     <string name="settings_general_category">Allgemeng</string>
-    <string name="settings_lockscreen_album_art">Album-Biller um Spärschierm</string>
-    <string name="settings_lockscreen_album_art_summary">D\'Hannergrondbild um Spärschierm mam Album-Bild ersetzen</string>
     <string name="settings_shake_to_play">Rësele fir opzespillen</string>
     <string name="settings_shake_to_play_summary">Apparat rësele fir dat nächst Lidd ofzespillen</string>
     <string name="settings_show_lyrics_summary">Fir Lidder déi en \"srt\"-Fichier hunn</string>

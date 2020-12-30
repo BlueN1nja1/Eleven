@@ -197,8 +197,6 @@
     <string name="settings_download_only_on_wifi_summary">Airson cosgaisean a sheachnadh, na luchdaich a-nuas air lìonra mobile</string>
     <string name="settings_download_only_on_wifi_title">Na luchdaich a-nuas ach air WiFi</string>
     <string name="settings_general_category">Coitcheann</string>
-    <string name="settings_lockscreen_album_art">Obair-ealain albaman air an sgrìn-ghlasaidh</string>
-    <string name="settings_lockscreen_album_art_summary">Cuir obair-ealain an albaim an àite cùlaibh na sgrìn-ghlasaidh</string>
     <string name="settings_shake_to_play">Crath airson cluich</string>
     <string name="settings_shake_to_play_summary">Crath an t-uidheam agad airson an ath-òran a chluich</string>
     <string name="settings_show_lyrics_summary">Airson òrain aig a bheil faidhle srt</string>

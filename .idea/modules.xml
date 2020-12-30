@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ElevenMT.iml" filepath="$PROJECT_DIR$/ElevenMT.iml" group="ElevenMT" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android_packages_apps_Eleven-lineage-18.1.iml" filepath="$PROJECT_DIR$/.idea/modules/android_packages_apps_Eleven-lineage-18.1.iml" />
     </modules>
   </component>
 </project>

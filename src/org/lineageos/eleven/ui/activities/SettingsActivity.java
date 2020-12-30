@@ -23,6 +23,8 @@ import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
@@ -30,6 +32,7 @@ import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
@@ -39,8 +42,6 @@ import org.lineageos.eleven.cache.ImageFetcher;
 import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.PreferenceUtils;
 
-import java.util.Objects;
-
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
@@ -49,15 +50,19 @@ public class SettingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
 
         final Toolbar toolbar = findViewById(R.id.toolbar);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            onBackPressed();
-            finish();
-            return true;
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                finish();
+                return true;
+            default:
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -145,15 +150,6 @@ public class SettingsActivity extends AppCompatActivity {
                     final boolean enableShakeToPlay = sharedPreferences.getBoolean(key, false);
                     try {
                         mService.setShakeToPlayEnabled(enableShakeToPlay);
-                    } catch (final RemoteException exc) {
-                        // do nothing
-                    }
-                    break;
-                }
-                case PreferenceUtils.SHOW_ALBUM_ART_ON_LOCKSCREEN: {
-                    final boolean setShowAlbumArtOnLockscreen = sharedPreferences.getBoolean(key, false);
-                    try {
-                        mService.setLockscreenAlbumArt(setShowAlbumArtOnLockscreen);
                     } catch (final RemoteException exc) {
                         // do nothing
                     }

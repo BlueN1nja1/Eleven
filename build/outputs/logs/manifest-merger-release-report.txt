@@ -1,375 +1,367 @@
 -- Merging decision tree log ---
 action#org.lineageos.eleven.AUDIO_PLAYER
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:91:17-72
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:90:17-72
 	android:name
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:91:25-69
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:90:25-69
 manifest
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
-MERGED from [androidx.preference:preference:1.1.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d07aa33c07b3d4285a8733517fb15623\preference-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5a4d7c446b8ff57bd2d581a40a068f74\material-1.2.0-alpha06\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.2.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9386a365afdf01d648926909b929d0c2\appcompat-1.2.0-beta01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\40ae11a57a952eaf414d911b0edf8c3a\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.palette:palette:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\acf706e6ea0c86269bda52fb351cb88f\palette-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d8de3c074a6478ce40781989f7298df5\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ca276d69282222decd5e48ae5206231b\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f397bfbfc0fdf7b6303669b74a6c9a27\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\2078801535077bc643d4a55f2c60548a\appcompat-resources-1.2.0-beta01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1adbc9206c50fe4f9bff65f406b03b83\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\97378c09375ff3589f7dc0728d908dce\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\dfe2803c7261056abba24d27dfb24b05\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\568528e223a4fd1e920089646b57f7f5\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\bbb68f456a6321ce5753e2aba291b5b4\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\10045a57bc0139b932e6eca031bc35ca\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7d006a3243122a53ce7d4e2cefdf30e1\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0eb186988bd2afcc46edc30ca77b8e88\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\44ac9d78a7e155959296965f36f2809f\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3a846b3c9c631f157bce9b97c75c67e4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\29b8c632fe3a40e83360c77495d307c0\activity-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\139812e370049962412f8040fad74811\core-1.3.0-beta01\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a8d53b3f1e6aa74f13963287d76cc4e8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fdce1ac3ec18d405d793ef4d5a327188\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7542aa74a47c68a777f6c0b1c3296b00\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9b1c8e1633f801c6c54f26a7697934cd\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1295719eac0a683a04ae30569f0b2020\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a2a7d348e42965a2c605bebb5ce85291\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\dac95e5a33e36e36761f65a5d964e979\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ceed1d44c95400c67c0cbce94f59fad9\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0c09275202431bbbf4db4bc5b7dbadf\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ba70ee73c70f82899307f92cde41f6f6\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\4a30df329adffa415b339f08efc120c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8078c7dc2ebd507d48ef7fba3da61322\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\600d21539661182a2032a1b5e1b85340\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\68ac1b243c4e1988fc1fd9d61e5055de\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:1-201:12
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\44fdfe567b3e9743183ba1af526ef550\preference-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0fae3d9013be8f69fa615280ce21ea3\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0cf0ce774afedddbfc813f566e3b2f9e\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fab2303f471c1f7a4f58d7e08634d45d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\459f71b02cfa14eeb5e1776b29f3dff7\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\76c58db06d52adfdb529a329bd174a8e\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9f3ac530cd999c3dc276f567e709324b\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\95b7d3324be8892cf4e7e5d7d96de949\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ed30b55bfa77c70233a20889ea6829bc\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\40c57f1debdd611b6cc8c537ce0d409d\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3d8105555c83e5f6b835b2d08d1f54c7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8fc4b4f0d4290c21e0f3332ef7d68169\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7dd8e228d4aa3461a42cda55b2114e70\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\43a48fabb116b08b479f16b7ff36887a\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\31ccf9d71f7c0a2428074d63692b20e4\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3e18ae5ac183200cbb707fd9dc7feed7\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ba068ff035c5a3369bcc539e4c0a3983\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0a6fcff0a6b1b9bf9c064aa4ef204471\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\cc355c5f29b13e1180b625eb3c723040\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7acbad1329f8e3b6284e81b485a3cee2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\92b3d4046ab6891d427a7838ffeb8a61\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f2d424e161909cc78a47bc198ec6c153\core-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\18792893332f3f306e5a73b9074ea34a\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8e71b8d7925aa875ad98cc4323e178d8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\bbfb1852e816c33bae0cddbf7cd8bee1\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d48a370d209fd8961e419a33870ef2d8\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\85a586c95034234c16cf7743d16f1b7f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\208fe0998dc053da51718d47f7f2b832\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\6cc40f8c1d617ef9d9bd2a99c6d2aaab\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1ad003232ce20771195d3d339c6b8420\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5ddfb8e145910ccd8c0082a842036fc4\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\98c07ae8c5823fd3bdaa91112965dec8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\78f42912b2b79c0e9bc7b7bca72757d0\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:1-200:12
 	package
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:19:5-35
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:19:5-35
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
 	android:versionName
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:21:5-32
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:21:5-44
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
 	xmlns:android
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:18:11-69
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:18:11-69
 	android:versionCode
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:20:5-30
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:20:5-30
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:24:5-81
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:24:5-81
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:24:22-78
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:24:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:26:5-79
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:26:5-79
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:26:22-76
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:28:5-67
-	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:28:22-64
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:26:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:30:5-68
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:28:5-68
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:30:22-65
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:28:22-65
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:32:5-75
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:30:5-75
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:32:22-72
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:30:22-72
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:34:5-75
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:32:5-75
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:34:22-72
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:32:22-72
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:36:5-73
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:34:5-73
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:36:22-70
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:34:22-70
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:38:5-88
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:36:5-88
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:38:22-85
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:36:22-85
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:40:5-79
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:38:5-79
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:40:22-77
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:38:22-77
 uses-permission#android.permission.WRITE_MEDIA_STORAGE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:42:5-78
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:40:5-78
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:42:22-75
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:40:22-75
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:45:5-71
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:43:5-71
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:45:22-68
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:43:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:46:5-80
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:44:5-80
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:46:22-77
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:44:22-77
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:49:5-77
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:47:5-77
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:49:22-74
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:47:22-74
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:52:5-74
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:50:5-74
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:52:19-71
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:50:19-71
 application
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:54:5-199:19
-MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5a4d7c446b8ff57bd2d581a40a068f74\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5a4d7c446b8ff57bd2d581a40a068f74\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f397bfbfc0fdf7b6303669b74a6c9a27\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f397bfbfc0fdf7b6303669b74a6c9a27\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\139812e370049962412f8040fad74811\core-1.3.0-beta01\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\139812e370049962412f8040fad74811\core-1.3.0-beta01\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fdce1ac3ec18d405d793ef4d5a327188\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fdce1ac3ec18d405d793ef4d5a327188\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:52:5-198:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0fae3d9013be8f69fa615280ce21ea3\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0fae3d9013be8f69fa615280ce21ea3\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9f3ac530cd999c3dc276f567e709324b\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9f3ac530cd999c3dc276f567e709324b\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f2d424e161909cc78a47bc198ec6c153\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f2d424e161909cc78a47bc198ec6c153\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\18792893332f3f306e5a73b9074ea34a\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\18792893332f3f306e5a73b9074ea34a\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:56:9-52
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\139812e370049962412f8040fad74811\core-1.3.0-beta01\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f2d424e161909cc78a47bc198ec6c153\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:61:9-41
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:60:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:58:9-71
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:57:9-71
 	android:appCategory
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:59:9-36
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:58:9-36
 	android:allowTaskReparenting
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:57:9-44
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:55:9-44
 	android:largeHeap
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:62:9-51
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:61:9-51
 	android:icon
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:60:9-43
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:59:9-43
 	android:allowBackup
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:56:9-35
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:54:9-35
 	android:theme
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:64:9-44
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:63:9-44
 	android:taskAffinity
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:63:9-57
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:62:9-57
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:55:9-62
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:53:9-62
 activity#org.lineageos.eleven.ui.activities.HomeActivity
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:67:9-95:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:66:9-94:20
 	android:launchMode
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:70:13-43
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:69:13-43
 	android:windowSoftInputMode
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:69:13-52
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:68:13-52
 	android:exported
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:71:13-36
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:70:13-36
 	android:theme
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:72:13-66
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:71:13-66
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:68:13-75
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:67:13-75
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.MUSIC_PLAYER+category:name:android.intent.category.APP_MUSIC+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:73:13-80:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:72:13-79:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:74:17-69
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:73:17-69
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:74:25-66
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:73:25-66
 action#android.intent.action.MUSIC_PLAYER
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:75:17-77
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:74:17-77
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:75:25-74
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:74:25-74
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:77:17-77
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:76:17-77
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:77:27-74
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:76:27-74
 category#android.intent.category.APP_MUSIC
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:78:17-78
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:77:17-78
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:78:27-75
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:77:27-75
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:79:17-76
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:78:17-76
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:79:27-73
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:78:27-73
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/albums+data:mimeType:vnd.android.cursor.dir/artists+data:mimeType:vnd.android.cursor.dir/playlist
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:81:13-89:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:80:13-88:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:82:17-69
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:81:17-69
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:82:25-66
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:81:25-66
 data
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:86:17-76
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:85:17-76
 	android:scheme
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:113:23-47
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:112:23-47
 	android:mimeType
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:86:23-73
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:85:23-73
 intent-filter#action:name:org.lineageos.eleven.AUDIO_PLAYER+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:90:13-94:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:89:13-93:29
 activity#org.lineageos.eleven.ui.activities.SettingsActivity
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:98:9-100:52
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:97:9-99:52
 	android:label
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:100:13-50
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:99:13-50
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:99:13-79
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:98:13-79
 activity#org.lineageos.eleven.ui.activities.preview.AudioPreviewActivity
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:102:9-142:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:101:9-141:20
 	android:excludeFromRecents
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:105:13-46
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:104:13-46
 	android:launchMode
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:104:13-44
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:103:13-44
 	android:theme
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:107:13-54
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:106:13-54
 	android:taskAffinity
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:106:13-36
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:105:13-36
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:103:13-71
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:102:13-71
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:content
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:108:13-118:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:107:13-117:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:file
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:119:13-129:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:118:13-128:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:http
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:130:13-141:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:129:13-140:29
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:134:17-78
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:133:17-78
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:134:27-75
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:133:27-75
 receiver#org.lineageos.eleven.appwidgets.AppWidgetSmall
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:144:9-155:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:143:9-154:20
 	android:label
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:147:13-53
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:146:13-53
 	android:exported
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:146:13-37
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:145:13-37
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:145:13-74
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:144:13-74
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:148:13-150:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:147:13-149:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:149:17-84
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:148:17-84
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:149:25-81
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:148:25-81
 meta-data#android.appwidget.provider
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:152:13-154:60
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:151:13-153:60
 	android:resource
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:154:17-57
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:153:17-57
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:153:17-58
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:152:17-58
 receiver#org.lineageos.eleven.appwidgets.AppWidgetLarge
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:157:9-168:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:156:9-167:20
 	android:label
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:160:13-53
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:159:13-53
 	android:exported
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:159:13-37
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:158:13-37
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:158:13-74
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:157:13-74
 receiver#org.lineageos.eleven.appwidgets.AppWidgetLargeAlternate
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:170:9-181:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:169:9-180:20
 	android:label
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:173:13-57
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:172:13-57
 	android:exported
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:172:13-37
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:171:13-37
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:171:13-83
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:170:13-83
 receiver#org.lineageos.eleven.MediaButtonIntentReceiver
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:183:9-187:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:182:9-186:20
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:183:19-80
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:182:19-80
 intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:184:13-186:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:183:13-185:29
 action#android.intent.action.MEDIA_BUTTON
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:185:17-77
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:184:17-77
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:185:25-74
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:184:25-74
 receiver#org.lineageos.eleven.locale.LocaleChangeReceiver
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:189:9-193:20
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:188:9-192:20
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:189:19-62
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:188:19-62
 intent-filter#action:name:android.intent.action.LOCALE_CHANGED
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:190:13-192:29
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:189:13-191:29
 action#android.intent.action.LOCALE_CHANGED
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:191:17-78
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:190:17-78
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:191:25-76
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:190:25-76
 service#org.lineageos.eleven.MusicPlaybackService
-ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:195:9-198:39
+ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:194:9-197:39
 	android:process
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:198:13-36
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:197:13-36
 	android:label
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:197:13-45
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:196:13-45
 	android:name
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml:196:13-69
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml:195:13-69
 uses-sdk
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-MERGED from [androidx.preference:preference:1.1.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d07aa33c07b3d4285a8733517fb15623\preference-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.preference:preference:1.1.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d07aa33c07b3d4285a8733517fb15623\preference-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5a4d7c446b8ff57bd2d581a40a068f74\material-1.2.0-alpha06\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5a4d7c446b8ff57bd2d581a40a068f74\material-1.2.0-alpha06\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.2.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9386a365afdf01d648926909b929d0c2\appcompat-1.2.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9386a365afdf01d648926909b929d0c2\appcompat-1.2.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\40ae11a57a952eaf414d911b0edf8c3a\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\40ae11a57a952eaf414d911b0edf8c3a\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.palette:palette:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\acf706e6ea0c86269bda52fb351cb88f\palette-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.palette:palette:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\acf706e6ea0c86269bda52fb351cb88f\palette-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d8de3c074a6478ce40781989f7298df5\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d8de3c074a6478ce40781989f7298df5\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ca276d69282222decd5e48ae5206231b\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ca276d69282222decd5e48ae5206231b\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f397bfbfc0fdf7b6303669b74a6c9a27\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f397bfbfc0fdf7b6303669b74a6c9a27\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\2078801535077bc643d4a55f2c60548a\appcompat-resources-1.2.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\2078801535077bc643d4a55f2c60548a\appcompat-resources-1.2.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1adbc9206c50fe4f9bff65f406b03b83\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1adbc9206c50fe4f9bff65f406b03b83\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\97378c09375ff3589f7dc0728d908dce\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\97378c09375ff3589f7dc0728d908dce\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\dfe2803c7261056abba24d27dfb24b05\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\dfe2803c7261056abba24d27dfb24b05\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\568528e223a4fd1e920089646b57f7f5\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\568528e223a4fd1e920089646b57f7f5\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\bbb68f456a6321ce5753e2aba291b5b4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\bbb68f456a6321ce5753e2aba291b5b4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\10045a57bc0139b932e6eca031bc35ca\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\10045a57bc0139b932e6eca031bc35ca\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7d006a3243122a53ce7d4e2cefdf30e1\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7d006a3243122a53ce7d4e2cefdf30e1\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0eb186988bd2afcc46edc30ca77b8e88\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0eb186988bd2afcc46edc30ca77b8e88\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\44ac9d78a7e155959296965f36f2809f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\44ac9d78a7e155959296965f36f2809f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3a846b3c9c631f157bce9b97c75c67e4\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3a846b3c9c631f157bce9b97c75c67e4\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\29b8c632fe3a40e83360c77495d307c0\activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\29b8c632fe3a40e83360c77495d307c0\activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\139812e370049962412f8040fad74811\core-1.3.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\139812e370049962412f8040fad74811\core-1.3.0-beta01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a8d53b3f1e6aa74f13963287d76cc4e8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a8d53b3f1e6aa74f13963287d76cc4e8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fdce1ac3ec18d405d793ef4d5a327188\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fdce1ac3ec18d405d793ef4d5a327188\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7542aa74a47c68a777f6c0b1c3296b00\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7542aa74a47c68a777f6c0b1c3296b00\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9b1c8e1633f801c6c54f26a7697934cd\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9b1c8e1633f801c6c54f26a7697934cd\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1295719eac0a683a04ae30569f0b2020\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1295719eac0a683a04ae30569f0b2020\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a2a7d348e42965a2c605bebb5ce85291\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a2a7d348e42965a2c605bebb5ce85291\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\dac95e5a33e36e36761f65a5d964e979\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\dac95e5a33e36e36761f65a5d964e979\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ceed1d44c95400c67c0cbce94f59fad9\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ceed1d44c95400c67c0cbce94f59fad9\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0c09275202431bbbf4db4bc5b7dbadf\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0c09275202431bbbf4db4bc5b7dbadf\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ba70ee73c70f82899307f92cde41f6f6\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ba70ee73c70f82899307f92cde41f6f6\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\4a30df329adffa415b339f08efc120c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\4a30df329adffa415b339f08efc120c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8078c7dc2ebd507d48ef7fba3da61322\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8078c7dc2ebd507d48ef7fba3da61322\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\600d21539661182a2032a1b5e1b85340\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\600d21539661182a2032a1b5e1b85340\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\68ac1b243c4e1988fc1fd9d61e5055de\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\68ac1b243c4e1988fc1fd9d61e5055de\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\44fdfe567b3e9743183ba1af526ef550\preference-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\44fdfe567b3e9743183ba1af526ef550\preference-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0fae3d9013be8f69fa615280ce21ea3\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\a0fae3d9013be8f69fa615280ce21ea3\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0cf0ce774afedddbfc813f566e3b2f9e\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0cf0ce774afedddbfc813f566e3b2f9e\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fab2303f471c1f7a4f58d7e08634d45d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\fab2303f471c1f7a4f58d7e08634d45d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\459f71b02cfa14eeb5e1776b29f3dff7\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\459f71b02cfa14eeb5e1776b29f3dff7\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\76c58db06d52adfdb529a329bd174a8e\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\76c58db06d52adfdb529a329bd174a8e\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9f3ac530cd999c3dc276f567e709324b\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\9f3ac530cd999c3dc276f567e709324b\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\95b7d3324be8892cf4e7e5d7d96de949\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\95b7d3324be8892cf4e7e5d7d96de949\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ed30b55bfa77c70233a20889ea6829bc\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ed30b55bfa77c70233a20889ea6829bc\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\40c57f1debdd611b6cc8c537ce0d409d\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\40c57f1debdd611b6cc8c537ce0d409d\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3d8105555c83e5f6b835b2d08d1f54c7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3d8105555c83e5f6b835b2d08d1f54c7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8fc4b4f0d4290c21e0f3332ef7d68169\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8fc4b4f0d4290c21e0f3332ef7d68169\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7dd8e228d4aa3461a42cda55b2114e70\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7dd8e228d4aa3461a42cda55b2114e70\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\43a48fabb116b08b479f16b7ff36887a\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\43a48fabb116b08b479f16b7ff36887a\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\31ccf9d71f7c0a2428074d63692b20e4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\31ccf9d71f7c0a2428074d63692b20e4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3e18ae5ac183200cbb707fd9dc7feed7\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\3e18ae5ac183200cbb707fd9dc7feed7\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ba068ff035c5a3369bcc539e4c0a3983\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\ba068ff035c5a3369bcc539e4c0a3983\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0a6fcff0a6b1b9bf9c064aa4ef204471\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\0a6fcff0a6b1b9bf9c064aa4ef204471\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\cc355c5f29b13e1180b625eb3c723040\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\cc355c5f29b13e1180b625eb3c723040\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7acbad1329f8e3b6284e81b485a3cee2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\7acbad1329f8e3b6284e81b485a3cee2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\92b3d4046ab6891d427a7838ffeb8a61\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\92b3d4046ab6891d427a7838ffeb8a61\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f2d424e161909cc78a47bc198ec6c153\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\f2d424e161909cc78a47bc198ec6c153\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\18792893332f3f306e5a73b9074ea34a\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\18792893332f3f306e5a73b9074ea34a\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8e71b8d7925aa875ad98cc4323e178d8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\8e71b8d7925aa875ad98cc4323e178d8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\bbfb1852e816c33bae0cddbf7cd8bee1\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\bbfb1852e816c33bae0cddbf7cd8bee1\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d48a370d209fd8961e419a33870ef2d8\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\d48a370d209fd8961e419a33870ef2d8\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\85a586c95034234c16cf7743d16f1b7f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\85a586c95034234c16cf7743d16f1b7f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\208fe0998dc053da51718d47f7f2b832\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\208fe0998dc053da51718d47f7f2b832\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\6cc40f8c1d617ef9d9bd2a99c6d2aaab\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\6cc40f8c1d617ef9d9bd2a99c6d2aaab\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1ad003232ce20771195d3d339c6b8420\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\1ad003232ce20771195d3d339c6b8420\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5ddfb8e145910ccd8c0082a842036fc4\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\5ddfb8e145910ccd8c0082a842036fc4\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\98c07ae8c5823fd3bdaa91112965dec8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\98c07ae8c5823fd3bdaa91112965dec8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\78f42912b2b79c0e9bc7b7bca72757d0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Marcos\.gradle\caches\transforms-2\files-2.1\78f42912b2b79c0e9bc7b7bca72757d0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		ADDED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
-		INJECTED from C:\Users\Marcos\Downloads\ElevenMT\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		ADDED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
+		INJECTED from C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\AndroidManifest-gradle.xml
