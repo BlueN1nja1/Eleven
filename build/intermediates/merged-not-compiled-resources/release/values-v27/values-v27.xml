@@ -159,6 +159,10 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <style name="ToolBarPopupTheme" parent="@style/Theme.AppCompat.Light"/>
-    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar"/>
+    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.Light">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>

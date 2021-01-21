@@ -207,9 +207,12 @@
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
 
-    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar" />
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar" >
+    </style>
 
-    <style name="ToolBarPopupTheme" parent="@style/Theme.AppCompat.Light" />
+    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.Light" >
+<item name="android:windowLightStatusBar">false</item>
+    </style>
 
     <style name="Eleven.Theme.PopupMenuOverlapAnchor">
         <item name="android:overlapAnchor">true</item>

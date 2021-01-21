@@ -38,7 +38,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Used to query {@link MediaStore.Audio.Albums.EXTERNAL_CONTENT_URI} and return
+ * Used to query {"@link MediaStore.Audio.Albums.EXTERNAL_CONTENT_URI"} and return
  * the albums on a user's device.
  *
  * @author Andrew Neal (andrewdneal@gmail.com)

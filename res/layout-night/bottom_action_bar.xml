@@ -16,7 +16,6 @@
   limitations under the License.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottom_action_bar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/bottom_action_bar_height"
@@ -24,8 +23,7 @@
     android:clickable="true"
     android:orientation="horizontal"
     android:elevation="@dimen/action_bar_elevation"
-    android:background="@android:color/transparent"
-    tools:ignore="ContentDescription" >
+    android:background="@android:color/transparent">
 
     <org.lineageos.eleven.widgets.SquareImageView
         android:id="@+id/bottom_action_bar_album_art"
@@ -63,6 +61,6 @@
             android:contentDescription="@string/accessibility_play"
             android:layout_width="@dimen/bab_progress_size"
             android:layout_height="@dimen/bab_progress_size"
-            layout="@layout/play_pause_progress_button" />
+            layout="@layout/play_pause_progress_button_alt" />
     </FrameLayout>
 </LinearLayout>

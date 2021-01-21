@@ -35,24 +35,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ApkExportedModule" value="android_packages_apps_Eleven-lineage-18.1" />
-    <property name="ExportApk.ApkPath" value="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1" />
+    <property name="ApkExportedModule" value="ElevenMT-Port" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Marcos\Downloads\ElevenMT-Port" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/ElevenOldPort/src/org/lineageos/eleven/ui/HeaderBar.java_SELECTED" value="HeaderBar" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/ElevenOldPort/src/org/lineageos/eleven/widgets/PlayPauseProgressButton.java_SELECTED" value="PlayPauseProgressButton" />
     <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/slidinguppanel/SlidingUpPanelLayout.java_SELECTED" value="SlidingUpPanelLayout" />
     <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/ui/HeaderBar.java_SELECTED" value="HeaderBar" />
     <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/MainPlaybackControls.java_SELECTED" value="MainPlaybackControls" />
     <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButton.java_SELECTED" value="PlayPauseButton" />
     <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButtonContainer.java_SELECTED" value="PlayPauseButtonContainer" />
+    <property name="android-custom-viewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseProgressButton.java_SELECTED" value="PlayPauseProgressButton" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/res/layout-night" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/ElevenOldPort/src/org/lineageos/eleven/ui/HeaderBar.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/ElevenOldPort/src/org/lineageos/eleven/widgets/PlayPauseProgressButton.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/slidinguppanel/SlidingUpPanelLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/ui/HeaderBar.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/MainPlaybackControls.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButton.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseButtonContainer.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Marcos/Downloads/android_packages_apps_Eleven-lineage-18.1/src/org/lineageos/eleven/widgets/PlayPauseProgressButton.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Build Variants" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,17 +68,135 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.lineageos.eleven.widgets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcos\Downloads\ElevenMT-Port\res" />
+      <recent name="C:\Users\Marcos\Downloads\ElevenMT-Port\res\menu" />
+      <recent name="C:\Users\Marcos\Downloads\ElevenMT-Port\src\org\lineageos\eleven\provider" />
+      <recent name="C:\Users\Marcos\Downloads\ElevenMT-Port\res\layout-night" />
       <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res\layout-night" />
-      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res\layout" />
-      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res" />
-      <recent name="C:\Users\Marcos\Downloads\android_packages_apps_Eleven-lineage-18.1\res\drawable" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.ElevenMT-Port">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElevenMT-Port" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ElevenMT-Port" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElevenOldPort" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ElevenOldPort" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -149,50 +273,66 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="797" y="446" key="#PSD" timestamp="1609349634041">
+    <state x="797" y="446" key="#PSD" timestamp="1611256727316">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="797" y="446" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1609349634041" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1609346922507">
+    <state x="797" y="446" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1611256727316" />
+    <state x="1018" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609631749976">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1609346922507" />
-    <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1609307246293">
+    <state x="1018" y="489" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1609631749976" />
+    <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610594725967">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.0.center" timestamp="1609307246293">
+    <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1610594725967" />
+    <state x="1045" y="584" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610595144726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.0.left" timestamp="1609307246293">
+    <state x="1045" y="584" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1610595144726" />
+    <state x="1080" y="472" key="AndroidCreateXmlResourceDialog" timestamp="1611254680079">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.0.right" timestamp="1609307246293">
+    <state x="1080" y="472" key="AndroidCreateXmlResourceDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611254680079" />
+    <state x="1588" y="392" key="FileChooserDialogImpl" timestamp="1611250838634">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.1.bottom" timestamp="1609307246293">
+    <state x="1588" y="392" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1611250838634" />
+    <state width="1258" height="394" key="GridCell.Tab.0.bottom" timestamp="1611258731462">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.1.center" timestamp="1609307246293">
+    <state width="1258" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731462" />
+    <state width="1258" height="394" key="GridCell.Tab.0.center" timestamp="1611258731461">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.1.left" timestamp="1609307246293">
+    <state width="1258" height="394" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731461" />
+    <state width="1258" height="394" key="GridCell.Tab.0.left" timestamp="1611258731461">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state width="2517" height="394" key="GridCell.Tab.1.right" timestamp="1609307246293">
+    <state width="1258" height="394" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731461" />
+    <state width="1258" height="394" key="GridCell.Tab.0.right" timestamp="1611258731462">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="394" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609307246293" />
-    <state x="988" y="417" width="629" height="566" key="find.popup" timestamp="1609355047309">
+    <state width="1258" height="394" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731462" />
+    <state width="1258" height="394" key="GridCell.Tab.1.bottom" timestamp="1611258731463">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="988" y="417" width="629" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1609355047309" />
+    <state width="1258" height="394" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731463" />
+    <state width="1258" height="394" key="GridCell.Tab.1.center" timestamp="1611258731463">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="394" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731463" />
+    <state width="1258" height="394" key="GridCell.Tab.1.left" timestamp="1611258731462">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="394" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731462" />
+    <state width="1258" height="394" key="GridCell.Tab.1.right" timestamp="1611258731463">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="394" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1611258731463" />
+    <state x="417" y="350" width="629" height="566" key="find.popup" timestamp="1611251623131">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="417" y="350" width="629" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1611251623131" />
     <state x="898" y="439" key="psd.add.library.dependency.panel.dimension" timestamp="1609298504890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

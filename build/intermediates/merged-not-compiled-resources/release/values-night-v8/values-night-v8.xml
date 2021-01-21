@@ -139,7 +139,7 @@
         <item name="android:background">@color/header_action_bar_color</item>
     </style>
     <style name="ActionBarWidgetTheme" parent="@style/Theme.MaterialComponents">
-        
+        <!-- This is the color of the search text hint in the action bar -->
         <item name="android:textColorHint">@color/search_hint_color</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>

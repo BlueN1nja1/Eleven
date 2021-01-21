@@ -1550,10 +1550,10 @@ public class MusicPlaybackService extends Service
                 PlaybackState.ACTION_PLAY_PAUSE |
                 PlaybackState.ACTION_PLAY_FROM_MEDIA_ID |
                 PlaybackState.ACTION_PAUSE |
+                PlaybackState.ACTION_SEEK_TO |
                 PlaybackState.ACTION_SKIP_TO_NEXT |
                 PlaybackState.ACTION_SKIP_TO_PREVIOUS |
-                PlaybackState.ACTION_STOP|
-                PlaybackState.ACTION_SEEK_TO;
+                PlaybackState.ACTION_STOP;
 
         if (what.equals(PLAYSTATE_CHANGED) || what.equals(POSITION_CHANGED)) {
             mSession.setPlaybackState(new PlaybackState.Builder()

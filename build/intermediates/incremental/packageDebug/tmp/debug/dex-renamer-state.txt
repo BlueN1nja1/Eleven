@@ -1,7 +1,7 @@
-#Tue Dec 29 22:29:57 EST 2020
-base.0=C\:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Thu Jan 21 14:25:59 EST 2021
+base.0=C\:\\Users\\Marcos\\Downloads\\ElevenMT-Port\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\Marcos\\Downloads\\ElevenMT-Port\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

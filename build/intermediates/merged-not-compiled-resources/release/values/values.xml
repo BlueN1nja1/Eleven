@@ -959,6 +959,8 @@
     <string name="empty_queue_secondary">To add songs to your Play Queue, tap the options menu on a song, album, or artist and select \"Add to queue\".</string>
     <string name="empty_recent">Songs you have listened to recently will show up here.</string>
     <string name="empty_recent_main">No recent songs</string>
+    <string name="empty_search"/>
+    <string name="empty_search_check"/>
     <string name="empty_top_tracks_main">No top tracks</string>
     <string name="empty_top_tracks_secondary">The songs you listen to most will be added to this list.</string>
     <string name="error_playing_track">Unable to play track %1$s</string>
@@ -998,6 +1000,7 @@
     <string name="menu_equalizer">Equalizer</string>
     <string name="menu_play_all">Play all</string>
     <string name="menu_save_queue">Save queue to playlist</string>
+    <string name="menu_search"/>
     <string name="menu_settings">Settings</string>
     <string name="menu_shuffle_album">Shuffle album</string>
     <string name="menu_shuffle_all">Shuffle all</string>
@@ -1035,6 +1038,7 @@
     <string name="remove_from_queue">Remove from queue</string>
     <string name="remove_from_recent">Remove from recent</string>
     <string name="save">Save</string>
+    <string name="searchHint"/>
     <string name="search_menu_title">Search</string>
     <string name="search_title_albums">All \"%s\" albums</string>
     <string name="search_title_artists">All \"%s\" artists</string>
@@ -3347,8 +3351,11 @@
     <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense
     </item>
   </style>
-    <style name="ToolBarPopupTheme" parent="@style/Theme.AppCompat.Light"/>
-    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar"/>
+    <style name="ToolBarPopupTheme" parent="@style/Theme.MaterialComponents.Light">
+<item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+    </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">

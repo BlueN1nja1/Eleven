@@ -42,11 +42,13 @@
             android:id="@+id/line_one"
             style="@style/ListItemMainText.Light.Single"
             android:layout_width="match_parent"
+            android:textColor="@color/white"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/line_two"
             style="@style/ListItemSecondaryText.Light.Single"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

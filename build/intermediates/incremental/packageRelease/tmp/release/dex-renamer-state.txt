@@ -1,4 +1,4 @@
-#Wed Dec 30 14:33:17 EST 2020
-base.0=C\:\\Users\\Marcos\\Downloads\\android_packages_apps_Eleven-lineage-18.1\\build\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+#Thu Jan 21 14:27:54 EST 2021
+base.0=C\:\\Users\\Marcos\\Downloads\\ElevenMT-Port\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
