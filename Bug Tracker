@@ -1,4 +1,0 @@
-Bugs that I'm aware of:
-- Light Theme Bug: The Play Queue's Text is Completely Unreadable! (Will hopefully be fixed in 5.5.0's Full Release)
-- Light Theme Bug: The Overview icon in the Slide Up Panel is Black rather than White. (Will hopefully be fixed in 5.5.0's Full Release)
-- File Deletion Bug: Due to Scoped Storage, Anyone on Android 10 or 11 won't be able to delete files (Will hopefully be fixed in 5.5.0's Full Release)

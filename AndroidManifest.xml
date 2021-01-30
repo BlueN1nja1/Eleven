@@ -19,7 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
     android:versionCode="550"
-    android:versionName="5.5.0 Open Beta 3"
+    android:versionName="5.5.0"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
