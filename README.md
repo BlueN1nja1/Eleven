@@ -3,6 +3,7 @@ Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo
 Note: This app respects Dark Theme on Android 10 Queen Cake!
 
 Current Available Accent Colors: Pixel Blue, Coral Red, Cyan, Android Green, Banana Yellow
+---------------------------------------------------------------------------------------------------------------------
 Only Available in 5.1.x Preview Versions as of right now: Eleven Pink, Deep Purple
 Planned Accent Colors: None at the Moment...
 
