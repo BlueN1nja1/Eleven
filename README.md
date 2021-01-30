@@ -8,8 +8,8 @@ Only Available in 5.1.x Preview Versions as of right now: Eleven Pink, Deep Purp
 Planned Accent Colors: None at the Moment...
 ---------------------------------------------------------------------------------------------------------------------
 Special Versions:
-
-LineageOS 15.1+ Devices / Custom Roms that have Eleven Pre-Installed (14.1 and older does not apply): Coming Soon!
 ---------------------------------------------------------------------------------------------------------------------
+LineageOS 15.1+ Devices / Custom Roms that have Eleven Pre-Installed (14.1 and older does not apply): Coming Soon!
+
 Screeenshots: Soon...
 ---------------------------------------------------------------------------------------------------------------------
