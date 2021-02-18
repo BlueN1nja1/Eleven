@@ -10,7 +10,8 @@ Planned Accent Colors: None at the Moment...
 ---------------------------------------------------------------------------------------------------------------------
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
-LineageOS 15.1+ Devices / Custom Roms that have Eleven Pre-Installed (14.1 and older does not apply): Coming Soon!
+LineageOS 18.1 Devices / Custom Roms that have Eleven Pre-Installed (16.0 and older does not apply): Coming Soon, but without the Centered Action Bar. (Will be version 4.0 if it gets approved)
+
 
 Screeenshots: Soon...
 ---------------------------------------------------------------------------------------------------------------------
