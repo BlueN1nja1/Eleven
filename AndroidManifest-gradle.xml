@@ -92,32 +92,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <!-- Searchable -->
-        <meta-data
-            android:name="android.app.default_searchable"
-            android:value=".ui.activities.SearchActivity" />
 
         <!-- Used to set options -->
         <activity
             android:name="org.lineageos.eleven.ui.activities.SettingsActivity"
             android:label="@string/menu_settings"/>
-        <!-- Search interface -->
-        <activity
-            android:name="org.lineageos.eleven.ui.activities.SearchActivity"
-            android:windowSoftInputMode="adjustResize"
-            android:exported="true"
-            android:theme="@style/Eleven.Theme">
-            <intent-filter>
-                <action android:name="android.intent.action.SEARCH" />
-                <action android:name="android.intent.action.MEDIA_SEARCH" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.searchable"
-                android:resource="@xml/searchable" />
-        </activity>
         <!-- Audio Preview -->
         <activity
             android:name=".ui.activities.preview.AudioPreviewActivity"
