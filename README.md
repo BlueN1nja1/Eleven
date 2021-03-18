@@ -12,7 +12,7 @@ Lineage Green (Will be replacing Android Green)
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
-Canceled as it has been merged officially in LineageOS 18.1
+LineageOS Devices: Canceled as it has been merged officially in LineageOS 18.1
 
 
 Screeenshots:
