@@ -10,7 +10,7 @@ Planned Accent Colors: Lineage Green (Will be replacing Android Green)
 ---------------------------------------------------------------------------------------------------------------------
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
-LineageOS 18.1 Devices / Custom Roms that have Eleven Pre-Installed (16.0 and older does not apply): Coming Soon, but without the Centered Action Bar. (Will be version 4.0 if it gets approved)
+Canceled as it has been merged officially in LineageOS 18.1
 
 
 Screeenshots: Soon...
