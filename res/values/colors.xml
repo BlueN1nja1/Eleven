@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012 Andrew Neal
      Copyright (C) 2014 The CyanogenMod Project
+     Copyright (C) 2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
 
-     http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
@@ -22,7 +23,7 @@
     <color name="accent">#1a73e8</color>
 
     <!-- Main colors -->
-    <color name="black">#333333</color>
+    <color name="black">#000000</color>
     <color name="semitransparent_black">#a0333333</color>
     <color name="white">#ffffff</color>
     <color name="grey">#9e9e9e</color>
@@ -103,13 +104,12 @@
     <color name="circular_progress_bar">@color/white</color>
 
     <!-- search no results text color -->
-    <color name="no_results">@color/red</color>
-    <color name="no_results_light">@color/red</color>
+    <color name="no_results_light">#ffffff</color>
 
     <color name="now_playing_divider">@color/transparent</color>
 
     <!-- App widget colors -->
-    <color name="widget_text">@color/accent</color>
+    <color name="widget_text">@color/white</color>
 
     <!-- Background Lyrics Color -->
     <color name="lyrics_background_color">#b2212121</color>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2021 The LineageOS Project
+ * Copyright (C) 2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,8 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.eleven;
+package org.lineageos.eleven.utils;
 
-public class BuildConstants {
-    public static final String PACKAGE_NAME = BuildConfig.APPLICATION_ID;
+import android.animation.Animator;
+
+public interface AnimatorEndListener extends Animator.AnimatorListener {
+
+    @Override
+    default void onAnimationStart(Animator animation) {
+        // Do nothing
+    }
+
+    @Override
+    default void onAnimationCancel(Animator animation) {
+        // Do nothing
+    }
+
+    @Override
+    default void onAnimationRepeat(Animator animation) {
+        // Do nothing
+    }
 }

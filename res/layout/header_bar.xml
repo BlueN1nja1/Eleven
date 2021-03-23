@@ -1,5 +1,6 @@
 <!--
      Copyright (C) 2014 The CyanogenMod Project
+     Copyright (C) 2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -53,8 +54,8 @@
         android:layout_height="@dimen/header_bar_button_height"
         android:layout_gravity="center_vertical"
         android:layout_weight="0"
-        android:background="@drawable/selectable_background"
         android:scaleType="centerInside"
-        android:src="@drawable/menu_button_mptopbar" />
+        android:background="@drawable/selectable_background"
+        android:src="@drawable/menu_button_light" />
 
 </org.lineageos.eleven.ui.HeaderBar>
