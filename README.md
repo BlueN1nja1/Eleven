@@ -12,7 +12,7 @@ None at the Moment...
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
-LineageOS Devices: May be packaged into flashable zip for those below 18.1.
+LineageOS Devices: Might be packaged into flashable zip for those below 18.1.
 
 
 Screeenshots:
