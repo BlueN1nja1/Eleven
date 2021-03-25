@@ -24,7 +24,7 @@
         android:id="@+id/toolbar"
         android:layout_width="157dp"
         android:layout_height="wrap_content"
-        android:background="@color/background_color"
+        android:background="@color/primary"
         android:minHeight="?attr/actionBarSize"
         android:titleTextColor="@color/default_text_color">
     </androidx.appcompat.widget.Toolbar>

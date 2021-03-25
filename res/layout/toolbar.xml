@@ -25,7 +25,7 @@
         android:layout_width="127dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/background_color"
+        android:background="@color/primary"
         android:minHeight="?attr/actionBarSize"
         android:titleTextColor="@color/default_text_color">
 
