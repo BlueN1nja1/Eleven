@@ -16,9 +16,7 @@
      limitations under the License.
  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.eleven"
-    android:versionCode="552"
-    android:versionName="5.5.2">
+    package="org.lineageos.eleven">
 
     <!-- Used for caching and creating new playlists -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

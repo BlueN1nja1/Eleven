@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2019-2021 The LineageOS Project
+ * Copyright (C) 2021 SHIFT GmbH
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -81,15 +82,16 @@ public abstract class SlidingPanelActivity extends BaseActivity {
     protected void initBottomActionBar() {
         super.initBottomActionBar();
         // Bottom action bar
-        final LinearLayout bottomActionBar = (LinearLayout) findViewById(R.id.bottom_action_bar);
+        final LinearLayout bottomActionBar = findViewById(R.id.bottom_action_bar);
         // Display the now playing screen or shuffle if this isn't anything
         // playing
         bottomActionBar.setOnClickListener(mOpenNowPlaying);
     }
 
     @Override
-    protected void onCreate(final Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void init(final Bundle savedInstanceState) {
+        super.init(savedInstanceState);
+
         mUseBlur = PreferenceUtils.getInstance(this).getUseBlur();
 
         mTargetNavigatePanel = Panel.None;
@@ -97,8 +99,8 @@ public abstract class SlidingPanelActivity extends BaseActivity {
         setupFirstPanel();
         setupSecondPanel();
 
-        // get the blur scrim image
-        mAlbumScrimImage = findViewById(R.id.blurScrimImage);
+        // get the album scrim image
+        mAlbumScrimImage = findViewById(R.id.albumScrimImage);
 
         if (savedInstanceState != null) {
             int panelIndex = savedInstanceState.getInt(STATE_KEY_CURRENT_PANEL,
@@ -265,6 +267,10 @@ public abstract class SlidingPanelActivity extends BaseActivity {
     }
 
     public Panel getCurrentPanel() {
+        if (!isInitialized()) {
+            return Panel.None;
+        }
+
         if (mSecondPanel.isPanelExpanded()) {
             return Panel.Queue;
         } else if (mFirstPanel.isPanelExpanded()) {

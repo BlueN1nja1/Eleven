@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:4.1.2"
+        classpath "com.android.tools.build:gradle:4.1.3"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -31,7 +31,7 @@ tasks.register("updateGradleWrapper", Wrapper) {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -41,11 +41,11 @@ android {
     defaultConfig {
         applicationId "org.lineageos.eleven"
 
-        minSdkVersion 26
-        targetSdkVersion 29
+        minSdkVersion 29
+        targetSdkVersion 30
 
-        versionCode 552
-        versionName '5.5.2'
+        versionCode 560
+        versionName '5.6.0_10'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
@@ -64,14 +64,14 @@ android {
             applicationIdSuffix ".dev"
 
             debuggable true
-            proguardFiles 'proguard.cfg', 'proguard-debug.cfg'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
             minifyEnabled true
             shrinkResources true
             zipAlignEnabled true
         }
         release {
             debuggable false
-            proguardFiles 'proguard.cfg'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
             minifyEnabled true
             shrinkResources true
             zipAlignEnabled true
@@ -143,5 +143,5 @@ dependencies {
 
     // see https://github.com/material-components/material-components-android/releases
     implementation "com.google.android.material:material:1.3.0"
-    implementation 'com.google.guava:guava:30.1-jre'
+    implementation 'com.google.guava:guava:30.1-android'
 }
