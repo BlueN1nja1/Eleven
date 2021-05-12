@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:4.1.3"
+        classpath 'com.android.tools.build:gradle:4.2.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -41,11 +41,11 @@ android {
     defaultConfig {
         applicationId "org.lineageos.eleven"
 
-        minSdkVersion 29
+        minSdkVersion 28
         targetSdkVersion 30
 
         versionCode 560
-        versionName '5.6.0_10'
+        versionName '5.6.0_9'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
@@ -143,5 +143,4 @@ dependencies {
 
     // see https://github.com/material-components/material-components-android/releases
     implementation "com.google.android.material:material:1.3.0"
-    implementation 'com.google.guava:guava:30.1-android'
 }
