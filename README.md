@@ -8,7 +8,7 @@ Pixel Blue and Lineage Green (5.6.0)
 
 Planned Accent Colors:
 ---------------------------------------------------------------------------------------------------------------------
-Coral Red, Cyan, Banana Yellow, Deep Purple and Eleven Pink (Currently Available in 5.5.x)
+Coral Red, Cyan, Banana Yellow, Deep Purple and Eleven Pink (Currently Available in 5.5.0)
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
