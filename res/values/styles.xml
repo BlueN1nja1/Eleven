@@ -57,7 +57,7 @@
 
     <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">?android:fontFamily</item>
+        <item name="android:fontFamily">@font/gsansmedium</item>
     </style>
 
     <!-- Make the action bar not take up space -->
