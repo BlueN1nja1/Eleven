@@ -45,7 +45,7 @@ android {
         targetSdkVersion 30
 
         versionCode 560
-        versionName '5.6.0_9'
+        versionName '5.6.0.1'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
