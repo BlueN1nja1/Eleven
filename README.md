@@ -17,7 +17,7 @@ Search for both Android Oreo and Android 10+, Material You Support, System Font 
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
-LineageOS Devices: Might be packaged into flashable zip for those below 18.1.
+LineageOS Devices: Might be packaged into a flashable zip for those below 18.1.
 
 
 Screeenshots:
