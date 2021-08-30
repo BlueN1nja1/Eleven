@@ -13,7 +13,7 @@ None at the Moment...
 
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
-Search for both Android Oreo and Android 10+, Material You Support and System Font Support
+Search for both Android Oreo and Android 10+, Material You Support, System Accent Color Support and System Font Support
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
