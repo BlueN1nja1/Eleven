@@ -17,9 +17,9 @@
 -->
 <resources>
     <!-- Material -->
-    <color name="primary">@android:color/system_neutral1_50</color>
-    <color name="primary_dark">@android:color/system_neutral1_100</color>
-    <color name="accent">@android:color/system_accent1_400</color>
+    <color name="primary">@android:color/system_neutral1_800</color>
+    <color name="primary_dark">@android:color/system_neutral1_900</color>
+    <color name="accent">@android:color/system_accent2_300</color>
 
     <!-- Main colors -->
     <color name="black">#000000</color>
@@ -44,8 +44,8 @@
     <color name="blue_dark">#303F9F</color>
 
     <!-- Standard Text Color -->
-    <color name="default_text_color">@color/black</color>
-    <color name="default_text_color_light">@color/black</color>
+    <color name="default_text_color">@color/white</color>
+    <color name="default_text_color_light">@color/white</color>
 
     <!-- Cards -->
     <color name="cards_bg_color">#ffffff</color>
@@ -53,19 +53,19 @@
     <!-- Transparent colors -->
     <color name="transparent">#00000000</color>
 
-    <color name="background_color">@android:color/system_neutral1_100</color>
+    <color name="background_color">@android:color/system_neutral1_900</color>
 
     <!-- Color for the action bar -->
     <color name="header_action_bar_color">@color/primary</color>
-    <color name="header_action_bar_text_color">@color/black</color>
+    <color name="header_action_bar_text_color">@color/white</color>
     <color name="header_action_bar_text_color_active">@color/accent</color>
     <color name="bottom_action_bar_text_color">@color/white</color>
 
     <!-- Background color used on some page headers -->
-    <color name="page_header_background">@android:color/system_neutral1_100</color>
+    <color name="page_header_background">@android:color/system_neutral1_800</color>
 
     <!-- Color for background for shadow on playlist page -->
-    <color name="header_shadow_color">#eaffffff</color>
+    <color name="header_shadow_color">#ea212121</color>
 
     <!-- Color for the pop up menu -->
     <color name="menu_text_color">@color/black</color>
@@ -100,38 +100,11 @@
     <!-- Background Lyrics Color -->
     <color name="lyrics_background_color">#b2212121</color>
 
-    <!-- Letter tile colors -->
-    <color name="letter_tile_default_color">@color/grey</color>
-    <color name="letter_tile_font_color">@color/white</color>
-    <array name="letter_tile_colors">
-        <item>@color/letter_tile_purple_color</item>
-        <item>@color/letter_tile_blue_color</item>
-        <item>@color/letter_tile_indigo_color</item>
-        <item>@color/letter_tile_teal_color</item>
-        <item>@color/letter_tile_light_green_color</item>
-        <item>@color/letter_tile_red_color</item>
-        <item>@color/letter_tile_grey_color</item>
-        <item>@color/letter_tile_deep_orange_color</item>
-        <item>@color/letter_tile_brown_color</item>
-    </array>
-
-    <array name="letter_tile_vibrant_dark_colors">
-        <item>@color/letter_tile_purple_color_dark</item>
-        <item>@color/letter_tile_blue_color_dark</item>
-        <item>@color/letter_tile_indigo_color_dark</item>
-        <item>@color/letter_tile_teal_color_dark</item>
-        <item>@color/letter_tile_light_green_color_dark</item>
-        <item>@color/letter_tile_red_color_dark</item>
-        <item>@color/letter_tile_grey_color_dark</item>
-        <item>@color/letter_tile_deep_orange_color_dark</item>
-        <item>@color/letter_tile_brown_color_dark</item>
-    </array>
-
     <!-- Color for the visualizer bars -->
     <color name="visualizer_fill_color">#bffafafa</color>
 
     <!-- Separated and exposed values for themes -->
-    <color name="widget_background_color">@android:color/system_accent2_50</color>
+    <color name="widget_background_color">@android:color/system_accent2_800</color>
     <color name="activity_album_detail_background_color">@color/background_color</color>
     <color name="activity_artist_detail_background_color">@color/background_color</color>
     <color name="activity_base_background_color">@color/background_color</color>
