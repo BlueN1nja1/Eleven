@@ -16,7 +16,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme" parent="@style/Theme.AppCompat.NoActionBar">
+    <style name="Eleven.Theme" parent="@style/Theme.Material3.Dark.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>
@@ -34,5 +34,5 @@
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
     </style>
 
-    <style name="ToolBarPopupTheme" parent="@style/Theme.AppCompat" />
+    <style name="ToolBarPopupTheme" parent="@style/Theme.Material3.Dark" />
 </resources>

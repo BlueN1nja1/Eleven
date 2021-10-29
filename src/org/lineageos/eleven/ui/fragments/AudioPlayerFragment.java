@@ -16,7 +16,6 @@
  */
 package org.lineageos.eleven.ui.fragments;
 
-import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -43,12 +42,15 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.R;
@@ -201,7 +203,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
             mSelectedId = MusicUtils.getCurrentAudioId();
             if (activity != null) {
                 final List<String> menuItemList = MusicUtils.makePlaylist(activity);
-                final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+                final MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(activity, R.style.ThemeOverlay_App_MaterialAlertDialog);
                 builder.setTitle(R.string.add_to_playlist)
                         .setItems(menuItemList.toArray(new String[0]), (dialog, which) -> {
                             final long playListId = MusicUtils.getIdForPlaylist(getActivity(),

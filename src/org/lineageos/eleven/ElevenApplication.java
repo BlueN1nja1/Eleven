@@ -20,12 +20,15 @@ package org.lineageos.eleven;
 import android.app.Application;
 import android.os.StrictMode;
 
+import com.google.android.material.color.DynamicColors;
+
 import org.lineageos.eleven.cache.ImageCache;
 
 public class ElevenApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        DynamicColors.applyToActivitiesIfAvailable(this, R.style.Eleven_Theme_Overlay);
 
         if (BuildConfig.DEBUG) {
             enableStrictMode();

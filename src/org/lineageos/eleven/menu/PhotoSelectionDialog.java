@@ -26,6 +26,8 @@ import android.widget.ListAdapter;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.ui.activities.HomeActivity;
@@ -70,7 +72,7 @@ public class PhotoSelectionDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
         final Bundle args = getArguments();
-        final String title = args == null ? "" : args.getString(Config.NAME);
+        final String dialogTitle = args == null ? "" : args.getString(Config.NAME);
         final String[] choices = new String[2];
         // Select a photo from the gallery
         choices[NEW_PHOTO] = getString(R.string.new_photo);
@@ -81,7 +83,7 @@ public class PhotoSelectionDialog extends DialogFragment {
         final HomeActivity activity = (HomeActivity) getActivity();
         final ListAdapter adapter = new ArrayAdapter<>(activity,
                 android.R.layout.select_dialog_item, choices);
-        return new AlertDialog.Builder(activity).setTitle(title)
+        return new MaterialAlertDialogBuilder(activity).setTitle(dialogTitle)
                 .setAdapter(adapter, (dialog, which) -> {
                     switch (which) {
                         case NEW_PHOTO:

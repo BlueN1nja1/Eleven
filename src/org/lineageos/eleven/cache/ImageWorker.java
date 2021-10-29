@@ -25,7 +25,6 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.TransitionDrawable;
-import android.renderscript.RenderScript;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -49,11 +48,6 @@ import java.util.concurrent.RejectedExecutionException;
  * placeholder image.
  */
 public abstract class ImageWorker {
-
-    /**
-     * Render script
-     */
-    public static RenderScript sRenderScript = null;
 
     /**
      * Tracks which images we've tried to download and prevents it from trying again
@@ -93,10 +87,6 @@ public abstract class ImageWorker {
      */
     protected ImageWorker(final Context context) {
         mContext = context.getApplicationContext();
-
-        if (sRenderScript == null) {
-            sRenderScript = RenderScript.create(mContext);
-        }
 
         // Create the transparent layer for the transition drawable
         mTransparentDrawable = new ColorDrawable(Color.TRANSPARENT);
@@ -472,7 +462,7 @@ public abstract class ImageWorker {
                 final AsyncTaskContainer asyncTaskContainer = new AsyncTaskContainer(bitmapWorkerTask);
                 imageView.setTag(asyncTaskContainer);
                 try {
-                    ElevenUtils.execute(false, bitmapWorkerTask,
+                    ElevenUtils.execute(bitmapWorkerTask,
                             artistName, albumName, String.valueOf(albumId));
                 } catch (RejectedExecutionException e) {
                     // Executor has exhausted queue space
@@ -533,7 +523,7 @@ public abstract class ImageWorker {
             final AsyncTaskContainer asyncTaskContainer = new AsyncTaskContainer(bitmapWorkerTask);
             imageView.setTag(asyncTaskContainer);
             try {
-                ElevenUtils.execute(false, bitmapWorkerTask);
+                ElevenUtils.execute(bitmapWorkerTask);
             } catch (RejectedExecutionException e) {
                 // Executor has exhausted queue space
             }
@@ -559,12 +549,12 @@ public abstract class ImageWorker {
         if (executePotentialWork(key, albumScrimImage) && !mImageCache.isDiskCachePaused()) {
             // Otherwise run the worker task
             final BlurBitmapWorkerTask blurWorkerTask = new BlurBitmapWorkerTask(key,
-                    albumScrimImage, ImageType.ALBUM, mTransparentDrawable, mContext, sRenderScript);
+                    albumScrimImage, ImageType.ALBUM, mTransparentDrawable, mContext);
             final AsyncTaskContainer asyncTaskContainer = new AsyncTaskContainer(blurWorkerTask);
             albumScrimImage.setTag(asyncTaskContainer);
 
             try {
-                ElevenUtils.execute(false, blurWorkerTask, artistName, albumName,
+                ElevenUtils.execute(blurWorkerTask, artistName, albumName,
                         String.valueOf(albumId));
             } catch (RejectedExecutionException e) {
                 // Executor has exhausted queue space, show default artwork

@@ -18,7 +18,6 @@ package org.lineageos.eleven.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -29,6 +28,8 @@ import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.fragment.app.FragmentManager;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.R;
@@ -353,7 +354,7 @@ public abstract class PopupMenuHelper implements PopupMenu.OnMenuItemClickListen
                     MusicUtils.addToQueue(mActivity, getIdList(), getSourceId(), getSourceType());
                     return true;
                 case FragmentMenuItems.ADD_TO_PLAYLIST:
-                    final AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);
+                    final MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(mActivity, R.style.ThemeOverlay_App_MaterialAlertDialog);
                     builder.setTitle(R.string.add_to_playlist);
                     final List<String> menuItemList = MusicUtils.makePlaylist(mActivity);
                     builder.setItems(menuItemList.toArray(new String[0]), (dialog, which) -> {

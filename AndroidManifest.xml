@@ -18,15 +18,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
-    android:versionCode="560"
-    android:versionName="5.6.0.1_9"
+    android:versionCode="569"
+    android:versionName="5.7.0 Pre 1"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
         android:minSdkVersion="28"
         android:targetSdkVersion="30" />
 
-   <!-- Android Studio will complain about not being able to
+    <!-- Android Studio will complain about not being able to
          resove the symbol, but it compiles with no problem.
          Do not remove for as long as there are officially supported
          devices that were supported in 14.1 -->
@@ -65,6 +65,7 @@
     <application
         android:name="org.lineageos.eleven.ElevenApplication"
         android:allowBackup="true"
+        android:fullBackupOnly="true"
         android:allowTaskReparenting="true"
         android:requestLegacyExternalStorage="true"
         android:hardwareAccelerated="@bool/config_hardwareAccelerated"
@@ -117,7 +118,8 @@
             android:launchMode="singleTask"
             android:excludeFromRecents="true"
             android:taskAffinity=""
-            android:theme="@style/Theme.AudioPreview">
+            android:theme="@style/Theme.AudioPreview"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -193,13 +195,15 @@
                 android:resource="@xml/app_widget_large_alternate" />
         </receiver>
         <!-- Media button receiver -->
-        <receiver android:name="org.lineageos.eleven.MediaButtonIntentReceiver" >
+        <receiver android:name="org.lineageos.eleven.MediaButtonIntentReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
         <!-- Used to recalculate sorting of songs based on the user's locale -->
-        <receiver android:name=".locale.LocaleChangeReceiver">
+        <receiver android:name=".locale.LocaleChangeReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
             </intent-filter>

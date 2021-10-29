@@ -30,6 +30,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.utils.MusicUtils;
 
@@ -44,7 +46,7 @@ public abstract class BasePlaylistDialog extends DialogFragment implements TextW
     public static final String EXTRA_RENAME = "rename";
 
     /* The actual dialog */
-    protected AlertDialog mPlaylistDialog;
+    protected androidx.appcompat.app.AlertDialog mPlaylistDialog;
 
     /* Used to make new playlist names */
     protected EditText mPlaylist;
@@ -61,7 +63,7 @@ public abstract class BasePlaylistDialog extends DialogFragment implements TextW
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable final Bundle savedInstanceState) {
-        mPlaylistDialog = new AlertDialog.Builder(getActivity()).create();
+        mPlaylistDialog = new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_App_MaterialAlertDialog).create();
         mPlaylistDialog.setButton(Dialog.BUTTON_POSITIVE, getString(R.string.save),
                 (dialog, which) -> {
                     onSaveClick();

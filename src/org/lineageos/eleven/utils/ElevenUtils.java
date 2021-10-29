@@ -22,7 +22,6 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.graphics.Rect;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -33,36 +32,12 @@ import androidx.fragment.app.FragmentActivity;
 import org.lineageos.eleven.cache.ImageCache;
 import org.lineageos.eleven.cache.ImageFetcher;
 
-import java.util.concurrent.RejectedExecutionHandler;
-import java.util.concurrent.ThreadPoolExecutor;
-
 /**
  * Mostly general and UI helpers.
  *
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public final class ElevenUtils {
-
-    /**
-     * Because cancelled tasks are not automatically removed from the queue, we can easily
-     * run over the queue limit - so here we will have a purge policy to purge those tasks
-     */
-    public static class PurgePolicy implements RejectedExecutionHandler {
-        public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
-            // try purging all cancelled work items and re-executing
-            if (!e.isShutdown()) {
-                Log.d(PurgePolicy.class.getSimpleName(), "Before Purge: " + e.getQueue().size());
-                e.purge();
-                Log.d(PurgePolicy.class.getSimpleName(), "After Purge: " + e.getQueue().size());
-                e.execute(r);
-            }
-        }
-    }
-
-    static {
-        ((ThreadPoolExecutor) AsyncTask.THREAD_POOL_EXECUTOR)
-                .setRejectedExecutionHandler(new PurgePolicy());
-    }
 
     /* This class is never initiated */
     public ElevenUtils() {
@@ -82,21 +57,14 @@ public final class ElevenUtils {
     /**
      * Execute an {@link AsyncTask} on a thread pool
      *
-     * @param forceSerial True to force the task to run in serial order
+     * @param <T>         Task argument type
      * @param task        Task to execute
      * @param args        Optional arguments to pass to
      *                    {@link AsyncTask#execute(Object[])}
-     * @param <T>         Task argument type
      */
     @SafeVarargs
-    public static <T> void execute(final boolean forceSerial,
-                                   final AsyncTask<T, ?, ?> task,
-                                   final T... args) {
-        if (forceSerial) {
-            task.execute(args);
-        } else {
-            task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, args);
-        }
+    public static <T> void execute(final AsyncTask<T, ?, ?> task, final T... args) {
+        task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, args);
     }
 
     /**

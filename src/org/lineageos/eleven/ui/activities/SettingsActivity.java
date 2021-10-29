@@ -19,7 +19,6 @@
 package org.lineageos.eleven.ui.activities;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
@@ -33,6 +32,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.lineageos.eleven.IElevenService;
 import org.lineageos.eleven.R;
@@ -80,7 +81,7 @@ public class SettingsActivity extends AppCompatActivity {
             final Preference deleteCache = findPreference("delete_cache");
             if (deleteCache != null) {
                 deleteCache.setOnPreferenceClickListener(preference -> {
-                    new AlertDialog.Builder(getContext())
+                    new MaterialAlertDialogBuilder(getContext(), R.style.ThemeOverlay_App_MaterialAlertDialog)
                             .setMessage(R.string.delete_warning)
                             .setPositiveButton(android.R.string.ok, (dialog, which) ->
                                     ImageFetcher.getInstance(getContext()).clearCaches())

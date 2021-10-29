@@ -19,6 +19,7 @@ package org.lineageos.eleven.ui.activities;
 import android.Manifest;
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -216,6 +217,7 @@ public class HomeActivity extends SlidingPanelActivity implements
         }
     }
 
+    @SuppressLint("StaticFieldLeak")
     private void updateStatusBarColor() {
         if (mBrowsePanelActive || MusicUtils.getCurrentAlbumId() < 0) {
             updateStatusBarColor(Color.TRANSPARENT);
@@ -282,10 +284,10 @@ public class HomeActivity extends SlidingPanelActivity implements
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
             transaction.setCustomAnimations(
-                    androidx.fragment.R.anim.fragment_open_enter,
-                    androidx.fragment.R.anim.fragment_open_exit,
-                    androidx.fragment.R.anim.fragment_fade_enter,
-                    androidx.fragment.R.anim.fragment_fade_exit);
+                    androidx.fragment.R.animator.fragment_open_enter,
+                    androidx.fragment.R.animator.fragment_open_exit,
+                    androidx.fragment.R.animator.fragment_fade_enter,
+                    androidx.fragment.R.animator.fragment_fade_exit);
 
             if (action.equals(ACTION_VIEW_SMART_PLAYLIST)) {
                 long playlistId = intent.getExtras().getLong(Config.SMART_PLAYLIST_TYPE);
@@ -508,6 +510,7 @@ public class HomeActivity extends SlidingPanelActivity implements
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == PERMISSION_REQUEST_STORAGE) {
             if (checkPermissionGrantResults(grantResults)) {
                 init(mSavedInstanceState);

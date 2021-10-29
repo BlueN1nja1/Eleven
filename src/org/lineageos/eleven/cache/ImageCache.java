@@ -66,12 +66,12 @@ public final class ImageCache {
     /**
      * Default memory cache size as a percent of device memory class
      */
-    private static final float MEM_CACHE_DIVIDER = 0.25f;
+    private static final float MEM_CACHE_DIVIDER = 0.50f;
 
     /**
-     * Default disk cache size 10MB
+     * Default disk cache size 50MB
      */
-    private static final int DISK_CACHE_SIZE = 1024 * 1024 * 10;
+    private static final int DISK_CACHE_SIZE = 50 * 1024 * 1024;
 
     /**
      * Compression settings when writing images to disk cache
@@ -108,7 +108,7 @@ public final class ImageCache {
     /**
      * Used to temporarily pause the disk cache while scrolling
      */
-    public boolean mPauseDiskAccess = false;
+    private boolean mPauseDiskAccess = false;
     private final Object mPauseLock = new Object();
 
     static {
@@ -143,7 +143,7 @@ public final class ImageCache {
      * @param context     The {@link Context} to use
      */
     private void init(final Context context) {
-        ElevenUtils.execute(false, new AsyncTask<Void, Void, Void>() {
+        ElevenUtils.execute(new AsyncTask<Void, Void, Void>() {
 
             @Override
             protected Void doInBackground(final Void... unused) {
@@ -482,7 +482,7 @@ public final class ImageCache {
      * cache first
      */
     public void flush() {
-        ElevenUtils.execute(false, new AsyncTask<Void, Void, Void>() {
+        ElevenUtils.execute(new AsyncTask<Void, Void, Void>() {
 
             @Override
             protected Void doInBackground(final Void... unused) {
@@ -504,7 +504,7 @@ public final class ImageCache {
      * Clears the disk and memory caches
      */
     public void clearCaches() {
-        ElevenUtils.execute(false, new AsyncTask<Void, Void, Void>() {
+        ElevenUtils.execute(new AsyncTask<Void, Void, Void>() {
 
             @Override
             protected Void doInBackground(final Void... unused) {
@@ -530,7 +530,7 @@ public final class ImageCache {
      * thread.
      */
     public void close() {
-        ElevenUtils.execute(false, new AsyncTask<Void, Void, Void>() {
+        ElevenUtils.execute(new AsyncTask<Void, Void, Void>() {
 
             @Override
             protected Void doInBackground(final Void... unused) {
