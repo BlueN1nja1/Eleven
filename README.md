@@ -1,6 +1,6 @@
 Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo to Android 11 Red Velvet Cake so far
 ---------------------------------------------------------------------------------------------------------------------
-Note: This app respects Dark Theme on Android 10 Queen Cake!
+Note: This app respects Dark Theme on Android 10 Queen Cake! Update 5.7.0 Coming soon!
 
 Current Available Accent Colors: 
 ---------------------------------------------------------------------------------------------------------------------
@@ -13,7 +13,7 @@ None at the Moment...
 
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
-Search for both Android Oreo and Android 10+, Material You and System Font Support
+Search for both Android Oreo and Android 10+
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
