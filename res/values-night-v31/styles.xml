@@ -17,10 +17,16 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme.Overlay" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark">
-        <item name="colorPrimary">@color/overlay_light_primary</item>
-        <item name="colorOnPrimary">@color/overlay_light_onPrimary</item>
-        <item name="colorPrimaryContainer">@color/overlay_light_primaryContainer</item>
-    <item name="colorOnPrimaryContainer">@color/overlay_light_onPrimaryContainer</item>
+    <style name="Eleven.Theme.Overlay" parent="@style/ThemeOverlay.Material3.DynamicColors.Light">
+        <item name="android:colorBackground">@android:color/system_neutral1_100</item>
+        <item name="colorBackgroundFloating">@android:color/system_neutral1_50</item>
+        <item name="colorPrimary">@android:color/system_accent1_600</item>
+        <item name="colorPrimaryVariant">@android:color/system_accent1_600</item>
+        <item name="colorPrimaryContainer">@android:color/system_accent2_100</item>
+        <item name="colorOnPrimary">@android:color/system_neutral1_900</item>
+        <item name="colorSecondary">@android:color/system_accent1_600</item>
+        <item name="colorSecondaryVariant">@android:color/system_accent1_600</item>
+        <item name="colorSecondaryContainer">@android:color/system_accent2_100</item>
+        <item name="colorOnSecondary">@android:color/system_neutral2_900</item>
 </style>
 </resources>
