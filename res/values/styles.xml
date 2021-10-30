@@ -38,6 +38,13 @@
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 
+  <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">?android:attr/fontFamily</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:textColorPrimary">@color/default_text_color</item>
+    </style>
+
     <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.Material3">
         <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
         <item name="shapeAppearanceOverlay">@null</item>
