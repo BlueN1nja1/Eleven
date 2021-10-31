@@ -68,10 +68,10 @@
     <color name="header_shadow_color">#ea212121</color>
 
     <!-- Color for the pop up menu -->
-    <color name="menu_text_color">@color/black</color>
+    <color name="menu_text_color">@color/white</color>
 
     <!-- List view related colors -->
-    <color name="list_item_header_text_color">@color/black</color>
+    <color name="list_item_header_text_color">@color/white</color>
     <color name="list_item_text_color">@color/default_text_color</color>
     <color name="list_item_text_color_light">@color/default_text_color_light</color>
     <color name="list_item_divider_color">#4c212121</color>

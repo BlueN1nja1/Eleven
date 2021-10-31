@@ -31,4 +31,12 @@
         <item name="colorOnSecondary">@android:color/system_neutral2_900</item>
         <item name="android:statusBarColor">?android:attr/colorBackground</item>
     </style>
+    <style name="Theme.AudioPreview" parent="@style/Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
 </resources>
