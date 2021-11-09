@@ -18,8 +18,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
-    android:versionCode="569"
-    android:versionName="5.7.0 Pre 1"
+    android:versionCode="599"
+    android:versionName="6.0.0 Pre 1"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
