@@ -44,8 +44,8 @@ android {
         minSdkVersion 28
         targetSdkVersion 30
 
-        versionCode 569
-        versionName '5.7.0 Pre 1'
+        versionCode 599
+        versionName '6.0.0 Pre 1'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
