@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.App" parent="ThemeOverlay.Material3.DynamicColors.DayNight">
+    <style name="Theme.App" parent="Theme.Material3.DayNight">
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
         <item name="switchStyle">@style/Widget.App.Switch</item>
         <item name="colorPrimary">@android:color/system_accent2_200</item>
