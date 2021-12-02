@@ -2,7 +2,6 @@
 <resources>
     <style name="Theme.App" parent="Theme.Material3.DayNight">
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
-        <item name="switchStyle">@style/Widget.App.Switch</item>
         <item name="snackbarStyle">@style/Widget.App.Snackbar</item>
         <item name="snackbarTextViewStyle">@style/Widget.App.SnackbarTextView</item>
     </style>
@@ -14,13 +13,9 @@
         <item name="android:textColor">?attr/colorOnPrimary</item>
     </style>
 
- <style name="Widget.App.Switch" parent="Widget.Material3.CompoundButton.Switch">
-        <item name="materialThemeOverlay">@style/Theme.App</item>
-    </style>
-
     <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
-        <item name="colorPrimary">@color/accent</item>
-        <item name="colorSecondary">@color/accent</item>
+        <item name="colorPrimary">@color/background_color</item>
+        <item name="colorSecondary">@color/background_color</item>
         <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
         <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
         <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>

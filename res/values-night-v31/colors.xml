@@ -19,7 +19,7 @@
     <!-- Material -->
     <color name="primary">@android:color/system_neutral1_800</color>
     <color name="primary_dark">@android:color/system_neutral1_900</color>
-    <color name="accent">@android:color/system_accent2_300</color>
+    <color name="accent">@android:color/system_accent1_100</color>
 
     <!-- Main colors -->
     <color name="black">#000000</color>
@@ -55,12 +55,13 @@
 
     <!-- Color for the action bar -->
     <color name="header_action_bar_color">@color/primary</color>
+    <color name="header_action_bar_cs">@color/header_action_bar_color</color>
     <color name="header_action_bar_text_color">@color/white</color>
     <color name="header_action_bar_text_color_active">@color/accent</color>
     <color name="bottom_action_bar_text_color">@color/white</color>
 
     <!-- Background color used on some page headers -->
-    <color name="page_header_background">@android:color/system_neutral1_800</color>
+    <color name="page_header_background">@android:color/system_neutral1_900</color>
 
     <!-- Color for background for shadow on playlist page -->
     <color name="header_shadow_color">#ea212121</color>

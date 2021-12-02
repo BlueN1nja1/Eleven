@@ -28,6 +28,7 @@
         <item name="actionBarStyle">@style/ActionBar</item>
         <item name="actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
         <item name="colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/background_color</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
         <item name="android:windowContentTransitions">true</item>
@@ -39,8 +40,7 @@
     </style>
 
     <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textAlignment">center</item>
-        <item name="fontFamily">?android:attr/fontFamily</item>
+        <item name="fontFamily">sans-serif</item>
         <item name="android:textColor">@color/default_text_color</item>
         <item name="android:textColorPrimary">@color/default_text_color</item>
     </style>
@@ -75,7 +75,7 @@
 
     <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">?android:attr/fontFamily</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
 
     <!-- Make the action bar not take up space -->
