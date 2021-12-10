@@ -41,9 +41,10 @@
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
             android:elevation="@dimen/action_bar_elevation"
+            app:contentScrim="@color/header_action_bar_cab"
+            app:statusBarScrim="@color/header_action_bar_cab"
             app:titleCentered="true"
             android:theme="@style/ToolBarTheme"
-            app:popupTheme="@style/ToolBarPopupTheme"
             app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title" />
 
         <FrameLayout

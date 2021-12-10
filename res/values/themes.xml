@@ -2,15 +2,6 @@
 <resources>
     <style name="Theme.App" parent="Theme.Material3.DayNight">
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
-        <item name="snackbarStyle">@style/Widget.App.Snackbar</item>
-        <item name="snackbarTextViewStyle">@style/Widget.App.SnackbarTextView</item>
-    </style>
- <style name="Widget.App.Snackbar" parent="Widget.Material3.Snackbar">
-        <item name="backgroundTint">?attr/colorBackgroundFloating</item>
-    </style>
-
-    <style name="Widget.App.SnackbarTextView" parent="Widget.Material3.Snackbar.TextView">
-        <item name="android:textColor">?attr/colorOnPrimary</item>
     </style>
 
     <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
