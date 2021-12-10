@@ -34,5 +34,4 @@
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
     </style>
 
-    <style name="ToolBarPopupTheme" parent="@style/Theme.Material3.Dark" />
 </resources>

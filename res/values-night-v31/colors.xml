@@ -102,7 +102,7 @@
     <color name="album_detail_duration_text_color">@color/default_text_color</color>
     <color name="artist_detail_header_albums_label_text_color">@color/list_item_header_text_color</color>
     <color name="artist_detail_header_songs_label_text_color">@color/list_item_header_text_color</color>
-    <color name="position_number_color">@color/white</color>
+    <color name="position_number_color">@color/black</color>
     <color name="audio_player_lyrics_text_color">@color/white</color>
     <color name="audio_player_current_time_color">@color/white</color>
     <color name="audio_player_total_time_color">@color/white</color>

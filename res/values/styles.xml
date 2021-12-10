@@ -203,8 +203,6 @@
         <item name="colorControlNormal">@color/white</item>
     </style>
 
-    <style name="ToolBarPopupTheme" parent="@style/Theme.Material3.Light" />
-
     <style name="Eleven.Theme.PopupMenuOverlapAnchor">
         <item name="android:overlapAnchor">true</item>
         <item name="android:dropDownVerticalOffset">0dp</item>
