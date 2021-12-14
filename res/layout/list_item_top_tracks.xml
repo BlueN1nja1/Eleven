@@ -41,7 +41,7 @@
                 android:layout_height="@dimen/list_item_top_track_image_size"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
-                android:src="@drawable/gray_circle" />
+                android:src="@drawable/tt_circle" />
             <TextView
                 android:id="@+id/position_number"
                 android:layout_width="wrap_content"
