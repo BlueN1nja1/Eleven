@@ -13,8 +13,8 @@ None at the Moment...
 
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
--Search for both Android Oreo and Android 10+
--Re-Add Scrollbars to the app.
+Re-Add Scrollbars to the app and
+Search for both Android Oreo and Android 10+
 
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
