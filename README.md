@@ -24,3 +24,7 @@ LineageOS Devices: Might be packaged into a Flashable zip or a Magisk Module for
 Screeenshots:
 ---------------------------------------------------------------------------------------------------------------------
 Soon...
+
+Suggestions:
+---------------------------------------------------------------------------------------------------------------------
+If you have any suggestions about where this project is going, you are welcome to open an issue about it.
