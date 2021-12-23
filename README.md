@@ -13,7 +13,7 @@ None at the Moment...
 
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
--Re-Add Scrollbars to the app. 
+-Add Scrollbars back. 
 -Refine the Material Theme.
 -Fix Scoped Storage Regressions and remove All Files Access ASAP.
 -Bring back / Rewrite Search for both Android Oreo and Android 10+
