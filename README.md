@@ -18,6 +18,10 @@ Planned Features:
 -Fix Scoped Storage Regressions and remove All Files Access ASAP.
 -Bring back / Rewrite Search for both Android Oreo and Android 10+
 
+Custom Roms?:
+---------------------------------------------------------------------------------------------------------------------
+For those who want to include this in their rom: I'm working on it, keep an eye on this repo linked here and stay tuned: https://github.com/lopez05656/ElevenMT-Unported
+
 Special Versions:
 ---------------------------------------------------------------------------------------------------------------------
 LineageOS Devices: Might be packaged into a Flashable zip or a Magisk Module for those below and on 18.1.
