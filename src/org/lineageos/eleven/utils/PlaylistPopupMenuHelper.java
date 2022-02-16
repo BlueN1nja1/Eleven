@@ -24,8 +24,6 @@ import android.provider.MediaStore;
 
 import androidx.fragment.app.FragmentManager;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.Config.SmartPlaylistType;
 import org.lineageos.eleven.R;
@@ -92,12 +90,12 @@ public abstract class PlaylistPopupMenuHelper extends PopupMenuHelper {
     /**
      * Create a new {@link AlertDialog} for easy playlist deletion
      *
-     * @param playlistId   The ID of the playlist being deleted
      * @param playlistName The title of the playlist being deleted
+     * @param playlistId   The ID of the playlist being deleted
      * @return A new {@link AlertDialog} used to delete playlists
      */
-    private androidx.appcompat.app.AlertDialog buildDeleteDialog(final long playlistId, final String playlistName) {
-        return new MaterialAlertDialogBuilder(mActivity, R.style.ThemeOverlay_App_MaterialAlertDialog)
+    private AlertDialog buildDeleteDialog(final long playlistId, final String playlistName) {
+        return new AlertDialog.Builder(mActivity)
                 .setTitle(mActivity.getString(R.string.delete_dialog_title, playlistName))
                 .setPositiveButton(R.string.context_menu_delete, (dialog, which) -> {
                     final Uri mUri = ContentUris.withAppendedId(

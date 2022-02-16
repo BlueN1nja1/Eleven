@@ -45,8 +45,6 @@ import androidx.fragment.app.FragmentActivity;
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.MusicStateListener;
 import org.lineageos.eleven.R;
-import org.lineageos.eleven.cache.ICacheListener;
-import org.lineageos.eleven.cache.ImageFetcher;
 import org.lineageos.eleven.utils.ElevenUtils;
 import org.lineageos.eleven.utils.Lists;
 import org.lineageos.eleven.utils.MusicUtils;
@@ -67,7 +65,7 @@ import java.util.ArrayList;
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public abstract class BaseActivity extends AppCompatActivity implements ServiceConnection,
-        MusicStateListener, ICacheListener {
+        MusicStateListener {
 
     /**
      * Play-state and meta change listener
@@ -112,6 +110,8 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
 
     private Drawable mActionBarBackground;
 
+    private boolean mRequestingPermissions;
+
     /**
      * Called when all requirements (like permissions) are satisfied and we are ready
      * to initialize the app.
@@ -131,7 +131,7 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         }
 
         // Set the layout
-        setContentView(setContentView());
+        setContentView(R.layout.activity_base);
 
         mToolBar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolBar);
@@ -144,12 +144,20 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         // Initialize the bottom action bar
         initBottomActionBar();
 
-        // listen to changes to the cache status
-        ImageFetcher.getInstance(this).addCacheListener(this);
+        // if we are requesting permissions on app launch, we skip binding
+        // at onStart() and need to bind after we got permissions and call init()
+        // to ensure the UI is properly set up.
+        if (mRequestingPermissions) {
+            mToken = MusicUtils.bindToService(this, this);
+        }
     }
 
     public boolean isInitialized() {
         return mToken != null;
+    }
+
+    public void setRequestingPermissions(final boolean requestingPermissions) {
+        mRequestingPermissions = requestingPermissions;
     }
 
     @Override
@@ -200,8 +208,10 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
     protected void onStart() {
         super.onStart();
 
-        // Bind Eleven's service
-        mToken = MusicUtils.bindToService(this, this);
+        // Bind Eleven's service, if all permissions are granted
+        if (!mRequestingPermissions) {
+            mToken = MusicUtils.bindToService(this, this);
+        }
 
         final IntentFilter filter = new IntentFilter();
         // Play and pause changes
@@ -239,9 +249,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
 
         // Remove any music status listeners
         mMusicStateListener.clear();
-
-        // remove cache listeners
-        ImageFetcher.getInstance(this).removeCacheListener(this);
     }
 
     public void setupActionBar(int resId) {
@@ -434,17 +441,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
             mMusicStateListener.remove(status);
         }
     }
-
-    @Override
-    public void onCacheResumed() {
-        // Set the album art
-        ElevenUtils.getImageFetcher(this).loadCurrentArtwork(mAlbumArt);
-    }
-
-    /**
-     * @return The resource ID to be inflated.
-     */
-    public abstract int setContentView();
 
     /**
      * handle pending playback requests

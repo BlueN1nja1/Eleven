@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< HEAD:res/drawable/bg_audio_preview.xml
      Copyright (C) 2021 The LineageOS Project
+=======
+     Copyright (C) 2017-2020 The LineageOS Project
+>>>>>>> upstream/lineage-19.0:privapp_whitelist_org.lineageos.eleven.xml
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,6 +18,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<<<<<<< HEAD:res/drawable/bg_audio_preview.xml
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 <<<<<<< HEAD:res/drawable/bg_audio_preview.xml
     <solid android:color="@color/background_color"/>
@@ -23,3 +28,14 @@
     <corners android:radius="@dimen/app_widget_radius"/>
 >>>>>>> upstream/lineage-19.0:res/drawable/bg_app_widget.xml
 </shape>
+=======
+<permissions>
+    <!-- Compatibility for upgrades from old package name -->
+    <privapp-permissions package="com.cyanogenmod.eleven">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+    <privapp-permissions package="org.lineageos.eleven">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+</permissions>
+>>>>>>> upstream/lineage-19.0:privapp_whitelist_org.lineageos.eleven.xml

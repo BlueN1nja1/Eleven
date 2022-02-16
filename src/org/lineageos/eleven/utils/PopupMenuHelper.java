@@ -18,6 +18,7 @@ package org.lineageos.eleven.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,8 +29,6 @@ import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.fragment.app.FragmentManager;
-
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.R;
@@ -58,9 +57,9 @@ public abstract class PopupMenuHelper implements PopupMenu.OnMenuItemClickListen
         Queue,
     }
 
-    protected Activity mActivity;
+    protected final Activity mActivity;
     protected PopupMenuType mType;
-    protected FragmentManager mFragmentManager;
+    protected final FragmentManager mFragmentManager;
 
     public PopupMenuHelper(final Activity activity, final FragmentManager fragmentManager) {
         mActivity = activity;
@@ -114,6 +113,7 @@ public abstract class PopupMenuHelper implements PopupMenu.OnMenuItemClickListen
     /**
      * @return the group id to be used for pop up menu inflating
      */
+    @SuppressWarnings("SameReturnValue")
     protected int getGroupId() {
         return 0;
     }
@@ -354,7 +354,7 @@ public abstract class PopupMenuHelper implements PopupMenu.OnMenuItemClickListen
                     MusicUtils.addToQueue(mActivity, getIdList(), getSourceId(), getSourceType());
                     return true;
                 case FragmentMenuItems.ADD_TO_PLAYLIST:
-                    final MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(mActivity, R.style.ThemeOverlay_App_MaterialAlertDialog);
+                    final AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);
                     builder.setTitle(R.string.add_to_playlist);
                     final List<String> menuItemList = MusicUtils.makePlaylist(mActivity);
                     builder.setItems(menuItemList.toArray(new String[0]), (dialog, which) -> {

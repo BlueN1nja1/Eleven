@@ -19,6 +19,8 @@ package org.lineageos.eleven;
 
 import android.app.Application;
 import android.os.StrictMode;
+import android.os.StrictMode.ThreadPolicy;
+import android.os.StrictMode.VmPolicy;
 
 import com.google.android.material.color.DynamicColors;
 
@@ -42,11 +44,11 @@ public class ElevenApplication extends Application {
     }
 
     private void enableStrictMode() {
-        final StrictMode.ThreadPolicy.Builder threadPolicyBuilder = new StrictMode.ThreadPolicy.Builder()
+        final ThreadPolicy.Builder threadPolicyBuilder = new ThreadPolicy.Builder()
                 .detectAll()
                 .penaltyLog()
                 .penaltyFlashScreen();
-        final StrictMode.VmPolicy.Builder vmPolicyBuilder = new StrictMode.VmPolicy.Builder()
+        final VmPolicy.Builder vmPolicyBuilder = new VmPolicy.Builder()
                 .detectAll()
                 .penaltyLog();
 

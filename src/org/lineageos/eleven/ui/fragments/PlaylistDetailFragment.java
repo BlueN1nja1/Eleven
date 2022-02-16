@@ -103,6 +103,7 @@ public class PlaylistDetailFragment extends DetailFragment implements
     @Override
     protected void onViewCreated() {
         super.onViewCreated();
+        LoaderManager.getInstance(this).initLoader(0, getArguments(), this);
         setupHero();
         setupSongList();
     }
@@ -132,24 +133,12 @@ public class PlaylistDetailFragment extends DetailFragment implements
     }
 
     @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-
-        LoaderManager lm = LoaderManager.getInstance(this);
-        lm.initLoader(0, getArguments(), this);
-    }
-
-    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         mPopupMenuHelper = new SongPopupMenuHelper(getActivity(), getChildFragmentManager()) {
             @Override
             public Song getSong(int position) {
-                if (position == 0) {
-                    return null;
-                }
-
                 return mAdapter.getItem(position);
             }
 
@@ -274,6 +263,10 @@ public class PlaylistDetailFragment extends DetailFragment implements
         Handler handler = new Handler(requireActivity().getMainLooper());
         if (data.isEmpty()) {
             mLoadingEmptyContainer.showNoResults();
+            // need to call this after showNoResults, otherwise removing any would
+            // clear the whole list (not only visibly but it's gone even when re-entering the
+            // playlist)
+            mLoadingEmptyContainer.setVisibility(View.VISIBLE);
 
             // hide the header container
             mHeaderContainer.setVisibility(View.INVISIBLE);
