@@ -17,7 +17,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme.Overlay" parent="@style/ThemeOverlay.Material3.DynamicColors.Light">
+    <style name="Eleven.Theme.Overlay" parent="@style/Theme.Material3..Light">
         <item name="colorBackgroundFloating">@android:color/system_neutral1_50</item>
         <item name="colorPrimary">@color/primary</item>
         <item name="colorAccent">@android:color/system_accent1_400</item>
