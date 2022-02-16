@@ -16,10 +16,11 @@
  */
 package org.lineageos.eleven.ui.activities;
 
+import static org.lineageos.eleven.utils.PreferenceUtils.PERMISSION_REQUEST_STORAGE;
+
 import android.Manifest;
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
-import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -79,7 +80,6 @@ public class HomeActivity extends SlidingPanelActivity implements
     private static final int NEW_PHOTO = 1;
     public static final int EQUALIZER = 2;
 
-    private static final int PERMISSION_REQUEST_STORAGE = 1;
     private Bundle mSavedInstanceState;
 
     private String mKey;
@@ -217,7 +217,6 @@ public class HomeActivity extends SlidingPanelActivity implements
         }
     }
 
-    @SuppressLint("StaticFieldLeak")
     private void updateStatusBarColor() {
         if (mBrowsePanelActive || MusicUtils.getCurrentAlbumId() < 0) {
             updateStatusBarColor(Color.TRANSPARENT);
@@ -510,7 +509,6 @@ public class HomeActivity extends SlidingPanelActivity implements
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == PERMISSION_REQUEST_STORAGE) {
             if (checkPermissionGrantResults(grantResults)) {
                 init(mSavedInstanceState);

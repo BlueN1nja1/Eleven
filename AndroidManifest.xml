@@ -18,8 +18,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
-    android:versionCode="599"
-    android:versionName="6.0.0 Beta 3"
+    android:versionCode="401"
+    android:versionName="4.0.1"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
@@ -45,8 +45,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <!-- Used to set the devices's ringtone -->
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    <!-- This is temporary until I have the time to fix all the bugs related to storage in Eleven -->
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <!-- Used to create launcher shortcuts -->
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
     <!-- Allows Eleven to read from External Storage -->
@@ -67,7 +65,6 @@
     <application
         android:name="org.lineageos.eleven.ElevenApplication"
         android:allowBackup="true"
-        android:fullBackupOnly="true"
         android:allowTaskReparenting="true"
         android:requestLegacyExternalStorage="true"
         android:hardwareAccelerated="@bool/config_hardwareAccelerated"
@@ -120,8 +117,7 @@
             android:launchMode="singleTask"
             android:excludeFromRecents="true"
             android:taskAffinity=""
-            android:theme="@style/Theme.AudioPreview"
-            android:exported="true">
+            android:theme="@style/Theme.AudioPreview">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -197,15 +193,13 @@
                 android:resource="@xml/app_widget_large_alternate" />
         </receiver>
         <!-- Media button receiver -->
-        <receiver android:name="org.lineageos.eleven.MediaButtonIntentReceiver"
-            android:exported="false">
+        <receiver android:name="org.lineageos.eleven.MediaButtonIntentReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
         <!-- Used to recalculate sorting of songs based on the user's locale -->
-        <receiver android:name=".locale.LocaleChangeReceiver"
-            android:exported="false">
+        <receiver android:name=".locale.LocaleChangeReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
             </intent-filter>

@@ -6,6 +6,11 @@
     android:viewportHeight="24">
 
     <path
+<<<<<<< HEAD:res/drawable/btn_preview_play.xml
         android:fillColor="@color/default_text_color"
                 android:pathData="M10,8.64L15.27,12L10,15.36V8.64M8,5v14l11,-7L8,5L8,5z" />
+=======
+        android:fillColor="?android:attr/textColorSecondary"
+        android:pathData="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+>>>>>>> upstream/lineage-19.0:res/drawable/btn_preview_pause.xml
 </vector>
