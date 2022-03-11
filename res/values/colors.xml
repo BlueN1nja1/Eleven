@@ -134,6 +134,7 @@
     <!-- Separated and exposed values for themes -->
     <color name="tt_circle_color">@color/accent</color>
     <color name="widget_background_color">@color/white</color>
+    <color name="ap_background_color">@color/white</color>
     <color name="activity_album_detail_background_color">@color/background_color</color>
     <color name="activity_artist_detail_background_color">@color/background_color</color>
     <color name="activity_base_background_color">@color/background_color</color>

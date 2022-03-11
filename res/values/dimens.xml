@@ -89,6 +89,9 @@
     <dimen name="app_widget_small_min_height">80dp</dimen>
     <dimen name="app_widget_radius">8dp</dimen>
 
+    <!-- Audio Preview Widget -->
+    <dimen name="ap_widget_radius">8dp</dimen>
+
     <!-- Drag and drop -->
     <dimen name="drag_and_drop_width">24.0dip</dimen>
     <dimen name="drag_and_drop_height">50.0dip</dimen>
