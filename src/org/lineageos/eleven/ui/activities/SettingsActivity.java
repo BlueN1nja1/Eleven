@@ -53,7 +53,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        final Toolbar toolbar = findViewById(R.id.toolbar);
+        final Toolbar toolbar = findViewById(R.id.toolbarexpanded);
         setSupportActionBar(toolbar);
         final ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -85,10 +85,11 @@ public class SettingsActivity extends AppCompatActivity {
         public void onCreate(final Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
 
-            final Preference deleteCache = findPreference("delete_cache");
+          final Preference deleteCache = findPreference("delete_cache");
             if (deleteCache != null) {
                 deleteCache.setOnPreferenceClickListener(preference -> {
-                    new AlertDialog.Builder(getContext())
+                    new MaterialAlertDialogBuilder(getContext(), R.style.ThemeOverlay_App_MaterialAlertDialog)
+                            .setTitle(R.string.delete_cache)
                             .setMessage(R.string.delete_warning)
                             .setPositiveButton(android.R.string.ok, (dialog, which) ->
                                     ImageFetcher.getInstance(getContext()).clearCaches())
