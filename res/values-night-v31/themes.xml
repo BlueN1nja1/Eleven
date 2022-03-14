@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.App" parent="@style/ThemeOverlay.Material3.DayNight">
+    <style name="Theme.App" parent="@style/Theme.Material3.DayNight">
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryContainer">@android:color/system_accent2_600</item>

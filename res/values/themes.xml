@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.App" parent="Theme.Material3.DayNight">
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
     </style>
 
-    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="colorPrimary">@color/background_color</item>
         <item name="colorSecondary">@color/background_color</item>
         <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>

@@ -74,6 +74,7 @@
     <string name="cancel">Cancel</string>
     <string name="overwrite">Overwrite</string>
     <string name="clear">Clear</string>
+    <string name="delete_cache">Delete Cache?</string>
     <string name="new_playlist_name_template">Playlist <xliff:g id="number">%d</xliff:g></string>
     <string name="create_playlist_prompt">Playlist name</string>
     <string name="delete_dialog_title">Delete <xliff:g id="item" example="album">%s</xliff:g>?</string>

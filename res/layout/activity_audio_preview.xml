@@ -69,12 +69,12 @@
 
             <ImageButton
                 android:id="@+id/ib_playpause"
-                android:background="@android:color/transparent"
-                android:enabled="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:enabled="false"
                 android:src="@drawable/btn_preview_play" />
 
             <TextView

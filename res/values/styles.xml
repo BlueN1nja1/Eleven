@@ -200,8 +200,8 @@
         <item name="android:textSize">@dimen/tab_text_size</item>
     </style>
 
-    <style name="ToolBarTheme" parent="@style/ThemeOverlay.Material3.ActionBar"/>
-    <style name="ToolBarThemeMP" parent="@style/ThemeOverlay.Material3.ActionBar">
+    <style name="ToolBarTheme" parent="@style/ThemeOverlay.Material3.Toolbar.Surface"/>
+    <style name="ToolBarThemeMP" parent="@style/ThemeOverlay.Material3.Toolbar.Surface">
         <item name="colorControlNormal">@color/white</item>
     </style>
 
