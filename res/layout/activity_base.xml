@@ -36,13 +36,15 @@
         android:layout_height="match_parent"
         tools:visibility="gone">
 
-        <androidx.appcompat.widget.Toolbar
+        <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
             android:elevation="@dimen/action_bar_elevation"
+            app:contentScrim="@color/header_action_bar_cab"
+            app:statusBarScrim="@color/header_action_bar_cab"
+            app:titleCentered="true"
             android:theme="@style/ToolBarTheme"
-            app:popupTheme="@style/ToolBarPopupTheme"
             app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title" />
 
         <FrameLayout
@@ -82,8 +84,7 @@
                 class="org.lineageos.eleven.ui.fragments.AudioPlayerFragment"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                tools:ignore="FragmentTagUsage" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -102,8 +103,7 @@
                     android:layout_height="@dimen/sliding_panel_indicator_height"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="centerInside"
-                    android:src="@drawable/drag_indicator"
-                    android:contentDescription="@null" />
+                    android:src="@drawable/drag_indicator" />
 
                 <include
                     android:id="@+id/secondHeaderBar"
@@ -115,8 +115,7 @@
                 class="org.lineageos.eleven.ui.fragments.QueueFragment"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                tools:ignore="FragmentTagUsage" />
+                android:layout_weight="1" />
         </LinearLayout>
     </org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout>
 </org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout>
