@@ -25,7 +25,6 @@
 
     <LinearLayout
         android:id="@+id/grp_container_view"
-        android:background="?android:colorBackground"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="@dimen/preview_layout_height"
@@ -33,10 +32,12 @@
         android:layout_margin="@dimen/preview_layout_margin"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        android:weightSum="1.0">
+        android:weightSum="1.0"
+        android:background="@drawable/bg_audio_preview">
 
         <FrameLayout
             android:layout_width="match_parent"
+            android:background="@drawable/bg_audio_preview"
             android:layout_height="0dp"
             android:layout_weight=".5">
 
@@ -74,8 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/btn_preview_play"
-                android:contentDescription="@null" />
+                android:src="@drawable/btn_preview_play" />
 
             <TextView
                 android:id="@+id/tv_title"
