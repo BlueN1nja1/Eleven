@@ -24,6 +24,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.cache.ImageFetcher;
@@ -91,7 +93,7 @@ public class DeleteDialog extends DialogFragment {
         // Initialize the image cache
         mFetcher = ElevenUtils.getImageFetcher(getActivity());
         // Build the dialog
-        return new AlertDialog.Builder(getActivity()).setTitle(dialogTitle)
+            return new MaterialAlertDialogBuilder(getActivity()).setTitle(dialogTitle)
                 .setMessage(R.string.cannot_be_undone)
                 .setPositiveButton(delete, (dialog, which) -> {
                     // Remove the items from the image cache
@@ -107,3 +109,4 @@ public class DeleteDialog extends DialogFragment {
                 .create();
     }
 }
+
