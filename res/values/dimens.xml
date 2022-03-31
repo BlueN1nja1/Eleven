@@ -56,6 +56,7 @@
 
     <!-- Bottom Action Bar -->
     <dimen name="bottom_action_bar_height">50.0dip</dimen>
+    <dimen name="bottom_navbar_height">130.0dip</dimen>
     <dimen name="bottom_action_bar_info_padding_left">5.0dip</dimen>
     <dimen name="bab_progress_size">35.0dip</dimen>
     <dimen name="bab_progress_padding_left">16.0dip</dimen>

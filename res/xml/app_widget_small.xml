@@ -18,5 +18,6 @@
     android:initialLayout="@layout/app_widget_small"
     android:minHeight="@dimen/app_widget_small_min_height"
     android:minWidth="@dimen/app_widget_small_min_width"
+    android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="0"
     android:widgetCategory="home_screen" />

@@ -27,9 +27,9 @@
     android:gravity="bottom"
     app:dragView="@+id/firstPanelDragArea"
     app:dragViewClickable="false"
-    app:panelHeight="@dimen/bottom_action_bar_height"
+    app:panelHeight="@dimen/bottom_navbar_height"
     app:shadowHeight="@dimen/sliding_panel_shadow_height"
-    app:slidePanelOffset="@dimen/bottom_action_bar_height">
+    app:slidePanelOffset="@dimen/bottom_navbar_height">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -51,8 +51,6 @@
             android:id="@+id/activity_base_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
-        <!--include layout="@layout/bottom_navigation" /-->
 
     </FrameLayout>
 
@@ -80,6 +78,8 @@
             android:orientation="vertical">
 
             <include layout="@layout/bottom_action_bar" />
+
+            <include layout="@layout/bottom_navigation" />
 
             <fragment
                 android:id="@+id/audioPlayerFragment"
