@@ -93,7 +93,7 @@ public class DeleteDialog extends DialogFragment {
         // Initialize the image cache
         mFetcher = ElevenUtils.getImageFetcher(getActivity());
         // Build the dialog
-            return new MaterialAlertDialogBuilder(getActivity()).setTitle(dialogTitle)
+            return new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_App_MaterialAlertDialog).setTitle(dialogTitle)
                 .setMessage(R.string.cannot_be_undone)
                 .setPositiveButton(delete, (dialog, which) -> {
                     // Remove the items from the image cache
