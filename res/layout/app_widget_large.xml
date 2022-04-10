@@ -57,7 +57,7 @@
             android:id="@+id/app_widget_large_play"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:background="?android:selectableItemBackground"
+            android:background="@drawable/widget_button_shape"
             android:contentDescription="@null"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="centerCrop"

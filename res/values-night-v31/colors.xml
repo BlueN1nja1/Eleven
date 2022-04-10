@@ -20,6 +20,7 @@
     <color name="primary">@android:color/system_neutral1_900</color>
     <color name="primary_dark">@android:color/system_neutral1_900</color>
     <color name="accent">@android:color/system_accent1_100</color>
+    <color name="pastel_accent">@android:color/system_accent1_600</color>
 
     <!-- Main colors -->
     <color name="black">#000000</color>

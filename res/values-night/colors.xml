@@ -19,6 +19,7 @@
     <color name="primary">#212121</color>
     <color name="primary_dark">#121212</color>
     <color name="accent">#8ab4f8</color>
+    <color name="pastel_accent">#1a73e8</color>
 
     <!-- Standard Text Color -->
     <color name="default_text_color">@color/white</color>
