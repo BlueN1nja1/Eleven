@@ -14,7 +14,7 @@ None at the Moment...
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
 -Add Scrollbars back. 
--Refine the Material Theme.
+-Refine the Material You Theme and adapt it to the latest versions.
 -Fix Scoped Storage Regressions.
 -Bring back / Rewrite Search for both Android Oreo and Android 10+
 
