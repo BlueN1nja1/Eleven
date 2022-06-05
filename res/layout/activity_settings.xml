@@ -32,7 +32,6 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
-            app:title="@string/menu_settings"
             app:contentScrim="@color/header_action_bar_cab"
             app:statusBarScrim="@color/header_action_bar_cab"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
@@ -53,7 +52,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Note: A RecyclerView can also be used -->
     <androidx.core.widget.NestedScrollView
 
         android:layout_width="match_parent"

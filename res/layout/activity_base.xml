@@ -27,32 +27,51 @@
     android:gravity="bottom"
     app:dragView="@+id/firstPanelDragArea"
     app:dragViewClickable="false"
-    app:panelHeight="@dimen/bottom_navbar_height"
+    app:panelHeight="@dimen/bottom_action_bar_height"
     app:shadowHeight="@dimen/sliding_panel_shadow_height"
-    app:slidePanelOffset="@dimen/bottom_navbar_height">
+    app:slidePanelOffset="@dimen/bottom_action_bar_height">
 
-    <FrameLayout
-        android:layout_width="match_parent"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:visibility="gone">
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="?android:attr/actionBarSize"
-            android:elevation="@dimen/action_bar_elevation"
-            app:contentScrim="@color/header_action_bar_cab"
-            app:statusBarScrim="@color/header_action_bar_cab"
-            app:titleCentered="true"
-            android:theme="@style/ToolBarTheme"
-            app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title" />
+            android:fitsSystemWindows="true"
+            android:background="@color/background_color"
+            app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                style="?attr/collapsingToolbarLayoutLargeStyle"
+                android:layout_width="match_parent"
+                android:id="@+id/collapsingtoolbar"
+                app:contentScrim="@color/header_action_bar_cab"
+                app:statusBarScrim="@color/header_action_bar_cab"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                android:background="@color/background_color"
+                android:elevation="0dp"
+                android:layout_height="?attr/collapsingToolbarLayoutLargeSize">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:layout_width="match_parent"
+                    app:layout_collapseMode="pin"
+                    android:id="@+id/toolbar"
+                    android:layout_height="?attr/actionBarSize"
+                    android:elevation="0dp" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
 
         <FrameLayout
             android:id="@+id/activity_base_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout
         android:id="@+id/sliding_layout2"
@@ -78,8 +97,6 @@
             android:orientation="vertical">
 
             <include layout="@layout/bottom_action_bar" />
-
-            <include layout="@layout/bottom_navigation" />
 
             <fragment
                 android:id="@+id/audioPlayerFragment"
