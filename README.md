@@ -15,7 +15,7 @@ Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
 -Add Scrollbars back. 
 -Refine the Material Theme.
--Fix Scoped Storage Regressions and remove All Files Access ASAP.
+-Fix Scoped Storage Regressions.
 -Bring back / Rewrite Search for both Android Oreo and Android 10+
 
 Custom Roms?:
