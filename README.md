@@ -2,11 +2,11 @@ Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo
 ---------------------------------------------------------------------------------------------------------------------
 Note: This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 currently in Beta Testing with Monet and Android 12-12.1 Support! Also, if this version's source code seems like it's behind the other branches, that's because I've rebased my code on the latest version of Eleven. It'll take a bit for previous changes to make their way back to this branch. Thank you for your patience.
 
-NOTICE: This branch contains changes that I'm planning to add to the official LineageOS Repo this year (If they get approved of course). The main branch (lineage-19.1) contains changes that may or may not make it to the main repo.
+NOTICE: This branch contains changes that I'm not planning to add to the official LineageOS Repo this year (If they do make it to the main branch, then it may be heading to the official repo soon, if it gets approved of course.)
 
 Current Available Accent Colors: 
 ---------------------------------------------------------------------------------------------------------------------
-Pixel Blue, Lineage Green, Coral Red, Cyan, Banana Yellow, Deep Purple, Ocean, Monochrome and Eleven Pink
+Pixel Blue, Lineage Green, Coral Red, Cyan, Banana Yellow, Deep Purple, Ocean, Monochrome and Eleven Pink (Available on most versions below 6.0.0 as Material You replaces these. I may bring these colors back in a future update)
 
 Planned Accent Colors:
 ---------------------------------------------------------------------------------------------------------------------
