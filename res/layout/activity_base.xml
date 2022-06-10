@@ -57,7 +57,7 @@
                 <com.google.android.material.appbar.MaterialToolbar
                     android:layout_width="match_parent"
                     app:layout_collapseMode="pin"
-                    android:theme="@style/ToolBarTheme
+                    android:theme="@style/ToolBarTheme"
                     android:id="@+id/toolbar"
                     android:layout_height="?attr/actionBarSize"
                     android:elevation="0dp" />
