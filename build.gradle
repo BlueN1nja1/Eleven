@@ -112,6 +112,7 @@ android {
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     // AndroidX - https://developer.android.com/jetpack/androidx/releases
 
     // see https://developer.android.com/jetpack/androidx/releases/appcompat
