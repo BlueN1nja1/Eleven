@@ -10,7 +10,7 @@
         <item name="android:statusBarColor">@color/transparent</item>
     </style>
 
-    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="colorOnSurface">@android:color/system_neutral1_10</item>
         <item name="colorSurface">@android:color/system_neutral1_10</item>
         <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
