@@ -75,7 +75,7 @@
             android:orientation="vertical">
 
             <include layout="@layout/bottom_action_bar" />
-            
+
             <fragment
                 android:id="@+id/audioPlayerFragment"
                 class="org.lineageos.eleven.ui.fragments.AudioPlayerFragment"
