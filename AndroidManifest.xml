@@ -19,12 +19,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
     android:versionCode="599"
-    android:versionName="6.0.0 Beta 3"
+    android:versionName="6.0.0 Beta 2.1"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
         android:minSdkVersion="28"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="33" />
 
     <!-- Android Studio will complain about not being able to
          resove the symbol, but it compiles with no problem.
