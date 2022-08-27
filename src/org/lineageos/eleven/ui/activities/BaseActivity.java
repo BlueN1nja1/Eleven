@@ -137,7 +137,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         setContentView(R.layout.activity_base);
 
         mToolBar = findViewById(R.id.toolbar);
-        mCollapsingToolbar = findViewById(R.id.collapsingtoolbar);
         setSupportActionBar(mToolBar);
 
         setActionBarTitle(getString(R.string.app_name));
@@ -267,7 +266,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
                     R.color.header_action_bar_color);
             mActionBarBackground = new ColorDrawable(actionBarColor);
             mToolBar.setBackground(mActionBarBackground);
-            mCollapsingToolbar.setBackground(mActionBarBackground);
         }
     }
 
