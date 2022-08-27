@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:7.2.2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -74,29 +74,12 @@ android {
             zipAlignEnabled true
         }
     }
-
-    lintOptions {
-        baseline file("lint-baseline.xml")
-
-        abortOnError true
-        checkAllWarnings true
-        showAll true
-
-        warningsAsErrors true
-
-        // HTML report is enough (can be found inside build/reports/)
-        xmlReport false
-
-        // do not warn about translations
-        disable 'MissingTranslation', 'ExtraTranslation'
-    }
-
     packagingOptions {
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/LICENSE-FIREBASE.txt'
-        exclude 'META-INF/NOTICE.txt'
-        exclude '.readme'
+        resources {
+            excludes += ['META-INF/LICENSE.txt', 'META-INF/LICENSE-FIREBASE.txt', 'META-INF/NOTICE.txt', '.readme']
+        }
     }
+
 
     sourceSets {
         main {
@@ -108,6 +91,15 @@ android {
             res.srcDirs = ['res']
             resources.srcDirs = ['res']
         }
+    }
+    lint {
+        abortOnError true
+        baseline file('lint-baseline.xml')
+        checkAllWarnings true
+        disable 'MissingTranslation', 'ExtraTranslation'
+        showAll true
+        warningsAsErrors true
+        xmlReport false
     }
 }
 
