@@ -273,7 +273,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         final ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setTitle(title);
-            mCollapsingToolbar.setTitle(title);
         }
     }
 
