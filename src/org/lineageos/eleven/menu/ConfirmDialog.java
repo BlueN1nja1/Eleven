@@ -23,6 +23,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.lineageos.eleven.R;
 
@@ -58,7 +59,7 @@ public class ConfirmDialog extends DialogFragment {
     @NonNull
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
         Bundle args = getArguments();
-        return new AlertDialog.Builder(getActivity())
+        return new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_App_MaterialAlertDialog)
                 .setTitle(args == null ? R.string.app_name : args.getInt(TITLE_ID))
                 .setMessage(R.string.cannot_be_undone)
                 .setPositiveButton(args == null ?
