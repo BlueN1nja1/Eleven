@@ -24,7 +24,7 @@
 
     <uses-sdk
         android:minSdkVersion="28"
-        android:targetSdkVersion="33" />
+        android:targetSdkVersion="32" />
 
     <!-- Android Studio will complain about not being able to
          resove the symbol, but it compiles with no problem.
@@ -49,12 +49,18 @@
     <!-- Used to create launcher shortcuts -->
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
     <!-- Allows Eleven to read from External Storage -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
     <!-- Allows Eleven to modify media files on external storage -->
     <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"
         tools:ignore="ProtectedPermissions" />
-<uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
-<uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <!-- Allows Eleven to post notifications on A13+ -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+  <!-- Allows Eleven to read Audio from External Storage on A13+ -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+
+  <!-- Allows Eleven to read Images from External Storage on A13+ -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
 
     <!-- Audio Visualizer Permissions -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
