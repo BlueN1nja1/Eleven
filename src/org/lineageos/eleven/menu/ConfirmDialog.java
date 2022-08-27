@@ -59,7 +59,7 @@ public class ConfirmDialog extends DialogFragment {
     @NonNull
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
         Bundle args = getArguments();
-        return new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_App_MaterialAlertDialog)
+        return new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_MaterialAlertDialog)
                 .setTitle(args == null ? R.string.app_name : args.getInt(TITLE_ID))
                 .setMessage(R.string.cannot_be_undone)
                 .setPositiveButton(args == null ?

@@ -63,7 +63,7 @@ public abstract class BasePlaylistDialog extends DialogFragment implements TextW
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable final Bundle savedInstanceState) {
-        mPlaylistDialog = new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_App_MaterialAlertDialog).create();
+        mPlaylistDialog = new MaterialAlertDialogBuilder(getActivity(),R.style.ThemeOverlay_MaterialAlertDialog).create();
         mPlaylistDialog.setButton(Dialog.BUTTON_POSITIVE, getString(R.string.save),
                 (dialog, which) -> {
                     onSaveClick();

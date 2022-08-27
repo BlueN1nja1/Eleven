@@ -22,7 +22,6 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorAccent">@android:color/system_accent1_400</item>
         <item name="android:colorBackground">@color/background_color</item>
-        <item name="android:navigationBarColor">@color/transparent</item>
         <item name="android:statusBarColor">@color/transparent</item>
     </style>
     <style name="Theme.AudioPreview" parent="@style/Theme.Material3.DayNight.NoActionBar">

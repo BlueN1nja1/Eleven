@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.App" parent="Theme.Material3.DayNight">
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialAlertDialog</item>
     </style>
 
-    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+    <style name="ThemeOverlay.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="colorPrimary">@color/background_color</item>
         <item name="colorSecondary">@color/background_color</item>
-        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialogTheme</item>
         <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
-        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>
-        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Dialog_Button_Style</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Dialog_Button_Style</item>
     </style>
 </resources>

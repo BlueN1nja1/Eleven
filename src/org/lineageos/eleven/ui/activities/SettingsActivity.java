@@ -90,7 +90,7 @@ public class SettingsActivity extends AppCompatActivity {
           final Preference deleteCache = findPreference("delete_cache");
             if (deleteCache != null) {
                 deleteCache.setOnPreferenceClickListener(preference -> {
-                    new MaterialAlertDialogBuilder(getContext(), R.style.ThemeOverlay_App_MaterialAlertDialog)
+                    new MaterialAlertDialogBuilder(getContext(), R.style.ThemeOverlay_MaterialAlertDialog)
                             .setTitle(R.string.delete_cache)
                             .setMessage(R.string.delete_warning)
                             .setPositiveButton(android.R.string.ok, (dialog, which) ->

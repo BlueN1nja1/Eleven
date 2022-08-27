@@ -36,7 +36,7 @@
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
-        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/navbar_color</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
@@ -47,7 +47,7 @@
         <item name="android:textColorPrimary">@color/default_text_color</item>
     </style>
 
-    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.Material3">
+    <style name="MaterialAlertDialogTheme" parent="MaterialAlertDialog.Material3">
         <item name="shapeAppearance">@style/ShapeAppearance.Dialog</item>
         <item name="shapeAppearanceOverlay">@null</item>
     </style>
@@ -56,7 +56,7 @@
         <item name="android:textColor">@color/accent</item>
     </style>
 
-    <style name="Widget.App.Button" parent="Widget.Material3.Button.TextButton.Dialog">
+    <style name="Dialog_Button_Style" parent="Widget.Material3.Button.TextButton.Dialog">
         <item name="android:textColor">@color/accent</item>
     </style>
 
