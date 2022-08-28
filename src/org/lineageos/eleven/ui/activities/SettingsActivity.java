@@ -25,6 +25,7 @@ import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import android.Manifest.permission;
 import android.os.Build;
 import android.os.Bundle;
@@ -90,7 +91,7 @@ public class SettingsActivity extends AppCompatActivity {
           final Preference deleteCache = findPreference("delete_cache");
             if (deleteCache != null) {
                 deleteCache.setOnPreferenceClickListener(preference -> {
-                    new MaterialAlertDialogBuilder(getContext(), R.style.ThemeOverlay_MaterialAlertDialog)
+                    new MaterialAlertDialogBuilder(getContext(),R.style.ThemeOverlay_MaterialAlertDialog)
                             .setTitle(R.string.delete_cache)
                             .setMessage(R.string.delete_warning)
                             .setPositiveButton(android.R.string.ok, (dialog, which) ->
@@ -205,7 +206,7 @@ public class SettingsActivity extends AppCompatActivity {
                 if (grantResults.length == 0 || grantResults[0] != PERMISSION_GRANTED) {
                     mShowVisualizer.setChecked(false);
                     if (!showRationale) {
-                        new AlertDialog.Builder(getContext())
+                        new MaterialAlertDialogBuilder(getContext(),R.style.ThemeOverlay_MaterialAlertDialog)
                             .setMessage(R.string.visualizer_perm_denied)
                             .setPositiveButton(android.R.string.ok, null)
                             .show();

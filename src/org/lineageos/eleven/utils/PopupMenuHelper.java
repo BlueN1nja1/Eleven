@@ -36,6 +36,7 @@ import org.lineageos.eleven.menu.CreateNewPlaylist;
 import org.lineageos.eleven.menu.FragmentMenuItems;
 import org.lineageos.eleven.menu.RenamePlaylist;
 import org.lineageos.eleven.provider.RecentStore;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.List;
 import java.util.TreeSet;
@@ -354,7 +355,7 @@ public abstract class PopupMenuHelper implements PopupMenu.OnMenuItemClickListen
                     MusicUtils.addToQueue(mActivity, getIdList(), getSourceId(), getSourceType());
                     return true;
                 case FragmentMenuItems.ADD_TO_PLAYLIST:
-                    final AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);
+                    final MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(mActivity);
                     builder.setTitle(R.string.add_to_playlist);
                     final List<String> menuItemList = MusicUtils.makePlaylist(mActivity);
                     builder.setItems(menuItemList.toArray(new String[0]), (dialog, which) -> {
