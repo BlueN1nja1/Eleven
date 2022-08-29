@@ -1,4 +1,4 @@
-Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo to Android 12.1 Snow Cone so far.
+Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo to Android 13 Tiramisu so far.
 ---------------------------------------------------------------------------------------------------------------------
 Note: This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 currently in Beta Testing with Monet and Android 12-13 Support! Also, if this version's source code seems like it's behind the other branches, that's because I've rebased my code on the latest version of Eleven. It'll take a bit for previous changes to make their way back to this branch. Thank you for your patience.
 
