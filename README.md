@@ -4,7 +4,7 @@ Note: This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 curren
 
 Current Available Accent Colors: 
 ---------------------------------------------------------------------------------------------------------------------
-Pixel Blue, Lineage Green, Coral Red, Cyan, Banana Yellow, Deep Purple, Ocean, Monochrome and Eleven Pink (Available on most versions below 6.0.0 as Material You replaces these. I may bring these colors back in a future update that will let you enable and disable Material You and select from these colors whenever you want to)
+Pixel Blue, Lineage Green, Coral Red, Cyan, Banana Yellow, Deep Purple, Ocean, Monochrome and Eleven Pink (Available on most versions below 6.0.0 as Material You phases these out. I may add themes in the future)
 
 Planned Accent Colors:
 ---------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ Planned Features:
 -Add Scrollbars back. 
 -Refine the Material You Theme and adapt it to the latest versions.
 -Fix Scoped Storage Regressions.
--Bring back / Rewrite Search for both Android Oreo and Android 10+
+-Bring back / Rewrite Search for both Android Oreo and Android 10+ (Search requires a full rewrite thanks to Scoped Storage, Don't expect this feature any time soon.)
 
 Custom Roms?:
 ---------------------------------------------------------------------------------------------------------------------
