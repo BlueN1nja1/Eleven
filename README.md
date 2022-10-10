@@ -4,6 +4,10 @@ Note: This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 curren
 Also, if this version's source code seems like it's behind the other branches, that's because I've rebased my code on the latest version of Eleven. 
 It'll take a bit for previous changes to make their way back to this branch. Thank you for your patience.
 
+Downloads:
+---------------------------------------------------------------------------------------------------------------------
+https://github.com/lopez05656/Eleven/releases
+
 Current Available Accent Colors: 
 ---------------------------------------------------------------------------------------------------------------------
 Pixel Blue, Lineage Green, Coral Red, Cyan, Banana Yellow, Deep Purple, Ocean, Monochrome and Eleven Pink (Available on most versions below 6.0.0 as 
@@ -35,7 +39,3 @@ LineageOS Devices: Might be packaged into a Flashable zip or a Magisk Module for
 Screeenshots:
 ---------------------------------------------------------------------------------------------------------------------
 Soon...
-
-Downloads:
----------------------------------------------------------------------------------------------------------------------
-https://github.com/lopez05656/Eleven/releases
