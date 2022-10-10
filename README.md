@@ -35,3 +35,7 @@ LineageOS Devices: Might be packaged into a Flashable zip or a Magisk Module for
 Screeenshots:
 ---------------------------------------------------------------------------------------------------------------------
 Soon...
+
+Downloads:
+---------------------------------------------------------------------------------------------------------------------
+https://github.com/lopez05656/Eleven/releases
