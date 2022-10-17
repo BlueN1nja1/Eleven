@@ -22,7 +22,9 @@ Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
 -Add Scrollbars back.
 
--Refine the Material You Theme and Releaae Eleven 6.0.0
+-Properly Refine the Material You Theme
+
+-Release Eleven 6.0.0
 
 -Fix Scoped Storage Regressions on Android 11+
 
