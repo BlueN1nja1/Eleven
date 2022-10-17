@@ -46,9 +46,3 @@ Screeenshots:
 ---------------------------------------------------------------------------------------------------------------------
 Soon...
 
-Downloads:
----------------------------------------------------------------------------------------------------------------------
-
-Latest Beta: https://github.com/lopez05656/Eleven/releases/tag/6.0.0-beta-2.1
-
-Latest Stable Release (Outdated): https://github.com/lopez05656/Eleven/releases/tag/5.6.0.1
