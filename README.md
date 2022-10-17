@@ -21,8 +21,11 @@ None at the Moment...
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
 -Add Scrollbars back.
+
 -Refine the Material You Theme and Releaae Eleven 6.0.0
+
 -Fix Scoped Storage Regressions on Android 11+
+
 -Bring back Search for both Android Oreo and Android 10+ (Search requires a full rewrite thanks to Scoped Storage,
  Don't expect this feature anytime soon.)
 
