@@ -8,16 +8,6 @@ Downloads:
 ---------------------------------------------------------------------------------------------------------------------
 https://github.com/lopez05656/Eleven/releases
 
-Current Available Accent Colors: 
----------------------------------------------------------------------------------------------------------------------
-Pixel Blue, Lineage Green, Coral Red, Cyan, Banana Yellow, Deep Purple, Ocean, Monochrome and Eleven Pink (Available on most versions below 6.0.0 as 
-Material You phases these out. I may add themes and a Material You Toggle in the future)
-
-Planned Accent Colors:
----------------------------------------------------------------------------------------------------------------------
-None at the Moment...
-
-
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
 -Add Scrollbars back.
