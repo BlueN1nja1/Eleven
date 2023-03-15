@@ -102,11 +102,6 @@ public class SettingsActivity extends AppCompatActivity {
                 });
             }
 
-            // Since we use RenderEffect, we need to make sure we run >= Android S
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) {
-                getPreferenceScreen().removePreference(findPreference(PreferenceUtils.USE_BLUR));
-            }
-
             PreferenceUtils prefUtils = PreferenceUtils.getInstance(getContext());
             prefUtils.setOnSharedPreferenceChangeListener(this);
 
