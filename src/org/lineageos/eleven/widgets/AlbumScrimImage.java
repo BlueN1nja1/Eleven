@@ -17,7 +17,7 @@
  */
 package org.lineageos.eleven.widgets;
 
-import android.annotation.TargetApi;
+import androidx.annotation.RequiresApi;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -78,7 +78,9 @@ public class AlbumScrimImage extends FrameLayout {
      * Transitions the image to the default state (default blur artwork)
      */
     public void transitionToDefaultState() {
-        clearBlurEffect();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            clearBlurEffect();
+        }
 
         // if we are already showing the default artwork and we are transitioning to the
         // default artwork then don't do the transition at all
@@ -122,14 +124,14 @@ public class AlbumScrimImage extends FrameLayout {
         mUsingDefaultArtwork = false;
     }
 
-    @TargetApi(Build.VERSION_CODES.S)
+    @RequiresApi(Build.VERSION_CODES.S)
     public void applyBlurEffect() {
         final RenderEffect blurEffect = RenderEffect.createBlurEffect(
                 BLUR_RADIUS, BLUR_RADIUS, Shader.TileMode.CLAMP);
         mImageView.setRenderEffect(blurEffect);
     }
 
-    @TargetApi(Build.VERSION_CODES.S)
+    @RequiresApi(Build.VERSION_CODES.S)
     public void clearBlurEffect() {
         mImageView.setRenderEffect(null);
     }
