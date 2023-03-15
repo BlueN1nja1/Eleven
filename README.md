@@ -6,7 +6,7 @@ Notice: As of 3-3-2023, this project has been split into 2 branches: lineage-20.
 
 Downloads:
 ---------------------------------------------------------------------------------------------------------------------
-https://github.com/lopez05656/Eleven/releases
+https://github.com/lopez05656/Eleven/releases 
 
 Planned Features:
 ---------------------------------------------------------------------------------------------------------------------
