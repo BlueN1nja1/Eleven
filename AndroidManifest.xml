@@ -19,7 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.lineageos.eleven"
     android:versionCode="599"
-    android:versionName="6.0.0 Beta 2.1"
+    android:versionName="6.0.0 Beta 2.2"
     tools:ignore="GradleOverrides">
 
     <uses-sdk
