@@ -25,15 +25,15 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:fitsSystemWindows="true"
-        android:background="@color/background_color"
         app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title"
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
-            app:contentScrim="@color/header_action_bar_cab"
-            app:statusBarScrim="@color/header_action_bar_cab"
+            app:contentScrim="@color/transparent"
+            app:statusBarScrim="@color/transparent"
+            app:titleCollapseMode="scale"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             android:background="@color/background_color"
             android:elevation="0dp"
