@@ -121,7 +121,7 @@
             android:name="org.lineageos.eleven.ui.activities.SettingsActivity"
             android:exported="false"
             android:label="@string/menu_settings"
-            android:theme="@style/Eleven.Theme.ActionBar.Overlay"/>
+            android:theme="@style/Eleven.Theme.Settings"/>
         <!-- Audio Preview -->
         <activity
             android:name=".ui.activities.preview.AudioPreviewActivity"

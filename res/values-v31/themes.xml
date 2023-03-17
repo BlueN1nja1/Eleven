@@ -10,6 +10,20 @@
         <item name="android:statusBarColor">@color/transparent</item>
     </style>
 
+    <style name="Eleven.Theme.Settings" parent="Eleven.Theme.ActionBar.Overlay">
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialAlertDialog</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:switchStyle">@style/Eleven.Theme.Settings.Switch</item>
+    </style>
+
+    <!-- Settings switch theme. -->
+    <style name="Eleven.Theme.Settings.Switch" parent="@android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:switchMinWidth">52dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:track">@drawable/settings_switch_track</item>
+        <item name="android:thumb">@drawable/settings_switch_thumb</item>
+    </style>
+
     <style name="ThemeOverlay.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="colorOnSurface">@android:color/system_neutral1_10</item>
         <item name="colorSurface">@android:color/system_neutral1_10</item>

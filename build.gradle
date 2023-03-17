@@ -128,4 +128,5 @@ dependencies {
     // see https://github.com/material-components/material-components-android/releases
     implementation "com.google.android.material:material:1.8.0"
     implementation "androidx.compose.material3:material3:1.1.0-alpha08"
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
 }
