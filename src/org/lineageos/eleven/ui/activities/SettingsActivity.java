@@ -21,13 +21,11 @@ package org.lineageos.eleven.ui.activities;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import android.Manifest.permission;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
