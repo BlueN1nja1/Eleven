@@ -4,6 +4,11 @@
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialAlertDialog</item>
     </style>
 
+    <style name="Eleven.Theme.Settings" parent="Eleven.Theme.ActionBar.Overlay">
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialAlertDialog</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
     <style name="ThemeOverlay.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="colorPrimary">@color/background_color</item>
         <item name="colorSecondary">@color/background_color</item>
