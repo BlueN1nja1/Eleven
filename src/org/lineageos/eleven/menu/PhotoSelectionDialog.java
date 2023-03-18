@@ -83,7 +83,7 @@ public class PhotoSelectionDialog extends DialogFragment {
         final HomeActivity activity = (HomeActivity) getActivity();
         final ListAdapter adapter = new ArrayAdapter<>(activity,
                 android.R.layout.select_dialog_item, choices);
-        return new MaterialAlertDialogBuilder(activity).setTitle(title)
+        return new MaterialAlertDialogBuilder(activity,R.style.ThemeOverlay_MaterialAlertDialog).setTitle(title)
                 .setAdapter(adapter, (dialog, which) -> {
                     switch (which) {
                         case NEW_PHOTO:
