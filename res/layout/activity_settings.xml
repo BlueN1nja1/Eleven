@@ -31,8 +31,8 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
-            app:contentScrim="@color/transparent"
-            app:statusBarScrim="@color/transparent"
+            app:contentScrim="@color/header_action_bar_cab"
+            app:statusBarScrim="@color/header_action_bar_cab"
             app:titleCollapseMode="scale"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             android:background="@color/background_color"

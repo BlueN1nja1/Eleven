@@ -16,7 +16,6 @@
  */
 package org.lineageos.eleven.menu;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
 

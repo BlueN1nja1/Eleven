@@ -16,8 +16,6 @@
  * limitations under the License.
  */
 package org.lineageos.eleven.menu;
-
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
 import android.text.InputType;
@@ -118,7 +116,7 @@ public abstract class BasePlaylistDialog extends DialogFragment implements TextW
     public abstract void initialize(Bundle savedInstanceState);
 
     /**
-     * Called when the save button of our {@link AlertDialog} is pressed
+     * Called when the save button of our {@link MaterialAlertDialogBuilder} is pressed
      */
     public abstract void onSaveClick();
 

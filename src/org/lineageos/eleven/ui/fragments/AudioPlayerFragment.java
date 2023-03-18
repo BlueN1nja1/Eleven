@@ -16,7 +16,6 @@
  */
 package org.lineageos.eleven.ui.fragments;
 
-import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -51,6 +50,8 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.adapters.AlbumArtPagerAdapter;
@@ -74,8 +75,6 @@ import java.util.List;
 
 public class AudioPlayerFragment extends Fragment implements ServiceConnection {
     private static final String TAG = AudioPlayerFragment.class.getSimpleName();
-
-    private AlertDialog mAlertDialog;
 
     // fragment view
     private ViewGroup mRootView;
@@ -224,7 +223,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
             mSelectedId = MusicUtils.getCurrentAudioId();
             if (activity != null) {
                 final List<String> menuItemList = MusicUtils.makePlaylist(activity);
-                final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+                final MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(activity,R.style.ThemeOverlay_MaterialAlertDialog);
                 builder.setTitle(R.string.add_to_playlist)
                         .setItems(menuItemList.toArray(new String[0]), (dialog, which) -> {
                             final long playListId = MusicUtils.getIdForPlaylist(getActivity(),
@@ -237,7 +236,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
                             CreateNewPlaylist.getInstance(new long[]{mSelectedId})
                                     .show(fragmentManager, "CreatePlaylist");
                         });
-                mAlertDialog = builder.show();
+                 builder.show();
             }
         } else if (id == R.id.menu_shuffle_all) {
             // Shuffle all the songs
@@ -338,9 +337,6 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
         // pause the update callback for the play pause progress button
         mTimeHandler.removeMessages(REFRESH_TIME);
 
-        if (mAlertDialog != null) {
-            mAlertDialog.dismiss();
-        }
 
         mImageFetcher.flush();
 

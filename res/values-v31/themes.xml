@@ -29,8 +29,8 @@
         <item name="colorSurface">@android:color/system_neutral1_10</item>
         <item name="alertDialogStyle">@style/MaterialAlertDialogTheme</item>
         <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
-        <item name="buttonBarPositiveButtonStyle">@style/Dialog_Button_Style</item>
-        <item name="buttonBarNegativeButtonStyle">@style/Dialog_Button_Style</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Dialog_Button_Positive_Style</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Dialog_Button_Negative_Style</item>
     </style>
 
 </resources>
