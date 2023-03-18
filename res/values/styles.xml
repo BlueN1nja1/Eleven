@@ -56,7 +56,7 @@
         <item name="android:textColor">@color/accent</item>
     </style>
 z
-    <style name="Dialog_Button_Positive_Style" parent="Widget.Material3.Button.OutlinedButton">
+    <style name="Dialog_Button_Positive_Style" parent="Widget.Material3.Button.TonalButton">
         <item name="android:textColor">@color/accent</item>
     </style>
 
