@@ -9,5 +9,5 @@
     <!-- Toggle off status of track -->
     <item android:color="@android:color/system_neutral1_700" android:state_checked="false" />
     <!-- Enabled or toggle on status of track -->
-    <item android:color="@color/accent" />
+    <item android:color="@android:color/system_accent2_500" />
 </selector>
