@@ -20,6 +20,10 @@ Planned Features:
 
 -Bring back Search for both Android Oreo and Android 10+ (Search requires a full rewrite thanks to Scoped Storage,
  Don't expect this feature anytime soon.)
+ 
+Bugs?
+--------------------------------------------------------------------------------------------------------------------
+Please report any bugs in the Issues tab.
 
 Custom Roms?:
 ---------------------------------------------------------------------------------------------------------------------
