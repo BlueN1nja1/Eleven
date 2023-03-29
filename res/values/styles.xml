@@ -55,7 +55,7 @@
     <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
         <item name="android:textColor">@color/accent</item>
     </style>
-z
+
     <style name="Dialog_Button_Positive_Style" parent="Widget.Material3.Button">
         <item name="android:backgroundTint">@color/accent</item>
     </style>
