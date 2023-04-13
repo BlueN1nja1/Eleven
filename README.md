@@ -2,8 +2,6 @@ Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo
 ---------------------------------------------------------------------------------------------------------------------
 This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 currently in Beta Testing with Monet and Android 12-13 Support!
 
-Notice: As of 3-3-2023, this project has been split into 2 branches: lineage-20.0 and lineage-20.0-port. The lineage-20.0 branch is for builds that target devices on newer versions of Android, while the lineage-20.0-port branch includes changes that will allow the app to work on older versions and devices with heavy manufacturer skins. Thus, newer beta releases (and all future releases) will come from both branches.
-
 Downloads:
 ---------------------------------------------------------------------------------------------------------------------
 https://github.com/lopez05656/Eleven/releases 
