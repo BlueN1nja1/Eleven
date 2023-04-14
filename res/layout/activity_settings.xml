@@ -32,7 +32,7 @@
             style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
             app:contentScrim="@color/header_action_bar_cab"
-            app:statusBarScrim="@color/header_action_bar_cab"
+            app:statusBarScrim="@android:color/transparent"
             app:titleCollapseMode="scale"
             app:collapsedTitleTextAppearance="@style/Theme.Eleven.ToolbarCollapsed"
             app:expandedTitleMarginBottom="31dp"
