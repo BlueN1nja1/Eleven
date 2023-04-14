@@ -217,12 +217,12 @@
 
 
     <!-- Collapsing toolbar style -->
-    <style name="Eleven.Theme.Settings.ToolbarCollapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+    <style name="Theme.Eleven.ToolbarCollapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="Eleven.Theme.Settings.ToolbarExpanded" parent="Eleven.Theme.Settings.ToolbarCollapsed">
+    <style name="Theme.Eleven.ToolbarExpanded" parent="Theme.Eleven.ToolbarCollapsed">
         <item name="android:textSize">36sp</item>
         <item name="android:drawablePadding">10dp</item>
     </style>
