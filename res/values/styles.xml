@@ -214,6 +214,18 @@
         <item name="android:dropDownHorizontalOffset">0dp</item>
     </style>
 
+
+    <!-- Collapsing toolbar style -->
+    <style name="Eleven.Theme.Settings.ToolbarCollapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Eleven.Theme.Settings.ToolbarExpanded" parent="Eleven.Theme.Settings.ToolbarCollapsed">
+        <item name="android:textSize">36sp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
     <!-- Use dp because the time decoration has constrained width and we don't want it to grow if
          the user sets large text scale in the system settings. -->
     <style name="SectionSeparator">
