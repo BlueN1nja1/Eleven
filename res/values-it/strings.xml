@@ -102,7 +102,7 @@
     <string name="settings_show_lyrics_summary">Per le canzoni che hanno un file srt</string>
     <string name="settings_shake_to_play">Scuoti per riprodurre</string>
     <string name="settings_shake_to_play_summary">Scuoti il dispositivo per riprodurre la prossima canzone</string>
-    <string name="app_widget_small">Musica: 4 \u00d7 1</string>
+    <string name="app_widget_small">Musica: Quadrato</string>
     <string name="app_widget_large">Musica: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Musica: 4 \u00d7 2 (alternativo)</string>
     <string name="no_effects_for_you">L\'equalizzazione non può essere aperto.</string>
@@ -138,4 +138,7 @@
     <string name="header_other">"Altro"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Riproduzione musicale</string>
+    <string name="widget_track_name">Nome traccia</string>
+    <string name="widget_artist_name">Nome artista</string>
+    <string name="widget_album_name">Nome album</string>
 </resources>

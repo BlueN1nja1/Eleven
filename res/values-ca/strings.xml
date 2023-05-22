@@ -102,7 +102,7 @@
     <string name="settings_show_lyrics_summary">Per cançons que tenen un fitxer srt</string>
     <string name="settings_shake_to_play">Agita per Reproduir</string>
     <string name="settings_shake_to_play_summary">Agita el teu dispositiu per reproduir la cançó següent</string>
-    <string name="app_widget_small">Música: 4 \u00d7 1</string>
+    <string name="app_widget_small">Música: quadrat</string>
     <string name="app_widget_large">Música: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Música: 4 \u00d7 2 (alternatiu)</string>
     <string name="no_effects_for_you">L\'equalitzador no s\'ha pogut obrir.</string>
@@ -138,4 +138,7 @@
     <string name="header_other">"Altres"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Reproducció de música</string>
+    <string name="widget_track_name">Nom de la pista</string>
+    <string name="widget_artist_name">Nom de l\'artista</string>
+    <string name="widget_album_name">Nom de l\'àlbum</string>
 </resources>
