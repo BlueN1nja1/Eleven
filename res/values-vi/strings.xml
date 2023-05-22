@@ -102,7 +102,7 @@
     <string name="settings_show_lyrics_summary">Đối với bài hát có tập tin srt</string>
     <string name="settings_shake_to_play">Lắc để phát</string>
     <string name="settings_shake_to_play_summary">Lắc thiết bị để phát bài hát kế tiếp</string>
-    <string name="app_widget_small">Nghe nhạc: 4 \u00d7 1</string>
+    <string name="app_widget_small">Âm nhạc: Hình vuông</string>
     <string name="app_widget_large">Nghe nhạc: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Nghe nhạc: 4 \u00d7 2 (kiểu khác)</string>
     <string name="no_effects_for_you">Không thể mở bộ chỉnh âm.</string>
@@ -138,4 +138,7 @@
     <string name="header_other">"Khác"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Trình phát nhạc</string>
+    <string name="widget_track_name">Tên bài hát</string>
+    <string name="widget_artist_name">Tên nghệ sĩ</string>
+    <string name="widget_album_name">Tên album</string>
 </resources>

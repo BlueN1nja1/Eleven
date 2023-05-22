@@ -102,7 +102,7 @@
     <string name="settings_show_lyrics_summary">Voor nummers met een srt-bestand</string>
     <string name="settings_shake_to_play">Schudden voor afspelen</string>
     <string name="settings_shake_to_play_summary">Uw apparaat schudden om het volgende nummer af te spelen</string>
-    <string name="app_widget_small">Muziek: 4 \u00d7 1</string>
+    <string name="app_widget_small">Muziek: Vierkant</string>
     <string name="app_widget_large">Muziek: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Muziek: 4 \u00d7 2 (alternatief)</string>
     <string name="no_effects_for_you">Kan equalizer niet openen.</string>
@@ -138,4 +138,7 @@
     <string name="header_other">"Overig"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Muziek afspelen</string>
+    <string name="widget_track_name">Tracknaam</string>
+    <string name="widget_artist_name">Naam v/d artiest</string>
+    <string name="widget_album_name">Albumnaam</string>
 </resources>

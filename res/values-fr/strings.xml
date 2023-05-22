@@ -102,7 +102,7 @@
     <string name="settings_show_lyrics_summary">Pour les titres ayant un fichier srt</string>
     <string name="settings_shake_to_play">Secouer pour lire</string>
     <string name="settings_shake_to_play_summary">Secouer votre appareil pour écouter le titre suivant</string>
-    <string name="app_widget_small">Musique : 4 \u00d7 1</string>
+    <string name="app_widget_small">Musique : Carré</string>
     <string name="app_widget_large">Musique : 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Musique : 4 \u00d7 2 (alterné)</string>
     <string name="no_effects_for_you">L\'égaliseur ne peut pas être ouvert.</string>
@@ -138,4 +138,7 @@
     <string name="header_other">"Autres"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Lecture de musique</string>
+    <string name="widget_track_name">Nom de la piste</string>
+    <string name="widget_artist_name">Nom de l\'artiste</string>
+    <string name="widget_album_name">Nom de l\'album</string>
 </resources>
