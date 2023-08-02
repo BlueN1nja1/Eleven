@@ -27,7 +27,7 @@
     <string name="header_all_songs">Усе песні</string>
     <string name="menu_settings">Налады</string>
     <string name="menu_shuffle_item">Перамяшаць</string>
-    <string name="menu_shuffle_all">Перамяшаць усё</string>
+    <string name="menu_shuffle_all">Перамяшаць усе</string>
     <string name="menu_shuffle_playlist">Перамяшаць спіс прайгравання</string>
     <string name="menu_shuffle_album">Перамяшаць альбом</string>
     <string name="menu_shuffle_artist">Перамяшаць выканаўца</string>
@@ -48,7 +48,7 @@
     <string name="sort_order_entry_album">Альбому</string>
     <string name="sort_order_entry_year">Году</string>
     <string name="sort_order_entry_duration">Працягласць</string>
-    <string name="sort_order_entry_number_of_songs">Колькасці песняў</string>
+    <string name="sort_order_entry_number_of_songs">Колькасці песень</string>
     <string name="sort_order_entry_number_of_albums">Колькасці альбомаў</string>
     <string name="sort_order_entry_filename">Назва файла</string>
     <string name="playlist_last_added">Апошнія дададзеныя</string>
@@ -66,7 +66,8 @@
     <string name="clear_recent_title">Ачысціць нядаўна прайграныя?</string>
     <string name="clear_last_added">Ачысціць нядаўна дададзеныя?</string>
     <string name="cannot_be_undone">Гэта дзеянне немагчыма адрабіць</string>
-    <string name="delete_warning">Гэта прывядзе да незваротнага выдалення запісаў кэшаваных відарысаў</string>
+    <string name="delete_warning">Гэта дзеянне прывядзе да незваротнага выдалення запісаў кэшаваных відарысаў</string>
+    <string name="new_photo">Выбраць фатаграфію з галерэі</string>
     <string name="use_default">Выкарыстоўваць прадвызначаную фатаграфію</string>
     <string name="context_menu_play_selection">Прайграць</string>
     <string name="context_menu_play_next">Прайграць наступным</string>
@@ -75,25 +76,24 @@
     <string name="context_menu_rename_playlist">Перайменаваць</string>
     <string name="context_menu_delete">Выдаліць</string>
     <string name="context_menu_fetch_album_art">Атрымаць вокладку альбома</string>
+    <string name="context_menu_fetch_artist_image">Атрымаць фота выканаўцы</string>
     <string name="context_menu_remove_from_recent">Выдаліць з нядаўніх</string>
-    <string name="context_menu_use_as_ringtone">Выкарыстаць як мелодыю выкліку</string>
+    <string name="context_menu_use_as_ringtone">Выкарыстоўваць як мелодыю выкліку</string>
     <string name="context_menu_remove_from_playlist">Выдаліць са спіса прайгравання</string>
     <string name="context_menu_change_image">Змяніць відарыс</string>
     <string name="accessibility_play">Прайграць</string>
-    <string name="accessibility_pause">Паўза</string>
-    <string name="accessibility_next">Наступная</string>
+    <string name="accessibility_pause">Прыпыніць</string>
+    <string name="accessibility_next">Далей</string>
     <string name="accessibility_prev">Папярэдняя</string>
     <string name="accessibility_shuffle">Перамяшаць</string>
-    <string name="accessibility_shuffle_all">Перамяшаць усё</string>
-    <string name="accessibility_repeat">Паўтор</string>
-    <string name="accessibility_repeat_all">Паўтор усіх</string>
-    <string name="accessibility_repeat_one">Паўтор песні </string>
+    <string name="accessibility_shuffle_all">Перамяшаць усе</string>
+    <string name="accessibility_repeat">Паўтарыць</string>
+    <string name="accessibility_repeat_all">Паўтарыць усе</string>
     <string name="settings_storage_category">Сховішча</string>
     <string name="settings_delete_cache_title">Выдаліць кэш</string>
     <string name="settings_delete_cache_summary">Выдаліць усе кэшаваныя відарысы</string>
     <string name="settings_general_category">Агульныя</string>
     <string name="settings_show_music_visualization_title">Паказваць візуалізацыю музыкі</string>
-    <string name="settings_use_blur_title">Размыццё фону</string>
     <string name="settings_show_lyrics_title">Паказваць тэкст песні</string>
     <string name="settings_show_lyrics_summary">Для песень, якія маюць файл srt</string>
     <string name="settings_shake_to_play">Пераключэнне кампазіцый устрэсваннем</string>
@@ -101,14 +101,12 @@
     <string name="app_widget_large">Музыка: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Музыка: 4 \u00d7 2 (альтэрнатыўны)</string>
     <string name="no_effects_for_you">Немагчыма адкрыць эквалайзер.</string>
-    <string name="empty_recent_main">Няма нядаўніх песень </string>
-    <string name="empty_recent">Песні, якія вы слухалі нядаўна, будуць знаходзіцца тут.</string>
     <string name="empty_playlist_main">Няма песень у спісе прайгравання</string>
-    <string name="empty_top_tracks_main">Няма лепшых кампазіцый</string>
+    <string name="empty_top_tracks_secondary">Песні, якія вы слухаеце найчасцей, будуць дададзены ў гэты спіс.</string>
     <string name="empty_last_added_main">Няма апошніх дададзеных песень</string>
-    <string name="empty_last_added">Песні, дададзеныя за апошні месяц, будуць паказаны тут.</string>
     <string name="empty_generic_main">Музыка не знойдзена</string>
     <string name="empty_generic_secondary">Каб скапіяваць музыку з камп\'ютара, скарыстайцеся кабелем USB.</string>
+    <string name="empty_queue_main">Няма песень у чарзе</string>
     <string name="header_unknown_year">Невядомы год</string>
     <string name="header_less_than_30s">Менш за 30 секунд</string>
     <string name="header_30_to_60_seconds">30 - 60 секунд</string>
@@ -125,7 +123,6 @@
     <string name="header_5_to_9_songs">5 - 9 песень</string>
     <string name="header_10_plus_songs">Больш за 10 песень</string>
     <string name="header_5_plus_albums">Больш за 5 альбомаў</string>
-    <string name="header_other">"Іншыя"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Прайграванне музыкі</string>
 </resources>

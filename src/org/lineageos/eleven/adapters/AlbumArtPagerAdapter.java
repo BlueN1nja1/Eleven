@@ -18,8 +18,9 @@ package org.lineageos.eleven.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,8 +29,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import org.lineageos.eleven.BuildConstants;
 import org.lineageos.eleven.MusicPlaybackService;
@@ -42,11 +42,13 @@ import org.lineageos.eleven.widgets.SquareImageView;
 import java.lang.ref.WeakReference;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
- * A {@link androidx.fragment.app.FragmentStatePagerAdapter} class for swiping between album art
+ * A {@link androidx.viewpager2.adapter.FragmentStateAdapter} class for swiping between album art
  */
-public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
+public class AlbumArtPagerAdapter extends FragmentStateAdapter {
     private static final boolean DEBUG = false;
     private static final String TAG = AlbumArtPagerAdapter.class.getSimpleName();
 
@@ -96,25 +98,27 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
     // the length of the playlist
     private int mPlaylistLen = 0;
 
-    public AlbumArtPagerAdapter(FragmentManager fm) {
-        super(fm, FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+    public AlbumArtPagerAdapter(Fragment f) {
+        super(f);
     }
 
-    @Override
+
     @NonNull
-    public Fragment getItem(final int position) {
+    @Override
+    public Fragment createFragment(int position) {
         long trackID = getTrackId(position);
         return AlbumArtFragment.newInstance(trackID);
     }
 
     @Override
-    public int getCount() {
+    public int getItemCount() {
         return mPlaylistLen;
     }
 
     public void setPlaylistLength(final int len) {
+        notifyItemRangeChanged(0, mPlaylistLen);
         mPlaylistLen = len;
-        notifyDataSetChanged();
+        notifyItemRangeChanged(0, mPlaylistLen);
     }
 
     /**
@@ -195,17 +199,12 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
         }
 
         @Override
-        public void onDestroy() {
-            super.onDestroy();
-        }
-
-        @Override
         public void onDestroyView() {
             super.onDestroyView();
 
             // if we are destroying our view, cancel our task and null it
             if (mTask != null) {
-                mTask.cancel(true);
+                mTask.cancel();
                 mTask = null;
             }
         }
@@ -232,14 +231,13 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
             } else {
                 // Cancel any previous tasks
                 if (mTask != null) {
-                    mTask.cancel(true);
+                    mTask.cancel();
                     mTask = null;
                 }
 
                 mTask = new AlbumArtistLoader(this, getActivity());
-                ElevenUtils.execute(mTask, mAudioId);
+                mTask.execute(mAudioId);
             }
-
         }
 
         /**
@@ -261,36 +259,42 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
     /**
      * This looks up the album and artist details for a track
      */
-    private static class AlbumArtistLoader extends AsyncTask<Long, Void, AlbumArtistDetails> {
+    private static class AlbumArtistLoader {
         private final WeakReference<Context> mContext;
         private final AlbumArtFragment mFragment;
+
+        private final ExecutorService mExecutor = Executors.newSingleThreadExecutor();
+        private final Handler mHandler = new Handler(Looper.getMainLooper());
 
         public AlbumArtistLoader(final AlbumArtFragment albumArtFragment, final Context context) {
             mContext = new WeakReference<>(context);
             mFragment = albumArtFragment;
         }
 
-        @Override
-        protected AlbumArtistDetails doInBackground(final Long... params) {
-            long id = params[0];
-            return MusicUtils.getAlbumArtDetails(mContext.get(), id);
+        public void execute(long albumId) {
+            mExecutor.execute(() -> {
+                AlbumArtistDetails result = MusicUtils.getAlbumArtDetails(mContext.get(), albumId);
+
+                mHandler.post(() ->  {
+                    if (result != null) {
+                        if (DEBUG) {
+                            Log.d(TAG, "[" + mFragment.mAudioId + "] Loading image: "
+                                    + result.mAlbumId + ","
+                                    + result.mAlbumName + ","
+                                    + result.mArtistName);
+                        }
+
+                        AlbumArtPagerAdapter.addAlbumArtistDetails(result);
+                        mFragment.loadImageAsync(result);
+                    } else if (DEBUG) {
+                        Log.d(TAG, "No Image found for audioId: " + mFragment.mAudioId);
+                    }
+                });
+            });
         }
 
-        @Override
-        protected void onPostExecute(final AlbumArtistDetails result) {
-            if (result != null) {
-                if (DEBUG) {
-                    Log.d(TAG, "[" + mFragment.mAudioId + "] Loading image: "
-                            + result.mAlbumId + ","
-                            + result.mAlbumName + ","
-                            + result.mArtistName);
-                }
-
-                AlbumArtPagerAdapter.addAlbumArtistDetails(result);
-                mFragment.loadImageAsync(result);
-            } else if (DEBUG) {
-                Log.d(TAG, "No Image found for audioId: " + mFragment.mAudioId);
-            }
+        public void cancel() {
+            mExecutor.shutdownNow();
         }
     }
 }

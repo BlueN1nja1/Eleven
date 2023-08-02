@@ -115,7 +115,7 @@ public class SettingsActivity extends AppCompatActivity {
                 // Otherwise we wouldn't notice if the permission has been denied via the Settings
                 // app since the last time
                 mShowVisualizer.setChecked(prefUtils.getShowVisualizer() &&
-                    PreferenceUtils.canRecordAudio(getActivity()));
+                    PreferenceUtils.canRecordAudio(requireActivity()));
             }
         }
 
