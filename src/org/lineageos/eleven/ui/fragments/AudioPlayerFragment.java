@@ -48,7 +48,7 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
-import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
@@ -92,7 +92,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
     private MusicUtils.ServiceToken mToken;
 
     // Album art ListView
-    private ViewPager mAlbumArtViewPager;
+    private ViewPager2 mAlbumArtViewPager;
     private LoadingEmptyContainer mQueueEmpty;
 
     // Visualizer View
@@ -180,7 +180,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
     }
 
     @Override
-    public void onPrepareOptionsMenu(Menu menu) {
+    public void onPrepareOptionsMenu(@NonNull Menu menu) {
         super.onPrepareOptionsMenu(menu);
 
         final Menu playerMenu = mPlayerToolBar.getMenu();
@@ -376,7 +376,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
 
         // Album art view pager
         mAlbumArtViewPager = mRootView.findViewById(R.id.audio_player_album_art_viewpager);
-        mAlbumArtViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+        mAlbumArtViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
@@ -446,8 +446,7 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
      * page adapter
      */
     private void createAndSetAdapter() {
-        final AlbumArtPagerAdapter albumArtPagerAdapter =
-                new AlbumArtPagerAdapter(getChildFragmentManager());
+        final AlbumArtPagerAdapter albumArtPagerAdapter = new AlbumArtPagerAdapter(this);
 
         final int repeatMode = MusicUtils.getRepeatMode();
         final int queueSize = MusicUtils.getQueueSize();
