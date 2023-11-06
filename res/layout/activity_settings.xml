@@ -36,7 +36,7 @@
             app:titleCollapseMode="scale"
             app:collapsedTitleTextAppearance="@style/Theme.Eleven.ToolbarCollapsed"
             app:expandedTitleMarginBottom="31dp"
-            app:expandedTitleGravity="center|bottom"
+            app:expandedTitleMarginStart="24dp"
             app:expandedTitleTextAppearance="@style/Theme.Eleven.ToolbarExpanded"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             android:background="@color/background_color"
