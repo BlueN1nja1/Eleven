@@ -20,6 +20,7 @@
     <color name="primary">@android:color/system_neutral1_900</color>
     <color name="primary_dark">@android:color/system_neutral1_900</color>
     <color name="accent">@android:color/system_accent1_100</color>
+    <color name="accent_subtle">@android:color/system_accent2_700</color>
     <color name="pastel_accent">@android:color/system_accent1_100</color>
 
     <!-- Main colors -->
@@ -53,7 +54,7 @@
 
 
     <color name="background_color">@android:color/system_neutral1_900</color>
-    <color name="navbar_color">@color/background_color</color>
+    <color name="navbar_color">@android:color/system_neutral2_700</color>
 
     <!-- Color for the action bar -->
     <color name="header_action_bar_color">@color/primary</color>

@@ -46,6 +46,10 @@
         <item name="materialThemeOverlay">@style/BNVColors</item>
     </style>
 
+    <style name="MaterialIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/accent_subtle</item>
+    </style>
+
     <style name="BNVColors" parent="">
         <item name="colorSurface">@color/navbar_color</item>
         <item name="color">@color/accent_subtle</item>
