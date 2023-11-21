@@ -1,6 +1,6 @@
-Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo to Android 13 Tiramisu so far.
+Material Theme for LineageOS Eleven (Port). This app works from Android 8.x Oreo to Android 14 Upside Down Cake so far.
 ---------------------------------------------------------------------------------------------------------------------
-This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 currently in Beta Testing with Monet and Android 12-13 Support!
+This app respects Dark Theme on Android 10 Queen Cake! Update 6.0.0 currently in Beta Testing with Monet and Android 12-14 Support!
 
 Downloads:
 ---------------------------------------------------------------------------------------------------------------------
