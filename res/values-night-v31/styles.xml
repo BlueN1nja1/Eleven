@@ -17,12 +17,11 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme.Overlay" parent="@style/Theme.Material3.DayNight">
+    <style name="Eleven.Theme.Overlay" parent="@style/Theme.Material3.Dark">
         <item name="colorBackgroundFloating">@android:color/system_neutral1_50</item>
         <item name="colorPrimary">@android:color/system_accent1_600</item>
         <item name="colorAccent">@color/accent</item>
         <item name="android:navigationBarColor">@color/navbar_color</item>
-        <item name="android:statusBarColor">@color/transparent</item>
     </style>
     <style name="Theme.AudioPreview" parent="@style/Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
