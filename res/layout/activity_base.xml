@@ -54,7 +54,6 @@
                 app:titleCollapseMode="scale"
                 app:collapsedTitleTextAppearance="@style/Theme.Eleven.ToolbarCollapsed"
                 app:expandedTitleGravity="center|bottom"
-                app:collapsedTitleGravity="center"
                 app:expandedTitleTextAppearance="@style/Theme.Eleven.ToolbarExpanded"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
                 android:background="@color/background_color"
@@ -67,6 +66,7 @@
                 android:layout_height="?android:attr/actionBarSize"
                 android:elevation="@dimen/action_bar_elevation"
                 android:theme="@style/ToolBarTheme"
+                app:layout_collapseMode="pin"
                 app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title" />
             </com.google.android.material.appbar.CollapsingToolbarLayout>
             </com.google.android.material.appbar.AppBarLayout>
