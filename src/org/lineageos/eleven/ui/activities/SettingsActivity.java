@@ -41,8 +41,6 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreference;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-
 import org.lineageos.eleven.IElevenService;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.cache.ImageFetcher;

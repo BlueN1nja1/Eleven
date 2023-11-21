@@ -53,6 +53,7 @@
 
 
     <color name="background_color">@android:color/system_neutral1_900</color>
+    <color name="navbar_color">@color/background_color</color>
 
     <!-- Color for the action bar -->
     <color name="header_action_bar_color">@color/primary</color>

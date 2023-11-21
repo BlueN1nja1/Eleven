@@ -48,7 +48,7 @@
 
     </PreferenceCategory>
 
-    <!-- Storage catetory -->
+    <!-- Storage category -->
     <PreferenceCategory android:title="@string/settings_storage_category" >
 
         <!-- Delete cache -->

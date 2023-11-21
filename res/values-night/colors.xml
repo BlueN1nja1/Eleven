@@ -30,6 +30,7 @@
 
     <!-- Transparent colors -->
     <color name="background_color">#121212</color>
+    <color name="navbar_color">@color/background_color</color>
 
     <!-- Color for the Position Number -->
     <color name="position_number_color">@color/black</color>

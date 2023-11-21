@@ -28,31 +28,14 @@
         app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title"
         android:layout_height="wrap_content">
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
-            style="?attr/collapsingToolbarLayoutLargeStyle"
-            android:layout_width="match_parent"
-            app:contentScrim="@color/header_action_bar_cab"
-            app:statusBarScrim="@color/header_action_bar_cab"
-            app:titleCollapseMode="scale"
-            app:collapsedTitleTextAppearance="@style/Theme.Eleven.ToolbarCollapsed"
-            app:expandedTitleMarginBottom="31dp"
-            app:expandedTitleGravity="center|bottom"
-            app:expandedTitleTextAppearance="@style/Theme.Eleven.ToolbarExpanded"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
-            android:background="@color/background_color"
-            android:elevation="0dp"
-            android:layout_height="179dp">
-
             <com.google.android.material.appbar.MaterialToolbar
                 android:layout_width="match_parent"
                 android:id="@+id/toolbarexpanded"
                 app:title="@string/menu_settings"
+                app:titleCentered="true"
                 app:layout_collapseMode="pin"
                 android:layout_height="?attr/actionBarSize"
                 android:elevation="0dp" />
-
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
-
 
     </com.google.android.material.appbar.AppBarLayout>
 

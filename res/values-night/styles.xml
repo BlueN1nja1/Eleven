@@ -16,7 +16,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme" parent="@style/Theme.Material3.DayNight.NoActionBar">
+    <style name="Eleven.Theme" parent="@style/Theme.Material3.Dark.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="popupMenuStyle">@style/PopupMenu</item>
         <item name="dropDownListViewStyle">@style/DropDownListView</item>
@@ -32,6 +32,15 @@
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
     </style>
 
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/BNVColors</item>
+    </style>
+
+    <style name="BNVColors" parent="">
+        <item name="colorSurface">@color/navbar_color</item>
+        <item name="color">@color/accent_subtle</item>
+    </style>
 </resources>

@@ -38,7 +38,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+import com.google.android.material.appbar.MaterialToolbar;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
@@ -74,7 +74,7 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
      */
     private final ArrayList<MusicStateListener> mMusicStateListener = Lists.newArrayList();
 
-    private Toolbar mToolBar;
+    private MaterialToolbar mToolBar;
     private CollapsingToolbarLayout mCollapsingToolbar;
 
     private int mActionBarHeight;
@@ -137,6 +137,8 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         setContentView(R.layout.activity_base);
 
         mToolBar = findViewById(R.id.toolbar);
+        mCollapsingToolbar = findViewById(R.id.ctoolbar);
+
         setSupportActionBar(mToolBar);
 
         setActionBarTitle(getString(R.string.app_name));
@@ -270,9 +272,11 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
     }
 
     public void setActionBarTitle(String title) {
-        final ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.setTitle(title);
+        if (mCollapsingToolbar != null) {
+            mCollapsingToolbar.setTitle(title);
+        }
+        if (mToolBar != null) {
+            mToolBar.setTitle(title);
         }
     }
 

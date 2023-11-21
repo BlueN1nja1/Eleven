@@ -39,6 +39,20 @@
         <item name="android:navigationBarColor">@color/navbar_color</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/BNVColors</item>
+    </style>
+
+    <style name="BNVColors" parent="">
+        <item name="colorSurface">@color/navbar_color</item>
+        <item name="color">@color/accent_subtle</item>
+    </style>
+
+    <style name="AlbumArtRounded">
+        <item name="cornerSize">35%</item>
     </style>
 
     <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">

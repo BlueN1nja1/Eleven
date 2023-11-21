@@ -15,11 +15,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Material -->
     <color name="primary">#ffffff</color>
     <color name="primary_dark">#ffffff</color>
     <color name="accent">#1a73e8</color>
+    <color name="accent_subtle">#8ab4f8</color>
     <color name="pastel_accent">@color/transparent</color>
 
     <!-- Main colors -->
@@ -105,7 +106,7 @@
     <!-- Letter tile colors -->
     <color name="letter_tile_default_color">@color/grey</color>
     <color name="letter_tile_font_color">@color/white</color>
-    <array name="letter_tile_colors">
+    <array name="letter_tile_colors" tools:ignore="InconsistentArrays">
         <item>@color/letter_tile_purple_color</item>
         <item>@color/letter_tile_blue_color</item>
         <item>@color/letter_tile_indigo_color</item>
@@ -117,7 +118,7 @@
         <item>@color/letter_tile_brown_color</item>
     </array>
 
-    <array name="letter_tile_vibrant_dark_colors">
+    <array name="letter_tile_vibrant_dark_colors" tools:ignore="InconsistentArrays">
         <item>@color/letter_tile_purple_color_dark</item>
         <item>@color/letter_tile_blue_color_dark</item>
         <item>@color/letter_tile_indigo_color_dark</item>
