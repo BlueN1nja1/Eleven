@@ -44,7 +44,7 @@ android {
         applicationId "org.lineageos.eleven"
 
         minSdkVersion 31
-        targetSdkVersion 33
+        targetSdkVersion 32
 
         versionCode 599
         versionName '6.0.0 Beta 4'
