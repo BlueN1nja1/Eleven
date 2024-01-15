@@ -26,6 +26,8 @@ Bugs and Feature Requests?:
 Please report any bugs in the Issues tab. If you have any Feature Requests, please add them to the issues tab as well and
 add the "Feature Request" tag.
 
+- A gap below the collapsing toolbar needs to be removed. (Once this is removed, the next beta will be released)
+
 Custom Roms?:
 ---------------------------------------------------------------------------------------------------------------------
 For those who want to include this in their rom: I'm working on it, 
