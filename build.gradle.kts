@@ -34,8 +34,8 @@ android {
         applicationId = "org.lineageos.eleven"
         minSdk = 30
         targetSdk = 34
-        versionCode = 420
-        versionName = "4.2.0"
+        versionCode = 599
+        versionName = "6.0.0 Beta 4"
     }
 
     buildTypes {
@@ -96,9 +96,9 @@ dependencies {
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
     implementation("androidx.palette:palette:1.0.0")
     implementation("androidx.preference:preference:1.2.1")
-    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("com.google.android.material:material:1.9.0")
+    implementation("com.google.android.material:material:1.11.0")
 }
 
 configure<GenerateBpPluginExtension> {

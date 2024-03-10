@@ -52,6 +52,7 @@ import android.media.browse.MediaBrowser;
 import android.media.session.MediaSession;
 import android.media.session.PlaybackState;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -670,13 +671,42 @@ public class MusicPlaybackService extends MediaBrowserService
         if (D) Log.d(TAG, "Creating service");
         super.onCreate();
 
-        if (checkSelfPermission(permission.READ_EXTERNAL_STORAGE) !=
+        if (checkSelfPermission(permission.READ_MEDIA_AUDIO) !=
                 PackageManager.PERMISSION_GRANTED) {
             stopSelf();
             return;
         } else {
             mReadGranted = true;
         }
+
+        if (Build.VERSION.SDK_INT < 33) {
+            if (checkSelfPermission(permission.READ_EXTERNAL_STORAGE) !=
+                    PackageManager.PERMISSION_GRANTED) {
+                stopSelf();
+                return;
+            } else {
+                mReadGranted = true;
+            }
+        }
+        if (Build.VERSION.SDK_INT > 33) {
+            if (checkSelfPermission(permission.READ_MEDIA_IMAGES) !=
+                    PackageManager.PERMISSION_GRANTED) {
+                stopSelf();
+                return;
+            } else {
+                mReadGranted = true;
+            }
+        }
+        if (Build.VERSION.SDK_INT > 33) {
+            if (checkSelfPermission(permission.READ_MEDIA_AUDIO) !=
+                    PackageManager.PERMISSION_GRANTED) {
+                stopSelf();
+                return;
+            } else {
+                mReadGranted = true;
+            }
+        }
+
 
         mNotificationManager = getSystemService(NotificationManager.class);
 

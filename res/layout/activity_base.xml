@@ -4,13 +4,10 @@
   Copyright (C) 2014 The CyanogenMod Project
   Copyright (C) 2017-2021 The LineageOS Project
   Copyright (C) 2019 SHIFT GmbH
-
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-
        http://www.apache.org/licenses/LICENSE-2.0
-
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,7 +20,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout
         android:id="@+id/sliding_layout"
         android:layout_width="match_parent"
@@ -36,25 +32,46 @@
         app:slidePanelOffset="@dimen/bottom_action_bar_height"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/fragment_home_phone_pager_titles">
-
-        <FrameLayout
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:visibility="gone">
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
+            android:layout_height="match_parent">
+            <com.google.android.material.appbar.AppBarLayout
                 android:layout_width="match_parent"
-                android:layout_height="?android:attr/actionBarSize"
-                android:elevation="@dimen/action_bar_elevation" />
-
-            <FrameLayout
-                android:id="@+id/activity_base_content"
+                android:fitsSystemWindows="true"
+                app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title"
+                android:layout_height="wrap_content">
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    style="?attr/collapsingToolbarLayoutLargeStyle"
+                    android:layout_width="match_parent"
+                    android:id="@+id/ctoolbar"
+                    app:titleCollapseMode="scale"
+                    app:collapsedTitleTextAppearance="@style/Theme.Eleven.ToolbarCollapsed"
+                    app:expandedTitleGravity="center|bottom"
+                    app:expandedTitleTextAppearance="@style/Theme.Eleven.ToolbarExpanded"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                    android:elevation="0dp"
+                    android:layout_height="179dp">
+                    <com.google.android.material.appbar.MaterialToolbar
+                        android:layout_width="match_parent"
+                        android:id="@+id/toolbar"
+                        android:layout_height="?android:attr/actionBarSize"
+                        android:elevation="@dimen/action_bar_elevation"
+                        app:layout_collapseMode="pin"
+                        app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </FrameLayout>
-
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:fillViewport="true" >
+                <FrameLayout
+                    android:id="@+id/activity_base_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
         <org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout
             android:id="@+id/sliding_layout2"
             android:layout_width="match_parent"
@@ -62,23 +79,18 @@
             android:gravity="bottom"
             app:directOffset="true"
             app:dragView="@+id/secondPanelDragArea"
-            app:fadeColor="@android:color/transparent"
             app:panelHeight="@dimen/sliding_panel_indicator_height"
             app:shadowHeight="@dimen/sliding_panel_shadow_height">
-
             <include
                 layout="@layout/album_scrim_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
-
             <LinearLayout
                 android:id="@+id/firstPanelDragArea"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
                 <include layout="@layout/bottom_action_bar" />
-
                 <fragment
                     android:id="@+id/audioPlayerFragment"
                     class="org.lineageos.eleven.ui.fragments.AudioPlayerFragment"
@@ -87,19 +99,15 @@
                     android:layout_weight="1"
                     tools:ignore="FragmentTagUsage" />
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="?colorSecondaryContainer"
                 android:orientation="vertical">
-
                 <LinearLayout
                     android:id="@+id/secondPanelDragArea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/sliding_panel_indicator_height"
@@ -107,12 +115,10 @@
                         android:scaleType="centerInside"
                         android:src="@drawable/drag_indicator"
                         android:contentDescription="@null" />
-
                     <include
                         android:id="@+id/secondHeaderBar"
                         layout="@layout/header_bar" />
                 </LinearLayout>
-
                 <fragment
                     android:id="@+id/queueFragment"
                     class="org.lineageos.eleven.ui.fragments.QueueFragment"

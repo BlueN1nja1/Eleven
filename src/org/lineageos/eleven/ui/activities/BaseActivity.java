@@ -26,6 +26,7 @@ import android.content.ServiceConnection;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.TypedValue;
@@ -38,7 +39,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
@@ -72,7 +74,8 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
      */
     private final ArrayList<MusicStateListener> mMusicStateListener = Lists.newArrayList();
 
-    private Toolbar mToolBar;
+    private MaterialToolbar mToolBar;
+    private CollapsingToolbarLayout mCollapsingToolbar;
 
     private int mActionBarHeight;
 
@@ -134,6 +137,7 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         setContentView(R.layout.activity_base);
 
         mToolBar = findViewById(R.id.toolbar);
+        mCollapsingToolbar = findViewById(R.id.ctoolbar);
         setSupportActionBar(mToolBar);
 
         setActionBarTitle(getString(R.string.app_name));
@@ -221,7 +225,12 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         filter.addAction(MusicPlaybackService.PLAYLIST_CHANGED);
         // If there is an error playing a track
         filter.addAction(MusicPlaybackService.TRACK_ERROR);
-        registerReceiver(mPlaybackStatus, filter, Context.RECEIVER_EXPORTED);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            registerReceiver(mPlaybackStatus, filter, Context.RECEIVER_EXPORTED);
+        }
+        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.TIRAMISU) {
+            registerReceiver(mPlaybackStatus, filter);
+        }
     }
 
     @Override

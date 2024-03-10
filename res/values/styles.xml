@@ -29,6 +29,35 @@
         <item name="preferenceTheme">@style/AppPreferenceThemeOverlay</item>
     </style>
 
+    <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="MaterialAlertDialogTheme" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearance.Dialog</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
+    </style>
+
+    <style name="Dialog_Button_Positive_Style" parent="Widget.Material3.Button">
+    </style>
+
+    <style name="Dialog_Button_Negative_Style" parent="Widget.Material3.Button.OutlinedButton">
+    </style>
+
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+    <style name="ShapeAppearance.Dialog" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+
     <!-- Make the action bar not take up space -->
     <style name="Eleven.Theme.ActionBar.Overlay" parent="@style/Eleven.Theme">
         <item name="windowNoTitle">true</item>
@@ -117,6 +146,17 @@
         <item name="android:overlapAnchor">true</item>
         <item name="android:dropDownVerticalOffset">0dp</item>
         <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+
+    <!-- Collapsing toolbar style -->
+    <style name="Theme.Eleven.ToolbarCollapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.Eleven.ToolbarExpanded" parent="Theme.Eleven.ToolbarCollapsed">
+        <item name="android:textSize">36sp</item>
+        <item name="android:drawablePadding">10dp</item>
     </style>
 
     <!-- Use dp because the time decoration has constrained width and we don't want it to grow if
