@@ -33,6 +33,10 @@
         <item name="fontFamily">sans-serif</item>
     </style>
 
+    <style name="AlbumArtRounded">
+        <item name="cornerSize">35%</item>
+    </style>
+
     <style name="MaterialAlertDialogTheme" parent="MaterialAlertDialog.Material3">
         <item name="shapeAppearance">@style/ShapeAppearance.Dialog</item>
         <item name="shapeAppearanceOverlay">@null</item>
@@ -118,7 +122,7 @@
         <item name="android:ellipsize">end</item>
         <item name="android:fadingEdge">horizontal</item>
         <item name="android:singleLine">true</item>
-        <item name="android:textColor">#212121</item>
+        <item name="android:textColor">@color/Widget_Text</item>
     </style>
 
     <!-- Bottom Action Bar TextViews -->

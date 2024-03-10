@@ -19,8 +19,8 @@
     <!-- Letter tile colors -->
     <color name="letter_tile_default_color">@android:color/system_accent1_300</color>
     <color name="letter_tile_font_color">@color/material_dynamic_neutral95</color>
-    <color name="Widget_Background">@android:color/system_neutral1_50</color>
-    <color name="Widget_Text">#ff000000</color>
+    <color name="Widget_Background">@android:color/system_neutral1_900</color>
+    <color name="Widget_Text">#ffffff</color>
     <color name="Widget_PP_Controls">#ff000000</color>
 
     <array name="letter_tile_colors">

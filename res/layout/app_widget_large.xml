@@ -17,6 +17,7 @@
   limitations under the License.
 -->
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_app_widget"
@@ -26,12 +27,14 @@
 
     <ImageView
         android:id="@+id/app_widget_image"
+        android:background="@drawable/rounded_corners"
         android:layout_width="@dimen/app_widget_large_alternate_artwork_size"
         android:layout_height="@dimen/app_widget_large_alternate_artwork_size"
         android:layout_row="0"
         android:layout_column="0"
         android:contentDescription="@null"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        android:clipToOutline="true" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -52,18 +55,18 @@
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="centerCrop"
             android:src="@drawable/btn_playback_previous"
-            android:tint="@color/material_dynamic_primary20" />
+            app:tint="@color/material_dynamic_primary20" />
 
         <ImageButton
             android:id="@+id/app_widget_large_play"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:background="?android:selectableItemBackgroundBorderless"
+            android:background="@drawable/widget_button_shape"
             android:contentDescription="@null"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="centerCrop"
             android:src="@drawable/btn_playback_play"
-            android:tint="@color/material_dynamic_primary20" />
+            app:tint="@color/Widget_PP_Controls" />
 
         <ImageButton
             android:id="@+id/app_widget_large_next"
@@ -74,7 +77,7 @@
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="centerCrop"
             android:src="@drawable/btn_playback_next"
-            android:tint="@color/material_dynamic_primary20" />
+            app:tint="@color/material_dynamic_primary20" />
     </LinearLayout>
 
     <LinearLayout
