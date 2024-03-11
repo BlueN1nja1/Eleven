@@ -13,7 +13,7 @@ runs:
 
     - name: Build with Gradle
       shell: bash
-      run: ./gradlew assembleDebug
+      run: ./gradlew assembleRelease
 
     - name: Generate Android.bp
       shell: bash
@@ -26,5 +26,5 @@ runs:
 
     - uses: actions/upload-artifact@v3
       with:
-        name: Eleven-debug.apk
-        path: build/outputs/apk/debug/Eleven-debug.apk
+        name: Eleven-test.apk
+        path: build/outputs/apk/debug/Eleven-test.apk
