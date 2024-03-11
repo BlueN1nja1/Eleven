@@ -45,12 +45,14 @@
                     android:layout_width="match_parent"
                     android:id="@+id/ctoolbar"
                     app:titleCollapseMode="scale"
+                    app:contentScrim="@color/header_action_bar_cab"
+                    app:statusBarScrim="@color/header_action_bar_cab"
                     app:collapsedTitleTextAppearance="@style/Theme.Eleven.ToolbarCollapsed"
                     app:expandedTitleGravity="center|bottom"
                     app:expandedTitleTextAppearance="@style/Theme.Eleven.ToolbarExpanded"
                     app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
                     android:elevation="0dp"
-                    android:layout_height="179dp">
+                    android:layout_height="172dp">
                     <com.google.android.material.appbar.MaterialToolbar
                         android:layout_width="match_parent"
                         android:id="@+id/toolbar"

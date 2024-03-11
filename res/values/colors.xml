@@ -27,6 +27,10 @@
     <color name="circular_progress_bar_background">#40ffffff</color>
     <color name="circular_progress_bar">#ffffff</color>
 
+    <!-- Color for the HAB-->
+    <color name="header_action_bar_cab">@android:color/system_neutral1_100</color>
+
+
     <array name="letter_tile_colors">
         <item>@android:color/system_accent1_300</item>
         <item>@android:color/system_accent2_300</item>

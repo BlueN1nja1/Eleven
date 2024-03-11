@@ -21,7 +21,6 @@ package org.lineageos.eleven.ui.activities;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
@@ -40,6 +39,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
 import org.lineageos.eleven.IElevenService;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.cache.ImageFetcher;
@@ -53,7 +54,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        final Toolbar toolbar = findViewById(R.id.toolbar);
+        final Toolbar toolbar = findViewById(R.id.toolbarexpanded);
         setSupportActionBar(toolbar);
         final ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -88,7 +89,7 @@ public class SettingsActivity extends AppCompatActivity {
             final Preference deleteCache = findPreference("delete_cache");
             if (deleteCache != null) {
                 deleteCache.setOnPreferenceClickListener(preference -> {
-                    new AlertDialog.Builder(getContext())
+                    new MaterialAlertDialogBuilder(getContext(),R.style.ThemeOverlay_MaterialAlertDialog)
                             .setMessage(R.string.delete_warning)
                             .setPositiveButton(android.R.string.ok, (dialog, which) ->
                                     ImageFetcher.getInstance(getContext()).clearCaches())
@@ -202,7 +203,7 @@ public class SettingsActivity extends AppCompatActivity {
                 if (grantResults.length == 0 || grantResults[0] != PERMISSION_GRANTED) {
                     mShowVisualizer.setChecked(false);
                     if (!showRationale) {
-                        new AlertDialog.Builder(getContext())
+                        new MaterialAlertDialogBuilder(getContext(),R.style.ThemeOverlay_MaterialAlertDialog)
                             .setMessage(R.string.visualizer_perm_denied)
                             .setPositiveButton(android.R.string.ok, null)
                             .show();

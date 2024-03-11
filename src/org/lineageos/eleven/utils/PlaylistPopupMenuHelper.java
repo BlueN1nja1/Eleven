@@ -17,12 +17,13 @@
 package org.lineageos.eleven.utils;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ContentUris;
 import android.net.Uri;
 import android.provider.MediaStore;
 
 import androidx.fragment.app.FragmentManager;
+
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.Config.SmartPlaylistType;
@@ -88,14 +89,14 @@ public abstract class PlaylistPopupMenuHelper extends PopupMenuHelper {
     }
 
     /**
-     * Create a new {@link AlertDialog} for easy playlist deletion
+     * Create a new {@link MaterialAlertDialogBuilder} for easy playlist deletion
      *
      * @param playlistName The title of the playlist being deleted
      * @param playlistId   The ID of the playlist being deleted
-     * @return A new {@link AlertDialog} used to delete playlists
+     * @return A new {@link MaterialAlertDialogBuilder} used to delete playlists
      */
-    private AlertDialog buildDeleteDialog(final long playlistId, final String playlistName) {
-        return new AlertDialog.Builder(mActivity)
+    private MaterialAlertDialogBuilder buildDeleteDialog(final long playlistId, final String playlistName) {
+        return new MaterialAlertDialogBuilder(mActivity)
                 .setTitle(mActivity.getString(R.string.delete_dialog_title, playlistName))
                 .setPositiveButton(R.string.context_menu_delete, (dialog, which) -> {
                     final Uri mUri = ContentUris.withAppendedId(
@@ -105,7 +106,6 @@ public abstract class PlaylistPopupMenuHelper extends PopupMenuHelper {
                     MusicUtils.refresh();
                 })
                 .setNegativeButton(R.string.cancel, (dialog, which) -> dialog.dismiss())
-                .setMessage(R.string.cannot_be_undone)
-                .create();
+                .setMessage(R.string.cannot_be_undone);
     }
 }
