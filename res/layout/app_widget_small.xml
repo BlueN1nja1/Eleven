@@ -47,7 +47,7 @@
         android:background="@drawable/widget_button_shape"
         android:contentDescription="@null"
         android:scaleType="centerCrop"
-        android:src="@drawable/btn_playback_play"
+        android:src="@drawable/btn_widget_play"
         app:tint="@color/Widget_PP_Controls"
         tools:ignore="SpeakableTextPresentCheck" />
 

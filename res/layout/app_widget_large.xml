@@ -65,7 +65,7 @@
             android:contentDescription="@null"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="centerCrop"
-            android:src="@drawable/btn_playback_play"
+            android:src="@drawable/btn_widget_play"
             app:tint="@color/Widget_PP_Controls" />
 
         <ImageButton

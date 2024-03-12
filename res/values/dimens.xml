@@ -23,6 +23,9 @@
     <dimen name="text_size_small">14sp</dimen>
     <dimen name="text_size_medium">16sp</dimen>
     <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_album">24sp</dimen>
+    <dimen name="text_size_artist">18sp</dimen>
+
 
     <!-- Frequently used spacing between elements in many layouts -->
     <dimen name="standard_padding">16.0dp</dimen>

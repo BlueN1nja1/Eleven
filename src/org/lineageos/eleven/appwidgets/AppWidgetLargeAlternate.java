@@ -133,12 +133,12 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         final boolean isPlaying = service.isPlaying();
         if (isPlaying) {
             appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_play,
-                    R.drawable.btn_playback_pause);
+                    R.drawable.btn_widget_pause);
             appWidgetView.setContentDescription(R.id.app_widget_large_alternate_play,
                     service.getString(R.string.accessibility_pause));
         } else {
             appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_play,
-                    R.drawable.btn_playback_play);
+                    R.drawable.btn_widget_play);
             appWidgetView.setContentDescription(R.id.app_widget_large_alternate_play,
                     service.getString(R.string.accessibility_play));
         }

@@ -36,14 +36,14 @@
         android:layout_height="wrap_content"
         android:ellipsize="marquee"
         android:focusable="true"
+        android:layout_gravity="center"
         android:focusableInTouchMode="true"
         android:marqueeRepeatLimit="marquee_forever"
         android:paddingHorizontal="@dimen/header_bar_text_padding"
         android:scrollHorizontally="true"
         android:singleLine="true"
-        android:textAllCaps="true"
         android:textColor="?colorOnPrimaryContainer"
-        android:textSize="@dimen/text_size_medium"
+        android:textSize="@dimen/text_size_album"
         android:textStyle="bold"
         tools:text="Really long and nice album title" />
 
@@ -52,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ellipsize="marquee"
+        android:layout_gravity="center"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:marqueeRepeatLimit="marquee_forever"
@@ -59,8 +60,7 @@
         android:paddingBottom="@dimen/header_bar_text_padding"
         android:scrollHorizontally="true"
         android:singleLine="true"
-        android:textAllCaps="true"
         android:textColor="?colorOnPrimaryContainer"
-        android:textSize="@dimen/text_size_micro"
+        android:textSize="@dimen/text_size_artist"
         tools:text="Name of Artist" />
 </LinearLayout>
