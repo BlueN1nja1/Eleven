@@ -30,7 +30,7 @@
                 <path
                     android:name="path"
                     android:pathData="M 8 5 L 8 19 L 19 12 Z"
-                    android:fillColor="@android:color/white"
+                    android:fillColor="?colorOnPrimaryContainer"
                     android:strokeWidth="1"/>
             </group>
         </vector>
