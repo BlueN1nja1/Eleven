@@ -25,6 +25,8 @@
     <dimen name="text_size_large">22sp</dimen>
     <dimen name="text_size_album">24sp</dimen>
     <dimen name="text_size_artist">18sp</dimen>
+    <dimen name="text_size_album_land">17sp</dimen>
+    <dimen name="text_size_artist_land">13sp</dimen>
 
 
     <!-- Frequently used spacing between elements in many layouts -->
@@ -57,9 +59,9 @@
     <dimen name="action_bar_elevation">4dp</dimen>
 
     <!-- Bottom Action Bar -->
-    <dimen name="bottom_action_bar_height">50.0dip</dimen>
+    <dimen name="bottom_action_bar_height">70.0dip</dimen>
     <dimen name="bottom_action_bar_info_padding_left">5.0dip</dimen>
-    <dimen name="bab_progress_size">35.0dip</dimen>
+    <dimen name="bab_progress_size">45.0dip</dimen>
     <dimen name="bab_progress_padding_left">16.0dip</dimen>
     <dimen name="bab_progress_padding_right">22.0dip</dimen>
 
