@@ -102,6 +102,7 @@
     <string name="settings_show_lyrics_summary">Dalok, melyek rendelkeznek srt fájllal</string>
     <string name="settings_shake_to_play">Lejátszás indítása rázásra</string>
     <string name="settings_shake_to_play_summary">Rázza meg a készülékét a következő szám lejátszásához</string>
+    <string name="app_widget_small">Zene: Négyzet</string>
     <string name="app_widget_large">Zene: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Zene: 4 \u00d7 2 (alternatív)</string>
     <string name="no_effects_for_you">A hangszínszabályzót nem lehet megnyitni.</string>
@@ -137,4 +138,7 @@
     <string name="header_other">"Egyéb"</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="channel_music">Zenelejátszás</string>
+    <string name="widget_track_name">A zeneszám címe</string>
+    <string name="widget_artist_name">Az előadó neve</string>
+    <string name="widget_album_name">Az album címe</string>
 </resources>
