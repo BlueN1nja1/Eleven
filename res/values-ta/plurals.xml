@@ -17,20 +17,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="Nalbums">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> ஆல்பம்</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> ஆல்பங்கள்</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> தொகுப்பு</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> தொகுப்புகள்</item>
     </plurals>
     <plurals name="Nsongs">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> பாடல்</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> பாடல்கள்</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one"><xliff:g id="hours">%d</xliff:g>மணி</item>
+        <item quantity="other"><xliff:g id="hours">%d</xliff:g>மணி</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="one"><xliff:g id="minutes">%d</xliff:g>நிமிடம்</item>
+        <item quantity="other"><xliff:g id="minutes">%d</xliff:g>நிமிடம்</item>
     </plurals>
     <plurals name="NNNtrackstoplaylist">
         <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> பாடல் இசைப்பட்டியலில் சேர்க்கப்பட்டது.</item>
         <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> பாடல்கள் இசைப்பட்டியலில் சேர்க்கப்பட்டன.</item>
     </plurals>
     <plurals name="NNNtracksfromplaylist">
-        <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> பாடல் இசைப்பட்டியலில் இருந்து நீக்கப்பட்டது.</item>
-        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> பாடல்கள் இசைப்பட்டியலில் இருந்து நீக்கப்பட்டன.</item>
+        <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> பாடல் இசைப்பட்டியலிலிருந்து நீக்கப்பட்டது.</item>
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> பாடல்கள் இசைப்பட்டியலிலிருந்து நீக்கப்பட்டன.</item>
     </plurals>
     <plurals name="NNNtrackstoqueue">
         <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> பாடல் சாரையில் சேர்க்கப்பட்டது.</item>
