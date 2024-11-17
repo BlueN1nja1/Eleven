@@ -2,8 +2,7 @@ name: build
 
 runs:
     using: composite
-    using: 'node20'
-    
+
     steps:
     - name: Setup JDK 21
       uses: actions/setup-java@v3
@@ -25,7 +24,7 @@ runs:
           exit -1
         fi
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v3/node20
       with:
         name: Eleven-debug.apk
         path: build/outputs/apk/debug/Eleven-debug.apk
