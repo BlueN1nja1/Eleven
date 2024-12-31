@@ -1,2 +1,2 @@
-WARNING! THIS BRANCH IS A WORK IN PROGRESS. PLEASE CHECK BACK LATER FOR MORE INFO...
---------------------------------------------------------------------------------------------
+Eleven is discontinued. If you want to stick with LineageOS's Music Player, try Twelve as I will be adding my own features to it, just as I did with Eleven: https://github.com/BlueN1nja1/Twelve/releases
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
