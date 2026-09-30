@@ -1,12 +1,14 @@
+
+package org.lineageos.eleven.utils;
+
 /*
- * Copyright (C) 2012 Square, Inc.
- * Copyright (C) 2021 The LineageOS Project
+ * Copyright 2012 Square, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,12 +16,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.eleven.utils;
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Detects phone shaking. If > 75% of the samples taken in the past 0.5s are accelerating, the
@@ -42,13 +45,9 @@ public class ShakeDetector implements SensorEventListener {
 
     private long mDetectedShakeStartTime = 0;
 
-    /**
-     * Listens for shakes.
-     */
+    /** Listens for shakes. */
     public interface Listener {
-        /**
-         * Called on the main thread when the device is shaken.
-         */
+        /** Called on the main thread when the device is shaken. */
         void hearShake();
     }
 
@@ -65,7 +64,7 @@ public class ShakeDetector implements SensorEventListener {
     /**
      * Starts listening for shakes on devices with appropriate hardware.
      *
-     * @return true if the device supports shake detection.
+     * @returns true if the device supports shake detection.
      */
     public boolean start(SensorManager sensorManager) {
         // Already started?
@@ -116,9 +115,7 @@ public class ShakeDetector implements SensorEventListener {
         }
     }
 
-    /**
-     * Returns true if the device is currently accelerating.
-     */
+    /** Returns true if the device is currently accelerating. */
     private boolean isAccelerating(SensorEvent event) {
         float ax = event.values[0];
         float ay = event.values[1];
@@ -133,14 +130,10 @@ public class ShakeDetector implements SensorEventListener {
                 * ACCELERATION_THRESHOLD;
     }
 
-    /**
-     * Queue of samples. Keeps a running average.
-     */
+    /** Queue of samples. Keeps a running average. */
     static class SampleQueue {
 
-        /**
-         * Window size in ns. Used to compute the average.
-         */
+        /** Window size in ns. Used to compute the average. */
         private static final long MAX_WINDOW_SIZE = 500000000; // 0.5s
         private static final long MIN_WINDOW_SIZE = MAX_WINDOW_SIZE >> 1; // 0.25s
 
@@ -160,7 +153,7 @@ public class ShakeDetector implements SensorEventListener {
         /**
          * Adds a sample.
          *
-         * @param timestamp    in nanoseconds of sample
+         * @param timestamp in nanoseconds of sample
          * @param accelerating true if > {@link #ACCELERATION_THRESHOLD}.
          */
         void add(long timestamp, boolean accelerating) {
@@ -187,9 +180,7 @@ public class ShakeDetector implements SensorEventListener {
             }
         }
 
-        /**
-         * Removes all samples from this queue.
-         */
+        /** Removes all samples from this queue. */
         void clear() {
             while (oldest != null) {
                 Sample removed = oldest;
@@ -201,9 +192,7 @@ public class ShakeDetector implements SensorEventListener {
             acceleratingCount = 0;
         }
 
-        /**
-         * Purges samples with timestamps older than cutoff.
-         */
+        /** Purges samples with timestamps older than cutoff. */
         void purge(long cutoff) {
             while (sampleCount >= MIN_QUEUE_SIZE && oldest != null
                     && cutoff - oldest.timestamp > 0) {
@@ -222,6 +211,17 @@ public class ShakeDetector implements SensorEventListener {
             }
         }
 
+        /** Copies the samples into a list, with the oldest entry at index 0. */
+        List<Sample> asList() {
+            List<Sample> list = new ArrayList<>();
+            Sample s = oldest;
+            while (s != null) {
+                list.add(s);
+                s = s.next;
+            }
+            return list;
+        }
+
         /**
          * Returns true if we have enough samples and more than 3/4 of those samples are
          * accelerating.
@@ -231,39 +231,27 @@ public class ShakeDetector implements SensorEventListener {
                     && oldest != null
                     && newest.timestamp - oldest.timestamp >= MIN_WINDOW_SIZE
                     && acceleratingCount >= (sampleCount >> 1)
-                    + (sampleCount >> 2);
+                            + (sampleCount >> 2);
         }
     }
 
-    /**
-     * An accelerometer sample.
-     */
+    /** An accelerometer sample. */
     static class Sample {
-        /**
-         * Time sample was taken.
-         */
+        /** Time sample was taken. */
         long timestamp;
 
-        /**
-         * If acceleration > {@link #ACCELERATION_THRESHOLD}.
-         */
+        /** If acceleration > {@link #ACCELERATION_THRESHOLD}. */
         boolean accelerating;
 
-        /**
-         * Next sample in the queue or pool.
-         */
+        /** Next sample in the queue or pool. */
         Sample next;
     }
 
-    /**
-     * Pools samples. Avoids garbage collection.
-     */
+    /** Pools samples. Avoids garbage collection. */
     static class SamplePool {
         private Sample head;
 
-        /**
-         * Acquires a sample from the pool.
-         */
+        /** Acquires a sample from the pool. */
         Sample acquire() {
             Sample acquired = head;
             if (acquired == null) {
@@ -275,9 +263,7 @@ public class ShakeDetector implements SensorEventListener {
             return acquired;
         }
 
-        /**
-         * Returns a sample to the pool.
-         */
+        /** Returns a sample to the pool. */
         void release(Sample sample) {
             sample.next = head;
             head = sample;

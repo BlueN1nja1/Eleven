@@ -1,19 +1,18 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* Copyright (C) 2014 The CyanogenMod Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 package org.lineageos.eleven.widgets;
 
 import android.content.Context;
@@ -33,16 +32,19 @@ import org.lineageos.eleven.R;
 public class LoadingEmptyContainer extends FrameLayout {
     private static final int LOADING_DELAY = 300;
 
-    private final Handler mHandler;
-    private final Runnable mShowLoadingRunnable;
+    private Handler mHandler;
+    private Runnable mShowLoadingRunnable;
 
     public LoadingEmptyContainer(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         mHandler = new Handler();
-        mShowLoadingRunnable = () -> {
-            findViewById(R.id.progressbar).setVisibility(View.VISIBLE);
-            getNoResultsContainer().setVisibility(View.INVISIBLE);
+        mShowLoadingRunnable = new Runnable() {
+            @Override
+            public void run() {
+                findViewById(R.id.progressbar).setVisibility(View.VISIBLE);
+                getNoResultsContainer().setVisibility(View.INVISIBLE);
+            }
         };
     }
 
@@ -50,9 +52,7 @@ public class LoadingEmptyContainer extends FrameLayout {
     protected void onFinishInflate() {
         super.onFinishInflate();
 
-        if (!isInEditMode()) {
-            hideAll();
-        }
+        hideAll();
     }
 
     public void hideAll() {
@@ -76,6 +76,6 @@ public class LoadingEmptyContainer extends FrameLayout {
     }
 
     public NoResultsContainer getNoResultsContainer() {
-        return (NoResultsContainer) findViewById(R.id.no_results_container);
+        return (NoResultsContainer)findViewById(R.id.no_results_container);
     }
 }

@@ -1,40 +1,39 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2018-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* Copyright (C) 2014 The CyanogenMod Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
 package org.lineageos.eleven.adapters;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Parcelable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import org.lineageos.eleven.BuildConstants;
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.cache.ICacheListener;
 import org.lineageos.eleven.cache.ImageCache;
+import org.lineageos.eleven.cache.ImageWorker;
 import org.lineageos.eleven.model.AlbumArtistDetails;
 import org.lineageos.eleven.utils.ElevenUtils;
 import org.lineageos.eleven.utils.MusicUtils;
@@ -44,10 +43,10 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
- * A {@link androidx.fragment.app.FragmentStatePagerAdapter} class for swiping between album art
+ * A {@link android.support.v4.app.FragmentStatePagerAdapter} class for swiping between album art
  */
 public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
-    private static final boolean DEBUG = false;
+    private static boolean DEBUG = false;
     private static final String TAG = AlbumArtPagerAdapter.class.getSimpleName();
 
     public static final long NO_TRACK_ID = -1;
@@ -58,7 +57,6 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
 
     /**
      * Adds the album artist details to the cache
-     *
      * @param details the AlbumArtistDetails to add
      */
     public static void addAlbumArtistDetails(AlbumArtistDetails details) {
@@ -73,13 +71,11 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
     /**
      * Gets the album artist details for the audio track.  If it exists, it re-inserts the item
      * to the end of the queue so it is considered the 'freshest' and stays longer
-     *
      * @param audioId the audio track to look for
      * @return the details of the album artist
      */
     public static AlbumArtistDetails getAlbumArtistDetails(long audioId) {
-        for (Iterator<AlbumArtistDetails> i = sCacheAlbumArtistDetails.descendingIterator();
-             i.hasNext(); ) {
+        for (Iterator<AlbumArtistDetails> i = sCacheAlbumArtistDetails.descendingIterator(); i.hasNext();) {
             final AlbumArtistDetails entry = i.next();
             if (entry.mAudioId == audioId) {
                 // remove it from the stack to re-add to the top
@@ -100,10 +96,19 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
     }
 
     @Override
-    @NonNull
     public Fragment getItem(final int position) {
         long trackID = getTrackId(position);
         return AlbumArtFragment.newInstance(trackID);
+    }
+
+    @Override
+    public int getItemPosition(final Object object) {
+        return POSITION_NONE;
+    }
+
+    @Override
+    public void restoreState(Parcelable state, ClassLoader loader) {
+        // Do not restore stale fragments from saved state when queue/repeat/shuffle state changes
     }
 
     @Override
@@ -118,7 +123,6 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
 
     /**
      * Gets the track id for the item at position
-     *
      * @param position position of the item of the queue
      * @return track id of the item at position or NO_TRACK_ID if unknown
      */
@@ -181,15 +185,14 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
         public void onCreate(final Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
 
-            final Bundle args = getArguments();
-            mAudioId = args == null ? NO_TRACK_ID : args.getLong(ID, NO_TRACK_ID);
+            if (getArguments() != null) {
+                mAudioId = getArguments().getLong(ID, NO_TRACK_ID);
+            }
             ImageCache.getInstance(getActivity()).addCacheListener(this);
         }
 
         @Override
-        @SuppressLint("InflateParams")
-        public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
-                                 final Bundle savedInstanceState) {
+        public View onCreateView(final LayoutInflater inflater, final ViewGroup container, final Bundle savedInstanceState) {
             mRootView = inflater.inflate(R.layout.album_art_fragment, null);
             return mRootView;
         }
@@ -215,7 +218,10 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
         @Override
         public void onActivityCreated(final Bundle savedInstanceState) {
             super.onActivityCreated(savedInstanceState);
-            mImageView = (SquareImageView) mRootView.findViewById(R.id.audio_player_album_art);
+            if (getArguments() != null) {
+                mAudioId = getArguments().getLong(ID, NO_TRACK_ID);
+            }
+            mImageView = (SquareImageView)mRootView.findViewById(R.id.audio_player_album_art);
             loadImageAsync();
         }
 
@@ -223,8 +229,9 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
          * Loads the image asynchronously
          */
         private void loadImageAsync() {
-            // if we have no track id, quit
+            // if we have no track id, load default artwork
             if (mAudioId == NO_TRACK_ID) {
+                loadDefaultImage();
                 return;
             }
 
@@ -246,11 +253,24 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
         }
 
         /**
+         * Loads the default image
+         */
+        private void loadDefaultImage() {
+            if (!isAdded() || getActivity() == null || mImageView == null) {
+                return;
+            }
+            ElevenUtils.getImageFetcher(getActivity()).loadDefaultImage(
+                    mImageView, ImageWorker.ImageType.ALBUM, null, String.valueOf(mAudioId));
+        }
+
+        /**
          * Loads the image asynchronously
-         *
          * @param details details of the image to load
          */
         private void loadImageAsync(AlbumArtistDetails details) {
+            if (!isAdded() || getActivity() == null || mImageView == null) {
+                return;
+            }
             // load the actual image
             ElevenUtils.getImageFetcher(getActivity()).loadAlbumImage(
                     details.mArtistName,
@@ -261,8 +281,18 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
         }
 
         @Override
-        public void onCacheResumed() {
-            loadImageAsync();
+        public void setUserVisibleHint(boolean isVisibleToUser) {
+            super.setUserVisibleHint(isVisibleToUser);
+            if (isVisibleToUser && isAdded() && getActivity() != null) {
+                loadImageAsync();
+            }
+        }
+
+        @Override
+        public void onCacheUnpaused() {
+            if (isAdded() && getActivity() != null) {
+                loadImageAsync();
+            }
         }
     }
 
@@ -286,6 +316,9 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
 
         @Override
         protected void onPostExecute(final AlbumArtistDetails result) {
+            if (mFragment == null || !mFragment.isAdded()) {
+                return;
+            }
             if (result != null) {
                 if (DEBUG) {
                     Log.d(TAG, "[" + mFragment.mAudioId + "] Loading image: "
@@ -296,8 +329,11 @@ public class AlbumArtPagerAdapter extends FragmentStatePagerAdapter {
 
                 AlbumArtPagerAdapter.addAlbumArtistDetails(result);
                 mFragment.loadImageAsync(result);
-            } else if (DEBUG) {
-                Log.d(TAG, "No Image found for audioId: " + mFragment.mAudioId);
+            } else {
+                if (DEBUG) {
+                    Log.d(TAG, "No Image found for audioId: " + mFragment.mAudioId);
+                }
+                mFragment.loadDefaultImage();
             }
         }
     }

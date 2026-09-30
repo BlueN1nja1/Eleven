@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">Nejlepší skladby</string>
     <string name="header_all_songs">Všechny skladby</string>
     <string name="menu_settings">Nastavení</string>
+    <string name="menu_search">Vyhledat</string>
     <string name="menu_shuffle_item">Náhodně</string>
     <string name="menu_shuffle_all">Vše náhodně</string>
     <string name="menu_shuffle_playlist">Náhodně v seznamu skladeb</string>
@@ -105,22 +105,31 @@
     <string name="accessibility_browse">Procházet hudbu</string>
     <string name="set_as_ringtone">„<xliff:g id="name" example="Alarm Bell">%s</xliff:g>“ nastaveno jako vyzvánění</string>
     <string name="playlist_renamed">Seznam skladeb přejmenován</string>
+    <string name="settings_ui_category">Rozhraní</string>
     <string name="settings_storage_category">Úložiště</string>
+    <string name="settings_data_category">Data</string>
     <string name="settings_delete_cache_title">Smazat cache</string>
     <string name="settings_delete_cache_summary">Odstranit všechny uložené obrázky</string>
+    <string name="settings_download_only_on_wifi_title">Stahovat pouze přes síť Wi\u2011Fi</string>
+    <string name="settings_download_only_on_wifi_summary">Pro snížení poplatků za data nestahovat obrázky přes mobilní sítě</string>
+    <string name="settings_download_missing_artwork_title">Stáhnout chybějící obaly alb</string>
+    <string name="settings_download_artist_images_title">Stáhnout chybějící obrázky umělců</string>
     <string name="settings_general_category">Obecné</string>
     <string name="settings_show_music_visualization_title">Zobrazit vizualizaci hudby</string>
-    <string name="settings_use_blur_title">Rozostřené pozadí</string>
     <string name="settings_show_lyrics_title">Zobrazit text skladby</string>
     <string name="settings_show_lyrics_summary">U skladeb, které mají soubor srt</string>
     <string name="settings_shake_to_play">Zatřesením přehrát</string>
     <string name="settings_shake_to_play_summary">Zatřeste se zařízením pro přehrání další skladby</string>
+    <string name="settings_lockscreen_album_art">Obal alba na zámku obrazovky</string>
+    <string name="settings_lockscreen_album_art_summary">Nahradit pozadí zámku obrazovky obalem alba</string>
     <string name="app_widget_small">Hudba: 4 \u00d7 1</string>
     <string name="app_widget_large">Hudba: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Hudba: 4 \u00d7 2 (alternativní)</string>
     <string name="app_widget_recent">Hudba: nedávno poslouchané</string>
     <string name="no_effects_for_you">Nelze otevřít ekvalizér.</string>
     <string name="empty_music">Pro kopírování hudebních souborů z počítače do zařízení použijte USB kabel.</string>
+    <string name="empty_search">Nenalezeny žádné výsledky</string>
+    <string name="empty_search_check">Zkontrolujte, zda jste výraz napsali správně nebo zkuste jiné klíčové slovo.</string>
     <string name="empty_favorite">Zde budou zobrazeny všechny skladby označené jako oblíbené.</string>
     <string name="empty_recent_main">Žádné naposledy přehrávané</string>
     <string name="empty_recent">Zde budou zobrazeny všechny nedávno přehrávané skladby.</string>
@@ -156,6 +165,7 @@
     <string name="footer_search_albums">Zobrazit všechna alba</string>
     <string name="footer_search_songs">Zobrazit všechny skladby</string>
     <string name="footer_search_playlists">Zobrazit všechny seznamy skladeb</string>
+    <string name="searchHint">Vyhledávání hudby</string>
     <string name="search_title_artists">Vše od umělce „%s“</string>
     <string name="search_title_albums">Vše v albu „%s“</string>
     <string name="search_title_songs">Všechny skladby \"%s\"</string>

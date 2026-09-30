@@ -1,20 +1,16 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.adapters;
 
 import android.app.Activity;
@@ -59,6 +55,9 @@ public class ProfileSongAdapter extends SongAdapter {
         mHeaderId = headerId;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public View getView(final int position, View convertView, final ViewGroup parent) {
 
@@ -74,6 +73,9 @@ public class ProfileSongAdapter extends SongAdapter {
         return super.getView(position, convertView, parent);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     protected boolean showNowPlayingIndicator(final Song song, final int position) {
         return super.showNowPlayingIndicator(song, position)
                 && mCurrentlyPlayingTrack.mSourcePosition == position - NUM_HEADERS;
@@ -88,11 +90,17 @@ public class ProfileSongAdapter extends SongAdapter {
         return super.isEnabled(position);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int getViewTypeCount() {
         return super.getViewTypeCount() + NUM_HEADERS;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int getItemViewType(final int position) {
         if (position == 0) {

@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">Beste nummers</string>
     <string name="header_all_songs">Alle nummers</string>
     <string name="menu_settings">Instellingen</string>
+    <string name="menu_search">Zoeken</string>
     <string name="menu_shuffle_item">Shuffle</string>
     <string name="menu_shuffle_all">Shuffle alles</string>
     <string name="menu_shuffle_playlist">Shuffle afspeellijst</string>
@@ -105,21 +105,31 @@
     <string name="accessibility_browse">Muziek verkennen</string>
     <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' ingesteld als beltoon</string>
     <string name="playlist_renamed">Naam afspeellijst gewijzigd</string>
+    <string name="settings_ui_category">Uiterlijk</string>
     <string name="settings_storage_category">Opslag</string>
+    <string name="settings_data_category">Gegevens</string>
     <string name="settings_delete_cache_title">Cache wissen</string>
     <string name="settings_delete_cache_summary">Opgeslagen afbeeldingen verwijderen</string>
+    <string name="settings_download_only_on_wifi_title">Alleen via wifi</string>
+    <string name="settings_download_only_on_wifi_summary">Om gegevensgebruik te verminderen, niet downloaden via mobiele gegevensverbinding</string>
+    <string name="settings_download_missing_artwork_title">Albumhoezen downloaden</string>
+    <string name="settings_download_artist_images_title">Artiestenafbeeldingen downloaden</string>
     <string name="settings_general_category">Algemeen</string>
     <string name="settings_show_music_visualization_title">Muziekvisualisaties weergeven</string>
     <string name="settings_show_lyrics_title">Songteksten weergeven</string>
     <string name="settings_show_lyrics_summary">Voor nummers met een srt-bestand</string>
     <string name="settings_shake_to_play">Schudden voor afspelen</string>
     <string name="settings_shake_to_play_summary">Uw apparaat schudden om het volgende nummer af te spelen</string>
+    <string name="settings_lockscreen_album_art">Albumhoes op vergrendelingsscherm</string>
+    <string name="settings_lockscreen_album_art_summary">Achtergrond vergrendelingsscherm vervangen door albumhoes</string>
     <string name="app_widget_small">Muziek: 4 \u00d7 1</string>
     <string name="app_widget_large">Muziek: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Muziek: 4 \u00d7 2 (alternatief)</string>
     <string name="app_widget_recent">Muziek: recent beluisterd</string>
     <string name="no_effects_for_you">Kan equalizer niet openen.</string>
     <string name="empty_music">Om muziek van uw computer te kopiëren naar uw apparaat, kunt u een USB-kabel gebruiken.</string>
+    <string name="empty_search">Geen zoekresultaten gevonden</string>
+    <string name="empty_search_check">Controleer of u de juiste spelling gebruikt of probeer een ander trefwoord.</string>
     <string name="empty_favorite">Uw favoriete nummers worden hier getoond.</string>
     <string name="empty_recent_main">Geen recente nummers</string>
     <string name="empty_recent">Nummers waar u recent naar hebt geluisterd worden hier getoond.</string>
@@ -155,9 +165,11 @@
     <string name="footer_search_albums">Alle albums tonen</string>
     <string name="footer_search_songs">Alle nummers tonen</string>
     <string name="footer_search_playlists">Alle afspeellijsten tonen</string>
+    <string name="searchHint">Muziek zoeken</string>
     <string name="search_title_artists">Alle \"%s\" artiesten</string>
     <string name="search_title_albums">Alle \"%s\" albums</string>
     <string name="search_title_songs">Alle \"%s\" nummers</string>
     <string name="search_title_playlists">Alle \"%s\" afspeellijsten</string>
     <string name="duration_format"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
+    <string name="channel_music">Afspelen van muziek</string>
 </resources>

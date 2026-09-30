@@ -1,20 +1,16 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.cache;
 
 import android.content.ContentResolver;
@@ -23,15 +19,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.widget.ImageView;
-
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.cache.PlaylistWorkerTask.PlaylistWorkerType;
+import org.lineageos.eleven.utils.BitmapWithColors;
 import org.lineageos.eleven.utils.MusicUtils;
-import org.lineageos.eleven.utils.PreferenceUtils;
-import org.lineageos.eleven.utils.colors.BitmapWithColors;
-import org.lineageos.eleven.utils.colors.ColorExtractor;
-import org.lineageos.eleven.widgets.AlbumScrimImage;
+import org.lineageos.eleven.widgets.BlurScrimImage;
 import org.lineageos.eleven.widgets.LetterTileDrawable;
 
 import java.io.FileNotFoundException;
@@ -42,12 +35,12 @@ import java.io.InputStream;
  * A subclass of {@link ImageWorker} that fetches images from a URL.
  */
 public class ImageFetcher extends ImageWorker {
+
     private static final int DEFAULT_MAX_IMAGE_HEIGHT = 1024;
 
     private static final int DEFAULT_MAX_IMAGE_WIDTH = 1024;
 
     private static ImageFetcher sInstance = null;
-    private boolean mUseBlur;
 
     /**
      * Creates a new instance of {@link ImageFetcher}.
@@ -56,7 +49,6 @@ public class ImageFetcher extends ImageWorker {
      */
     public ImageFetcher(final Context context) {
         super(context);
-        mUseBlur = PreferenceUtils.getInstance(context).getUseBlur();
     }
 
     /**
@@ -65,22 +57,17 @@ public class ImageFetcher extends ImageWorker {
      * @param context The {@link Context} to use
      * @return A new instance of this class.
      */
-    public static ImageFetcher getInstance(final Context context) {
+    public static final ImageFetcher getInstance(final Context context) {
         if (sInstance == null) {
             sInstance = new ImageFetcher(context.getApplicationContext());
         }
         return sInstance;
     }
 
-    public void setUseBlur(boolean useBlur) {
-        mUseBlur = useBlur;
-    }
-
     /**
      * Loads a playlist's most played song's artist image
-     *
      * @param playlistId id of the playlist
-     * @param imageView  imageview to load into
+     * @param imageView imageview to load into
      */
     public void loadPlaylistArtistImage(final long playlistId, final ImageView imageView) {
         loadPlaylistImage(playlistId, PlaylistWorkerType.Artist, imageView);
@@ -88,9 +75,8 @@ public class ImageFetcher extends ImageWorker {
 
     /**
      * Loads a playlist's most played songs into a combined image, or show 1 if not enough images
-     *
      * @param playlistId id of the playlist
-     * @param imageView  imageview to load into
+     * @param imageView imageview to load into
      */
     public void loadPlaylistCoverArtImage(final long playlistId, final ImageView imageView) {
         loadPlaylistImage(playlistId, PlaylistWorkerType.CoverArt, imageView);
@@ -114,31 +100,13 @@ public class ImageFetcher extends ImageWorker {
                 imageView, ImageType.ALBUM);
     }
 
-    public void updateScrimImage(final AlbumScrimImage image,
-                                 final ColorExtractor.Callback callback) {
-        if (mUseBlur) {
-            loadCurrentBlurredArtwork(image);
-        } else {
-            loadCurrentGradientArtwork(callback);
-        }
-    }
-
     /**
      * Used to fetch the current artwork blurred.
      */
-    private void loadCurrentBlurredArtwork(final AlbumScrimImage image) {
+    public void loadCurrentBlurredArtwork(final BlurScrimImage image) {
         loadBlurImage(getCurrentCacheKey(),
                 MusicUtils.getArtistName(), MusicUtils.getAlbumName(), MusicUtils.getCurrentAlbumId(),
-                image);
-    }
-
-    private void loadCurrentGradientArtwork(final ColorExtractor.Callback callback) {
-        final boolean isServiceUp = MusicUtils.isPlaybackServiceConnected();
-        if (!isServiceUp) {
-            return;
-        }
-
-        ColorExtractor.extractColors(this, callback);
+                image, ImageType.ALBUM);
     }
 
     public static String getCurrentCacheKey() {
@@ -157,6 +125,14 @@ public class ImageFetcher extends ImageWorker {
      */
     public void loadArtistImage(final String key, final ImageView imageView, boolean scaleImgToView) {
         loadImage(key, key, null, -1, imageView, ImageType.ARTIST, scaleImgToView);
+    }
+
+    /**
+     * Used to fetch the current artist image.
+     */
+    public void loadCurrentArtistImage(final ImageView imageView) {
+        loadImage(MusicUtils.getArtistName(), MusicUtils.getArtistName(), null, -1, imageView,
+                ImageType.ARTIST);
     }
 
     /**
@@ -205,37 +181,32 @@ public class ImageFetcher extends ImageWorker {
      * Finds cached or downloads album art. Used in {@link MusicPlaybackService}
      * to set the current album art in the notification and lock screen
      *
-     * @param albumName    The name of the current album
-     * @param albumId      The ID of the current album
-     * @param artistName   The album artist in case we should have to download
-     *                     missing artwork
+     * @param albumName  The name of the current album
+     * @param albumId    The ID of the current album
+     * @param artistName The album artist in case we should have to download
+     *                   missing artwork
      * @param smallArtwork Get the small version of the default artwork if no artwork exists
      * @return The album art as an {@link Bitmap}
      */
     public BitmapWithColors getArtwork(final String albumName, final long albumId,
-                                       final String artistName, boolean smallArtwork) {
-        final String key = String.valueOf(albumId);
-        final Bitmap artwork = getArtworkBitmap(albumName, albumId);
+            final String artistName, boolean smallArtwork) {
+        // Check the disk cache
+        Bitmap artwork = null;
+        String key = String.valueOf(albumId);
+
+        if (artwork == null && albumName != null && mImageCache != null) {
+            artwork = mImageCache.getBitmapFromDiskCache(key);
+        }
+        if (artwork == null && albumId >= 0 && mImageCache != null) {
+            // Check for local artwork
+            artwork = mImageCache.getArtworkFromFile(mContext, albumId);
+        }
         if (artwork != null) {
             return new BitmapWithColors(artwork, key.hashCode());
         }
 
         return LetterTileDrawable.createDefaultBitmap(mContext, key, ImageType.ALBUM, false,
                 smallArtwork);
-    }
-
-    public Bitmap getArtworkBitmap(final String albumName, final long albumId) {
-        final String key = String.valueOf(albumId);
-        Bitmap artwork = null;
-
-        if (albumName != null && mImageCache != null) {
-            artwork = mImageCache.getBitmapFromDiskCache(key);
-        }
-        if (artwork == null && albumId >= 0 && mImageCache != null) {
-            artwork = mImageCache.getArtworkFromFile(mContext, albumId);
-        }
-
-        return artwork;
     }
 
     /**
@@ -245,6 +216,7 @@ public class ImageFetcher extends ImageWorker {
      *
      * @param albumName  The album name the cache key needs to be generated.
      * @param artistName The artist name the cache key needs to be generated.
+     * @return
      */
     public static String generateAlbumCacheKey(final String albumName, final String artistName) {
         if (albumName == null || artistName == null) {
@@ -258,8 +230,8 @@ public class ImageFetcher extends ImageWorker {
      *
      * @param selectedImage Uri of the Image to decode
      * @return A {@link Bitmap} sampled down from the original with the same
-     * aspect ratio and dimensions that are equal to or greater than the
-     * requested width and height
+     *         aspect ratio and dimensions that are equal to or greater than the
+     *         requested width and height
      */
     public static Bitmap decodeSampledBitmapFromUri(ContentResolver cr, final Uri selectedImage) {
         // First decode with inJustDecodeBounds=true to check dimensions
@@ -304,14 +276,14 @@ public class ImageFetcher extends ImageWorker {
      * decoding but results in a larger bitmap which isn't as useful for caching
      * purposes.
      *
-     * @param options   An options object with out* params already populated (run
-     *                  through a decode* method with inJustDecodeBounds==true
-     * @param reqWidth  The requested width of the resulting bitmap
+     * @param options An options object with out* params already populated (run
+     *            through a decode* method with inJustDecodeBounds==true
+     * @param reqWidth The requested width of the resulting bitmap
      * @param reqHeight The requested height of the resulting bitmap
      * @return The value to be used for inSampleSize
      */
-    public static int calculateInSampleSize(final BitmapFactory.Options options,
-                                            final int reqWidth, final int reqHeight) {
+    public static final int calculateInSampleSize(final BitmapFactory.Options options,
+                                                  final int reqWidth, final int reqHeight) {
         /* Raw height and width of image */
         final int height = options.outHeight;
         final int width = options.outWidth;
@@ -319,9 +291,9 @@ public class ImageFetcher extends ImageWorker {
 
         if (height > reqHeight || width > reqWidth) {
             if (width > height) {
-                inSampleSize = Math.round((float) height / (float) reqHeight);
+                inSampleSize = Math.round((float)height / (float)reqHeight);
             } else {
-                inSampleSize = Math.round((float) width / (float) reqWidth);
+                inSampleSize = Math.round((float)width / (float)reqWidth);
             }
 
             // This offers some additional logic in case the image has a strange

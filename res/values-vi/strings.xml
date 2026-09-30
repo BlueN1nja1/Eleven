@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">Bài hát thường nghe</string>
     <string name="header_all_songs">Tất cả bài hát</string>
     <string name="menu_settings">Cài đặt</string>
+    <string name="menu_search">Tìm kiếm</string>
     <string name="menu_shuffle_item">Phát ngẫu nhiên</string>
     <string name="menu_shuffle_all">Phát ngẫu nhiên tất cả</string>
     <string name="menu_shuffle_playlist">Phát ngẫu nhiên danh sách phát</string>
@@ -105,21 +105,31 @@
     <string name="accessibility_browse">Duyệt nhạc</string>
     <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' được đặt làm nhạc chuông</string>
     <string name="playlist_renamed">Đã đổi tên danh sách phát</string>
+    <string name="settings_ui_category">Giao diện</string>
     <string name="settings_storage_category">Lưu trữ</string>
+    <string name="settings_data_category">Dữ liệu</string>
     <string name="settings_delete_cache_title">Xoá bộ nhớ đệm</string>
     <string name="settings_delete_cache_summary">Xoá tất cả ảnh đã có trong bộ nhớ đệm</string>
+    <string name="settings_download_only_on_wifi_title">Chỉ tải xuống qua WiFi</string>
+    <string name="settings_download_only_on_wifi_summary">Để giảm cước, đừng tải qua mạng di động</string>
+    <string name="settings_download_missing_artwork_title">Tải xuống ảnh bìa album còn thiếu</string>
+    <string name="settings_download_artist_images_title">Tải xuống ảnh nghệ sỹ còn thiếu</string>
     <string name="settings_general_category">Tổng quát</string>
     <string name="settings_show_music_visualization_title">Hiện trực quan hoá nhạc</string>
     <string name="settings_show_lyrics_title">Hiện lời bài hát</string>
     <string name="settings_show_lyrics_summary">Đối với bài hát có tập tin srt</string>
     <string name="settings_shake_to_play">Lắc để phát</string>
     <string name="settings_shake_to_play_summary">Lắc thiết bị để phát bài hát kế tiếp</string>
+    <string name="settings_lockscreen_album_art">Ảnh bìa album màn hình khoá</string>
+    <string name="settings_lockscreen_album_art_summary">Thay thế nền màn hình khoá bằng ảnh bìa album</string>
     <string name="app_widget_small">Nghe nhạc: 4 \u00d7 1</string>
     <string name="app_widget_large">Nghe nhạc: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Nghe nhạc: 4 \u00d7 2 (kiểu khác)</string>
     <string name="app_widget_recent">Nghe nhạc: đã nghe gần đây</string>
     <string name="no_effects_for_you">Không thể mở bộ chỉnh âm.</string>
     <string name="empty_music">Để chép nhạc từ máy tính sang thiết bị, hãy dùng cáp USB.</string>
+    <string name="empty_search">Không tìm thấy kết quả tìm kiếm</string>
+    <string name="empty_search_check">Hãy kiểm tra xem bạn đã nhập đúng chính tả chưa hoặc thử từ khoá khác.</string>
     <string name="empty_favorite">Bài hát bạn đã đánh dấu là yêu thích sẽ hiện tại đây.</string>
     <string name="empty_recent_main">Không có bài hát nào nghe gần đây</string>
     <string name="empty_recent">Bài hát bạn đã nghe gần đây sẽ hiện tại đây.</string>
@@ -155,6 +165,7 @@
     <string name="footer_search_albums">Hiện tất cả album</string>
     <string name="footer_search_songs">Hiện tất cả bài hát</string>
     <string name="footer_search_playlists">Hiện tất cả danh sách phát</string>
+    <string name="searchHint">Tìm bài hát</string>
     <string name="search_title_artists">Tất cả về nghệ sĩ \"%s\"</string>
     <string name="search_title_albums">Tất cả về album \"%s\"</string>
     <string name="search_title_songs">Tất cả về bài hát \"%s\"</string>

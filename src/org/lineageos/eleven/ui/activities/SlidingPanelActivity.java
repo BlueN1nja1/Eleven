@@ -1,30 +1,24 @@
 /*
  * Copyright (C) 2012 Andrew Neal
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Copyright (C) 2014 The CyanogenMod Project
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.ui.activities;
 
 import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.LinearLayout;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
 
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout;
@@ -34,9 +28,7 @@ import org.lineageos.eleven.ui.fragments.AudioPlayerFragment;
 import org.lineageos.eleven.ui.fragments.QueueFragment;
 import org.lineageos.eleven.utils.ElevenUtils;
 import org.lineageos.eleven.utils.MusicUtils;
-import org.lineageos.eleven.utils.PreferenceUtils;
-import org.lineageos.eleven.utils.colors.ColorExtractor;
-import org.lineageos.eleven.widgets.AlbumScrimImage;
+import org.lineageos.eleven.widgets.BlurScrimImage;
 
 /**
  * This class is used to display the {@link ViewPager} used to swipe between the
@@ -59,21 +51,27 @@ public abstract class SlidingPanelActivity extends BaseActivity {
     private SlidingUpPanelLayout mSecondPanel;
     protected Panel mTargetNavigatePanel;
 
+    private final ShowPanelClickListener mShowBrowse = new ShowPanelClickListener(Panel.Browse);
     private final ShowPanelClickListener mShowMusicPlayer = new ShowPanelClickListener(Panel.MusicPlayer);
 
     // this is the blurred image that goes behind the now playing and queue fragments
-    private AlbumScrimImage mAlbumScrimImage;
-
-    private boolean mUseBlur;
+    private BlurScrimImage mBlurScrimImage;
 
     /**
      * Opens the now playing screen
      */
-    private final View.OnClickListener mOpenNowPlaying = v -> {
-        if (MusicUtils.getCurrentAudioId() != -1) {
-            openAudioPlayer();
-        } else {
-            MusicUtils.shuffleAll(SlidingPanelActivity.this);
+    private final View.OnClickListener mOpenNowPlaying = new View.OnClickListener() {
+
+        /**
+         * {@inheritDoc}
+         */
+        @Override
+        public void onClick(final View v) {
+            if (MusicUtils.getCurrentAudioId() != -1) {
+                openAudioPlayer();
+            } else {
+                MusicUtils.shuffleAll(SlidingPanelActivity.this);
+            }
         }
     };
 
@@ -81,16 +79,18 @@ public abstract class SlidingPanelActivity extends BaseActivity {
     protected void initBottomActionBar() {
         super.initBottomActionBar();
         // Bottom action bar
-        final LinearLayout bottomActionBar = (LinearLayout) findViewById(R.id.bottom_action_bar);
+        final LinearLayout bottomActionBar = (LinearLayout)findViewById(R.id.bottom_action_bar);
         // Display the now playing screen or shuffle if this isn't anything
         // playing
         bottomActionBar.setOnClickListener(mOpenNowPlaying);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mUseBlur = PreferenceUtils.getInstance(this).getUseBlur();
 
         mTargetNavigatePanel = Panel.None;
 
@@ -98,7 +98,7 @@ public abstract class SlidingPanelActivity extends BaseActivity {
         setupSecondPanel();
 
         // get the blur scrim image
-        mAlbumScrimImage = findViewById(R.id.blurScrimImage);
+        mBlurScrimImage = (BlurScrimImage)findViewById(R.id.blurScrimImage);
 
         if (savedInstanceState != null) {
             int panelIndex = savedInstanceState.getInt(STATE_KEY_CURRENT_PANEL,
@@ -115,14 +115,14 @@ public abstract class SlidingPanelActivity extends BaseActivity {
     }
 
     @Override
-    protected void onSaveInstanceState(@NonNull Bundle outState) {
+    protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
 
         outState.putInt(STATE_KEY_CURRENT_PANEL, getCurrentPanel().ordinal());
     }
 
     private void setupFirstPanel() {
-        mFirstPanel = findViewById(R.id.sliding_layout);
+        mFirstPanel = (SlidingUpPanelLayout)findViewById(R.id.sliding_layout);
         mFirstPanel.setPanelSlideListener(new SimplePanelSlideListener() {
             @Override
             public void onPanelSlide(View panel, float slideOffset) {
@@ -142,7 +142,7 @@ public abstract class SlidingPanelActivity extends BaseActivity {
     }
 
     private void setupSecondPanel() {
-        mSecondPanel = findViewById(R.id.sliding_layout2);
+        mSecondPanel = (SlidingUpPanelLayout)findViewById(R.id.sliding_layout2);
         mSecondPanel.setPanelSlideListener(new SimplePanelSlideListener() {
             @Override
             public void onPanelSlide(View panel, float slideOffset) {
@@ -169,7 +169,7 @@ public abstract class SlidingPanelActivity extends BaseActivity {
         });
 
         // setup the header bar
-        setupQueueHeaderBar(mShowMusicPlayer);
+        setupHeaderBar(R.id.secondHeaderBar, R.string.page_play_queue, mShowMusicPlayer);
 
         // set the drag view offset to allow the panel to go past the top of the viewport
         // since the previous view's is hiding the slide offset, we need to subtract that
@@ -184,17 +184,9 @@ public abstract class SlidingPanelActivity extends BaseActivity {
         super.onPause();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        // recreate activity if blur preference has changed to apply changes
-        final boolean useBlur = PreferenceUtils.getInstance(this).getUseBlur();
-        if (mUseBlur != useBlur) {
-            recreate();
-        }
-    }
-
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int setContentView() {
         return R.layout.activity_base;
@@ -276,65 +268,48 @@ public abstract class SlidingPanelActivity extends BaseActivity {
 
     public void clearMetaInfo() {
         super.clearMetaInfo();
-        mAlbumScrimImage.transitionToDefaultState();
+        mBlurScrimImage.transitionToDefaultState();
     }
 
     @Override
     public void onMetaChanged() {
         super.onMetaChanged();
 
-        updateScrimImage();
+        // load the blurred image
+        mBlurScrimImage.loadBlurImage(ElevenUtils.getImageFetcher(this));
     }
 
     @Override
-    public void onCacheResumed() {
-        super.onCacheResumed();
+    public void onCacheUnpaused() {
+        super.onCacheUnpaused();
 
-        updateScrimImage();
-    }
-
-    private void updateScrimImage() {
-        ElevenUtils.getImageFetcher(this).updateScrimImage(mAlbumScrimImage,
-                mColorExtractorCallback);
+        // load the blurred image
+        mBlurScrimImage.loadBlurImage(ElevenUtils.getImageFetcher(this));
     }
 
     protected AudioPlayerFragment getAudioPlayerFragment() {
-        return (AudioPlayerFragment) getSupportFragmentManager().findFragmentById(
-                R.id.audioPlayerFragment);
+        return (AudioPlayerFragment)getSupportFragmentManager().findFragmentById(R.id.audioPlayerFragment);
     }
 
     protected QueueFragment getQueueFragment() {
-        return (QueueFragment) getSupportFragmentManager().findFragmentById(R.id.queueFragment);
+        return (QueueFragment)getSupportFragmentManager().findFragmentById(R.id.queueFragment);
     }
 
-    private final ColorExtractor.Callback mColorExtractorCallback = (bitmapWithColors) -> {
-        if (bitmapWithColors == null) {
-            return;
-        }
-
-        // update scrim image
-        final int[] gradientColors = new int[]{
-                bitmapWithColors.getVibrantColor(), bitmapWithColors.getVibrantDarkColor()
-        };
-
-        final GradientDrawable gradientDrawable = new GradientDrawable();
-        gradientDrawable.setColors(gradientColors);
-        mAlbumScrimImage.setGradientDrawable(gradientDrawable);
-    };
-
-    protected void setupQueueHeaderBar(final View.OnClickListener headerClickListener) {
-        final HeaderBar headerBar = findViewById(R.id.secondHeaderBar);
+    protected HeaderBar setupHeaderBar(final int containerId, final int textId,
+                                       final View.OnClickListener headerClickListener) {
+        final HeaderBar headerBar = (HeaderBar) findViewById(containerId);
         headerBar.setFragment(getQueueFragment());
-        headerBar.setTitleText(R.string.page_play_queue);
+        headerBar.setTitleText(textId);
         headerBar.setBackgroundColor(Color.TRANSPARENT);
+        headerBar.setBackListener(mShowBrowse);
         headerBar.setHeaderClickListener(headerClickListener);
 
-        headerBar.hideBackButton();
+        return headerBar;
     }
 
     private class ShowPanelClickListener implements View.OnClickListener {
 
-        private final Panel mTargetPanel;
+        private Panel mTargetPanel;
 
         public ShowPanelClickListener(Panel targetPanel) {
             mTargetPanel = targetPanel;

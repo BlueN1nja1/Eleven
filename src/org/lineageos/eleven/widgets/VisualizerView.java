@@ -1,19 +1,18 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* Copyright (C) 2014 The CyanogenMod Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 package org.lineageos.eleven.widgets;
 
 import android.animation.ObjectAnimator;
@@ -27,8 +26,6 @@ import android.os.AsyncTask;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-
-import androidx.core.content.ContextCompat;
 
 import org.lineageos.eleven.R;
 
@@ -44,8 +41,8 @@ public class VisualizerView extends View {
     private Visualizer mVisualizer;
     private ObjectAnimator mVisualizerColorAnimator;
 
-    private final ValueAnimator[] mValueAnimators = new ValueAnimator[32];
-    private final float[] mFFTPoints = new float[128];
+    private ValueAnimator[] mValueAnimators = new ValueAnimator[32];
+    private float[] mFFTPoints = new float[128];
 
     private boolean mVisible = false;
     private boolean mPlaying = false;
@@ -54,36 +51,34 @@ public class VisualizerView extends View {
 
     private int mColor;
 
-    private final Visualizer.OnDataCaptureListener mVisualizerListener =
+    private Visualizer.OnDataCaptureListener mVisualizerListener =
             new Visualizer.OnDataCaptureListener() {
-                byte rfk, ifk;
-                int dbValue;
-                float magnitude;
+        byte rfk, ifk;
+        int dbValue;
+        float magnitude;
 
-                @Override
-                public void onWaveFormDataCapture(Visualizer visualizer, byte[] bytes,
-                                                  int samplingRate) {
-                    // empty
-                }
+        @Override
+        public void onWaveFormDataCapture(Visualizer visualizer, byte[] bytes, int samplingRate) {
+            // empty
+        }
 
-                @Override
-                public void onFftDataCapture(Visualizer visualizer, byte[] fft,
-                                             int samplingRate) {
-                    for (int i = 0; i < 32; i++) {
-                        mValueAnimators[i].cancel();
+        @Override
+        public void onFftDataCapture(Visualizer visualizer, byte[] fft, int samplingRate) {
+            for (int i = 0; i < 32; i++) {
+                mValueAnimators[i].cancel();
 
-                        rfk = fft[i * 2 + 2];
-                        ifk = fft[i * 2 + 3];
-                        magnitude = rfk * rfk + ifk * ifk;
-                        dbValue = magnitude > 0 ? (int) (10 * Math.log10(magnitude)) : 0;
+                rfk = fft[i * 2 + 2];
+                ifk = fft[i * 2 + 3];
+                magnitude = rfk * rfk + ifk * ifk;
+                dbValue = magnitude > 0 ? (int) (10 * Math.log10(magnitude)) : 0;
 
-                        mValueAnimators[i].setFloatValues(
-                                mFFTPoints[i * 4 + 1],
-                                mFFTPoints[3] - (dbValue * 16f));
-                        mValueAnimators[i].start();
-                    }
-                }
-            };
+                mValueAnimators[i].setFloatValues(
+                        mFFTPoints[i * 4 + 1],
+                        mFFTPoints[3] - (dbValue * 16f));
+                mValueAnimators[i].start();
+            }
+        }
+    };
 
     private final Runnable mLinkVisualizer = new Runnable() {
         @Override
@@ -167,7 +162,7 @@ public class VisualizerView extends View {
     }
 
     public void initialize(Context context) {
-        mColor = ContextCompat.getColor(context, R.color.visualizer_fill_color);
+        mColor = context.getResources().getColor(R.color.visualizer_fill_color);
 
         mPaint = new Paint();
         mPaint.setAntiAlias(true);

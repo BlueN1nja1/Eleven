@@ -1,26 +1,24 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.ui.fragments;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
+import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,11 +27,6 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.loader.app.LoaderManager;
-import androidx.loader.content.Loader;
 
 import org.lineageos.eleven.MusicStateListener;
 import org.lineageos.eleven.R;
@@ -48,10 +41,12 @@ import org.lineageos.eleven.sectionadapter.SectionListContainer;
 import org.lineageos.eleven.ui.activities.BaseActivity;
 import org.lineageos.eleven.ui.fragments.phone.MusicBrowserFragment;
 import org.lineageos.eleven.utils.ArtistPopupMenuHelper;
+import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.NavUtils;
 import org.lineageos.eleven.utils.PopupMenuHelper;
 import org.lineageos.eleven.utils.SectionCreatorUtils;
 import org.lineageos.eleven.utils.SectionCreatorUtils.IItemCompare;
+import org.lineageos.eleven.widgets.IPopupMenuCallback;
 import org.lineageos.eleven.widgets.LoadingEmptyContainer;
 
 /**
@@ -60,7 +55,7 @@ import org.lineageos.eleven.widgets.LoadingEmptyContainer;
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public class ArtistFragment extends MusicBrowserFragment implements
-        LoaderManager.LoaderCallbacks<SectionListContainer<Artist>>,
+        LoaderCallbacks<SectionListContainer<Artist>>,
         OnScrollListener, OnItemClickListener, MusicStateListener {
 
     /**
@@ -72,6 +67,11 @@ public class ArtistFragment extends MusicBrowserFragment implements
      * The adapter for the grid
      */
     private SectionAdapter<Artist, ArtistAdapter> mAdapter;
+
+    /**
+     * The list view
+     */
+    private ListView mListView;
 
     /**
      * Pop up menu helper
@@ -94,11 +94,14 @@ public class ArtistFragment extends MusicBrowserFragment implements
         return PagerAdapter.MusicFragments.ARTIST.ordinal();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mPopupMenuHelper = new ArtistPopupMenuHelper(getActivity(), getChildFragmentManager()) {
+        mPopupMenuHelper = new ArtistPopupMenuHelper(getActivity(), getFragmentManager()) {
             @Override
             public Artist getArtist(int position) {
                 return mAdapter.getTItem(position);
@@ -109,22 +112,26 @@ public class ArtistFragment extends MusicBrowserFragment implements
         final int layout = R.layout.list_item_normal;
         ArtistAdapter adapter = new ArtistAdapter(getActivity(), layout);
         mAdapter = new SectionAdapter<>(getActivity(), adapter);
-        mAdapter.setPopupMenuClickedListener((v, position) ->
-                mPopupMenuHelper.showPopupMenu(v, position));
+        mAdapter.setPopupMenuClickedListener(new IPopupMenuCallback.IListener() {
+            @Override
+            public void onPopupMenuClicked(View v, int position) {
+                mPopupMenuHelper.showPopupMenu(v, position);
+            }
+        });
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
-                             final Bundle savedInstanceState) {
+            final Bundle savedInstanceState) {
         // The View for the fragment's UI
-        mRootView = (ViewGroup) inflater.inflate(R.layout.list_base, null);
+        mRootView = (ViewGroup)inflater.inflate(R.layout.list_base, null);
         initListView();
 
         // Register the music status listener
-        final Activity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            ((BaseActivity) activity).setMusicStateListenerListener(this);
-        }
+        ((BaseActivity)getActivity()).setMusicStateListenerListener(this);
 
         return mRootView;
     }
@@ -133,13 +140,13 @@ public class ArtistFragment extends MusicBrowserFragment implements
     public void onDestroyView() {
         super.onDestroyView();
 
-        final Activity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            ((BaseActivity) activity).removeMusicStateListenerListener(this);
-        }
+        ((BaseActivity)getActivity()).removeMusicStateListenerListener(this);
     }
 
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onActivityCreated(final Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -149,12 +156,18 @@ public class ArtistFragment extends MusicBrowserFragment implements
         initLoader(null, this);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onPause() {
         super.onPause();
         mAdapter.flush();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onScrollStateChanged(final AbsListView view, final int scrollState) {
         // Pause disk cache access to ensure smoother scrolling
@@ -166,14 +179,19 @@ public class ArtistFragment extends MusicBrowserFragment implements
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onItemClick(final AdapterView<?> parent, final View view,
-                            final int position, final long id) {
+    public void onItemClick(final AdapterView<?> parent, final View view, final int position,
+            final long id) {
         Artist artist = mAdapter.getTItem(position);
         NavUtils.openArtistProfile(getActivity(), artist.mArtistName);
     }
 
-    @NonNull
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public Loader<SectionListContainer<Artist>> onCreateLoader(final int id, final Bundle args) {
         mLoadingEmptyContainer.showLoading();
@@ -182,8 +200,11 @@ public class ArtistFragment extends MusicBrowserFragment implements
         return new SectionCreator<>(getActivity(), new ArtistLoader(context), comparator);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onLoadFinished(@NonNull final Loader<SectionListContainer<Artist>> loader,
+    public void onLoadFinished(final Loader<SectionListContainer<Artist>> loader,
                                final SectionListContainer<Artist> data) {
         if (data.mListResults.isEmpty()) {
             mAdapter.unload();
@@ -194,10 +215,45 @@ public class ArtistFragment extends MusicBrowserFragment implements
         mAdapter.setData(data);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onLoaderReset(@NonNull final Loader<SectionListContainer<Artist>> loader) {
+    public void onLoaderReset(final Loader<SectionListContainer<Artist>> loader) {
         // Clear the data in the adapter
         mAdapter.unload();
+    }
+
+    /**
+     * Scrolls the list to the currently playing artist when the user touches
+     * the header in the {@link TitlePageIndicator}.
+     */
+    public void scrollToCurrentArtist() {
+        final int currentArtistPosition = getItemPositionByArtist();
+
+        if (currentArtistPosition != 0) {
+            mListView.setSelection(currentArtistPosition);
+        }
+    }
+
+    /**
+     * @return The position of an item in the list or grid based on the name of
+     *         the currently playing artist.
+     */
+    private int getItemPositionByArtist() {
+        final long artistId = MusicUtils.getCurrentArtistId();
+        if (mAdapter == null) {
+            return 0;
+        }
+
+        int position = mAdapter.getItemPosition(artistId);
+
+        // if for some reason we don't find the item, just jump to the top
+        if (position < 0) {
+            return 0;
+        }
+
+        return position;
     }
 
     /**
@@ -209,18 +265,27 @@ public class ArtistFragment extends MusicBrowserFragment implements
         restartLoader();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onScroll(final AbsListView view, final int firstVisibleItem,
-                         final int visibleItemCount, final int totalItemCount) {
+            final int visibleItemCount, final int totalItemCount) {
         // Nothing to do
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void restartLoader() {
         // Update the list when the user deletes any items
         restartLoader(null, this);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onMetaChanged() {
         // Nothing to do
@@ -250,13 +315,13 @@ public class ArtistFragment extends MusicBrowserFragment implements
      */
     private void initListView() {
         // Initialize the grid
-        final ListView listView = mRootView.findViewById(R.id.list_base);
+        mListView = (ListView)mRootView.findViewById(R.id.list_base);
         // Set the data behind the list
-        listView.setAdapter(mAdapter);
+        mListView.setAdapter(mAdapter);
         // set the loading and empty view container
-        mLoadingEmptyContainer = mRootView.findViewById(R.id.loading_empty_container);
-        listView.setEmptyView(mLoadingEmptyContainer);
+        mLoadingEmptyContainer = (LoadingEmptyContainer)mRootView.findViewById(R.id.loading_empty_container);
+        mListView.setEmptyView(mLoadingEmptyContainer);
         // Set up the helpers
-        initAbsListView(listView);
+        initAbsListView(mListView);
     }
 }

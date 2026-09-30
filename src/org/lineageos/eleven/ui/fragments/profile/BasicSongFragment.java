@@ -1,26 +1,24 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.ui.fragments.profile;
 
-import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
+import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,12 +26,6 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-
-import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.Fragment;
-import androidx.loader.app.LoaderManager;
-import androidx.loader.content.Loader;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.MusicStateListener;
@@ -48,6 +40,7 @@ import org.lineageos.eleven.ui.activities.BaseActivity;
 import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.PopupMenuHelper;
 import org.lineageos.eleven.utils.SongPopupMenuHelper;
+import org.lineageos.eleven.widgets.IPopupMenuCallback;
 import org.lineageos.eleven.widgets.LoadingEmptyContainer;
 import org.lineageos.eleven.widgets.NoResultsContainer;
 
@@ -59,8 +52,7 @@ import java.util.TreeSet;
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public abstract class BasicSongFragment extends Fragment implements
-        LoaderManager.LoaderCallbacks<SectionListContainer<Song>>,
-        OnItemClickListener, MusicStateListener {
+        LoaderCallbacks<SectionListContainer<Song>>, OnItemClickListener, MusicStateListener {
 
     /**
      * Fragment UI
@@ -93,10 +85,13 @@ public abstract class BasicSongFragment extends Fragment implements
     public BasicSongFragment() {
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mPopupMenuHelper = new SongPopupMenuHelper(getActivity(), getChildFragmentManager()) {
+        mPopupMenuHelper = new SongPopupMenuHelper(getActivity(), getFragmentManager()) {
             @Override
             public Song getSong(int position) {
                 return mAdapter.getTItem(position);
@@ -121,8 +116,12 @@ public abstract class BasicSongFragment extends Fragment implements
 
         // Create the adapter
         mAdapter = new SectionAdapter<>(getActivity(), createAdapter());
-        mAdapter.setPopupMenuClickedListener((v, position) ->
-                mPopupMenuHelper.showPopupMenu(v, position));
+        mAdapter.setPopupMenuClickedListener(new IPopupMenuCallback.IListener() {
+            @Override
+            public void onPopupMenuClicked(View v, int position) {
+                mPopupMenuHelper.showPopupMenu(v, position);
+            }
+        });
     }
 
     protected long getFragmentSourceId() {
@@ -137,16 +136,16 @@ public abstract class BasicSongFragment extends Fragment implements
         // do nothing - let subclasses override
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
                              final Bundle savedInstanceState) {
         // The View for the fragment's UI
         mRootView = (ViewGroup) inflater.inflate(R.layout.list_base, null);
         // set the background on the root view
-        final Context context = getContext();
-        if (context != null) {
-            mRootView.setBackgroundColor(ContextCompat.getColor(context, R.color.background_color));
-        }
+        mRootView.setBackgroundColor(getResources().getColor(R.color.background_color));
         // Initialize the list
         mListView = (ListView) mRootView.findViewById(R.id.list_base);
         // Set the data behind the list
@@ -169,23 +168,20 @@ public abstract class BasicSongFragment extends Fragment implements
             }
 
             @Override
-            public void onScroll(AbsListView view, int firstVisibleItem,
-                                 int visibleItemCount, int totalItemCount) {
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
 
             }
         });
 
         // Show progress bar
-        mLoadingEmptyContainer = mRootView.findViewById(R.id.loading_empty_container);
+        mLoadingEmptyContainer = (LoadingEmptyContainer)mRootView.findViewById(R.id.loading_empty_container);
         // Setup the container strings
         setupNoResultsContainer(mLoadingEmptyContainer.getNoResultsContainer());
         mListView.setEmptyView(mLoadingEmptyContainer);
 
         // Register the music status listener
-        final Activity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            ((BaseActivity) activity).setMusicStateListenerListener(this);
-        }
+        ((BaseActivity)getActivity()).setMusicStateListenerListener(this);
+
         return mRootView;
     }
 
@@ -193,21 +189,20 @@ public abstract class BasicSongFragment extends Fragment implements
     public void onDestroyView() {
         super.onDestroyView();
 
-        final Activity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            ((BaseActivity) activity).removeMusicStateListenerListener(this);
-        }
+        ((BaseActivity)getActivity()).removeMusicStateListenerListener(this);
     }
 
     /**
      * This allows subclasses to customize the look and feel of the no results container
-     *
      * @param empty NoResultsContainer class
      */
     public void setupNoResultsContainer(final NoResultsContainer empty) {
         // do nothing
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onActivityCreated(final Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -215,14 +210,20 @@ public abstract class BasicSongFragment extends Fragment implements
         getFragmentLoaderManager().initLoader(getLoaderId(), null, this);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onItemClick(final AdapterView<?> parent, final View view, final int position,
                             final long id) {
         playAll(position);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onLoadFinished(@NonNull final Loader<SectionListContainer<Song>> loader,
+    public void onLoadFinished(final Loader<SectionListContainer<Song>> loader,
                                final SectionListContainer<Song> data) {
         if (data.mListResults.isEmpty()) {
             mAdapter.unload();
@@ -256,39 +257,43 @@ public abstract class BasicSongFragment extends Fragment implements
         restartLoader();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void restartLoader() {
         // Update the list when the user deletes any items
         getFragmentLoaderManager().restartLoader(getLoaderId(), null, this);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onLoaderReset(@NonNull final Loader<SectionListContainer<Song>> loader) {
+    public void onLoaderReset(final Loader<SectionListContainer<Song>> loader) {
         // Clear the data in the adapter
         mAdapter.unload();
     }
 
     /**
      * If the subclasses want to use a customized SongAdapter they can override this method
-     *
      * @return the Song adapter
      */
     protected SongAdapter createAdapter() {
         return new SongAdapter(
-                getActivity(),
-                R.layout.list_item_normal,
-                getFragmentSourceId(),
-                getFragmentSourceType()
+            getActivity(),
+            R.layout.list_item_normal,
+            getFragmentSourceId(),
+            getFragmentSourceType()
         );
     }
 
     /**
      * Allow subclasses to specify a different loader manager
-     *
      * @return Loader Manager to use
      */
     public LoaderManager getFragmentLoaderManager() {
-        return LoaderManager.getInstance(this);
+        return getLoaderManager();
     }
 
     @Override
@@ -310,7 +315,7 @@ public abstract class BasicSongFragment extends Fragment implements
     public abstract int getLoaderId();
 
     /**
-     * If the user clicks play all
+     * If the user clisk play all
      *
      * @param position the position of the item clicked or -1 if shuffle all
      */

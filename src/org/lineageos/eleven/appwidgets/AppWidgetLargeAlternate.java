@@ -1,20 +1,16 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.appwidgets;
 
 import android.annotation.SuppressLint;
@@ -40,7 +36,7 @@ import org.lineageos.eleven.widgets.ShuffleButton;
 @SuppressLint("NewApi")
 public class AppWidgetLargeAlternate extends AppWidgetBase {
 
-    public static final String APP_WIDGET_UPDATE = "app_widget_large_alternate_update";
+    public static final String CMDAPPWIDGETUPDATE = "app_widget_large_alternate_update";
 
     private static AppWidgetLargeAlternate mInstance;
 
@@ -51,13 +47,16 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         return mInstance;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onUpdate(final Context context, final AppWidgetManager appWidgetManager,
             final int[] appWidgetIds) {
         defaultAppWidget(context, appWidgetIds);
         final Intent updateIntent = new Intent(MusicPlaybackService.SERVICECMD);
         updateIntent.putExtra(MusicPlaybackService.CMDNAME,
-                AppWidgetLargeAlternate.APP_WIDGET_UPDATE);
+                AppWidgetLargeAlternate.CMDAPPWIDGETUPDATE);
         updateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds);
         updateIntent.setFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY);
         context.sendBroadcast(updateIntent);
@@ -131,12 +130,12 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         final boolean isPlaying = service.isPlaying();
         if (isPlaying) {
             appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_play,
-                    R.drawable.btn_playback_pause_widget);
+                    R.drawable.btn_playback_pause_mpc);
             appWidgetView.setContentDescription(R.id.app_widget_large_alternate_play,
                     service.getString(R.string.accessibility_pause));
         } else {
             appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_play,
-                    R.drawable.btn_playback_play_widget);
+                    R.drawable.btn_playback_play_mpc);
             appWidgetView.setContentDescription(R.id.app_widget_large_alternate_play,
                     service.getString(R.string.accessibility_play));
         }
@@ -145,19 +144,19 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         switch (service.getRepeatMode()) {
             case MusicPlaybackService.REPEAT_ALL:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_repeat,
-                        R.drawable.btn_playback_repeat_all_widget);
+                        R.drawable.btn_playback_repeat_all);
                 appWidgetView.setInt(R.id.app_widget_large_alternate_repeat, "setAlpha",
                         (int)(RepeatButton.ACTIVE_ALPHA * 255));
                 break;
             case MusicPlaybackService.REPEAT_CURRENT:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_repeat,
-                        R.drawable.btn_playback_repeat_one_widget);
+                        R.drawable.btn_playback_repeat_one);
                 appWidgetView.setInt(R.id.app_widget_large_alternate_repeat, "setAlpha",
                         (int)(RepeatButton.ACTIVE_ALPHA * 255));
                 break;
             default:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_repeat,
-                        R.drawable.btn_playback_repeat_all_widget);
+                        R.drawable.btn_playback_repeat_all);
                 appWidgetView.setInt(R.id.app_widget_large_alternate_repeat, "setAlpha",
                         (int)(RepeatButton.INACTIVE_ALPHA * 255));
                 break;
@@ -167,7 +166,7 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         switch (service.getShuffleMode()) {
             case MusicPlaybackService.SHUFFLE_NONE:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_shuffle,
-                        R.drawable.btn_playback_shuffle_all_widget);
+                        R.drawable.btn_playback_shuffle_all);
                 appWidgetView.setInt(R.id.app_widget_large_alternate_shuffle, "setAlpha",
                         (int)(ShuffleButton.INACTIVE_ALPHA * 255));
                 break;
@@ -175,7 +174,7 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
             case MusicPlaybackService.SHUFFLE_NORMAL:
             default:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_shuffle,
-                        R.drawable.btn_playback_shuffle_all_widget);
+                        R.drawable.btn_playback_shuffle_all);
                 appWidgetView.setInt(R.id.app_widget_large_alternate_shuffle, "setAlpha",
                         (int)(ShuffleButton.ACTIVE_ALPHA * 255));
                 break;
@@ -189,7 +188,7 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
     }
 
     /**
-     * Link up various button actions using {@link PendingIntent}s.
+     * Link up various button actions using {@link PendingIntents}.
      *
      */
     private void linkButtons(final Context context, final RemoteViews views) {

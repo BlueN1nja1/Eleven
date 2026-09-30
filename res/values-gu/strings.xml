@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">ટોપ ગીતો</string>
     <string name="header_all_songs">તમામ ગીતો</string>
     <string name="menu_settings">સેટિંગ્સ</string>
+    <string name="menu_search">શોધ</string>
     <string name="menu_shuffle_item">પીસો</string>
     <string name="menu_shuffle_all">બધાને પીસો</string>
     <string name="menu_shuffle_playlist">પ્લેલિસ્ટ શફલ કરો</string>
@@ -105,21 +105,31 @@
     <string name="accessibility_browse">મ્યુઝિક બ્રાઉઝ કરો</string>
     <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' રિંગટોન તરીકે સેટ કરો</string>
     <string name="playlist_renamed">પ્લેલિસ્ટનું પુન:નામકરણ કર્યું</string>
+    <string name="settings_ui_category">ઇન્ટરફેસ</string>
     <string name="settings_storage_category">સ્ટોરેજ</string>
+    <string name="settings_data_category">ડેટા</string>
     <string name="settings_delete_cache_title">કૅશ રદ કરો</string>
     <string name="settings_delete_cache_summary">તમામ કૅશ ઇમેજ કાઢી નાંખો</string>
+    <string name="settings_download_only_on_wifi_title">ફકત Wi-Fi મારફત ડાઉનલોડ કરો</string>
+    <string name="settings_download_only_on_wifi_summary">પ્રદાતા શુલ્કો ઘટાડવા, મોબાઇલ નેટવર્કો પર ડાઉનલોડ કરશો નહીં</string>
+    <string name="settings_download_missing_artwork_title">ગૂમ આલ્બમ આર્ટ ડાઉનલોડ કરો</string>
+    <string name="settings_download_artist_images_title">ગૂમ આર્ટિસ્ટ ઇમેજ ડાઉનલોડ કરો</string>
     <string name="settings_general_category">સામાન્ય</string>
     <string name="settings_show_music_visualization_title">મ્યુઝિક વિઝ્યુઅલાઇઝેશન દર્શાવો</string>
     <string name="settings_show_lyrics_title">ગીત લિરિક્સ દર્શાવો</string>
     <string name="settings_show_lyrics_summary">srt ફાઇલ હોય તેવા ગીતો માટે</string>
     <string name="settings_shake_to_play">પ્લે કરવા હલાવો</string>
     <string name="settings_shake_to_play_summary">આગામી ગીત પ્લે કરવા તમારી ડિવાઇસ હલાવો</string>
+    <string name="settings_lockscreen_album_art">લૉકસ્ક્રીન આલ્બમ આર્ટ</string>
+    <string name="settings_lockscreen_album_art_summary">લૉકસ્ક્રીન પૃષ્ઠભૂમિની અવેજીમાં આલ્બમ આર્ટ મૂકો</string>
     <string name="app_widget_small">મ્યુઝિક: 4 \u00d7 1</string>
     <string name="app_widget_large">મ્યુઝિક: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">મ્યુઝિક: 4 \u00d7 2 (વૈકલ્પિક)</string>
     <string name="app_widget_recent">મ્યુઝિક: તાજેતરમાં સાંભળેલ</string>
     <string name="no_effects_for_you">ઇક્વલાઇઝર ખોલી શકાયું નહીં.</string>
     <string name="empty_music">તમારા કમ્પ્યુટરમાંથી તમારા ડિવાઇસ પર મ્યુઝિક કૉપિ કરવા USB કેબલનો ઉપયોગ કરો.</string>
+    <string name="empty_search">કોઇ સર્ચ પરિણામો મળ્યાં નહીં</string>
+    <string name="empty_search_check">કૃપા કરી ચકાસો કે તમારી જોડણી સાચી છે અથવા અલગ કીવર્ડ અજમાવો.</string>
     <string name="empty_favorite">ફેવરિટ તરીકે તમે અંકિત કરેલ ગીતો અહીં દર્શાવવામાં આવશે.</string>
     <string name="empty_recent_main">કોઇ તાજેતરનાં ગીતો નહીં</string>
     <string name="empty_recent">તમે તાજેતરમાં સાંભળેલ ગીતો અહીં દેખાશે.</string>
@@ -155,6 +165,7 @@
     <string name="footer_search_albums">તમામ આલ્બમો દર્શાવો</string>
     <string name="footer_search_songs">તમામ ગીતો દર્શાવો</string>
     <string name="footer_search_playlists">તમામ પ્લેલિસ્ટો દર્શાવો</string>
+    <string name="searchHint">મ્યુઝિક સર્ચ કરો</string>
     <string name="search_title_artists">તમામ \"%s\" આર્ટિસ્ટો</string>
     <string name="search_title_albums">તમામ \"%s\" આલ્બમો</string>
     <string name="search_title_songs">તમામ \"%s\" ગીતો</string>

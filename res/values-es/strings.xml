@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">Canciones más escuchadas</string>
     <string name="header_all_songs">Todas las canciones</string>
     <string name="menu_settings">Ajustes</string>
+    <string name="menu_search">Buscar</string>
     <string name="menu_shuffle_item">Mezclar</string>
     <string name="menu_shuffle_all">Mezclar todas</string>
     <string name="menu_shuffle_playlist">Mezclar lista de reproducción</string>
@@ -105,21 +105,31 @@
     <string name="accessibility_browse">Navegar por la música</string>
     <string name="set_as_ringtone">«<xliff:g id="name" example="Alarm Bell">%s</xliff:g>» establecido como timbre de llamada</string>
     <string name="playlist_renamed">Lista con nombre nuevo</string>
+    <string name="settings_ui_category">Interfaz</string>
     <string name="settings_storage_category">Almacenamiento</string>
+    <string name="settings_data_category">Datos</string>
     <string name="settings_delete_cache_title">Limpiar caché</string>
     <string name="settings_delete_cache_summary">Eliminar todas las imágenes almacenadas</string>
+    <string name="settings_download_only_on_wifi_title">Descargar solo vía Wi-Fi</string>
+    <string name="settings_download_only_on_wifi_summary">No descargar contenido en redes móviles para reducir los cargos del operador</string>
+    <string name="settings_download_missing_artwork_title">Obtener carátulas</string>
+    <string name="settings_download_artist_images_title">Obtener fotos de artistas</string>
     <string name="settings_general_category">General</string>
     <string name="settings_show_music_visualization_title">Mostrar visualización musical</string>
     <string name="settings_show_lyrics_title">Mostrar las letras de las canciones</string>
     <string name="settings_show_lyrics_summary">Para canciones que tienen un archivo srt</string>
     <string name="settings_shake_to_play">Agitar para reproducir</string>
     <string name="settings_shake_to_play_summary">Agitar el dispositivo para reproducir la siguiente canción</string>
+    <string name="settings_lockscreen_album_art">Portada en pantalla de bloqueo</string>
+    <string name="settings_lockscreen_album_art_summary">Reemplazar la pantalla de bloqueo con la imagen del álbum</string>
     <string name="app_widget_small">Música: 4 \u00d7 1</string>
     <string name="app_widget_large">Música: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Música: 4 \u00d7 2 (alternativo)</string>
     <string name="app_widget_recent">Música: Escuchado recientemente</string>
     <string name="no_effects_for_you">El ecualizador no se ha podido abrir.</string>
     <string name="empty_music">Para copiar música del ordenador al dispositivo, utiliza un cable USB.</string>
+    <string name="empty_search">No se han encontrado resultados</string>
+    <string name="empty_search_check">Comprueba que lo has escrito correctamente o intenta una palabra clave diferente.</string>
     <string name="empty_favorite">Las canciones que marques como favoritas aparecerán aquí.</string>
     <string name="empty_recent_main">No hay canciones recientes</string>
     <string name="empty_recent">Las canciones que hayas escuchado recientemente aparecerán aquí.</string>
@@ -155,6 +165,7 @@
     <string name="footer_search_albums">Mostrar todos los álbumes</string>
     <string name="footer_search_songs">Mostrar todas las canciones</string>
     <string name="footer_search_playlists">Mostrar todas las listas de reproducción</string>
+    <string name="searchHint">Buscar música</string>
     <string name="search_title_artists">Todos los artistas «%s»</string>
     <string name="search_title_albums">Todos los álbumes «%s»</string>
     <string name="search_title_songs">Todas las canciones «%s»</string>

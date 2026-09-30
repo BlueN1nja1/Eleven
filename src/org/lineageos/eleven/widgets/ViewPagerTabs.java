@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The Android Open Source Project
- * Copyright (C) 2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,6 +19,8 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Outline;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -30,9 +31,6 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 
 import org.lineageos.eleven.R;
 
@@ -45,7 +43,7 @@ import org.lineageos.eleven.R;
 public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnPageChangeListener {
 
     ViewPager mPager;
-    private final ViewPagerTabStrip mTabStrip;
+    private ViewPagerTabStrip mTabStrip;
 
     /**
      * Linearlayout that will contain the TextViews serving as tabs. This is the only child
@@ -60,20 +58,20 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
 
     private static final ViewOutlineProvider VIEW_BOUNDS_OUTLINE_PROVIDER =
             new ViewOutlineProvider() {
-                @Override
-                public void getOutline(View view, Outline outline) {
-                    outline.setRect(0, 0, view.getWidth(), view.getHeight());
-                }
-            };
+        @Override
+        public void getOutline(View view, Outline outline) {
+            outline.setRect(0, 0, view.getWidth(), view.getHeight());
+        }
+    };
 
     private static final int TAB_SIDE_PADDING_IN_DPS = 10;
 
     // TODO: This should use <declare-styleable> in the future
-    private static final int[] ATTRS = new int[]{
-            android.R.attr.textSize,
-            android.R.attr.textStyle,
-            android.R.attr.textColor,
-            android.R.attr.textAllCaps
+    private static final int[] ATTRS = new int[] {
+        android.R.attr.textSize,
+        android.R.attr.textStyle,
+        android.R.attr.textColor,
+        android.R.attr.textAllCaps
     };
 
     /**
@@ -96,11 +94,7 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
             final int height = getHeight();
             final int screenWidth = context.getResources().getDisplayMetrics().widthPixels;
 
-            final PagerAdapter adapter = mPager.getAdapter();
-            if (adapter == null) {
-                return false;
-            }
-            Toast toast = Toast.makeText(context, adapter.getPageTitle(mPosition),
+            Toast toast = Toast.makeText(context, mPager.getAdapter().getPageTitle(mPosition),
                     Toast.LENGTH_SHORT);
 
             // Show the toast under the tab
@@ -143,10 +137,7 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
 
     public void setViewPager(ViewPager viewPager) {
         mPager = viewPager;
-        final PagerAdapter adapter = mPager.getAdapter();
-        if (adapter != null) {
-            addTabs(adapter);
-        }
+        addTabs(mPager.getAdapter());
     }
 
     private void addTabs(PagerAdapter adapter) {
@@ -163,7 +154,12 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
         textView.setText(tabTitle);
         textView.setBackgroundResource(R.drawable.view_pager_tab_background);
         textView.setGravity(Gravity.CENTER);
-        textView.setOnClickListener(v -> mPager.setCurrentItem(getRtlPosition(position)));
+        textView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPager.setCurrentItem(getRtlPosition(position));
+            }
+        });
 
         textView.setOnLongClickListener(new OnTabLongClickListener(position));
 
@@ -192,11 +188,11 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
         position = getRtlPosition(position);
         int tabStripChildCount = mTabStrip.getChildCount();
-        if (position < 0 || position >= tabStripChildCount) {
+        if ((tabStripChildCount == 0) || (position < 0) || (position >= tabStripChildCount)) {
             return;
         }
 
-        mTabStrip.onPageScrolled(position, positionOffset);
+        mTabStrip.onPageScrolled(position, positionOffset, positionOffsetPixels);
     }
 
     @Override

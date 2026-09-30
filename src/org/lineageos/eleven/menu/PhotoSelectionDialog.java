@@ -1,30 +1,25 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2020-021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.menu;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.DialogFragment;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.R;
@@ -54,15 +49,15 @@ public class PhotoSelectionDialog extends DialogFragment {
     private String mKey;
 
     /**
-     * Empty constructor as per the Fragment documentation
+     * Empty constructor as per the {@link Fragment} documentation
      */
     public PhotoSelectionDialog() {
     }
 
     /**
      * @param title The dialog title.
-     * @param type  Either Artist or Album
-     * @param key   key to query ImageFetcher
+     * @param type Either Artist or Album
+     * @param key key to query ImageFetcher
      * @return A new instance of the dialog.
      */
     public static PhotoSelectionDialog newInstance(final String title, final ProfileType type,
@@ -76,11 +71,12 @@ public class PhotoSelectionDialog extends DialogFragment {
         return frag;
     }
 
-    @NonNull
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
-        final Bundle args = getArguments();
-        final String title = args == null ? "" : args.getString(Config.NAME);
+        final String title = getArguments().getString(Config.NAME);
         switch (mProfileType) {
             case ARTIST:
                 setArtistChoices();
@@ -99,21 +95,22 @@ public class PhotoSelectionDialog extends DialogFragment {
         final ListAdapter adapter = new ArrayAdapter<>(activity,
                 android.R.layout.select_dialog_item, mChoices);
         return new AlertDialog.Builder(activity).setTitle(title)
-                .setAdapter(adapter, (dialog, which) -> {
-                    switch (which) {
-                        case NEW_PHOTO:
-                            if (activity != null) {
+                .setAdapter(adapter, new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(final DialogInterface dialog, final int which) {
+                        switch (which) {
+                            case NEW_PHOTO:
                                 activity.selectNewPhoto(mKey);
-                            }
-                            break;
-                        case OLD_PHOTO:
-                            MusicUtils.selectOldPhoto(activity, mKey);
-                            break;
-                        default:
-                            break;
+                                break;
+                            case OLD_PHOTO:
+                                MusicUtils.selectOldPhoto(activity, mKey);
+                                break;
+                            default:
+                                break;
+                        }
                     }
-                })
-                .create();
+                }).create();
     }
 
     /**
@@ -122,6 +119,11 @@ public class PhotoSelectionDialog extends DialogFragment {
     private void setArtistChoices() {
         // Select a photo from the gallery
         mChoices.add(NEW_PHOTO, getString(R.string.new_photo));
+        /* Disable fetching image until we find a last.fm replacement
+        if (ElevenUtils.isOnline(getActivity())) {
+            // Option to fetch the old artist image
+            mChoices.add(OLD_PHOTO, getString(R.string.context_menu_fetch_artist_image));
+        }*/
     }
 
     /**
@@ -130,6 +132,12 @@ public class PhotoSelectionDialog extends DialogFragment {
     private void setAlbumChoices() {
         // Select a photo from the gallery
         mChoices.add(NEW_PHOTO, getString(R.string.new_photo));
+        /* Disable fetching image until we find a last.fm replacement
+        // Option to fetch the old album image
+        if (ElevenUtils.isOnline(getActivity())) {
+            // Option to fetch the old artist image
+            mChoices.add(OLD_PHOTO, getString(R.string.context_menu_fetch_album_art));
+        }*/
     }
 
     /**
@@ -138,15 +146,15 @@ public class PhotoSelectionDialog extends DialogFragment {
     private void setOtherChoices() {
         // Select a photo from the gallery
         mChoices.add(NEW_PHOTO, getString(R.string.new_photo));
+        // Disable fetching image until we find a last.fm replacement
+        // Option to use the default image
+        // mChoices.add(OLD_PHOTO, getString(R.string.use_default));
     }
 
     /**
      * Easily detect the MIME type
      */
     public enum ProfileType {
-        ARTIST,
-        ALBUM,
-        PROFILE_TYPE,
-        OTHER
+        ARTIST, ALBUM, ProfileType, OTHER
     }
 }

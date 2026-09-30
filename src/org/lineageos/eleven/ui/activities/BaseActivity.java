@@ -1,22 +1,21 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.ui.activities;
 
+import static org.lineageos.eleven.utils.MusicUtils.mService;
+
+import android.app.ActionBar;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -28,6 +27,7 @@ import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.v4.app.FragmentActivity;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -35,13 +35,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.FragmentActivity;
-
+import org.lineageos.eleven.IElevenService;
 import org.lineageos.eleven.MusicPlaybackService;
 import org.lineageos.eleven.MusicStateListener;
 import org.lineageos.eleven.R;
@@ -52,7 +48,6 @@ import org.lineageos.eleven.utils.Lists;
 import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.MusicUtils.ServiceToken;
 import org.lineageos.eleven.utils.NavUtils;
-import org.lineageos.eleven.widgets.PlayPauseButtonContainer;
 import org.lineageos.eleven.widgets.PlayPauseProgressButton;
 
 import java.lang.ref.WeakReference;
@@ -66,11 +61,11 @@ import java.util.ArrayList;
  *
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
-public abstract class BaseActivity extends AppCompatActivity implements ServiceConnection,
+public abstract class BaseActivity extends FragmentActivity implements ServiceConnection,
         MusicStateListener, ICacheListener {
 
     /**
-     * Play-state and meta change listener
+     * Playstate and meta change listener
      */
     private final ArrayList<MusicStateListener> mMusicStateListener = Lists.newArrayList();
 
@@ -87,8 +82,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
      * Play pause progress button
      */
     private PlayPauseProgressButton mPlayPauseProgressButton;
-    private PlayPauseButtonContainer mPlayPauseButtonContainer;
-
 
     /**
      * Track name (BAB)
@@ -112,6 +105,9 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
 
     private Drawable mActionBarBackground;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -119,12 +115,16 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         // Control the media volume
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
+        // Bind Eleven's service
+        mToken = MusicUtils.bindToService(this, this);
+
         // Initialize the broadcast receiver
         mPlaybackStatus = new PlaybackStatus(this);
 
         // Calculate ActionBar height
         TypedValue value = new TypedValue();
-        if (getTheme().resolveAttribute(android.R.attr.actionBarSize, value, true)) {
+        if (getTheme().resolveAttribute(android.R.attr.actionBarSize, value, true))
+        {
             mActionBarHeight = TypedValue.complexToDimensionPixelSize(value.data,
                     getResources().getDisplayMetrics());
         }
@@ -132,23 +132,27 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         // Set the layout
         setContentView(setContentView());
 
-        mToolBar = findViewById(R.id.toolbar);
-        setSupportActionBar(mToolBar);
+        mToolBar = (Toolbar) findViewById(R.id.toolbar);
+        setActionBar(mToolBar);
 
         setActionBarTitle(getString(R.string.app_name));
 
         // set the background on the root view
         getWindow().getDecorView().getRootView().setBackgroundColor(
-                ContextCompat.getColor(this, R.color.background_color));
-        // Initialize the bottom action bar
+                getResources().getColor(R.color.background_color));
+        // Initialze the bottom action bar
         initBottomActionBar();
 
         // listen to changes to the cache status
         ImageFetcher.getInstance(this).addCacheListener(this);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onServiceConnected(final ComponentName name, final IBinder service) {
+        mService = IElevenService.Stub.asInterface(service);
         // Set the playback drawables
         updatePlaybackControls();
         // Current info
@@ -157,28 +161,51 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         handlePendingPlaybackRequests();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onServiceDisconnected(final ComponentName name) {
+        mService = null;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
+        // Search view
+        getMenuInflater().inflate(R.menu.search_btn, menu);
         // Settings
         getMenuInflater().inflate(R.menu.activity_base, menu);
 
         return super.onCreateOptionsMenu(menu);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
-        if (item.getItemId() == R.id.menu_settings) {
-            // Settings
-            NavUtils.openSettings(this);
-            return true;
+        switch (item.getItemId()) {
+            case R.id.menu_settings:
+                // Settings
+                NavUtils.openSettings(this);
+                return true;
+
+            case R.id.menu_search:
+                NavUtils.openSearch(BaseActivity.this, "");
+                return true;
+
+            default:
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     protected void onResume() {
         super.onResume();
@@ -188,13 +215,12 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         onMetaChanged();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     protected void onStart() {
         super.onStart();
-
-        // Bind Eleven's service
-        mToken = MusicUtils.bindToService(this, this);
-
         final IntentFilter filter = new IntentFilter();
         // Play and pause changes
         filter.addAction(MusicPlaybackService.PLAYSTATE_CHANGED);
@@ -207,15 +233,31 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         // If there is an error playing a track
         filter.addAction(MusicPlaybackService.TRACK_ERROR);
         registerReceiver(mPlaybackStatus, filter);
+
+        mPlayPauseProgressButton.resume();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     protected void onStop() {
         super.onStop();
 
+        mPlayPauseProgressButton.pause();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
         // Unbind from the service
-        MusicUtils.unbindFromService(mToken);
-        mToken = null;
+        if (mToken != null) {
+            MusicUtils.unbindFromService(mToken);
+            mToken = null;
+        }
 
         // Unregister the receiver
         try {
@@ -223,11 +265,6 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         } catch (final Throwable e) {
             //$FALL-THROUGH$
         }
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
 
         // Remove any music status listeners
         mMusicStateListener.clear();
@@ -244,18 +281,15 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         setActionBarTitle(title);
 
         if (mActionBarBackground == null) {
-            final int actionBarColor = ContextCompat.getColor(this,
-                    R.color.header_action_bar_color);
+            final int actionBarColor = getResources().getColor(R.color.header_action_bar_color);
             mActionBarBackground = new ColorDrawable(actionBarColor);
-            mToolBar.setBackground(mActionBarBackground);
+            mToolBar.setBackgroundDrawable(mActionBarBackground);
         }
     }
 
     public void setActionBarTitle(String title) {
-        final ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.setTitle(title);
-        }
+        ActionBar actionBar = getActionBar();
+        actionBar.setTitle(title);
     }
 
     public void setActionBarAlpha(int alpha) {
@@ -278,17 +312,15 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
      */
     protected void initBottomActionBar() {
         // Play and pause button
-        mPlayPauseProgressButton = findViewById(R.id.playPauseProgressButtonAlt);
+        mPlayPauseProgressButton = (PlayPauseProgressButton)findViewById(R.id.playPauseProgressButton);
         mPlayPauseProgressButton.enableAndShow();
-        mPlayPauseButtonContainer = findViewById(R.id.playPauseProgressButton);
-        mPlayPauseButtonContainer.enableAndShow();
 
         // Track name
-        mTrackName = findViewById(R.id.bottom_action_bar_line_one);
+        mTrackName = (TextView)findViewById(R.id.bottom_action_bar_line_one);
         // Artist name
-        mArtistName = findViewById(R.id.bottom_action_bar_line_two);
+        mArtistName = (TextView)findViewById(R.id.bottom_action_bar_line_two);
         // Album art
-        mAlbumArt = findViewById(R.id.bottom_action_bar_album_art);
+        mAlbumArt = (ImageView)findViewById(R.id.bottom_action_bar_album_art);
         // Open to the currently playing album profile
         mAlbumArt.setOnClickListener(mOpenCurrentAlbumProfile);
     }
@@ -314,19 +346,25 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
      */
     private void updatePlaybackControls() {
         // Set the play and pause image
-        mPlayPauseButtonContainer.updateState();
-        mPlayPauseProgressButton.updateState();
+        mPlayPauseProgressButton.getPlayPauseButton().updateState();
     }
 
     /**
      * Opens the album profile of the currently playing album
      */
-    private final View.OnClickListener mOpenCurrentAlbumProfile = v -> {
-        if (MusicUtils.getCurrentAudioId() != -1) {
-            NavUtils.openAlbumProfile(BaseActivity.this, MusicUtils.getAlbumName(),
-                    MusicUtils.getArtistName(), MusicUtils.getCurrentAlbumId());
-        } else {
-            MusicUtils.shuffleAll(BaseActivity.this);
+    private final View.OnClickListener mOpenCurrentAlbumProfile = new View.OnClickListener() {
+
+        /**
+         * {@inheritDoc}
+         */
+        @Override
+        public void onClick(final View v) {
+            if (MusicUtils.getCurrentAudioId() != -1) {
+                NavUtils.openAlbumProfile(BaseActivity.this, MusicUtils.getAlbumName(),
+                        MusicUtils.getArtistName(), MusicUtils.getCurrentAlbumId());
+            } else {
+                MusicUtils.shuffleAll(BaseActivity.this);
+            }
         }
     };
 
@@ -344,6 +382,9 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
             mReference = new WeakReference<>(activity);
         }
 
+        /**
+         * {@inheritDoc}
+         */
         @Override
         public void onReceive(final Context context, final Intent intent) {
             final String action = intent.getAction();
@@ -352,22 +393,27 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
             }
 
             final BaseActivity baseActivity = mReference.get();
-            if (baseActivity == null) {
-                return;
-            }
-            if (MusicPlaybackService.META_CHANGED.equals(action)) {
-                baseActivity.onMetaChanged();
-            } else if (MusicPlaybackService.PLAYSTATE_CHANGED.equals(action)) {
-                baseActivity.mPlayPauseButtonContainer.updateState();
-                baseActivity.mPlayPauseProgressButton.updateState();
-            } else if (MusicPlaybackService.REFRESH.equals(action)) {
-                baseActivity.restartLoader();
-            } else if (MusicPlaybackService.PLAYLIST_CHANGED.equals(action)) {
-                baseActivity.onPlaylistChanged();
-            } else if (MusicPlaybackService.TRACK_ERROR.equals(action)) {
-                final String errorMsg = context.getString(R.string.error_playing_track,
-                        intent.getStringExtra(MusicPlaybackService.TrackErrorExtra.TRACK_NAME));
-                Toast.makeText(baseActivity, errorMsg, Toast.LENGTH_SHORT).show();
+            if (baseActivity != null) {
+                switch (action) {
+                    case MusicPlaybackService.META_CHANGED:
+                        baseActivity.onMetaChanged();
+                        break;
+                    case MusicPlaybackService.PLAYSTATE_CHANGED:
+                        // Set the play and pause image
+                        baseActivity.mPlayPauseProgressButton.getPlayPauseButton().updateState();
+                        break;
+                    case MusicPlaybackService.REFRESH:
+                        baseActivity.restartLoader();
+                        break;
+                    case MusicPlaybackService.PLAYLIST_CHANGED:
+                        baseActivity.onPlaylistChanged();
+                        break;
+                    case MusicPlaybackService.TRACK_ERROR:
+                        final String errorMsg = context.getString(R.string.error_playing_track,
+                                intent.getStringExtra(MusicPlaybackService.TrackErrorExtra.TRACK_NAME));
+                        Toast.makeText(baseActivity, errorMsg, Toast.LENGTH_SHORT).show();
+                        break;
+                }
             }
         }
     }
@@ -377,7 +423,7 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         // update action bar info
         updateBottomActionBarInfo();
 
-        // Let the listener know to the meta changed
+        // Let the listener know to the meta chnaged
         for (final MusicStateListener listener : mMusicStateListener) {
             if (listener != null) {
                 listener.onMetaChanged();
@@ -428,7 +474,7 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
     }
 
     @Override
-    public void onCacheResumed() {
+    public void onCacheUnpaused() {
         // Set the album art
         ElevenUtils.getImageFetcher(this).loadCurrentArtwork(mAlbumArt);
     }

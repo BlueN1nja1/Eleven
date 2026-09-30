@@ -1,21 +1,22 @@
 /*
- * Copyright (C) 2015 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* Copyright (C) 2015 The CyanogenMod Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
 package org.lineageos.eleven.ui.activities.preview;
 
+import android.app.Activity;
 import android.content.AsyncQueryHandler;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -45,10 +46,6 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import org.lineageos.eleven.R;
 import org.lineageos.eleven.ui.activities.preview.util.Logger;
 
@@ -60,10 +57,17 @@ import java.lang.ref.WeakReference;
  * <pre>
  *     Preview plays external audio files in a dialog over the application
  * </pre>
+ *
+ * @see {@link Activity}
+ * @see {@link android.media.MediaPlayer.OnCompletionListener}
+ * @see {@link android.media.MediaPlayer.OnErrorListener}
+ * @see {@link android.media.MediaPlayer.OnPreparedListener}
+ * @see {@link OnClickListener}
+ * @see {@link OnAudioFocusChangeListener}
+ * @see {@link OnSeekBarChangeListener}
  */
-public class AudioPreviewActivity extends AppCompatActivity implements
-        MediaPlayer.OnCompletionListener, MediaPlayer.OnErrorListener,
-        MediaPlayer.OnPreparedListener, OnClickListener,
+public class AudioPreviewActivity extends Activity implements MediaPlayer.OnCompletionListener,
+        MediaPlayer.OnErrorListener, MediaPlayer.OnPreparedListener, OnClickListener,
         OnAudioFocusChangeListener, OnSeekBarChangeListener, OnTouchListener {
 
     // Constants
@@ -75,7 +79,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
     private static final String AUTHORITY_MEDIA = "media";
     private static final int CONTENT_QUERY_TOKEN = 1000;
     private static final int CONTENT_BAD_QUERY_TOKEN = CONTENT_QUERY_TOKEN + 1;
-    private static final String[] MEDIA_PROJECTION = new String[]{
+    private static final String[] MEDIA_PROJECTION = new String[] {
             Media.TITLE,
             Media.ARTIST
     };
@@ -121,7 +125,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
      *     Handle some ui events
      * </pre>
      *
-     * @see Handler
+     * @see {@link Handler}
      */
     private class UiHandler extends Handler {
 
@@ -129,10 +133,12 @@ public class AudioPreviewActivity extends AppCompatActivity implements
 
         @Override
         public void handleMessage(Message msg) {
-            if (msg.what == MSG_UPDATE_PROGRESS) {
-                updateProgressForPlayer();
-            } else {
-                super.handleMessage(msg);
+            switch (msg.what) {
+                case MSG_UPDATE_PROGRESS:
+                    updateProgressForPlayer();
+                    break;
+                default:
+                    super.handleMessage(msg);
             }
         }
 
@@ -150,11 +156,11 @@ public class AudioPreviewActivity extends AppCompatActivity implements
             }
         }
     };
-    private final UiHandler mHandler = new UiHandler();
+    private UiHandler mHandler = new UiHandler();
     private static AsyncQueryHandler sAsyncQueryHandler;
     private AudioManager mAudioManager;
     private PreviewPlayer mPreviewPlayer;
-    private final PreviewSong mPreviewSong = new PreviewSong();
+    private PreviewSong mPreviewSong = new PreviewSong();
     private int mDuration = 0;
     private int mLastOrientationWhileBuffering;
 
@@ -190,7 +196,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
         }
         Logger.logd(TAG, "URI: " + uri);
         mPreviewSong.URI = uri;
-        PreviewPlayer localPlayer = (PreviewPlayer) getLastCustomNonConfigurationInstance();
+        PreviewPlayer localPlayer = (PreviewPlayer) getLastNonConfigurationInstance();
         if (localPlayer == null) {
             mPreviewPlayer = new PreviewPlayer();
             mPreviewPlayer.setCallbackActivity(this);
@@ -205,11 +211,11 @@ public class AudioPreviewActivity extends AppCompatActivity implements
             mPreviewPlayer = localPlayer;
             mPreviewPlayer.setCallbackActivity(this);
         }
-        mAudioManager = getSystemService(AudioManager.class);
+        mAudioManager = ((AudioManager) getSystemService(Context.AUDIO_SERVICE));
         sAsyncQueryHandler = new AsyncQueryHandler(getContentResolver()) {
             @Override
             protected void onQueryComplete(int token, Object cookie, Cursor cursor) {
-                AudioPreviewActivity.this.onQueryComplete(token, cursor);
+                AudioPreviewActivity.this.onQueryComplete(token, cookie, cursor);
             }
         };
         initializeInterface();
@@ -231,7 +237,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
     }
 
     @Override
-    public void onSaveInstanceState(@NonNull Bundle outState) {
+    public void onSaveInstanceState(Bundle outState) {
         if (mIsReceiverRegistered) {
             unregisterReceiver(mAudioNoisyReceiver);
             mIsReceiverRegistered = false;
@@ -242,7 +248,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
     }
 
     @Override
-    public Object onRetainCustomNonConfigurationInstance() {
+    public Object onRetainNonConfigurationInstance() {
         mPreviewPlayer.clearCallbackActivity();
         PreviewPlayer localPlayer = mPreviewPlayer;
         mPreviewPlayer = null;
@@ -290,7 +296,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
                     setRequestedOrientation(mLastOrientationWhileBuffering);
                 }
                 if (mPlayPauseBtn != null) {
-                    mPlayPauseBtn.setImageResource(R.drawable.btn_preview_play);
+                    mPlayPauseBtn.setImageResource(R.drawable.btn_playback_play);
                     mPlayPauseBtn.setEnabled(true);
                     mPlayPauseBtn.setOnClickListener(this);
                 }
@@ -298,14 +304,14 @@ public class AudioPreviewActivity extends AppCompatActivity implements
             case PLAYING:
                 Logger.logd(TAG, "PLAYING");
                 if (mPlayPauseBtn != null) {
-                    mPlayPauseBtn.setImageResource(R.drawable.btn_preview_pause);
+                    mPlayPauseBtn.setImageResource(R.drawable.btn_playback_pause);
                     mPlayPauseBtn.setEnabled(true);
                 }
                 break;
             case PAUSED:
                 Logger.logd(TAG, "PAUSED");
                 if (mPlayPauseBtn != null) {
-                    mPlayPauseBtn.setImageResource(R.drawable.btn_preview_play);
+                    mPlayPauseBtn.setImageResource(R.drawable.btn_playback_play);
                     mPlayPauseBtn.setEnabled(true);
                 }
                 break;
@@ -313,7 +319,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
         setNames();
     }
 
-    private void onQueryComplete(int token, Cursor cursor) {
+    private void onQueryComplete(int token, Object cookie, Cursor cursor) {
         String title = null;
         String artist = null;
         if (cursor == null || cursor.getCount() < 1) {
@@ -325,7 +331,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
             Logger.loge(TAG, "Failed to read cursor!");
             return;
         }
-        int index;
+        int index = -1;
         switch (token) {
             case CONTENT_QUERY_TOKEN:
                 index = cursor.getColumnIndex(Media.TITLE);
@@ -442,7 +448,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
     private void handleFileScheme() {
         String path = mPreviewSong.URI.getPath();
         sAsyncQueryHandler.startQuery(CONTENT_QUERY_TOKEN, null, Media.EXTERNAL_CONTENT_URI,
-                MEDIA_PROJECTION, "_data=?", new String[]{path}, null);
+                MEDIA_PROJECTION, "_data=?", new String[] { path }, null);
     }
 
     private void handleHttpScheme() {
@@ -531,16 +537,20 @@ public class AudioPreviewActivity extends AppCompatActivity implements
 
     @Override
     public void onClick(View v) {
-        final int id = v.getId();
-        if (id == R.id.ib_playpause) {
-            if (mCurrentState == State.PREPARED || mCurrentState == State.PAUSED) {
-                startPlayback();
-            } else {
-                pausePlayback();
-            }
-        } else if (id == R.id.grp_transparent_wrapper) {
-            stopPlaybackAndTeardown();
-            finish();
+        switch (v.getId()) {
+            case R.id.ib_playpause:
+                if (mCurrentState == State.PREPARED || mCurrentState == State.PAUSED) {
+                    startPlayback();
+                } else {
+                    pausePlayback();
+                }
+                break;
+            case R.id.grp_transparent_wrapper:
+                stopPlaybackAndTeardown();
+                finish();
+                break;
+            default:
+                break;
         }
     }
 
@@ -650,17 +660,18 @@ public class AudioPreviewActivity extends AppCompatActivity implements
             case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
             case KeyEvent.KEYCODE_MEDIA_REWIND:
             case KeyEvent.KEYCODE_MEDIA_FAST_FORWARD:
-                return true;
+                return result;
             case KeyEvent.KEYCODE_MEDIA_PLAY:
                 startPlayback();
-                return true;
+                return result;
             case KeyEvent.KEYCODE_MEDIA_PAUSE:
                 pausePlayback();
-                return true;
+                return result;
             case KeyEvent.KEYCODE_VOLUME_UP:
             case KeyEvent.KEYCODE_VOLUME_DOWN:
             case KeyEvent.KEYCODE_VOLUME_MUTE:
-                return super.onKeyDown(keyCode, keyEvent);
+                result = super.onKeyDown(keyCode, keyEvent);
+                return result;
             default:
                 result = super.onKeyDown(keyCode, keyEvent);
                 break;
@@ -682,23 +693,23 @@ public class AudioPreviewActivity extends AppCompatActivity implements
         private WeakReference<AudioPreviewActivity> mActivityReference; // weakref from static class
         private boolean mIsPrepared = false;
 
-        boolean isPrepared() {
+        /* package */ boolean isPrepared() {
             return mIsPrepared;
         }
 
-        PreviewPlayer() {
+        /* package */ PreviewPlayer() {
             setOnPreparedListener(this);
         }
 
-        void clearCallbackActivity() {
+        /* package */ void clearCallbackActivity() {
             mActivityReference.clear();
             mActivityReference = null;
             setOnErrorListener(null);
             setOnCompletionListener(null);
         }
 
-        void setCallbackActivity(AudioPreviewActivity activity)
-                throws IllegalArgumentException {
+        /* package */ void setCallbackActivity(AudioPreviewActivity activity)
+                throws IllegalArgumentException{
             if (activity == null) {
                 throw new IllegalArgumentException("'activity' cannot be null!");
             }
@@ -707,7 +718,7 @@ public class AudioPreviewActivity extends AppCompatActivity implements
             setOnCompletionListener(activity);
         }
 
-        void setDataSourceAndPrepare(Uri uri)
+        /* package */ void setDataSourceAndPrepare(Uri uri)
                 throws IllegalArgumentException, IOException {
             if (uri == null || uri.toString().length() < 1) {
                 throw new IllegalArgumentException("'uri' cannot be null or empty!");
@@ -729,5 +740,6 @@ public class AudioPreviewActivity extends AppCompatActivity implements
                 }
             }
         }
+
     }
 }

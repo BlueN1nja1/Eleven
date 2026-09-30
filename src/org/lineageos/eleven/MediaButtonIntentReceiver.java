@@ -1,70 +1,81 @@
 /*
- * Copyright (C) 2007 The Android Open Source Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Copyright (C) 2007 The Android Open Source Project Licensed under the Apache
+ * License, Version 2.0 (the "License"); you may not use this file except in
+ * compliance with the License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.AudioManager;
+import android.support.v4.content.WakefulBroadcastReceiver;
 import android.util.Log;
-import android.util.SparseArray;
 import android.view.KeyEvent;
-
-import androidx.legacy.content.WakefulBroadcastReceiver;
 
 public class MediaButtonIntentReceiver extends WakefulBroadcastReceiver {
     private static final boolean DEBUG = false;
     private static final String TAG = "MediaButtonIntentReceiver";
 
-    private static final SparseArray<String> KEY_CODE_MAPPING = new SparseArray<>(7);
-
-    static {
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_HEADSETHOOK, MusicPlaybackService.CMDHEADSETHOOK);
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_MEDIA_STOP, MusicPlaybackService.CMDSTOP);
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE, MusicPlaybackService.CMDTOGGLEPAUSE);
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_MEDIA_NEXT, MusicPlaybackService.CMDNEXT);
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_MEDIA_PREVIOUS, MusicPlaybackService.CMDPREVIOUS);
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_MEDIA_PAUSE, MusicPlaybackService.CMDPAUSE);
-        KEY_CODE_MAPPING.put(KeyEvent.KEYCODE_MEDIA_PLAY, MusicPlaybackService.CMDPLAY);
-    }
-
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onReceive(final Context context, final Intent intent) {
         if (DEBUG) Log.v(TAG, "Received intent: " + intent);
-        if (!Intent.ACTION_MEDIA_BUTTON.equals(intent.getAction())) {
-            return;
-        }
-        final KeyEvent event = intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
-        if (event == null || event.getAction() != KeyEvent.ACTION_UP) {
-            return;
-        }
+        final String intentAction = intent.getAction();
+        if (AudioManager.ACTION_AUDIO_BECOMING_NOISY.equals(intentAction)) {
+            startService(context, MusicPlaybackService.CMDPAUSE, System.currentTimeMillis());
+        } else if (Intent.ACTION_MEDIA_BUTTON.equals(intentAction)) {
+            final KeyEvent event = intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
+            if (event == null || event.getAction() != KeyEvent.ACTION_UP) {
+                return;
+            }
 
-        String command = KEY_CODE_MAPPING.get(event.getKeyCode());
-        if (command == null) {
-            return;
+            String command = null;
+            switch (event.getKeyCode()) {
+                case KeyEvent.KEYCODE_HEADSETHOOK:
+                    command = MusicPlaybackService.CMDHEADSETHOOK;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_STOP:
+                    command = MusicPlaybackService.CMDSTOP;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
+                    command = MusicPlaybackService.CMDTOGGLEPAUSE;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_NEXT:
+                    command = MusicPlaybackService.CMDNEXT;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
+                    command = MusicPlaybackService.CMDPREVIOUS;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_PAUSE:
+                    command = MusicPlaybackService.CMDPAUSE;
+                    break;
+                case KeyEvent.KEYCODE_MEDIA_PLAY:
+                    command = MusicPlaybackService.CMDPLAY;
+                    break;
+            }
+            if (command != null) {
+                startService(context, command, event.getEventTime());
+                if (isOrderedBroadcast()) {
+                    abortBroadcast();
+                }
+            }
         }
+    }
 
+    private static void startService(Context context, String command, long timestamp) {
         final Intent i = new Intent(context, MusicPlaybackService.class);
         i.setAction(MusicPlaybackService.SERVICECMD);
         i.putExtra(MusicPlaybackService.CMDNAME, command);
         i.putExtra(MusicPlaybackService.FROM_MEDIA_BUTTON, true);
-        i.putExtra(MusicPlaybackService.TIMESTAMP, event.getEventTime());
+        i.putExtra(MusicPlaybackService.TIMESTAMP, timestamp);
         context.startForegroundService(i);
-
-        if (isOrderedBroadcast()) {
-            abortBroadcast();
-        }
     }
 }

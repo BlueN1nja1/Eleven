@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">Beste Liedjies</string>
     <string name="header_all_songs">Alle Liedjies</string>
     <string name="menu_settings">Instellings</string>
+    <string name="menu_search">Soektog</string>
     <string name="menu_shuffle_item">Skommel</string>
     <string name="menu_shuffle_all">Skommel alles</string>
     <string name="menu_shuffle_playlist">Skommel speellys</string>
@@ -105,21 +105,31 @@
     <string name="accessibility_browse">Kyk na musiek</string>
     <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" gestel as luitoon</string>
     <string name="playlist_renamed">Speellys is hernoem</string>
+    <string name="settings_ui_category">Koppelvlak</string>
     <string name="settings_storage_category">Berging</string>
+    <string name="settings_data_category">Data</string>
     <string name="settings_delete_cache_title">Verwyder kasgeheue</string>
     <string name="settings_delete_cache_summary">Verwyder alle kasgeheue foto\'s</string>
+    <string name="settings_download_only_on_wifi_title">Alleenlik via Wi-Fi</string>
+    <string name="settings_download_only_on_wifi_summary">Om netwerk kostes te verminder, vermy aflaaie oor jou sellulêre netwerk</string>
+    <string name="settings_download_missing_artwork_title">Laai vermiste albumkuns af</string>
+    <string name="settings_download_artist_images_title">Laai vermiste kunstenaar foto\'s af</string>
     <string name="settings_general_category">Algemeen</string>
     <string name="settings_show_music_visualization_title">Wys musiek visualisering</string>
     <string name="settings_show_lyrics_title">Wys lirieke van liedjies</string>
     <string name="settings_show_lyrics_summary">Vir liedjies wat \'n srt lêer het</string>
     <string name="settings_shake_to_play">Skud</string>
     <string name="settings_shake_to_play_summary">Skud jou toestel om volgende liedjie te speel</string>
+    <string name="settings_lockscreen_album_art">Slotskerm foto album kuns</string>
+    <string name="settings_lockscreen_album_art_summary">Vervang slotskerm agtergrond foto album kuns</string>
     <string name="app_widget_small">Musiek: 4 \u00d7 1</string>
     <string name="app_widget_large">Musiek: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Musiek: 4 \u00d7 2 (alternatief)</string>
     <string name="app_widget_recent">Musiek: onlangs geluister</string>
     <string name="no_effects_for_you">Die equalizer kon nie oopgemaak word nie.</string>
     <string name="empty_music">Om musiek van jou rekenaar na jou toestel te kopieer, gebruik \'n USB-kabel.</string>
+    <string name="empty_search">Geen resultate is gevind nie</string>
+    <string name="empty_search_check">Maak seker jy het die korrekte spelling of probeer \'n ander vraag.</string>
     <string name="empty_favorite">Liedjies wat jy gemerk het as gunstelinge word hier vertoon.</string>
     <string name="empty_recent_main">Geen onlangse liedjies</string>
     <string name="empty_recent">Liedjies wat jy onlangs geluister het, sal hier vertoon.</string>
@@ -155,6 +165,7 @@
     <string name="footer_search_albums">Wys alle albums</string>
     <string name="footer_search_songs">Wys alle liedjies</string>
     <string name="footer_search_playlists">Wys alle speel waglyste</string>
+    <string name="searchHint">Deursoek musiek</string>
     <string name="search_title_artists">Alle \"%s\" kunstenaars</string>
     <string name="search_title_albums">Alle \"%s\" albums</string>
     <string name="search_title_songs">Alle \"%s\" liedjies</string>

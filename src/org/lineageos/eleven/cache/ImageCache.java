@@ -1,20 +1,16 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2018-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.cache;
 
 import android.app.Activity;
@@ -31,11 +27,10 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Looper;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
-
-import androidx.annotation.NonNull;
 
 import org.lineageos.eleven.cache.disklrucache.DiskLruCache;
 import org.lineageos.eleven.utils.ElevenUtils;
@@ -100,7 +95,7 @@ public final class ImageCache {
     /**
      * listeners to the cache state
      */
-    private final HashSet<ICacheListener> mListeners = new HashSet<>();
+    private HashSet<ICacheListener> mListeners = new HashSet<>();
 
     private static ImageCache sInstance;
 
@@ -129,7 +124,7 @@ public final class ImageCache {
      * @param context The {@link Context} to use
      * @return A new instance of this class.
      */
-    public static ImageCache getInstance(final Context context) {
+    public final static ImageCache getInstance(final Context context) {
         if (sInstance == null) {
             sInstance = new ImageCache(context.getApplicationContext());
         }
@@ -139,18 +134,19 @@ public final class ImageCache {
     /**
      * Initialize the cache, providing all parameters.
      *
-     * @param context     The {@link Context} to use
+     * @param context The {@link Context} to use
+     * @param cacheParams The cache parameters to initialize the cache
      */
     private void init(final Context context) {
         ElevenUtils.execute(false, new AsyncTask<Void, Void, Void>() {
 
             @Override
             protected Void doInBackground(final Void... unused) {
-                // Initialize the disk cache in a background thread
+                // Initialize the disk cahe in a background thread
                 initDiskCache(context);
                 return null;
             }
-        }, (Void[]) null);
+        }, (Void[])null);
         // Set up the memory cache
         initLruCache(context);
     }
@@ -167,14 +163,16 @@ public final class ImageCache {
         // Set up disk cache
         if (mDiskCache == null || mDiskCache.isClosed()) {
             File diskCacheDir = getDiskCacheDir(context, TAG);
-            if (!diskCacheDir.exists()) {
-                //noinspection ResultOfMethodCallIgnored
-                diskCacheDir.mkdirs();
-            }
-            if (getUsableSpace(diskCacheDir) > DISK_CACHE_SIZE) {
-                try {
-                    mDiskCache = DiskLruCache.open(diskCacheDir, 1, 1, DISK_CACHE_SIZE);
-                } catch (final IOException ignored) {
+            if (diskCacheDir != null) {
+                if (!diskCacheDir.exists()) {
+                    diskCacheDir.mkdirs();
+                }
+                if (getUsableSpace(diskCacheDir) > DISK_CACHE_SIZE) {
+                    try {
+                        mDiskCache = DiskLruCache.open(diskCacheDir, 1, 1, DISK_CACHE_SIZE);
+                    } catch (final IOException e) {
+                        diskCacheDir = null;
+                    }
                 }
             }
         }
@@ -186,7 +184,8 @@ public final class ImageCache {
      * @param context The {@link Context} to use
      */
     public void initLruCache(final Context context) {
-        final ActivityManager activityManager = context.getSystemService(ActivityManager.class);
+        final ActivityManager activityManager = (ActivityManager)context
+                .getSystemService(Context.ACTIVITY_SERVICE);
         final int lruCacheSize = Math.round(MEM_CACHE_DIVIDER * activityManager.getMemoryClass()
                 * 1024 * 1024);
         mLruCache = new MemoryCache(lruCacheSize);
@@ -209,7 +208,7 @@ public final class ImageCache {
             }
 
             @Override
-            public void onConfigurationChanged(@NonNull final Configuration newConfig) {
+            public void onConfigurationChanged(final Configuration newConfig) {
                 // Nothing to do
             }
         });
@@ -220,9 +219,9 @@ public final class ImageCache {
      * , if not found a new one is created using the supplied params and saved
      * to a {@link RetainFragment}
      *
-     * @param activity The calling {@link Activity}
+     * @param activity The calling {@link FragmentActivity}
      * @return An existing retained ImageCache object or a new one if one did
-     * not exist
+     *         not exist
      */
     public static ImageCache findOrCreateCache(final Activity activity) {
 
@@ -231,7 +230,7 @@ public final class ImageCache {
                 activity.getFragmentManager());
 
         // See if we already have an ImageCache stored in RetainFragment
-        ImageCache cache = (ImageCache) retainFragment.getObject();
+        ImageCache cache = (ImageCache)retainFragment.getObject();
 
         // No existing ImageCache, create one and store it in RetainFragment
         if (cache == null) {
@@ -247,11 +246,11 @@ public final class ImageCache {
      *
      * @param fm The {@link FragmentManager} to use
      * @return The existing instance of the {@link Fragment} or the new instance
-     * if just created
+     *         if just created
      */
     public static RetainFragment findOrCreateRetainFragment(final FragmentManager fm) {
         // Check to see if we have retained the worker fragment
-        RetainFragment retainFragment = (RetainFragment) fm.findFragmentByTag(TAG);
+        RetainFragment retainFragment = (RetainFragment)fm.findFragmentByTag(TAG);
 
         // If not retained, we need to create and add it
         if (retainFragment == null) {
@@ -264,7 +263,7 @@ public final class ImageCache {
     /**
      * Adds a new image to the memory and disk caches
      *
-     * @param data   The key used to store the image
+     * @param data The key used to store the image
      * @param bitmap The {@link Bitmap} to cache
      */
     public void addBitmapToCache(final String data, final Bitmap bitmap) {
@@ -274,8 +273,8 @@ public final class ImageCache {
     /**
      * Adds a new image to the memory and disk caches
      *
-     * @param data    The key used to store the image
-     * @param bitmap  The {@link Bitmap} to cache
+     * @param data The key used to store the image
+     * @param bitmap The {@link Bitmap} to cache
      * @param replace force a replace even if the bitmap exists in the cache
      */
     public void addBitmapToCache(final String data, final Bitmap bitmap, final boolean replace) {
@@ -322,7 +321,7 @@ public final class ImageCache {
     /**
      * Called to add a new image to the memory cache
      *
-     * @param data   The key identifier
+     * @param data The key identifier
      * @param bitmap The {@link Bitmap} to cache
      */
     public void addBitmapToMemCache(final String data, final Bitmap bitmap) {
@@ -332,8 +331,8 @@ public final class ImageCache {
     /**
      * Called to add a new image to the memory cache
      *
-     * @param data    The key identifier
-     * @param bitmap  The {@link Bitmap} to cache
+     * @param data The key identifier
+     * @param bitmap The {@link Bitmap} to cache
      * @param replace whether to force a replace if it already exists
      */
     public void addBitmapToMemCache(final String data, final Bitmap bitmap, final boolean replace) {
@@ -353,7 +352,16 @@ public final class ImageCache {
      * @return The {@link Bitmap} if found in cache, null otherwise
      */
     public final Bitmap getBitmapFromMemCache(final String data) {
-        return (data == null || mLruCache == null) ? null : mLruCache.get(data);
+        if (data == null) {
+            return null;
+        }
+        if (mLruCache != null) {
+            final Bitmap lruBitmap = mLruCache.get(data);
+            if (lruBitmap != null) {
+                return lruBitmap;
+            }
+        }
+        return null;
     }
 
     /**
@@ -424,8 +432,8 @@ public final class ImageCache {
      * calling {@code #getArtworkFromFile(Context, String)} again
      *
      * @param context The {@link Context} to use
-     * @param data    The name of the album art
-     * @param id      The ID of the album to find artwork for
+     * @param data The name of the album art
+     * @param id The ID of the album to find artwork for
      * @return The artwork for an album
      */
     public final Bitmap getCachedArtwork(final Context context, final String data, final long id) {
@@ -447,7 +455,7 @@ public final class ImageCache {
      * Used to fetch the artwork for an album locally from the user's device
      *
      * @param context The {@link Context} to use
-     * @param albumId The ID of the album to find artwork for
+     * @param albumID The ID of the album to find artwork for
      * @return The artwork for an album
      */
     public final Bitmap getArtworkFromFile(final Context context, final long albumId) {
@@ -598,7 +606,7 @@ public final class ImageCache {
                     mPauseLock.notify();
 
                     for (ICacheListener listener : mListeners) {
-                        listener.onCacheResumed();
+                        listener.onCacheUnpaused();
                     }
                 }
             }
@@ -637,17 +645,27 @@ public final class ImageCache {
     /**
      * Get a usable cache directory (external if available, internal otherwise)
      *
-     * @param context    The {@link Context} to use
+     * @param context The {@link Context} to use
      * @param uniqueName A unique directory name to append to the cache
-     *                   directory
+     *            directory
      * @return The cache directory
      */
     public static File getDiskCacheDir(final Context context, final String uniqueName) {
         // getExternalCacheDir(context) returns null if external storage is not ready
         final String cachePath = getExternalCacheDir(context) != null
-                ? getExternalCacheDir(context).getPath()
-                : context.getCacheDir().getPath();
+                                    ? getExternalCacheDir(context).getPath()
+                                    : context.getCacheDir().getPath();
         return new File(cachePath, uniqueName);
+    }
+
+    /**
+     * Check if external storage is built-in or removable
+     *
+     * @return True if external storage is removable (like an SD card), false
+     *         otherwise
+     */
+    public static boolean isExternalStorageRemovable() {
+        return Environment.isExternalStorageRemovable();
     }
 
     /**
@@ -693,7 +711,7 @@ public final class ImageCache {
      *
      * @param bytes The bytes to convert.
      * @return A {@link String} converted from the bytes of a hashable key used
-     * to store a filename on the disk, to hex digits.
+     *         to store a filename on the disk, to hex digits.
      */
     private static String bytesToHexString(final byte[] bytes) {
         final StringBuilder builder = new StringBuilder();

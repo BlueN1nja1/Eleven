@@ -1,30 +1,23 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.ui.fragments.profile;
 
 import android.os.Bundle;
+import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentActivity;
-import androidx.loader.content.Loader;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.Config.SmartPlaylistType;
@@ -46,7 +39,9 @@ import org.lineageos.eleven.widgets.NoResultsContainer;
  */
 public class LastAddedFragment extends SmartPlaylistFragment implements ISetupActionBar {
 
-    @NonNull
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public Loader<SectionListContainer<Song>> onCreateLoader(final int id, final Bundle args) {
         // show the loading progress bar
@@ -66,19 +61,15 @@ public class LastAddedFragment extends SmartPlaylistFragment implements ISetupAc
 
     @Override
     public final View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                   Bundle savedInstanceState) {
+            Bundle savedInstanceState) {
         setupActionBar();
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
     @Override
     public void setupActionBar() {
-        final FragmentActivity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            final BaseActivity baseActivity = (BaseActivity) activity;
-            baseActivity.setupActionBar(R.string.playlist_last_added);
-            baseActivity.setActionBarElevation(true);
-        }
+        ((BaseActivity)getActivity()).setupActionBar(R.string.playlist_last_added);
+        ((BaseActivity)getActivity()).setActionBarElevation(true);
     }
 
     @Override
@@ -91,17 +82,11 @@ public class LastAddedFragment extends SmartPlaylistFragment implements ISetupAc
     }
 
     @Override
-    protected int getShuffleTitleId() {
-        return R.string.menu_shuffle_last_added;
-    }
+    protected int getShuffleTitleId() { return R.string.menu_shuffle_last_added; }
 
     @Override
-    protected int getClearTitleId() {
-        return R.string.clear_last_added;
-    }
+    protected int getClearTitleId() { return R.string.clear_last_added; }
 
     @Override
-    protected void clearList() {
-        MusicUtils.clearLastAdded(getActivity());
-    }
+    protected void clearList() { MusicUtils.clearLastAdded(getActivity()); }
 }

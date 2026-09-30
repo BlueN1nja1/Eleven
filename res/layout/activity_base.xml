@@ -1,59 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright (C) 2012 Andrew Neal
   Copyright (C) 2014 The CyanogenMod Project
-  Copyright (C) 2017-2021 The LineageOS Project
-  Copyright (C) 2019 SHIFT GmbH
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-
+ 
        http://www.apache.org/licenses/LICENSE-2.0
-
+ 
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
- -->
+-->
 <org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
     android:id="@+id/sliding_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="bottom"
-    app:dragView="@+id/firstPanelDragArea"
-    app:dragViewClickable="false"
-    app:panelHeight="@dimen/bottom_action_bar_height"
-    app:shadowHeight="@dimen/sliding_panel_shadow_height"
-    app:slidePanelOffset="@dimen/bottom_action_bar_height">
+    sothree:panelHeight="@dimen/bottom_action_bar_height"
+    sothree:slidePanelOffset="@dimen/bottom_action_bar_height"
+    sothree:dragView="@+id/firstPanelDragArea"
+    sothree:dragViewClickable="false"
+    sothree:shadowHeight="@dimen/sliding_panel_shadow_height">
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:visibility="gone">
+        android:layout_height="match_parent">
 
-        <androidx.appcompat.widget.Toolbar
+        <Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            android:elevation="@dimen/action_bar_elevation"
             android:theme="@style/ToolBarTheme"
-            app:popupTheme="@style/ToolBarPopupTheme"
-            app:titleTextAppearance="@style/TextAppearance.Widget.Event.Toolbar.Title" />
-
-        <include
-            layout="@layout/toolbarcover"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <include
-            layout="@layout/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:popupTheme="@style/ToolBarPopupTheme"
+            android:elevation="@dimen/action_bar_elevation" />
 
         <FrameLayout
             android:id="@+id/activity_base_content"
@@ -64,42 +48,46 @@
 
     <org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout
         android:id="@+id/sliding_layout2"
+        android:background="@color/activity_base_background_color"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/activity_base_background_color"
         android:gravity="bottom"
-        app:directOffset="true"
-        app:dragView="@+id/secondPanelDragArea"
-        app:fadeColor="@color/transparent"
-        app:panelHeight="@dimen/sliding_panel_indicator_height"
-        app:shadowHeight="@dimen/sliding_panel_shadow_height">
+        sothree:fadeColor="@color/transparent"
+        sothree:directOffset="true"
+        sothree:panelHeight="@dimen/sliding_panel_indicator_height"
+        sothree:dragView="@+id/secondPanelDragArea"
+        sothree:shadowHeight="@dimen/sliding_panel_shadow_height">
 
-        <include
-            layout="@layout/blur_scrim_image"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <include android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/blur_scrim_image" />
 
-        <LinearLayout
-            android:id="@+id/firstPanelDragArea"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <include layout="@layout/bottom_action_bar" />
-
-            <fragment
-                android:id="@+id/audioPlayerFragment"
-                class="org.lineageos.eleven.ui.fragments.AudioPlayerFragment"
+            <LinearLayout
+                android:id="@+id/firstPanelDragArea"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1" />
-        </LinearLayout>
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/bottom_action_bar" />
+
+                <fragment
+                    android:id="@+id/audioPlayerFragment"
+                    class="org.lineageos.eleven.ui.fragments.AudioPlayerFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
             <LinearLayout
                 android:id="@+id/secondPanelDragArea"
                 android:layout_width="match_parent"
@@ -123,7 +111,7 @@
                 android:id="@+id/queueFragment"
                 class="org.lineageos.eleven.ui.fragments.QueueFragment"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="0dip"
                 android:layout_weight="1" />
         </LinearLayout>
     </org.lineageos.eleven.slidinguppanel.SlidingUpPanelLayout>

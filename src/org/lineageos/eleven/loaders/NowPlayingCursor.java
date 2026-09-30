@@ -1,25 +1,13 @@
-/*
- * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package org.lineageos.eleven.loaders;
+
+import static org.lineageos.eleven.utils.MusicUtils.mService;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.AbstractCursor;
 import android.database.Cursor;
+import android.os.RemoteException;
 import android.provider.BaseColumns;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Audio.AudioColumns;
@@ -74,11 +62,17 @@ public class NowPlayingCursor extends AbstractCursor {
         makeNowPlayingCursor();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int getCount() {
         return mSize;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean onMove(final int oldPosition, final int newPosition) {
         if (oldPosition == newPosition) {
@@ -96,6 +90,9 @@ public class NowPlayingCursor extends AbstractCursor {
         return true;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String getString(final int column) {
         try {
@@ -106,11 +103,17 @@ public class NowPlayingCursor extends AbstractCursor {
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public short getShort(final int column) {
         return mQueueCursor.getShort(column);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int getInt(final int column) {
         try {
@@ -121,6 +124,9 @@ public class NowPlayingCursor extends AbstractCursor {
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public long getLong(final int column) {
         try {
@@ -131,31 +137,49 @@ public class NowPlayingCursor extends AbstractCursor {
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public float getFloat(final int column) {
         return mQueueCursor.getFloat(column);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public double getDouble(final int column) {
         return mQueueCursor.getDouble(column);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int getType(final int column) {
         return mQueueCursor.getType(column);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean isNull(final int column) {
         return mQueueCursor.isNull(column);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String[] getColumnNames() {
         return PROJECTION;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @SuppressWarnings("deprecation")
     @Override
     public void deactivate() {
@@ -164,12 +188,18 @@ public class NowPlayingCursor extends AbstractCursor {
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean requery() {
         makeNowPlayingCursor();
         return true;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void close() {
         try {
@@ -177,10 +207,10 @@ public class NowPlayingCursor extends AbstractCursor {
                 mQueueCursor.close();
                 mQueueCursor = null;
             }
-        } catch (final Exception ignored) {
+        } catch (final Exception close) {
         }
         super.close();
-    }
+    };
 
     /**
      * Actually makes the queue
@@ -242,17 +272,22 @@ public class NowPlayingCursor extends AbstractCursor {
 
     /**
      * @param which The position to remove
+     * @return True if sucessfull, false othersise
      */
-    public void removeItem(final int which) {
-        if (!MusicUtils.removeTrackAtPosition(mNowPlaying[which], which)) {
-            return;
+    public boolean removeItem(final int which) {
+        try {
+            if (mService.removeTracks(which, which) == 0) {
+                return false;
+            }
+            int i = which;
+            mSize--;
+            while (i < mSize) {
+                mNowPlaying[i] = mNowPlaying[i + 1];
+                i++;
+            }
+            onMove(-1, mCurPos);
+        } catch (final RemoteException ignored) {
         }
-        int i = which;
-        mSize--;
-        while (i < mSize) {
-            mNowPlaying[i] = mNowPlaying[i + 1];
-            i++;
-        }
-        onMove(-1, mCurPos);
+        return true;
     }
 }

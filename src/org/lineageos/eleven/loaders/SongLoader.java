@@ -1,20 +1,16 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.loaders;
 
 import android.content.Context;
@@ -61,7 +57,7 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
     }
 
     /**
-     * @param context   The {@link Context} to use
+     * @param context The {@link Context} to use
      * @param selection Additional selection filter to apply to the loader
      */
     public SongLoader(final Context context, final String selection) {
@@ -70,6 +66,9 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
         mSelection = selection;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public List<Song> loadInBackground() {
         // Create the Cursor
@@ -104,10 +103,10 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
 
                 // Create a new song
                 final Song song = new Song(id, songName, artist, album, albumId,
-                        durationInSecs, year);
+                                            durationInSecs, year);
 
                 if (cursor instanceof SortedCursor) {
-                    song.mBucketLabel = (String) ((SortedCursor) cursor).getExtraData();
+                    song.mBucketLabel = (String)((SortedCursor)cursor).getExtraData();
                 }
 
                 mSongList.add(song);
@@ -116,6 +115,7 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
         // Close the cursor
         if (cursor != null) {
             cursor.close();
+            cursor = null;
         }
 
         return mSongList;
@@ -123,7 +123,6 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
 
     /**
      * Gets the cursor for the loader - can be overriden
-     *
      * @return cursor to load
      */
     protected Cursor getCursor() {
@@ -132,7 +131,6 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
 
     /**
      * For string-based sorts, return the localized store sort parameter, otherwise return null
-     *
      * @param sortOrder the song ordering preference selected by the user
      */
     private static LocalizedStore.SortParameter getSortParameter(String sortOrder) {
@@ -152,26 +150,26 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
     /**
      * Creates the {@link Cursor} used to run the query.
      *
-     * @param context   The {@link Context} to use.
+     * @param context The {@link Context} to use.
      * @param selection Additional selection statement to use
      * @return The {@link Cursor} used to run the song query.
      */
-    public static Cursor makeSongCursor(final Context context, final String selection) {
+    public static final Cursor makeSongCursor(final Context context, final String selection) {
         return makeSongCursor(context, selection, true);
     }
 
     /**
      * Creates the {@link Cursor} used to run the query.
      *
-     * @param context   The {@link Context} to use.
+     * @param context The {@link Context} to use.
      * @param selection Additional selection statement to use
-     * @param runSort   For localized sorts this can enable/disable the logic for running the
-     *                  additional localization sort.  Queries that apply their own sorts can pass
-     *                  in false for a boost in perf
+     * @param runSort For localized sorts this can enable/disable the logic for running the
+     *                additional localization sort.  Queries that apply their own sorts can pass
+     *                in false for a boost in perf
      * @return The {@link Cursor} used to run the song query.
      */
-    public static Cursor makeSongCursor(final Context context, final String selection,
-                                        final boolean runSort) {
+    public static final Cursor makeSongCursor(final Context context, final String selection,
+                                              final boolean runSort) {
         String selectionStatement = MusicUtils.MUSIC_ONLY_SELECTION;
         if (!TextUtils.isEmpty(selection)) {
             selectionStatement += " AND " + selection;
@@ -180,7 +178,7 @@ public class SongLoader extends SectionCreator.SimpleListLoader<Song> {
         final String songSortOrder = PreferenceUtils.getInstance(context).getSongSortOrder();
 
         Cursor cursor = context.getContentResolver().query(Audio.Media.EXTERNAL_CONTENT_URI,
-                new String[]{
+                new String[] {
                         /* 0 */
                         Audio.Media._ID,
                         /* 1 */

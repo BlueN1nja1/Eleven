@@ -1,20 +1,16 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.adapters;
 
 import android.app.Activity;
@@ -26,6 +22,7 @@ import android.widget.ArrayAdapter;
 
 import org.lineageos.eleven.Config;
 import org.lineageos.eleven.cache.ImageFetcher;
+import org.lineageos.eleven.model.Artist;
 import org.lineageos.eleven.model.Song;
 import org.lineageos.eleven.sectionadapter.SectionAdapter;
 import org.lineageos.eleven.service.MusicPlaybackTrack;
@@ -36,7 +33,7 @@ import org.lineageos.eleven.ui.fragments.SongFragment;
 import org.lineageos.eleven.utils.ElevenUtils;
 import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.widgets.IPopupMenuCallback;
-import org.lineageos.eleven.widgets.PlayPauseButtonContainer;
+import org.lineageos.eleven.widgets.PlayPauseProgressButton;
 
 /**
  * This {@link ArrayAdapter} is used to display all of the songs on a user's
@@ -94,9 +91,9 @@ public class SongAdapter extends ArrayAdapter<Song>
     /**
      * Constructor of <code>SongAdapter</code>
      *
-     * @param context    The {@link Context} to use.
-     * @param layoutId   The resource Id of the view to inflate.
-     * @param sourceId   The source id that the adapter is created from
+     * @param context The {@link Context} to use.
+     * @param layoutId The resource Id of the view to inflate.
+     * @param sourceId The source id that the adapter is created from
      * @param sourceType The source type that the adapter is created from
      */
     public SongAdapter(final Activity context, final int layoutId, final long sourceId,
@@ -111,6 +108,9 @@ public class SongAdapter extends ArrayAdapter<Song>
         mSourceType = sourceType;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public View getView(final int position, View convertView, final ViewGroup parent) {
         // Recycle ViewHolder's items
@@ -122,7 +122,7 @@ public class SongAdapter extends ArrayAdapter<Song>
 
             holder.mPopupMenuButton.get().setPopupMenuClickedListener(mListener);
         } else {
-            holder = (MusicHolder) convertView.getTag();
+            holder = (MusicHolder)convertView.getTag();
         }
 
         // Retrieve the data holder
@@ -131,9 +131,9 @@ public class SongAdapter extends ArrayAdapter<Song>
         // Sets the position each time because of recycling
         holder.mPopupMenuButton.get().setPosition(position);
         // Set each song name (line one)
-        holder.mLineOne.get().setText(dataHolder.lineOne);
+        holder.mLineOne.get().setText(dataHolder.mLineOne);
         // Set the album name (line two)
-        holder.mLineTwo.get().setText(dataHolder.lineTwo);
+        holder.mLineTwo.get().setText(dataHolder.mLineTwo);
 
         // Asynchronously load the artist image into the adapter
         Song item = getItem(position);
@@ -144,17 +144,17 @@ public class SongAdapter extends ArrayAdapter<Song>
 
         // padding doesn't apply to included layouts, so we need
         // to wrap it in a container and show/hide with the container
-        PlayPauseButtonContainer playPauseButtonContainer = holder.mPlayPauseProgressButton.get();
-        if (playPauseButtonContainer != null) {
+        PlayPauseProgressButton playPauseProgressButton = holder.mPlayPauseProgressButton.get();
+        if (playPauseProgressButton != null) {
             View playPauseContainer = holder.mPlayPauseProgressContainer.get();
 
             if (mCurrentQueuePosition == position) {
                 // make it visible
-                playPauseButtonContainer.enableAndShow();
+                playPauseProgressButton.enableAndShow();
                 playPauseContainer.setVisibility(View.VISIBLE);
             } else {
                 // hide it
-                playPauseButtonContainer.disableAndHide();
+                playPauseProgressButton.disableAndHide();
                 playPauseContainer.setVisibility(View.GONE);
             }
         }
@@ -173,23 +173,32 @@ public class SongAdapter extends ArrayAdapter<Song>
 
     /**
      * Determines whether the song at the position should show the currently playing indicator
-     *
-     * @param song     the song in question
+     * @param song the song in question
      * @param position the position of the song
      * @return true if we want to show the indicator
      */
     protected boolean showNowPlayingIndicator(final Song song, final int position) {
-        return mCurrentlyPlayingTrack != null
+        if (mCurrentlyPlayingTrack != null
                 && mCurrentlyPlayingTrack.mSourceId == mSourceId
                 && mCurrentlyPlayingTrack.mSourceType == mSourceType
-                && mCurrentlyPlayingTrack.mId == song.mSongId;
+                && mCurrentlyPlayingTrack.mId == song.mSongId) {
+            return true;
+        }
+
+        return false;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean hasStableIds() {
         return true;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public int getViewTypeCount() {
         return VIEW_TYPE_COUNT;
@@ -200,7 +209,6 @@ public class SongAdapter extends ArrayAdapter<Song>
      * is to cache everything before {@code #getView(int, View, ViewGroup)} is
      * called.
      */
-    @Override
     public void buildCache() {
         mData = new DataHolder[getCount()];
         for (int i = 0; i < getCount(); i++) {
@@ -215,14 +223,14 @@ public class SongAdapter extends ArrayAdapter<Song>
             // Build the data holder
             mData[i] = new DataHolder();
             // Song Id
-            mData[i].itemId = song.mSongId;
+            mData[i].mItemId = song.mSongId;
             // Song names (line one)
-            mData[i].lineOne = song.mSongName;
+            mData[i].mLineOne = song.mSongName;
             // Song duration (line one, right)
-            mData[i].lineOneRight = MusicUtils.makeShortTimeString(getContext(), song.mDuration);
+            mData[i].mLineOneRight = MusicUtils.makeShortTimeString(getContext(), song.mDuration);
 
             // Artist Name | Album Name (line two)
-            mData[i].lineTwo = MusicUtils.makeCombinedString(getContext(), song.mArtistName,
+            mData[i].mLineTwo = MusicUtils.makeCombinedString(getContext(), song.mArtistName,
                     song.mAlbumName);
         }
     }
@@ -237,9 +245,17 @@ public class SongAdapter extends ArrayAdapter<Song>
     }
 
     /**
+     * @param artist The key used to find the cached artist to remove
+     */
+    public void removeFromCache(final Artist artist) {
+        if (mImageFetcher != null) {
+            mImageFetcher.removeFromCache(artist.mArtistName);
+        }
+    }
+
+    /**
      * Method that unloads and clears the items in the adapter
      */
-    @Override
     public void unload() {
         clear();
         mData = null;
@@ -248,13 +264,11 @@ public class SongAdapter extends ArrayAdapter<Song>
     /**
      * Do nothing.
      */
-    @Override
     public void flush() {
     }
 
     /**
      * Gets the item position for a given id
-     *
      * @param id identifies the object
      * @return the position if found, -1 otherwise
      */
@@ -266,7 +280,7 @@ public class SongAdapter extends ArrayAdapter<Song>
             }
         }
 
-        return -1;
+        return  -1;
     }
 
     public void setCurrentQueuePosition(long queuePosition) {
@@ -284,7 +298,6 @@ public class SongAdapter extends ArrayAdapter<Song>
 
     /**
      * Sets the currently playing track for the adapter to know when to show indicators
-     *
      * @param currentTrack the currently playing track
      * @return true if the current track is different
      */

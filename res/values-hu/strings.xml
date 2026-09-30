@@ -2,7 +2,6 @@
 <!--
      Copyright (C) 2012-2013 Andrew Neal
      Copyright (C) 2012-2014 The CyanogenMod Project
-     Copyright (C) 2017-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@
     <string name="header_top_songs">Legtöbbet hallgatottak</string>
     <string name="header_all_songs">Összes zeneszám</string>
     <string name="menu_settings">Beállítások</string>
+    <string name="menu_search">Keresés</string>
     <string name="menu_shuffle_item">Véletlenszerű</string>
     <string name="menu_shuffle_all">Véletlen sorrend</string>
     <string name="menu_shuffle_playlist">Véletlenszerű lejátszási lista</string>
@@ -105,22 +105,31 @@
     <string name="accessibility_browse">Zene böngészése</string>
     <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" beállítva csengőhangként</string>
     <string name="playlist_renamed">Lejátszási lista átnevezve</string>
+    <string name="settings_ui_category">Felhasználói felület</string>
     <string name="settings_storage_category">Tárhely</string>
+    <string name="settings_data_category">Adat</string>
     <string name="settings_delete_cache_title">Gyorsítótár ürítése</string>
     <string name="settings_delete_cache_summary">Minden gyorsítótárazott kép eltávolítása</string>
+    <string name="settings_download_only_on_wifi_title">Letöltés csak WiFi-n</string>
+    <string name="settings_download_only_on_wifi_summary">A szolgáltató által felszámolt díj csökkentése érdekében ne használja a mobilinternetet letöltésre</string>
+    <string name="settings_download_missing_artwork_title">Hiányzó albumborítók letöltése</string>
+    <string name="settings_download_artist_images_title">Hiányzó előadóképek letöltése</string>
     <string name="settings_general_category">Általános</string>
     <string name="settings_show_music_visualization_title">Zenei vizualizáció megjelenítése</string>
-    <string name="settings_use_blur_title">Háttér-életlenítés</string>
     <string name="settings_show_lyrics_title">Dalszöveg megjelenítése</string>
     <string name="settings_show_lyrics_summary">Dalok, melyek rendelkeznek srt fájllal</string>
     <string name="settings_shake_to_play">Lejátszás indítása rázásra</string>
     <string name="settings_shake_to_play_summary">Rázza meg a készülékét a következő szám lejátszásához</string>
+    <string name="settings_lockscreen_album_art">Zárképernyő lemezborítók</string>
+    <string name="settings_lockscreen_album_art_summary">Zárképernyő hátterének cseréje lemezborítóval</string>
     <string name="app_widget_small">Zene: 4 \u00d7 1</string>
     <string name="app_widget_large">Zene: 4 \u00d7 2</string>
     <string name="app_widget_large_alt">Zene: 4 \u00d7 2 (alternatív)</string>
     <string name="app_widget_recent">Zene: nemrégiben hallgatott</string>
     <string name="no_effects_for_you">A hangszínszabályzót nem lehet megnyitni.</string>
     <string name="empty_music">Számítógépről történő zene másoláshoz használjon USB kábelt.</string>
+    <string name="empty_search">Nincs találat</string>
+    <string name="empty_search_check">Ellenőrizze, hogy helyesen írta-e be, vagy próbálkozzon más kulcsszóval.</string>
     <string name="empty_favorite">Itt a kedvencként megjelölt dalok fognak megjelenni.</string>
     <string name="empty_recent_main">Nincsenek előzmények</string>
     <string name="empty_recent">Itt a nemrégiben hallgatott zenéi fognak megjelenni.</string>
@@ -156,6 +165,7 @@
     <string name="footer_search_albums">Összes album megjelenítése</string>
     <string name="footer_search_songs">Összes dal megjelenítése</string>
     <string name="footer_search_playlists">Összes lejátszási lista megjelenítése</string>
+    <string name="searchHint">Zene keresése</string>
     <string name="search_title_artists">Összes \"%s\" előadó</string>
     <string name="search_title_albums">Összes \"%s\" album</string>
     <string name="search_title_songs">Összes \"%s\" dal</string>

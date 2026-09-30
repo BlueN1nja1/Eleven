@@ -1,25 +1,22 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2021 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Licensed under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law
+ * or agreed to in writing, software distributed under the License is
+ * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
+
 package org.lineageos.eleven.ui.fragments;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
+import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,10 +25,6 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
-
-import androidx.annotation.NonNull;
-import androidx.loader.app.LoaderManager;
-import androidx.loader.content.Loader;
 
 import org.lineageos.eleven.MusicStateListener;
 import org.lineageos.eleven.R;
@@ -46,8 +39,10 @@ import org.lineageos.eleven.ui.activities.BaseActivity;
 import org.lineageos.eleven.ui.fragments.phone.MusicBrowserFragment;
 import org.lineageos.eleven.utils.AlbumPopupMenuHelper;
 import org.lineageos.eleven.utils.ElevenUtils;
+import org.lineageos.eleven.utils.MusicUtils;
 import org.lineageos.eleven.utils.NavUtils;
 import org.lineageos.eleven.utils.PopupMenuHelper;
+import org.lineageos.eleven.widgets.IPopupMenuCallback;
 import org.lineageos.eleven.widgets.LoadingEmptyContainer;
 
 /**
@@ -56,7 +51,7 @@ import org.lineageos.eleven.widgets.LoadingEmptyContainer;
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public class AlbumFragment extends MusicBrowserFragment implements
-        LoaderManager.LoaderCallbacks<SectionListContainer<Album>>, OnScrollListener,
+        LoaderCallbacks<SectionListContainer<Album>>, OnScrollListener,
         OnItemClickListener, MusicStateListener {
 
     /**
@@ -75,6 +70,11 @@ public class AlbumFragment extends MusicBrowserFragment implements
     private AlbumAdapter mAdapter;
 
     /**
+     * The grid view
+     */
+    private GridView mGridView;
+
+    /**
      * Pop up menu helper
      */
     private PopupMenuHelper mPopupMenuHelper;
@@ -89,11 +89,14 @@ public class AlbumFragment extends MusicBrowserFragment implements
         return PagerAdapter.MusicFragments.ALBUM.ordinal();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mPopupMenuHelper = new AlbumPopupMenuHelper(getActivity(), getChildFragmentManager()) {
+        mPopupMenuHelper = new AlbumPopupMenuHelper(getActivity(), getFragmentManager()) {
             public Album getAlbum(int position) {
                 return mAdapter.getItem(position);
             }
@@ -102,25 +105,32 @@ public class AlbumFragment extends MusicBrowserFragment implements
         int layout = R.layout.grid_items_normal;
 
         mAdapter = new AlbumAdapter(getActivity(), layout);
-        mAdapter.setPopupMenuClickedListener((v, position) ->
-                mPopupMenuHelper.showPopupMenu(v, position));
+        mAdapter.setPopupMenuClickedListener(new IPopupMenuCallback.IListener() {
+            @Override
+            public void onPopupMenuClicked(View v, int position) {
+                mPopupMenuHelper.showPopupMenu(v, position);
+            }
+        });
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
-                             final Bundle savedInstanceState) {
-        mRootView = (ViewGroup) inflater.inflate(R.layout.grid_base, null);
+            final Bundle savedInstanceState) {
+        mRootView = (ViewGroup)inflater.inflate(R.layout.grid_base, null);
         initGridView();
 
         // Register the music status listener
-        final Activity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            ((BaseActivity) activity).setMusicStateListenerListener(this);
-        }
+        ((BaseActivity)getActivity()).setMusicStateListenerListener(this);
 
         return mRootView;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onActivityCreated(final Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -134,18 +144,22 @@ public class AlbumFragment extends MusicBrowserFragment implements
     public void onDestroyView() {
         super.onDestroyView();
 
-        final Activity activity = getActivity();
-        if (activity instanceof BaseActivity) {
-            ((BaseActivity) activity).removeMusicStateListenerListener(this);
-        }
+        ((BaseActivity)getActivity()).removeMusicStateListenerListener(this);
     }
 
+
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onPause() {
         super.onPause();
         mAdapter.flush();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onScrollStateChanged(final AbsListView view, final int scrollState) {
         // Pause disk cache access to ensure smoother scrolling
@@ -157,24 +171,32 @@ public class AlbumFragment extends MusicBrowserFragment implements
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onItemClick(final AdapterView<?> parent, final View view, final int position,
-                            final long id) {
+            final long id) {
         Album album = mAdapter.getItem(position);
         NavUtils.openAlbumProfile(getActivity(), album.mAlbumName, album.mArtistName, album.mAlbumId);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    @NonNull
     public Loader<SectionListContainer<Album>> onCreateLoader(final int id, final Bundle args) {
         mLoadingEmptyContainer.showLoading();
-        // if we ever decide to add section headers for grid items, we can pass a comparator
+        // if we ever decide to add section headers for grid items, we can pass a compartor
         // instead of null
         return new SectionCreator<>(getActivity(), new AlbumLoader(getActivity()), null);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onLoadFinished(@NonNull final Loader<SectionListContainer<Album>> loader,
+    public void onLoadFinished(final Loader<SectionListContainer<Album>> loader,
                                final SectionListContainer<Album> data) {
         if (data.mListResults.isEmpty()) {
             mAdapter.unload();
@@ -185,10 +207,45 @@ public class AlbumFragment extends MusicBrowserFragment implements
         mAdapter.setData(data.mListResults);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
-    public void onLoaderReset(@NonNull final Loader<SectionListContainer<Album>> loader) {
+    public void onLoaderReset(final Loader<SectionListContainer<Album>> loader) {
         // Clear the data in the adapter
         mAdapter.unload();
+    }
+
+    /**
+     * Scrolls the list to the currently playing album when the user touches the
+     * header in the {@link TitlePageIndicator}.
+     */
+    public void scrollToCurrentAlbum() {
+        final int currentAlbumPosition = getItemPositionByAlbum();
+
+        if (currentAlbumPosition != 0) {
+            mGridView.setSelection(currentAlbumPosition);
+        }
+    }
+
+    /**
+     * @return The position of an item in the list or grid based on the id of
+     *         the currently playing album.
+     */
+    private int getItemPositionByAlbum() {
+        final long albumId = MusicUtils.getCurrentAlbumId();
+        if (mAdapter == null) {
+            return 0;
+        }
+
+        int position = mAdapter.getItemPosition(albumId);
+
+        // if for some reason we don't find the item, just jump to the top
+        if (position < 0) {
+            return 0;
+        }
+
+        return position;
     }
 
     /**
@@ -200,18 +257,27 @@ public class AlbumFragment extends MusicBrowserFragment implements
         restartLoader();
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onScroll(final AbsListView view, final int firstVisibleItem,
-                         final int visibleItemCount, final int totalItemCount) {
+            final int visibleItemCount, final int totalItemCount) {
         // Nothing to do
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void restartLoader() {
         // Update the list when the user deletes any items
         restartLoader(null, this);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void onMetaChanged() {
         // Nothing to do
@@ -240,20 +306,18 @@ public class AlbumFragment extends MusicBrowserFragment implements
      * Sets up the grid view
      */
     private void initGridView() {
-        final Activity activity = getActivity();
-        int columns = (activity != null && ElevenUtils.isLandscape(activity)) ? FOUR : TWO;
+        int columns = ElevenUtils.isLandscape(getActivity()) ? FOUR : TWO;
         mAdapter.setNumColumns(columns);
         // Initialize the grid
-        GridView gridView = (GridView) mRootView.findViewById(R.id.grid_base);
+        mGridView = (GridView)mRootView.findViewById(R.id.grid_base);
         // Set the data behind the grid
-        gridView.setAdapter(mAdapter);
+        mGridView.setAdapter(mAdapter);
         // Set up the helpers
-        initAbsListView(gridView);
-        gridView.setNumColumns(columns);
+        initAbsListView(mGridView);
+        mGridView.setNumColumns(columns);
 
         // Show progress bar
-        mLoadingEmptyContainer = (LoadingEmptyContainer)
-                mRootView.findViewById(R.id.loading_empty_container);
-        gridView.setEmptyView(mLoadingEmptyContainer);
+        mLoadingEmptyContainer = (LoadingEmptyContainer)mRootView.findViewById(R.id.loading_empty_container);
+        mGridView.setEmptyView(mLoadingEmptyContainer);
     }
 }

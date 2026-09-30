@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The Android Open Source Project
- * Copyright (C) 2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,8 +11,9 @@
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
- * limitations under the License.
+ * limitations under the License
  */
+
 package org.lineageos.eleven.widgets;
 
 import android.content.Context;
@@ -24,12 +24,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import androidx.core.content.ContextCompat;
-
 import org.lineageos.eleven.R;
 
 public class ViewPagerTabStrip extends LinearLayout {
-    private final int mSelectedUnderlineThickness;
+    private int mSelectedUnderlineThickness;
     private final Paint mSelectedUnderlinePaint;
 
     private int mIndexForSelection;
@@ -46,8 +44,8 @@ public class ViewPagerTabStrip extends LinearLayout {
 
         mSelectedUnderlineThickness =
                 res.getDimensionPixelSize(R.dimen.tab_selected_underline_height);
-        int underlineColor = ContextCompat.getColor(context, R.color.tab_selected_underline_color);
-        int backgroundColor = ContextCompat.getColor(context, R.color.header_action_bar_color);
+        int underlineColor = org.lineageos.eleven.utils.ElevenUtils.getAccentColor(context);
+        int backgroundColor = res.getColor(R.color.header_action_bar_color);
 
         mSelectedUnderlinePaint = new Paint();
         mSelectedUnderlinePaint.setColor(underlineColor);
@@ -61,7 +59,7 @@ public class ViewPagerTabStrip extends LinearLayout {
      * and selection offset for interpolating the position and width of selection
      * underline.
      */
-    void onPageScrolled(int position, float positionOffset) {
+    void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
         mIndexForSelection = position;
         mSelectionOffset = positionOffset;
         invalidate();
@@ -70,6 +68,9 @@ public class ViewPagerTabStrip extends LinearLayout {
     @Override
     protected void onDraw(Canvas canvas) {
         int childCount = getChildCount();
+
+        // Update paint color dynamically so theme/accent changes are reflected immediately
+        mSelectedUnderlinePaint.setColor(org.lineageos.eleven.utils.ElevenUtils.getAccentColor(getContext()));
 
         // Thick colored underline below the current selection
         if (childCount > 0) {

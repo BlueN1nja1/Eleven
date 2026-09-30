@@ -16,7 +16,7 @@
  */
 package org.lineageos.eleven.utils;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import java.io.Closeable;
 import java.net.Socket;

@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2012 Andrew Neal
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2019-2021 The LineageOS Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,12 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package org.lineageos.eleven.model;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
+import android.text.TextUtils;
 
 import java.util.Comparator;
-import java.util.Objects;
 
 /**
  * A class that represents a playlist.
@@ -47,7 +48,7 @@ public class Playlist {
     /**
      * Constructor of <code>Genre</code>
      *
-     * @param playlistId   The Id of the playlist
+     * @param playlistId The Id of the playlist
      * @param playlistName The playlist name
      */
     public Playlist(final long playlistId, final String playlistName, final int songCount) {
@@ -58,18 +59,36 @@ public class Playlist {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Playlist playlist = (Playlist) o;
-        return mPlaylistId == playlist.mPlaylistId &&
-                mSongCount == playlist.mSongCount &&
-                Objects.equals(mPlaylistName, playlist.mPlaylistName);
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + (int) mPlaylistId;
+        result = prime * result + (mPlaylistName == null ? 0 : mPlaylistName.hashCode());
+        result = prime * result + mSongCount;
+        return result;
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(mPlaylistId, mPlaylistName, mSongCount);
+    public boolean equals(final Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Playlist other = (Playlist)obj;
+        if (mPlaylistId != other.mPlaylistId) {
+            return false;
+        }
+
+        if (mSongCount != other.mSongCount) {
+            return false;
+        }
+
+        return TextUtils.equals(mPlaylistName, other.mPlaylistName);
     }
 
     @NonNull
